@@ -1,0 +1,1293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2008.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: support@proxmox.com\n"
+"POT-Creation-Date: Wed Jan 20 10:14:05 2010\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <support@proxmox.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/PVE/APLInfo.pm:220
+msgid "<b>Welcome</b> to the Proxmox Virtual Environment!"
+msgstr ""
+
+#: www/root/storage/index.htm:546 www/root/system/index.htm:340
+msgid "Active"
+msgstr ""
+
+#: www/root/storage/index.htm:26
+msgid "Add Directory"
+msgstr ""
+
+#: www/root/storage/index.htm:29
+msgid "Add ISCSI Target"
+msgstr ""
+
+#: www/root/storage/index.htm:27
+msgid "Add LVM Group"
+msgstr ""
+
+#: www/root/storage/index.htm:28
+msgid "Add NFS Share"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:414 www/root/qemu/hardware.htm:466
+msgid "Add a CD-ROM drive"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:464
+msgid "Add a hard disk"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:446
+msgid "Add a network card"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:465
+msgid "Add an ethernet device"
+msgstr ""
+
+#: www/root/system/nav_lvl3.epl:11
+msgid "Admin"
+msgstr ""
+
+#: www/root/base.epl:72
+msgid "Administration"
+msgstr ""
+
+#: www/root/system/admin.htm:33 www/root/system/admin.htm:61
+msgid "Administrator EMail"
+msgstr ""
+
+#: www/root/system/admin.htm:73
+msgid "Administrator Options"
+msgstr ""
+
+#: www/root/apl/headline.epl:2 www/root/nav_lvl1.epl:11
+msgid "Appliance Templates"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1024
+msgid "Arch."
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:144
+msgid "Are you sure you want to remove VM %s? This will permanently erase all VM data."
+msgstr ""
+
+#: www/root/system/index.htm:415 www/root/vmlist/create.htm:175 www/root/vmlist/create.htm:179
+msgid "Attention"
+msgstr ""
+
+#: www/root/server/index.htm:20 www/root/system/index.htm:271 www/root/system/index.htm:342
+msgid "Autostart"
+msgstr ""
+
+#: www/root/backup/headline.epl:2 www/root/nav_lvl1.epl:27
+msgid "Backup"
+msgstr ""
+
+#: www/root/backup/index.htm:314
+msgid "Backup Jobs"
+msgstr ""
+
+#: www/root/storage/index.htm:49
+msgid "Base Storage"
+msgstr ""
+
+#: www/root/storage/index.htm:50
+msgid "Base Volume"
+msgstr ""
+
+#: www/root/system/index.htm:260
+msgid "Bond name"
+msgstr ""
+
+#: www/root/openvz/vmlogs/nav_lvl3.epl:7
+msgid "Boot/Init"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:435 www/root/qemu/hardware.htm:593 www/root/vmlist/create.htm:341 www/root/vmlist/create.htm:371
+msgid "Bridge"
+msgstr ""
+
+#: www/root/system/index.htm:287
+msgid "Bridge Ports"
+msgstr ""
+
+#: www/root/system/index.htm:254
+msgid "Bridge name"
+msgstr ""
+
+#: www/root/vmlist/create.htm:327
+msgid "Bridged Ethernet (veth)"
+msgstr ""
+
+#: www/root/openvz/network.htm:258
+msgid "Bridged Ethernet Devices"
+msgstr ""
+
+#: www/root/storage/index.htm:562 www/root/storage/index.htm:568
+msgid "Browse"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:297 www/root/qemu/hardware.htm:333 www/root/qemu/hardware.htm:393 www/root/qemu/hardware.htm:488 www/root/qemu/hardware.htm:554
+msgid "Bus"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:588
+msgid "CD-ROM drives"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:397
+msgid "CDROM"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:477 lib/PVE/HTMLUtils.pm:485
+msgid "CID"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:368
+msgid "CPU"
+msgstr ""
+
+#: www/root/qemu/index.htm:125 www/root/qemu/index.htm:70 www/root/vmlist/create.htm:114 www/root/vmlist/create.htm:311
+msgid "CPU Sockets"
+msgstr ""
+
+#: www/root/openvz/options.htm:45 www/root/openvz/options.htm:68 www/root/qemu/options.htm:100 www/root/qemu/options.htm:189
+msgid "CPU Units"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:700 lib/PVE/HTMLUtils.pm:737
+msgid "CPU Utilization"
+msgstr ""
+
+#: www/root/openvz/index.htm:151 www/root/openvz/index.htm:92 www/root/vmlist/create.htm:237 www/root/vmlist/create.htm:64
+msgid "CPUs"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:582
+msgid "Cancel"
+msgstr ""
+
+#: www/root/storage/index.htm:549
+msgid "Capacity (GB)"
+msgstr ""
+
+#: www/root/server/nav_lvl3.epl:9
+msgid "Certificates"
+msgstr ""
+
+#: www/root/apl/download.htm:73
+msgid "Certified Appliances"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:414
+msgid "Change CD-ROM"
+msgstr ""
+
+#: www/root/nav_lvl1.epl:35
+msgid "Cluster"
+msgstr ""
+
+#: www/root/backup/index.htm:184 www/root/openvz/index.htm:140 www/root/qemu/index.htm:117 www/root/vmlist/create.htm:219 www/root/vmlist/create.htm:253
+msgid "Cluster Node"
+msgstr ""
+
+#: www/root/cluster/headline.epl:2
+msgid "Cluster Nodes"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:474 lib/PVE/HTMLUtils.pm:482 www/root/openvz/vmlogs/nav_lvl3.epl:8
+msgid "Command"
+msgstr ""
+
+#: www/root/backup/index.htm:214
+msgid "Compress files"
+msgstr ""
+
+#: www/root/base.epl:71 www/root/openvz/index.htm:172
+msgid "Configuration"
+msgstr ""
+
+#: www/root/nav_lvl1.epl:16 www/root/openvz/nav_lvl2.epl:6
+msgid "Configure"
+msgstr ""
+
+#: www/root/system/index.htm:230
+msgid "Configure bond '%s'"
+msgstr ""
+
+#: www/root/system/index.htm:227
+msgid "Configure bridge '%s'"
+msgstr ""
+
+#: www/root/system/index.htm:233
+msgid "Configure network interface '%s'"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:586
+msgid "Confirm"
+msgstr ""
+
+#: www/root/system/admin.htm:67 www/root/vmlist/create.htm:242
+msgid "Confirm Password"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:381
+msgid "Console"
+msgstr ""
+
+#: www/root/storage/index.htm:58
+msgid "Content"
+msgstr ""
+
+#: www/root/storage/index.htm:391
+msgid "Content of Storage '%s'"
+msgstr ""
+
+#: www/root/qemu/index.htm:129 www/root/qemu/index.htm:71
+msgid "Cores/Socket"
+msgstr ""
+
+#: www/root/vmlist/nav_lvl3.epl:12
+msgid "Create"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:309
+msgid "Create a new virtual disk"
+msgstr ""
+
+#: www/root/system/index.htm:242 www/root/system/index.htm:353
+msgid "Create bonding device"
+msgstr ""
+
+#: www/root/system/index.htm:240 www/root/system/index.htm:352
+msgid "Create bridge device"
+msgstr ""
+
+#: www/root/backup/index.htm:277 www/root/backup/index.htm:308
+msgid "Create new job"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:693
+msgid "Current"
+msgstr ""
+
+#: www/root/openvz/network.htm:150 www/root/openvz/network.htm:203 www/root/vmlist/create.htm:332 www/root/vmlist/create.htm:60
+msgid "DNS Domain"
+msgstr ""
+
+#: www/root/openvz/network.htm:214 www/root/system/dns.htm:65
+msgid "DNS settings"
+msgstr ""
+
+#: www/root/system/time.htm:41
+msgid "Date"
+msgstr ""
+
+#: www/root/backup/index.htm:203
+msgid "Day of Week"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:88
+msgid "Define migration task"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:784
+msgid "Delay (minutes)"
+msgstr ""
+
+#: www/root/apl/index.htm:97 www/root/backup/index.htm:311 www/root/iso/index.htm:102 www/root/qemu/hardware.htm:468 www/root/qemu/hardware.htm:472 www/root/qemu/hardware.htm:475 www/root/storage/index.htm:563 www/root/system/index.htm:357
+msgid "Delete"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:470
+msgid "Delete from disk"
+msgstr ""
+
+#: www/root/apl/download.htm:47 www/root/apl/index.htm:92 www/root/server/index.htm:21
+msgid "Description"
+msgstr ""
+
+#: www/root/backup/index.htm:197 www/root/backup/index.htm:301
+msgid "Destination"
+msgstr ""
+
+#: www/root/backup/index.htm:81
+msgid "Destination directory '%s' does not exist"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:302 www/root/qemu/hardware.htm:337 www/root/qemu/hardware.htm:400 www/root/qemu/hardware.htm:489 www/root/qemu/hardware.htm:555
+msgid "Device"
+msgstr ""
+
+#: www/root/storage/index.htm:48
+msgid "Directory"
+msgstr ""
+
+#: www/root/storage/index.htm:565
+msgid "Disable"
+msgstr ""
+
+#: www/root/system/index.htm:354
+msgid "Discard all changes"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:366
+msgid "Disk"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:229 www/root/qemu/hardware.htm:276 www/root/vmlist/create.htm:110 www/root/vmlist/create.htm:277
+msgid "Disk Storage"
+msgstr ""
+
+#: www/root/backup/index.htm:227
+msgid "Disk size"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:710 www/root/openvz/index.htm:138 www/root/openvz/index.htm:91 www/root/qemu/hardware.htm:238 www/root/qemu/hardware.htm:293 www/root/vmlist/create.htm:123 www/root/vmlist/create.htm:231 www/root/vmlist/create.htm:293 www/root/vmlist/create.htm:62
+msgid "Disk space"
+msgstr ""
+
+#: www/root/vmlist/create.htm:299
+msgid "Disk type"
+msgstr ""
+
+#: www/root/server/reboot.htm:38 www/root/system/reboot.htm:38
+msgid "Do you really want to restart the Server?"
+msgstr ""
+
+#: www/root/server/reboot.htm:35 www/root/system/reboot.htm:35
+msgid "Do you really want to shutdown the Server?"
+msgstr ""
+
+#: www/root/system/dns.htm:53
+msgid "Domain"
+msgstr ""
+
+#: www/root/apl/download.htm:54 www/root/apl/nav_lvl3.epl:9
+msgid "Download"
+msgstr ""
+
+#: www/root/server/certs.htm:15
+msgid "Download server <a href='%s'>certficate</a>."
+msgstr ""
+
+#: www/root/backup/index.htm:310 www/root/qemu/hardware.htm:474 www/root/storage/index.htm:561 www/root/storage/index.htm:567 www/root/system/index.htm:356
+msgid "Edit"
+msgstr ""
+
+#: www/root/storage/index.htm:33
+msgid "Edit Directory"
+msgstr ""
+
+#: www/root/storage/index.htm:36
+msgid "Edit ISCSI Target"
+msgstr ""
+
+#: www/root/storage/index.htm:34
+msgid "Edit LVM Group"
+msgstr ""
+
+#: www/root/storage/index.htm:35
+msgid "Edit NFS Share"
+msgstr ""
+
+#: www/root/backup/index.htm:277
+msgid "Edit backup job"
+msgstr ""
+
+#: www/root/storage/index.htm:56 www/root/storage/index.htm:564
+msgid "Enable"
+msgstr ""
+
+#: www/root/openvz/options.htm:71
+msgid "Enable User Quotas"
+msgstr ""
+
+#: www/root/storage/index.htm:545
+msgid "Enabled"
+msgstr ""
+
+#: www/root/base.epl:84
+msgid "Error"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:625
+msgid "Ethernet devices"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:331
+msgid "Existing Disks"
+msgstr ""
+
+#: www/root/storage/index.htm:54
+msgid "Export"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:86 lib/PVE/HTMLUtils.pm:88
+msgid "Field '%s' contains invalid characters"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:99
+msgid "Field '%s' does not look like a valid IP address"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:124
+msgid "Field '%s' does not look like a valid ISCSI portal"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:95
+msgid "Field '%s' does not look like a valid email address"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:108
+msgid "Field '%s' does not look like a valid server address"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:103
+msgid "Field '%s' does not look like no valid MAC address (required format: XX:XX:XX:XX:XX:XX)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:75
+msgid "Field '%s' is above maximum ($value > $max)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:72
+msgid "Field '%s' is below minimum ($value < $min)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:92
+msgid "Field '%s' is no valid html color (required format: #XXXXXX)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:84
+msgid "Field '%s' must not be empty"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:126 lib/PVE/HTMLUtils.pm:128
+msgid "Field '%s' must not contain special characters"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:90
+msgid "Field '%s' must not contain white spaces"
+msgstr ""
+
+#: www/root/apl/index.htm:93 www/root/iso/index.htm:108
+msgid "File name"
+msgstr ""
+
+#: www/root/logs/realtime.htm:17
+msgid "Filter expression"
+msgstr ""
+
+#: www/root/logs/index.htm:33
+msgid "Finished Maintainance Tasks"
+msgstr ""
+
+#: www/root/openvz/network.htm:199 www/root/system/dns.htm:50 www/root/vmlist/create.htm:343 www/root/vmlist/create.htm:350
+msgid "First DNS Server"
+msgstr ""
+
+#: www/root/qemu/options.htm:173
+msgid "First boot device"
+msgstr ""
+
+#: lib/PVE/APLInfo.pm:222
+msgid "For more information please visit our homepage at"
+msgstr ""
+
+#: www/root/storage/index.htm:92
+msgid "Found no exports"
+msgstr ""
+
+#: www/root/storage/index.htm:99
+msgid "Found no unused targets"
+msgstr ""
+
+#: www/root/qemu/options.htm:209
+msgid "Freeze CPU at startup"
+msgstr ""
+
+#: www/root/system/index.htm:305 www/root/system/index.htm:345
+msgid "Gateway"
+msgstr ""
+
+#: www/root/openvz/nav_lvl2.epl:12
+msgid "General"
+msgstr ""
+
+#: www/root/openvz/options.htm:76
+msgid "Grace period (seconds)"
+msgstr ""
+
+#: www/root/qemu/index.htm:115 www/root/vmlist/create.htm:305
+msgid "Guest Type"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:763
+msgid "HD Space root"
+msgstr ""
+
+#: www/root/system/options.htm:131
+msgid "HTTP Proxy"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:550
+msgid "Hard disks"
+msgstr ""
+
+#: www/root/qemu/nav_lvl3.epl:8
+msgid "Hardware"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:480
+msgid "Hardware device list for VM %s"
+msgstr ""
+
+#: www/root/base.epl:85
+msgid "Home"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:660 lib/PVE/HTMLUtils.pm:826 www/root/openvz/network.htm:149 www/root/openvz/network.htm:197 www/root/system/dns.htm:48 www/root/vmlist/create.htm:223 www/root/vmlist/create.htm:59
+msgid "Hostname"
+msgstr ""
+
+#: www/root/cluster/nav_lvl3.epl:8
+msgid "Hosts"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:740
+msgid "IO Delays"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:670 lib/PVE/HTMLUtils.pm:781 lib/PVE/HTMLUtils.pm:827 www/root/openvz/network.htm:223 www/root/system/index.htm:269 www/root/system/index.htm:343 www/root/vmlist/create.htm:348
+msgid "IP Address"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:235 www/root/vmlist/create.htm:120
+msgid "ISCSI Device"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:290 www/root/vmlist/create.htm:290
+msgid "ISCSI Devive"
+msgstr ""
+
+#: www/root/storage/index.htm:417
+msgid "ISCSI LUN list"
+msgstr ""
+
+#: www/root/iso/index.htm:87
+msgid "ISO Image"
+msgstr ""
+
+#: www/root/iso/headline.epl:2 www/root/iso/index.htm:126 www/root/nav_lvl1.epl:12 www/root/storage/index.htm:242 www/root/storage/index.htm:473
+msgid "ISO Images"
+msgstr ""
+
+#: www/root/iso/index.htm:84 www/root/qemu/hardware.htm:390 www/root/vmlist/create.htm:250
+msgid "ISO Storage"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:279 www/root/vmlist/create.htm:280
+msgid "Image Format"
+msgstr ""
+
+#: www/root/backup/index.htm:194 www/root/backup/index.htm:199
+msgid "Include all VMs"
+msgstr ""
+
+#: www/root/vmlist/create.htm:263
+msgid "Installation Media"
+msgstr ""
+
+#: www/root/system/index.htm:339
+msgid "Interface"
+msgstr ""
+
+#: www/root/system/index.htm:360
+msgid "Interface configuration"
+msgstr ""
+
+#: www/root/openvz/network.htm:128
+msgid "Invalid IP address '%s'"
+msgstr ""
+
+#: www/root/login.pl:74
+msgid "JavaScript is active: ok."
+msgstr ""
+
+#: www/root/login.pl:75
+msgid "JavaScript is not available. Please activate it in your browser configuration."
+msgstr ""
+
+#: www/root/vmlist/create.htm:178
+msgid "KVM module not loaded. Maybe you need to enable Intel VT / AMD-V support in the BIOS."
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:770
+msgid "Kernel Version"
+msgstr ""
+
+#: www/root/system/options.htm:126
+msgid "Keyboard Layout"
+msgstr ""
+
+#: www/root/system/options.htm:103
+msgid "Language"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:783
+msgid "Last succesfull sync"
+msgstr ""
+
+#: www/root/vmlist/nav_lvl3.epl:10
+msgid "List"
+msgstr ""
+
+#: www/root/apl/nav_lvl3.epl:8
+msgid "Local"
+msgstr ""
+
+#: www/root/base.epl:83
+msgid "Logout"
+msgstr ""
+
+#: www/root/logs/headline.epl:2 www/root/nav_lvl1.epl:34 www/root/openvz/nav_lvl2.epl:13
+msgid "Logs"
+msgstr ""
+
+#: www/root/openvz/network.htm:101 www/root/openvz/network.htm:247 www/root/qemu/hardware.htm:210 www/root/qemu/hardware.htm:439 www/root/vmlist/create.htm:113 www/root/vmlist/create.htm:345 www/root/vmlist/create.htm:379 www/root/vmlist/create.htm:63
+msgid "MAC Address"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:595
+msgid "MAC address"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1112
+msgid "Master"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:694
+msgid "Maximum"
+msgstr ""
+
+#: www/root/openvz/options.htm:74
+msgid "Maximum user/group IDs"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:557
+msgid "Media"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:367 lib/PVE/HTMLUtils.pm:715 www/root/openvz/index.htm:143 www/root/openvz/index.htm:89 www/root/qemu/index.htm:123 www/root/vmlist/create.htm:111 www/root/vmlist/create.htm:229 www/root/vmlist/create.htm:309 www/root/vmlist/create.htm:56
+msgid "Memory"
+msgstr ""
+
+#: lib/PVE/Cluster.pm:590
+msgid "Memory needs to be at least $min MB"
+msgstr ""
+
+#: lib/PVE/Cluster.pm:593
+msgid "Memory needs to be less than $max MB"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:706
+msgid "Memory/Swap"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:376 lib/PVE/HTMLUtils.pm:382 www/root/vmlist/nav_lvl3.epl:13
+msgid "Migrate"
+msgstr ""
+
+#: www/root/backup/index.htm:210 www/root/system/index.htm:313
+msgid "Mode"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:432 www/root/qemu/hardware.htm:592
+msgid "Model"
+msgstr ""
+
+#: lib/PVE/HTMLForm.pm:327 www/root/backup/index.htm:288
+msgid "Mon Tue Wed Thu Fri Sat Sun"
+msgstr ""
+
+#: www/root/qemu/nav_lvl3.epl:10
+msgid "Monitor"
+msgstr ""
+
+#: www/root/system/time.htm:50
+msgid "NTP Server settings"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1024 lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:1093 lib/PVE/HTMLUtils.pm:364 www/root/backup/index.htm:225 www/root/qemu/index.htm:112 www/root/qemu/index.htm:69 www/root/vmlist/create.htm:112 www/root/vmlist/create.htm:303
+msgid "Name"
+msgstr ""
+
+#: www/root/openvz/nav_lvl3.epl:8 www/root/system/nav_lvl3.epl:8 www/root/vmlist/create.htm:386
+msgid "Network"
+msgstr ""
+
+#: www/root/openvz/network.htm:231
+msgid "Network Addresses (venet)"
+msgstr ""
+
+#: www/root/vmlist/create.htm:374
+msgid "Network Card"
+msgstr ""
+
+#: www/root/vmlist/create.htm:329
+msgid "Network Type"
+msgstr ""
+
+#: www/root/system/index.htm:405
+msgid "Network configuration changed."
+msgstr ""
+
+#: www/root/storage/index.htm:596 www/root/storage/index.htm:597 www/root/storage/index.htm:598
+msgid "No"
+msgstr ""
+
+#: www/root/storage/index.htm:386
+msgid "No such Storage ID '$storeid'"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1113 www/root/backup/index.htm:292
+msgid "Node"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:453 www/root/backup/index.htm:265
+msgid "Node has no VMs"
+msgstr ""
+
+#: www/root/openvz/index.htm:161 www/root/qemu/index.htm:144
+msgid "Notes"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:251 lib/PVE/HTMLUtils.pm:278 lib/PVE/HTMLUtils.pm:526 www/root/openvz/vmlogs/command.htm:40
+msgid "Nothing to view"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1024
+msgid "OS"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:81
+msgid "Online migration"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:24
+msgid "Only one cluster node defined - no migration possible."
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:667
+msgid "Open VNC console"
+msgstr ""
+
+#: www/root/storage/index.htm:244
+msgid "OpenVZ Containers"
+msgstr ""
+
+#: www/root/apl/index.htm:127 www/root/storage/index.htm:245 www/root/storage/index.htm:500
+msgid "OpenVZ Templates"
+msgstr ""
+
+#: www/root/openvz/nav_lvl3.epl:9 www/root/openvz/options.htm:88 www/root/qemu/nav_lvl3.epl:9 www/root/qemu/options.htm:223 www/root/system/nav_lvl3.epl:12 www/root/system/options.htm:138
+msgid "Options"
+msgstr ""
+
+#: www/root/apl/download.htm:50
+msgid "Package name"
+msgstr ""
+
+#: www/root/login.pl:71 www/root/system/admin.htm:64 www/root/vmlist/create.htm:239 www/root/vmlist/create.htm:61
+msgid "Password"
+msgstr ""
+
+#: www/root/system/admin.htm:39 www/root/vmlist/create.htm:67
+msgid "Password is too short"
+msgstr ""
+
+#: www/root/system/admin.htm:38 www/root/vmlist/create.htm:66
+msgid "Passwords does not match"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:744
+msgid "Physical Memory"
+msgstr ""
+
+#: www/root/system/index.htm:406
+msgid "Please <a href='%s'>reboot</a> to activate changes."
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:42
+msgid "Please select a VM"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:139 www/root/qemu/hardware.htm:159 www/root/qemu/hardware.htm:177 www/root/qemu/hardware.htm:224
+msgid "Please select a device"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:43
+msgid "Please select a target node"
+msgstr ""
+
+#: www/root/backup/index.htm:95
+msgid "Please select at least one day"
+msgstr ""
+
+#: www/root/openvz/network.htm:159
+msgid "Please specify at least one DNS server."
+msgstr ""
+
+#: www/root/login.pl:73
+msgid "Please use Microsoft Internet Explorer (> 6.0) or Firefox (> 1.5) for full functionality."
+msgstr ""
+
+#: www/root/storage/index.htm:52
+msgid "Portal"
+msgstr ""
+
+#: www/root/system/index.htm:341
+msgid "Ports/Slaves"
+msgstr ""
+
+#: www/root/qemu/options.htm:192
+msgid "Real Time Clock"
+msgstr ""
+
+#: www/root/logs/realtime.htm:13
+msgid "Realtime Logfile Query (last 100 lines)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:375 lib/PVE/HTMLUtils.pm:639 www/root/openvz/index.htm:62 www/root/qemu/index.htm:56 www/root/vmlist/index.htm:54
+msgid "Remove"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:628
+msgid "Reset"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:692
+msgid "Resource"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:378 lib/PVE/HTMLUtils.pm:628 www/root/server/index.htm:30 www/root/server/index.htm:32 www/root/server/reboot.htm:39 www/root/system/reboot.htm:39
+msgid "Restart"
+msgstr ""
+
+#: www/root/server/index.htm:86
+msgid "Restart Server"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:828
+msgid "Role"
+msgstr ""
+
+#: www/root/logs/index.htm:30 www/root/vmlist/index.htm:60
+msgid "Running Maintainance Tasks"
+msgstr ""
+
+#: www/root/openvz/network.htm:205 www/root/system/dns.htm:55 www/root/vmlist/create.htm:356
+msgid "Second DNS Server"
+msgstr ""
+
+#: www/root/qemu/options.htm:177
+msgid "Second boot device"
+msgstr ""
+
+#: www/root/apl/download.htm:97
+msgid "Section"
+msgstr ""
+
+#: www/root/backup/index.htm:302
+msgid "Selection"
+msgstr ""
+
+#: www/root/backup/index.htm:186
+msgid "Send email to"
+msgstr ""
+
+#: www/root/nav_lvl1.epl:33 www/root/storage/index.htm:51
+msgid "Server"
+msgstr ""
+
+#: www/root/server/headline.epl:2
+msgid "Server Administration"
+msgstr ""
+
+#: www/root/logs/realtime.htm:32
+msgid "Server Status"
+msgstr ""
+
+#: www/root/server/reboot.htm:47 www/root/system/reboot.htm:47
+msgid "Server restart in progress. Please try to <a href='/'>reconnect</a> after the restart."
+msgstr ""
+
+#: www/root/server/reboot.htm:45 www/root/system/reboot.htm:45
+msgid "Server shutdown in progress."
+msgstr ""
+
+#: www/root/logs/realtime.htm:19 www/root/server/index.htm:18
+msgid "Service"
+msgstr ""
+
+#: www/root/server/nav_lvl3.epl:8
+msgid "Services"
+msgstr ""
+
+#: www/root/storage/index.htm:547 www/root/storage/index.htm:57
+msgid "Shared"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:379 lib/PVE/HTMLUtils.pm:633 www/root/server/reboot.htm:36 www/root/system/reboot.htm:36
+msgid "Shutdown"
+msgstr ""
+
+#: www/root/server/index.htm:87
+msgid "Shutdown Server"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:490 www/root/qemu/hardware.htm:521
+msgid "Size"
+msgstr ""
+
+#: www/root/storage/index.htm:400 www/root/storage/index.htm:430 www/root/storage/index.htm:513
+msgid "Size (GB)"
+msgstr ""
+
+#: www/root/system/index.htm:296
+msgid "Slaves"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:72
+msgid "Source Node"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:374 lib/PVE/HTMLUtils.pm:384 lib/PVE/HTMLUtils.pm:631 www/root/server/index.htm:28
+msgid "Start"
+msgstr ""
+
+#: www/root/openvz/index.htm:145 www/root/qemu/index.htm:133 www/root/vmlist/create.htm:225 www/root/vmlist/create.htm:266
+msgid "Start at boot"
+msgstr ""
+
+#: www/root/qemu/options.htm:213
+msgid "Start date"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:475 lib/PVE/HTMLUtils.pm:483 www/root/backup/index.htm:207 www/root/backup/index.htm:300
+msgid "Start time"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:829 www/root/server/index.htm:19
+msgid "State"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1093 lib/PVE/HTMLUtils.pm:363 lib/PVE/HTMLUtils.pm:642 www/root/backup/index.htm:224 www/root/openvz/index.htm:179 www/root/openvz/nav_lvl3.epl:7 www/root/qemu/nav_lvl3.epl:7
+msgid "Status"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:380 lib/PVE/HTMLUtils.pm:493 lib/PVE/HTMLUtils.pm:637 www/root/server/index.htm:29
+msgid "Stop"
+msgstr ""
+
+#: www/root/backup/index.htm:191 www/root/backup/index.htm:301 www/root/nav_lvl1.epl:26 www/root/storage/headline.epl:2
+msgid "Storage"
+msgstr ""
+
+#: www/root/storage/index.htm:388
+msgid "Storage '$storeid' is disabled"
+msgstr ""
+
+#: www/root/iso/index.htm:125
+msgid "Storage '%s'"
+msgstr ""
+
+#: www/root/storage/index.htm:571
+msgid "Storage List"
+msgstr ""
+
+#: www/root/storage/index.htm:47
+msgid "Storage Name"
+msgstr ""
+
+#: www/root/system/index.htm:277 www/root/system/index.htm:344
+msgid "Subnet Mask"
+msgstr ""
+
+#: www/root/openvz/index.htm:149 www/root/openvz/index.htm:90 www/root/vmlist/create.htm:234 www/root/vmlist/create.htm:57
+msgid "Swap"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:754
+msgid "Swap Space"
+msgstr ""
+
+#: lib/PVE/Cluster.pm:602
+msgid "Swap needs to be less than $max MB"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:782
+msgid "Sync Status"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:780
+msgid "Synchronized Nodes"
+msgstr ""
+
+#: www/root/logs/nav_lvl3.epl:9 www/root/openvz/vmlogs/nav_lvl3.epl:9 www/root/openvz/vmlogs/syslog.htm:25
+msgid "Syslog"
+msgstr ""
+
+#: www/root/nav_lvl1.epl:25
+msgid "System"
+msgstr ""
+
+#: www/root/system/headline.epl:2
+msgid "System Configuration"
+msgstr ""
+
+#: www/root/cluster/index.htm:20
+msgid "System Status for node '%s'"
+msgstr ""
+
+#: www/root/storage/index.htm:53
+msgid "Target"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:78
+msgid "Target Node"
+msgstr ""
+
+#: www/root/logs/nav_lvl3.epl:8
+msgid "Tasks"
+msgstr ""
+
+#: www/root/openvz/index.htm:134 www/root/vmlist/create.htm:216 www/root/vmlist/create.htm:58
+msgid "Template"
+msgstr ""
+
+#: www/root/system/dns.htm:59
+msgid "Third DNS Server"
+msgstr ""
+
+#: www/root/qemu/options.htm:181
+msgid "Third boot device"
+msgstr ""
+
+#: www/root/vmlist/create.htm:174
+msgid "This CPU does not support KVM virtual machines (no Intel VT / AMD-V support)."
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:142
+msgid "This information is only available on the master node."
+msgstr ""
+
+#: www/root/system/nav_lvl3.epl:10 www/root/system/time.htm:42
+msgid "Time"
+msgstr ""
+
+#: www/root/system/time.htm:44
+msgid "Timezone"
+msgstr ""
+
+#: www/root/qemu/index.htm:75
+msgid "To manny CPUs (Cores * Sockets > $maxcpus)"
+msgstr ""
+
+#: www/root/apl/download.htm:49 www/root/storage/index.htm:544 www/root/vmlist/create.htm:201
+msgid "Type"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:385 lib/PVE/HTMLUtils.pm:635
+msgid "Unmount"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:522
+msgid "Unused disk images"
+msgstr ""
+
+#: www/root/apl/index.htm:86 www/root/iso/index.htm:93
+msgid "Upload File"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:365 lib/PVE/HTMLUtils.pm:661 lib/PVE/HTMLUtils.pm:673 lib/PVE/HTMLUtils.pm:732 lib/PVE/HTMLUtils.pm:830
+msgid "Uptime"
+msgstr ""
+
+#: www/root/storage/index.htm:352
+msgid "Use LUNs directly"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:344
+msgid "Use an existing virtual disk"
+msgstr ""
+
+#: www/root/storage/index.htm:548
+msgid "Used (GB)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:476 lib/PVE/HTMLUtils.pm:484
+msgid "User"
+msgstr ""
+
+#: www/root/login.pl:70
+msgid "Username"
+msgstr ""
+
+#: www/root/base.epl:70
+msgid "VM Manager"
+msgstr ""
+
+#: www/root/backup/index.htm:226
+msgid "VM Type"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:362 lib/PVE/HTMLUtils.pm:478 lib/PVE/HTMLUtils.pm:486 www/root/backup/index.htm:223
+msgid "VMID"
+msgstr ""
+
+#: www/root/storage/index.htm:246 www/root/storage/index.htm:529
+msgid "VZDump Backups"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1024 lib/PVE/HTMLUtils.pm:768 www/root/apl/download.htm:48
+msgid "Version"
+msgstr ""
+
+#: www/root/qemu/options.htm:197
+msgid "Video Graphics Adapter"
+msgstr ""
+
+#: www/root/storage/index.htm:241 www/root/storage/index.htm:447
+msgid "Virtual Disks"
+msgstr ""
+
+#: www/root/openvz/headline.epl:2 www/root/qemu/headline.epl:2
+msgid "Virtual Machine Configuration"
+msgstr ""
+
+#: www/root/nav_lvl1.epl:10 www/root/vmlist/headline.epl:2
+msgid "Virtual Machines"
+msgstr ""
+
+#: www/root/openvz/vmlogs/headline.epl:2
+msgid "Virtual Machines Logs"
+msgstr ""
+
+#: www/root/vmlist/create.htm:327
+msgid "Virtual Network (venet)"
+msgstr ""
+
+#: www/root/storage/index.htm:55
+msgid "Volume Group Name"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:491 www/root/storage/index.htm:398 www/root/storage/index.htm:428 www/root/storage/index.htm:458 www/root/storage/index.htm:485 www/root/storage/index.htm:512
+msgid "Volume ID"
+msgstr ""
+
+#: www/root/storage/index.htm:596 www/root/storage/index.htm:597 www/root/storage/index.htm:598
+msgid "Yes"
+msgstr ""
+
+#: www/root/base.epl:82
+msgid "You are logged in as '%s'"
+msgstr ""
+
+#: www/root/login.pl:64
+msgid "You could not be logged on. Make sure your user name and password are correct, and then try again."
+msgstr ""
+
+#: www/root/login.pl:62
+msgid "You could not be logged on. Ticket is no longer valid."
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:140
+msgid "You do not have write access."
+msgstr ""
+
+#: lib/PVE/HTMLForm.pm:365
+msgid "create"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:333
+msgid "day"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:333
+msgid "days"
+msgstr ""
+
+#: www/root/system/index.htm:412
+msgid "hide changes"
+msgstr ""
+
+#: www/root/qemu/options.htm:95
+msgid "invalid format for start date"
+msgstr ""
+
+#: www/root/system/options.htm:73
+msgid "invalid proxy syntax (http://server:port)"
+msgstr ""
+
+#: www/root/iso/index.htm:60
+msgid "missing '.iso' extension"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1014
+msgid "name '%s' does not conform to template naming scheme"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:65
+msgid "no %s devices available"
+msgstr ""
+
+#: www/root/backup/index.htm:363
+msgid "no backup jobs defined"
+msgstr ""
+
+#: www/root/backup/index.htm:115
+msgid "no backup storage defined - please create a backup storage first"
+msgstr ""
+
+#: www/root/apl/index.htm:123 www/root/iso/index.htm:128 www/root/storage/index.htm:414 www/root/storage/index.htm:444 www/root/storage/index.htm:470 www/root/storage/index.htm:497 www/root/storage/index.htm:526
+msgid "no entries"
+msgstr ""
+
+#: lib/PVE/HTMLForm.pm:361
+msgid "save"
+msgstr ""
+
+#: lib/PVE/HTMLForm.pm:363
+msgid "search"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:656
+msgid "unknown"
+msgstr ""
+
+#: lib/PVE/HTMLForm.pm:367
+msgid "upload"
+msgstr ""
+
+#: www/root/apl/index.htm:74 www/root/iso/index.htm:73
+msgid "upload successful"
+msgstr ""
+
+#: www/root/system/index.htm:410
+msgid "view changes"
+msgstr ""

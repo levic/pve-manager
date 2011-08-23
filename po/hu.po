@@ -1,0 +1,1479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 1.0\n"
+"Report-Msgid-Bugs-To: support@proxmox.com\n"
+"POT-Creation-Date: Wed Jan 20 10:14:05 2010\n"
+"PO-Revision-Date: 2009-05-11 09:06+0200\n"
+"Last-Translator: István Pongrácz <pongracz.istvan@gmail.com>\n"
+"Language-Team: Hungarian <info@startit.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: lib/PVE/APLInfo.pm:220
+msgid "<b>Welcome</b> to the Proxmox Virtual Environment!"
+msgstr "<b>Üdvözöljük</b> a Proxmox Virtuális Környezetben!"
+
+#: www/root/storage/index.htm:546 www/root/system/index.htm:340
+msgid "Active"
+msgstr "Aktív"
+
+#: www/root/storage/index.htm:26
+msgid "Add Directory"
+msgstr ""
+
+#: www/root/storage/index.htm:29
+msgid "Add ISCSI Target"
+msgstr ""
+
+#: www/root/storage/index.htm:27
+msgid "Add LVM Group"
+msgstr ""
+
+#: www/root/storage/index.htm:28
+msgid "Add NFS Share"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:414 www/root/qemu/hardware.htm:466
+msgid "Add a CD-ROM drive"
+msgstr "CD-ROM meghajtó hozzáadása"
+
+#: www/root/qemu/hardware.htm:464
+msgid "Add a hard disk"
+msgstr "Merevlemez hozzáadása"
+
+#: www/root/qemu/hardware.htm:446
+msgid "Add a network card"
+msgstr "Hálózati kártya hozzáadása"
+
+#: www/root/qemu/hardware.htm:465
+msgid "Add an ethernet device"
+msgstr "Ethernet eszköz hozzáadása"
+
+#: www/root/system/nav_lvl3.epl:11
+msgid "Admin"
+msgstr ""
+
+#: www/root/base.epl:72
+msgid "Administration"
+msgstr "Adminisztráció"
+
+#: www/root/system/admin.htm:33 www/root/system/admin.htm:61
+#, fuzzy
+msgid "Administrator EMail"
+msgstr "Adminisztráció"
+
+#: www/root/system/admin.htm:73
+#, fuzzy
+msgid "Administrator Options"
+msgstr "Adminisztráció"
+
+#: www/root/apl/headline.epl:2 www/root/nav_lvl1.epl:11
+msgid "Appliance Templates"
+msgstr "Gép sablonok"
+
+#: lib/PVE/HTMLUtils.pm:1024
+msgid "Arch."
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:144
+msgid ""
+"Are you sure you want to remove VM %s? This will permanently erase all VM "
+"data."
+msgstr ""
+"Biztos benne, hogy törli a %s Virtuális Gépet (VM) ? Ez a törlés "
+"visszavonhatatlanul az összes adatot, ami ehhez a Virtuális Géphez (VM) "
+"tartozott!"
+
+#: www/root/system/index.htm:415 www/root/vmlist/create.htm:175
+#: www/root/vmlist/create.htm:179
+msgid "Attention"
+msgstr "Figyelem"
+
+#: www/root/server/index.htm:20 www/root/system/index.htm:271
+#: www/root/system/index.htm:342
+msgid "Autostart"
+msgstr "Automatikus indítás"
+
+#: www/root/backup/headline.epl:2 www/root/nav_lvl1.epl:27
+msgid "Backup"
+msgstr "Biztonsági mentés"
+
+#: www/root/backup/index.htm:314
+msgid "Backup Jobs"
+msgstr "Biztonsági mentési feladatok"
+
+#: www/root/storage/index.htm:49
+msgid "Base Storage"
+msgstr ""
+
+#: www/root/storage/index.htm:50
+msgid "Base Volume"
+msgstr ""
+
+#: www/root/system/index.htm:260
+msgid "Bond name"
+msgstr "Köteg név"
+
+#: www/root/openvz/vmlogs/nav_lvl3.epl:7
+msgid "Boot/Init"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:435 www/root/qemu/hardware.htm:593
+#: www/root/vmlist/create.htm:341 www/root/vmlist/create.htm:371
+msgid "Bridge"
+msgstr "Híd"
+
+#: www/root/system/index.htm:287
+msgid "Bridge Ports"
+msgstr "Híd portok"
+
+#: www/root/system/index.htm:254
+msgid "Bridge name"
+msgstr "Híd neve"
+
+#: www/root/vmlist/create.htm:327
+msgid "Bridged Ethernet (veth)"
+msgstr "Hídba kapcsolt ethernet (veth)"
+
+#: www/root/openvz/network.htm:258
+msgid "Bridged Ethernet Devices"
+msgstr "Hídba kapcsolt ethernet eszközök"
+
+#: www/root/storage/index.htm:562 www/root/storage/index.htm:568
+msgid "Browse"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:297 www/root/qemu/hardware.htm:333
+#: www/root/qemu/hardware.htm:393 www/root/qemu/hardware.htm:488
+#: www/root/qemu/hardware.htm:554
+msgid "Bus"
+msgstr "Busz"
+
+#: www/root/qemu/hardware.htm:588
+msgid "CD-ROM drives"
+msgstr "CD-ROM meghajtók"
+
+#: www/root/qemu/hardware.htm:397
+msgid "CDROM"
+msgstr "CD-ROM"
+
+#: lib/PVE/HTMLUtils.pm:477 lib/PVE/HTMLUtils.pm:485
+msgid "CID"
+msgstr "CID"
+
+#: lib/PVE/HTMLUtils.pm:368
+msgid "CPU"
+msgstr "CPU"
+
+#: www/root/qemu/index.htm:125 www/root/qemu/index.htm:70
+#: www/root/vmlist/create.htm:114 www/root/vmlist/create.htm:311
+#, fuzzy
+msgid "CPU Sockets"
+msgstr "CPU egységek"
+
+#: www/root/openvz/options.htm:45 www/root/openvz/options.htm:68
+#: www/root/qemu/options.htm:100 www/root/qemu/options.htm:189
+msgid "CPU Units"
+msgstr "CPU egységek"
+
+#: lib/PVE/HTMLUtils.pm:700 lib/PVE/HTMLUtils.pm:737
+msgid "CPU Utilization"
+msgstr "CPU kihasználtság"
+
+#: www/root/openvz/index.htm:151 www/root/openvz/index.htm:92
+#: www/root/vmlist/create.htm:237 www/root/vmlist/create.htm:64
+msgid "CPUs"
+msgstr "CPU-k"
+
+#: lib/PVE/HTMLUtils.pm:582
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: www/root/storage/index.htm:549
+msgid "Capacity (GB)"
+msgstr ""
+
+#: www/root/server/nav_lvl3.epl:9
+msgid "Certificates"
+msgstr "Tanúsítványok"
+
+#: www/root/apl/download.htm:73
+#, fuzzy
+msgid "Certified Appliances"
+msgstr "Tanúsítványok"
+
+#: www/root/qemu/hardware.htm:414
+#, fuzzy
+msgid "Change CD-ROM"
+msgstr "CD-ROM meghajtó hozzáadása"
+
+#: www/root/nav_lvl1.epl:35
+msgid "Cluster"
+msgstr "Fürt"
+
+#: www/root/backup/index.htm:184 www/root/openvz/index.htm:140
+#: www/root/qemu/index.htm:117 www/root/vmlist/create.htm:219
+#: www/root/vmlist/create.htm:253
+msgid "Cluster Node"
+msgstr "Fürt csomópont"
+
+#: www/root/cluster/headline.epl:2
+msgid "Cluster Nodes"
+msgstr "Fürt csomópontok"
+
+#: lib/PVE/HTMLUtils.pm:474 lib/PVE/HTMLUtils.pm:482
+#: www/root/openvz/vmlogs/nav_lvl3.epl:8
+msgid "Command"
+msgstr "Parancs"
+
+#: www/root/backup/index.htm:214
+msgid "Compress files"
+msgstr "Fájlok tömörítése"
+
+#: www/root/base.epl:71 www/root/openvz/index.htm:172
+msgid "Configuration"
+msgstr "Beállítások"
+
+#: www/root/nav_lvl1.epl:16 www/root/openvz/nav_lvl2.epl:6
+msgid "Configure"
+msgstr "Beállítás"
+
+#: www/root/system/index.htm:230
+#, fuzzy
+msgid "Configure bond '%s'"
+msgstr "%s hálózati köteg konfigurálása"
+
+#: www/root/system/index.htm:227
+#, fuzzy
+msgid "Configure bridge '%s'"
+msgstr "Híd konfigurálása %s"
+
+#: www/root/system/index.htm:233
+#, fuzzy
+msgid "Configure network interface '%s'"
+msgstr "Hálózati csatoló konfigurálása"
+
+#: lib/PVE/HTMLUtils.pm:586
+#, fuzzy
+msgid "Confirm"
+msgstr "Beállítás"
+
+#: www/root/system/admin.htm:67 www/root/vmlist/create.htm:242
+msgid "Confirm Password"
+msgstr "Jelszó megerősítése"
+
+#: lib/PVE/HTMLUtils.pm:381
+msgid "Console"
+msgstr "Konzol"
+
+#: www/root/storage/index.htm:58
+msgid "Content"
+msgstr ""
+
+#: www/root/storage/index.htm:391
+#, fuzzy
+msgid "Content of Storage '%s'"
+msgstr "Hálózati csatoló konfigurálása"
+
+#: www/root/qemu/index.htm:129 www/root/qemu/index.htm:71
+msgid "Cores/Socket"
+msgstr ""
+
+#: www/root/vmlist/nav_lvl3.epl:12
+msgid "Create"
+msgstr "Létrehozás"
+
+#: www/root/qemu/hardware.htm:309
+msgid "Create a new virtual disk"
+msgstr "Új virtuális lemez létrehozása"
+
+#: www/root/system/index.htm:242 www/root/system/index.htm:353
+msgid "Create bonding device"
+msgstr "Hálózati köteg eszköz létrehozása"
+
+#: www/root/system/index.htm:240 www/root/system/index.htm:352
+msgid "Create bridge device"
+msgstr "Híd eszköz létrehozása"
+
+#: www/root/backup/index.htm:277 www/root/backup/index.htm:308
+msgid "Create new job"
+msgstr "Új feladat létrehozása"
+
+#: lib/PVE/HTMLUtils.pm:693
+msgid "Current"
+msgstr "Jelenlegi"
+
+#: www/root/openvz/network.htm:150 www/root/openvz/network.htm:203
+#: www/root/vmlist/create.htm:332 www/root/vmlist/create.htm:60
+msgid "DNS Domain"
+msgstr "DNS tartomány"
+
+#: www/root/openvz/network.htm:214 www/root/system/dns.htm:65
+msgid "DNS settings"
+msgstr ""
+
+#: www/root/system/time.htm:41
+msgid "Date"
+msgstr "Dátum"
+
+#: www/root/backup/index.htm:203
+msgid "Day of Week"
+msgstr "A hét napja"
+
+#: www/root/vmlist/migrate.htm:88
+msgid "Define migration task"
+msgstr "Migrációs feladat definiálása"
+
+#: lib/PVE/HTMLUtils.pm:784
+msgid "Delay (minutes)"
+msgstr "Késleltetés (percben)"
+
+#: www/root/apl/index.htm:97 www/root/backup/index.htm:311
+#: www/root/iso/index.htm:102 www/root/qemu/hardware.htm:468
+#: www/root/qemu/hardware.htm:472 www/root/qemu/hardware.htm:475
+#: www/root/storage/index.htm:563 www/root/system/index.htm:357
+msgid "Delete"
+msgstr "Törlés"
+
+#: www/root/qemu/hardware.htm:470
+msgid "Delete from disk"
+msgstr "Törlés a lemezről"
+
+#: www/root/apl/download.htm:47 www/root/apl/index.htm:92
+#: www/root/server/index.htm:21
+msgid "Description"
+msgstr "Leírás"
+
+#: www/root/backup/index.htm:197 www/root/backup/index.htm:301
+msgid "Destination"
+msgstr "Cél"
+
+#: www/root/backup/index.htm:81
+msgid "Destination directory '%s' does not exist"
+msgstr "A '%s' nevű célkönyvtár nem létezik"
+
+#: www/root/qemu/hardware.htm:302 www/root/qemu/hardware.htm:337
+#: www/root/qemu/hardware.htm:400 www/root/qemu/hardware.htm:489
+#: www/root/qemu/hardware.htm:555
+msgid "Device"
+msgstr "Eszköz"
+
+#: www/root/storage/index.htm:48
+msgid "Directory"
+msgstr ""
+
+#: www/root/storage/index.htm:565
+msgid "Disable"
+msgstr ""
+
+#: www/root/system/index.htm:354
+msgid "Discard all changes"
+msgstr "Változtatások eldobása"
+
+#: lib/PVE/HTMLUtils.pm:366
+msgid "Disk"
+msgstr "Lemez"
+
+#: www/root/qemu/hardware.htm:229 www/root/qemu/hardware.htm:276
+#: www/root/vmlist/create.htm:110 www/root/vmlist/create.htm:277
+#, fuzzy
+msgid "Disk Storage"
+msgstr "Lemez típusa"
+
+#: www/root/backup/index.htm:227
+msgid "Disk size"
+msgstr "Lemez mérete"
+
+#: lib/PVE/HTMLUtils.pm:710 www/root/openvz/index.htm:138
+#: www/root/openvz/index.htm:91 www/root/qemu/hardware.htm:238
+#: www/root/qemu/hardware.htm:293 www/root/vmlist/create.htm:123
+#: www/root/vmlist/create.htm:231 www/root/vmlist/create.htm:293
+#: www/root/vmlist/create.htm:62
+msgid "Disk space"
+msgstr "Lemezterület"
+
+#: www/root/vmlist/create.htm:299
+msgid "Disk type"
+msgstr "Lemez típusa"
+
+#: www/root/server/reboot.htm:38 www/root/system/reboot.htm:38
+msgid "Do you really want to restart the Server?"
+msgstr "Valóban újra akarja indítani a szervert?"
+
+#: www/root/server/reboot.htm:35 www/root/system/reboot.htm:35
+msgid "Do you really want to shutdown the Server?"
+msgstr "Valóban le akarja állítani a szervert?"
+
+#: www/root/system/dns.htm:53
+msgid "Domain"
+msgstr "Tartomány"
+
+#: www/root/apl/download.htm:54 www/root/apl/nav_lvl3.epl:9
+msgid "Download"
+msgstr "Letöltés"
+
+#: www/root/server/certs.htm:15
+msgid "Download server <a href='%s'>certficate</a>."
+msgstr "A szerver <a href'%s'>tanúsítványának</a> letöltése."
+
+#: www/root/backup/index.htm:310 www/root/qemu/hardware.htm:474
+#: www/root/storage/index.htm:561 www/root/storage/index.htm:567
+#: www/root/system/index.htm:356
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: www/root/storage/index.htm:33
+msgid "Edit Directory"
+msgstr ""
+
+#: www/root/storage/index.htm:36
+msgid "Edit ISCSI Target"
+msgstr ""
+
+#: www/root/storage/index.htm:34
+msgid "Edit LVM Group"
+msgstr ""
+
+#: www/root/storage/index.htm:35
+#, fuzzy
+msgid "Edit NFS Share"
+msgstr "Első DNS szerver"
+
+#: www/root/backup/index.htm:277
+msgid "Edit backup job"
+msgstr "Biztonsági mentés feladat szerkesztése"
+
+#: www/root/storage/index.htm:56 www/root/storage/index.htm:564
+msgid "Enable"
+msgstr ""
+
+#: www/root/openvz/options.htm:71
+msgid "Enable User Quotas"
+msgstr "Felhasználói kvóta engedélyezése"
+
+#: www/root/storage/index.htm:545
+msgid "Enabled"
+msgstr ""
+
+#: www/root/base.epl:84
+msgid "Error"
+msgstr "Hiba"
+
+#: www/root/qemu/hardware.htm:625
+msgid "Ethernet devices"
+msgstr "Ethernet eszközök"
+
+#: www/root/qemu/hardware.htm:331
+msgid "Existing Disks"
+msgstr "Létező lemezek"
+
+#: www/root/storage/index.htm:54
+msgid "Export"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:86 lib/PVE/HTMLUtils.pm:88
+msgid "Field '%s' contains invalid characters"
+msgstr "A '%s' mező érvénytelen karaktert tartalmaz"
+
+#: lib/PVE/HTMLUtils.pm:99
+#, fuzzy
+msgid "Field '%s' does not look like a valid IP address"
+msgstr "A '%s' mező nem tűnik érvényes email címnek"
+
+#: lib/PVE/HTMLUtils.pm:124
+#, fuzzy
+msgid "Field '%s' does not look like a valid ISCSI portal"
+msgstr "A '%s' mező nem tűnik érvényes email címnek"
+
+#: lib/PVE/HTMLUtils.pm:95
+msgid "Field '%s' does not look like a valid email address"
+msgstr "A '%s' mező nem tűnik érvényes email címnek"
+
+#: lib/PVE/HTMLUtils.pm:108
+#, fuzzy
+msgid "Field '%s' does not look like a valid server address"
+msgstr "A '%s' mező nem tűnik érvényes email címnek"
+
+#: lib/PVE/HTMLUtils.pm:103
+#, fuzzy
+msgid ""
+"Field '%s' does not look like no valid MAC address (required format: XX:XX:"
+"XX:XX:XX:XX)"
+msgstr "A '%s' mező nem érvényes html színkód (a helyes formátum: #XXXXXX)"
+
+#: lib/PVE/HTMLUtils.pm:75
+msgid "Field '%s' is above maximum ($value > $max)"
+msgstr "A '%s' mező felette van a maximumnak ($value > $max)"
+
+#: lib/PVE/HTMLUtils.pm:72
+msgid "Field '%s' is below minimum ($value < $min)"
+msgstr "A '%s' mező alatta van a minimumnak ($value < $min)"
+
+#: lib/PVE/HTMLUtils.pm:92
+msgid "Field '%s' is no valid html color (required format: #XXXXXX)"
+msgstr "A '%s' mező nem érvényes html színkód (a helyes formátum: #XXXXXX)"
+
+#: lib/PVE/HTMLUtils.pm:84
+msgid "Field '%s' must not be empty"
+msgstr "A '%s' mező nem lehet üres"
+
+#: lib/PVE/HTMLUtils.pm:126 lib/PVE/HTMLUtils.pm:128
+msgid "Field '%s' must not contain special characters"
+msgstr "A '%s' mező nem tartalmazhat speciális karaktereket"
+
+#: lib/PVE/HTMLUtils.pm:90
+msgid "Field '%s' must not contain white spaces"
+msgstr ""
+"A '%s' mező nem tartalmazhat fehér karaktereket (szóköz, tabulátor stb.)"
+
+#: www/root/apl/index.htm:93 www/root/iso/index.htm:108
+msgid "File name"
+msgstr "Fájlnév"
+
+#: www/root/logs/realtime.htm:17
+msgid "Filter expression"
+msgstr ""
+
+#: www/root/logs/index.htm:33
+msgid "Finished Maintainance Tasks"
+msgstr "Karbantartási feladatok befejezve"
+
+#: www/root/openvz/network.htm:199 www/root/system/dns.htm:50
+#: www/root/vmlist/create.htm:343 www/root/vmlist/create.htm:350
+msgid "First DNS Server"
+msgstr "Első DNS szerver"
+
+#: www/root/qemu/options.htm:173
+msgid "First boot device"
+msgstr "Első rendszerbetöltő eszköz"
+
+#: lib/PVE/APLInfo.pm:222
+msgid "For more information please visit our homepage at"
+msgstr "Bővebb információkért látogassa meg honlapunkat a következő címen"
+
+#: www/root/storage/index.htm:92
+msgid "Found no exports"
+msgstr ""
+
+#: www/root/storage/index.htm:99
+msgid "Found no unused targets"
+msgstr ""
+
+#: www/root/qemu/options.htm:209
+msgid "Freeze CPU at startup"
+msgstr "CPU fagyasztása induláskor"
+
+#: www/root/system/index.htm:305 www/root/system/index.htm:345
+msgid "Gateway"
+msgstr "Átjáró"
+
+#: www/root/openvz/nav_lvl2.epl:12
+msgid "General"
+msgstr "Általános"
+
+#: www/root/openvz/options.htm:76
+msgid "Grace period (seconds)"
+msgstr "Türelmi idő (másodperc)"
+
+#: www/root/qemu/index.htm:115 www/root/vmlist/create.htm:305
+msgid "Guest Type"
+msgstr "Vendég típusa"
+
+#: lib/PVE/HTMLUtils.pm:763
+msgid "HD Space root"
+msgstr "HD tárterület gyökér"
+
+#: www/root/system/options.htm:131
+msgid "HTTP Proxy"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:550
+msgid "Hard disks"
+msgstr "Merevlemezek"
+
+#: www/root/qemu/nav_lvl3.epl:8
+msgid "Hardware"
+msgstr "Hardver"
+
+#: www/root/qemu/hardware.htm:480
+msgid "Hardware device list for VM %s"
+msgstr "Hardver eszköz lista a %s Virtuális Géphez"
+
+#: www/root/base.epl:85
+#, fuzzy
+msgid "Home"
+msgstr "Gépnév"
+
+#: lib/PVE/HTMLUtils.pm:660 lib/PVE/HTMLUtils.pm:826
+#: www/root/openvz/network.htm:149 www/root/openvz/network.htm:197
+#: www/root/system/dns.htm:48 www/root/vmlist/create.htm:223
+#: www/root/vmlist/create.htm:59
+msgid "Hostname"
+msgstr "Gépnév"
+
+#: www/root/cluster/nav_lvl3.epl:8
+msgid "Hosts"
+msgstr "Gépek"
+
+#: lib/PVE/HTMLUtils.pm:740
+msgid "IO Delays"
+msgstr "IO késleltetés"
+
+#: lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:670 lib/PVE/HTMLUtils.pm:781
+#: lib/PVE/HTMLUtils.pm:827 www/root/openvz/network.htm:223
+#: www/root/system/index.htm:269 www/root/system/index.htm:343
+#: www/root/vmlist/create.htm:348
+msgid "IP Address"
+msgstr "IP cím"
+
+#: www/root/qemu/hardware.htm:235 www/root/vmlist/create.htm:120
+#, fuzzy
+msgid "ISCSI Device"
+msgstr "Eszköz"
+
+#: www/root/qemu/hardware.htm:290 www/root/vmlist/create.htm:290
+msgid "ISCSI Devive"
+msgstr ""
+
+#: www/root/storage/index.htm:417
+msgid "ISCSI LUN list"
+msgstr ""
+
+#: www/root/iso/index.htm:87
+msgid "ISO Image"
+msgstr ""
+
+#: www/root/iso/headline.epl:2 www/root/iso/index.htm:126
+#: www/root/nav_lvl1.epl:12 www/root/storage/index.htm:242
+#: www/root/storage/index.htm:473
+msgid "ISO Images"
+msgstr ""
+
+#: www/root/iso/index.htm:84 www/root/qemu/hardware.htm:390
+#: www/root/vmlist/create.htm:250
+msgid "ISO Storage"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:279 www/root/vmlist/create.htm:280
+msgid "Image Format"
+msgstr ""
+
+#: www/root/backup/index.htm:194 www/root/backup/index.htm:199
+msgid "Include all VMs"
+msgstr "Minden VM"
+
+#: www/root/vmlist/create.htm:263
+msgid "Installation Media"
+msgstr "Telepítő média"
+
+#: www/root/system/index.htm:339
+msgid "Interface"
+msgstr "Csatoló"
+
+#: www/root/system/index.htm:360
+msgid "Interface configuration"
+msgstr "Csatoló konfiguráció"
+
+#: www/root/openvz/network.htm:128
+msgid "Invalid IP address '%s'"
+msgstr "Érvénytelen IP cím '%s'"
+
+#: www/root/login.pl:74
+msgid "JavaScript is active: ok."
+msgstr "Javascript engedélyezve: rendben."
+
+#: www/root/login.pl:75
+msgid ""
+"JavaScript is not available. Please activate it in your browser "
+"configuration."
+msgstr ""
+"Javascript nem érhető el. Kérem engedélyezze a javascriptek futtatását a "
+"böngésző beállításaiban."
+
+#: www/root/vmlist/create.htm:178
+msgid ""
+"KVM module not loaded. Maybe you need to enable Intel VT / AMD-V support in "
+"the BIOS."
+msgstr ""
+"A KVM modul nincs betöltve. Talán engedélyezni kellene az Intel VT / AMD-V "
+"támogatást a BIOS-ban."
+
+#: lib/PVE/HTMLUtils.pm:770
+msgid "Kernel Version"
+msgstr "Kernel verzió"
+
+#: www/root/system/options.htm:126
+msgid "Keyboard Layout"
+msgstr "Billentyűzet kiosztás"
+
+#: www/root/system/options.htm:103
+msgid "Language"
+msgstr "Nyelv"
+
+#: lib/PVE/HTMLUtils.pm:783
+msgid "Last succesfull sync"
+msgstr "Utolsó sikeres szinkronizáció"
+
+#: www/root/vmlist/nav_lvl3.epl:10
+msgid "List"
+msgstr "Lista"
+
+#: www/root/apl/nav_lvl3.epl:8
+msgid "Local"
+msgstr "Helyi"
+
+#: www/root/base.epl:83
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: www/root/logs/headline.epl:2 www/root/nav_lvl1.epl:34
+#: www/root/openvz/nav_lvl2.epl:13
+msgid "Logs"
+msgstr "Naplók"
+
+#: www/root/openvz/network.htm:101 www/root/openvz/network.htm:247
+#: www/root/qemu/hardware.htm:210 www/root/qemu/hardware.htm:439
+#: www/root/vmlist/create.htm:113 www/root/vmlist/create.htm:345
+#: www/root/vmlist/create.htm:379 www/root/vmlist/create.htm:63
+#, fuzzy
+msgid "MAC Address"
+msgstr "MAC cím"
+
+#: www/root/qemu/hardware.htm:595
+msgid "MAC address"
+msgstr "MAC cím"
+
+#: lib/PVE/HTMLUtils.pm:1112
+#, fuzzy
+msgid "Master"
+msgstr "Fürt"
+
+#: lib/PVE/HTMLUtils.pm:694
+msgid "Maximum"
+msgstr "Maximum"
+
+#: www/root/openvz/options.htm:74
+msgid "Maximum user/group IDs"
+msgstr "Maximum user/group azonosítók"
+
+#: www/root/qemu/hardware.htm:557
+msgid "Media"
+msgstr "Adathordozó"
+
+#: lib/PVE/HTMLUtils.pm:367 lib/PVE/HTMLUtils.pm:715
+#: www/root/openvz/index.htm:143 www/root/openvz/index.htm:89
+#: www/root/qemu/index.htm:123 www/root/vmlist/create.htm:111
+#: www/root/vmlist/create.htm:229 www/root/vmlist/create.htm:309
+#: www/root/vmlist/create.htm:56
+msgid "Memory"
+msgstr "Memória"
+
+#: lib/PVE/Cluster.pm:590
+msgid "Memory needs to be at least $min MB"
+msgstr "A memória legalább $min MB kell hogy legyen"
+
+#: lib/PVE/Cluster.pm:593
+msgid "Memory needs to be less than $max MB"
+msgstr "A memória legfeljebb $max MB lehet"
+
+#: lib/PVE/HTMLUtils.pm:706
+msgid "Memory/Swap"
+msgstr "Memória/swap"
+
+#: lib/PVE/HTMLUtils.pm:376 lib/PVE/HTMLUtils.pm:382
+#: www/root/vmlist/nav_lvl3.epl:13
+msgid "Migrate"
+msgstr "Migrálás"
+
+#: www/root/backup/index.htm:210 www/root/system/index.htm:313
+msgid "Mode"
+msgstr "Üzemmód"
+
+#: www/root/qemu/hardware.htm:432 www/root/qemu/hardware.htm:592
+msgid "Model"
+msgstr "Modell"
+
+#: lib/PVE/HTMLForm.pm:327 www/root/backup/index.htm:288
+msgid "Mon Tue Wed Thu Fri Sat Sun"
+msgstr "He Ke Sze Cs Pé Szo Va"
+
+#: www/root/qemu/nav_lvl3.epl:10
+msgid "Monitor"
+msgstr "Monitor"
+
+#: www/root/system/time.htm:50
+#, fuzzy
+msgid "NTP Server settings"
+msgstr "NTP kiszolgáló"
+
+#: lib/PVE/HTMLUtils.pm:1024 lib/PVE/HTMLUtils.pm:1071
+#: lib/PVE/HTMLUtils.pm:1093 lib/PVE/HTMLUtils.pm:364
+#: www/root/backup/index.htm:225 www/root/qemu/index.htm:112
+#: www/root/qemu/index.htm:69 www/root/vmlist/create.htm:112
+#: www/root/vmlist/create.htm:303
+msgid "Name"
+msgstr "Név"
+
+#: www/root/openvz/nav_lvl3.epl:8 www/root/system/nav_lvl3.epl:8
+#: www/root/vmlist/create.htm:386
+msgid "Network"
+msgstr "Hálózat"
+
+#: www/root/openvz/network.htm:231
+msgid "Network Addresses (venet)"
+msgstr "Hálózati címek (venet)"
+
+#: www/root/vmlist/create.htm:374
+msgid "Network Card"
+msgstr "Hálózati kártya"
+
+#: www/root/vmlist/create.htm:329
+msgid "Network Type"
+msgstr "Hálózat típusa"
+
+#: www/root/system/index.htm:405
+msgid "Network configuration changed."
+msgstr "A hálózati konfiguráció megváltozott."
+
+#: www/root/storage/index.htm:596 www/root/storage/index.htm:597
+#: www/root/storage/index.htm:598
+#, fuzzy
+msgid "No"
+msgstr "Csomópont"
+
+#: www/root/storage/index.htm:386
+msgid "No such Storage ID '$storeid'"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1113 www/root/backup/index.htm:292
+msgid "Node"
+msgstr "Csomópont"
+
+#: lib/PVE/HTMLUtils.pm:453 www/root/backup/index.htm:265
+msgid "Node has no VMs"
+msgstr "Ez a csomóponton nem található Virtuális Gép (VM)."
+
+#: www/root/openvz/index.htm:161 www/root/qemu/index.htm:144
+#, fuzzy
+msgid "Notes"
+msgstr "Csomópont"
+
+#: lib/PVE/HTMLUtils.pm:251 lib/PVE/HTMLUtils.pm:278 lib/PVE/HTMLUtils.pm:526
+#: www/root/openvz/vmlogs/command.htm:40
+msgid "Nothing to view"
+msgstr "Nincs megjeleníthető elem"
+
+#: lib/PVE/HTMLUtils.pm:1024
+msgid "OS"
+msgstr ""
+
+#: www/root/vmlist/migrate.htm:81
+msgid "Online migration"
+msgstr "Online migráció"
+
+#: www/root/vmlist/migrate.htm:24
+msgid "Only one cluster node defined - no migration possible."
+msgstr "Csak egy fürt csomópont van definiálva - a migráció nem lehetséges."
+
+#: lib/PVE/HTMLUtils.pm:667
+#, fuzzy
+msgid "Open VNC console"
+msgstr "Konzol"
+
+#: www/root/storage/index.htm:244
+#, fuzzy
+msgid "OpenVZ Containers"
+msgstr "Gép sablonok"
+
+#: www/root/apl/index.htm:127 www/root/storage/index.htm:245
+#: www/root/storage/index.htm:500
+#, fuzzy
+msgid "OpenVZ Templates"
+msgstr "Gép sablonok"
+
+#: www/root/openvz/nav_lvl3.epl:9 www/root/openvz/options.htm:88
+#: www/root/qemu/nav_lvl3.epl:9 www/root/qemu/options.htm:223
+#: www/root/system/nav_lvl3.epl:12 www/root/system/options.htm:138
+msgid "Options"
+msgstr "Opciók"
+
+#: www/root/apl/download.htm:50
+msgid "Package name"
+msgstr "Csomag neve"
+
+#: www/root/login.pl:71 www/root/system/admin.htm:64
+#: www/root/vmlist/create.htm:239 www/root/vmlist/create.htm:61
+msgid "Password"
+msgstr "Jelszó"
+
+#: www/root/system/admin.htm:39 www/root/vmlist/create.htm:67
+msgid "Password is too short"
+msgstr "A jelszó túl rövid"
+
+#: www/root/system/admin.htm:38 www/root/vmlist/create.htm:66
+msgid "Passwords does not match"
+msgstr "A jelszó nem egyezik"
+
+#: lib/PVE/HTMLUtils.pm:744
+msgid "Physical Memory"
+msgstr "Fizikai memória"
+
+#: www/root/system/index.htm:406
+msgid "Please <a href='%s'>reboot</a> to activate changes."
+msgstr ""
+"Kérem <a href='%s'>indítsa újra a rendszert</a> a változtatások érvénybe "
+"léptetéséhez."
+
+#: www/root/vmlist/migrate.htm:42
+msgid "Please select a VM"
+msgstr "Kérem válasszon egy Virtuális Gépet (VM)"
+
+#: www/root/qemu/hardware.htm:139 www/root/qemu/hardware.htm:159
+#: www/root/qemu/hardware.htm:177 www/root/qemu/hardware.htm:224
+msgid "Please select a device"
+msgstr "Kérem válasszon ki egy eszközt"
+
+#: www/root/vmlist/migrate.htm:43
+msgid "Please select a target node"
+msgstr "Kérem válasszon ki egy cél csomópontot"
+
+#: www/root/backup/index.htm:95
+msgid "Please select at least one day"
+msgstr "Kérem válasszon ki legalább egy napot"
+
+#: www/root/openvz/network.htm:159
+msgid "Please specify at least one DNS server."
+msgstr "Kérem válasszon ki legalább egy DNS szervert."
+
+#: www/root/login.pl:73
+msgid ""
+"Please use Microsoft Internet Explorer (> 6.0) or Firefox (> 1.5) for full "
+"functionality."
+msgstr ""
+"Kérem használjon Microsoft Internet Explorert (>6.0) vagy Firefoxot (>1.5) "
+"az összes funkció kihasználásához."
+
+#: www/root/storage/index.htm:52
+msgid "Portal"
+msgstr ""
+
+#: www/root/system/index.htm:341
+msgid "Ports/Slaves"
+msgstr "Portok/Szolgák"
+
+#: www/root/qemu/options.htm:192
+msgid "Real Time Clock"
+msgstr "Valós idejű óra (rtc)"
+
+#: www/root/logs/realtime.htm:13
+msgid "Realtime Logfile Query (last 100 lines)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:375 lib/PVE/HTMLUtils.pm:639
+#: www/root/openvz/index.htm:62 www/root/qemu/index.htm:56
+#: www/root/vmlist/index.htm:54
+#, fuzzy
+msgid "Remove"
+msgstr "Szerep"
+
+#: lib/PVE/HTMLUtils.pm:628
+msgid "Reset"
+msgstr "Alaphelyzet"
+
+#: lib/PVE/HTMLUtils.pm:692
+msgid "Resource"
+msgstr "Erőforrás"
+
+#: lib/PVE/HTMLUtils.pm:378 lib/PVE/HTMLUtils.pm:628
+#: www/root/server/index.htm:30 www/root/server/index.htm:32
+#: www/root/server/reboot.htm:39 www/root/system/reboot.htm:39
+msgid "Restart"
+msgstr "Újraindítás"
+
+#: www/root/server/index.htm:86
+msgid "Restart Server"
+msgstr "Szerver újraindítása"
+
+#: lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:828
+msgid "Role"
+msgstr "Szerep"
+
+#: www/root/logs/index.htm:30 www/root/vmlist/index.htm:60
+msgid "Running Maintainance Tasks"
+msgstr "Futó karbantartási feladatok"
+
+#: www/root/openvz/network.htm:205 www/root/system/dns.htm:55
+#: www/root/vmlist/create.htm:356
+msgid "Second DNS Server"
+msgstr "Második DNS szerver"
+
+#: www/root/qemu/options.htm:177
+msgid "Second boot device"
+msgstr "Második rendszerbetöltő eszköz"
+
+#: www/root/apl/download.htm:97
+#, fuzzy
+msgid "Section"
+msgstr "Kiválasztás"
+
+#: www/root/backup/index.htm:302
+msgid "Selection"
+msgstr "Kiválasztás"
+
+#: www/root/backup/index.htm:186
+msgid "Send email to"
+msgstr "Email küldése"
+
+#: www/root/nav_lvl1.epl:33 www/root/storage/index.htm:51
+msgid "Server"
+msgstr "Szerver"
+
+#: www/root/server/headline.epl:2
+msgid "Server Administration"
+msgstr "Szerver adminisztráció"
+
+#: www/root/logs/realtime.htm:32
+#, fuzzy
+msgid "Server Status"
+msgstr "Szinkronizáció állapota"
+
+#: www/root/server/reboot.htm:47 www/root/system/reboot.htm:47
+msgid ""
+"Server restart in progress. Please try to <a href='/'>reconnect</a> after "
+"the restart."
+msgstr ""
+"Szerver újraindítás folyamatban. Kérem próbáljon <a href='/'>újra "
+"csatlakozni</a> az újraindítás után."
+
+#: www/root/server/reboot.htm:45 www/root/system/reboot.htm:45
+msgid "Server shutdown in progress."
+msgstr "Szerver leállás folyamatban."
+
+#: www/root/logs/realtime.htm:19 www/root/server/index.htm:18
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#: www/root/server/nav_lvl3.epl:8
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: www/root/storage/index.htm:547 www/root/storage/index.htm:57
+msgid "Shared"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:379 lib/PVE/HTMLUtils.pm:633
+#: www/root/server/reboot.htm:36 www/root/system/reboot.htm:36
+msgid "Shutdown"
+msgstr "Leállítás"
+
+#: www/root/server/index.htm:87
+msgid "Shutdown Server"
+msgstr "Szerver leállítása"
+
+#: www/root/qemu/hardware.htm:490 www/root/qemu/hardware.htm:521
+msgid "Size"
+msgstr "Méret"
+
+#: www/root/storage/index.htm:400 www/root/storage/index.htm:430
+#: www/root/storage/index.htm:513
+#, fuzzy
+msgid "Size (GB)"
+msgstr "Méret"
+
+#: www/root/system/index.htm:296
+msgid "Slaves"
+msgstr "Szolgák"
+
+#: www/root/vmlist/migrate.htm:72
+msgid "Source Node"
+msgstr "Forrás csomópont"
+
+#: lib/PVE/HTMLUtils.pm:374 lib/PVE/HTMLUtils.pm:384 lib/PVE/HTMLUtils.pm:631
+#: www/root/server/index.htm:28
+msgid "Start"
+msgstr "Indítás"
+
+#: www/root/openvz/index.htm:145 www/root/qemu/index.htm:133
+#: www/root/vmlist/create.htm:225 www/root/vmlist/create.htm:266
+msgid "Start at boot"
+msgstr "Indítás rendszer induláskor"
+
+#: www/root/qemu/options.htm:213
+#, fuzzy
+msgid "Start date"
+msgstr "Kezdési idő"
+
+#: lib/PVE/HTMLUtils.pm:475 lib/PVE/HTMLUtils.pm:483
+#: www/root/backup/index.htm:207 www/root/backup/index.htm:300
+msgid "Start time"
+msgstr "Kezdési idő"
+
+#: lib/PVE/HTMLUtils.pm:829 www/root/server/index.htm:19
+msgid "State"
+msgstr "Állapot"
+
+#: lib/PVE/HTMLUtils.pm:1093 lib/PVE/HTMLUtils.pm:363 lib/PVE/HTMLUtils.pm:642
+#: www/root/backup/index.htm:224 www/root/openvz/index.htm:179
+#: www/root/openvz/nav_lvl3.epl:7 www/root/qemu/nav_lvl3.epl:7
+msgid "Status"
+msgstr "Státusz"
+
+#: lib/PVE/HTMLUtils.pm:380 lib/PVE/HTMLUtils.pm:493 lib/PVE/HTMLUtils.pm:637
+#: www/root/server/index.htm:29
+msgid "Stop"
+msgstr "Megállít"
+
+#: www/root/backup/index.htm:191 www/root/backup/index.htm:301
+#: www/root/nav_lvl1.epl:26 www/root/storage/headline.epl:2
+#, fuzzy
+msgid "Storage"
+msgstr "Állapot"
+
+#: www/root/storage/index.htm:388
+msgid "Storage '$storeid' is disabled"
+msgstr ""
+
+#: www/root/iso/index.htm:125
+msgid "Storage '%s'"
+msgstr ""
+
+#: www/root/storage/index.htm:571
+msgid "Storage List"
+msgstr ""
+
+#: www/root/storage/index.htm:47
+#, fuzzy
+msgid "Storage Name"
+msgstr "Híd neve"
+
+#: www/root/system/index.htm:277 www/root/system/index.htm:344
+msgid "Subnet Mask"
+msgstr "Alhálózati maszk"
+
+#: www/root/openvz/index.htm:149 www/root/openvz/index.htm:90
+#: www/root/vmlist/create.htm:234 www/root/vmlist/create.htm:57
+msgid "Swap"
+msgstr "Swap"
+
+#: lib/PVE/HTMLUtils.pm:754
+msgid "Swap Space"
+msgstr "Swap terület"
+
+#: lib/PVE/Cluster.pm:602
+msgid "Swap needs to be less than $max MB"
+msgstr "A swap mérete kevesebb kell legyen mint $max MB"
+
+#: lib/PVE/HTMLUtils.pm:782
+msgid "Sync Status"
+msgstr "Szinkronizáció állapota"
+
+#: lib/PVE/HTMLUtils.pm:780
+msgid "Synchronized Nodes"
+msgstr "Szinkronizált csomópontok"
+
+#: www/root/logs/nav_lvl3.epl:9 www/root/openvz/vmlogs/nav_lvl3.epl:9
+#: www/root/openvz/vmlogs/syslog.htm:25
+msgid "Syslog"
+msgstr "Rendszernapló"
+
+#: www/root/nav_lvl1.epl:25
+msgid "System"
+msgstr "Rendszer"
+
+#: www/root/system/headline.epl:2
+msgid "System Configuration"
+msgstr "Rendszerbeállítás"
+
+#: www/root/cluster/index.htm:20
+msgid "System Status for node '%s'"
+msgstr ""
+
+#: www/root/storage/index.htm:53
+#, fuzzy
+msgid "Target"
+msgstr "Cél csomópont"
+
+#: www/root/vmlist/migrate.htm:78
+msgid "Target Node"
+msgstr "Cél csomópont"
+
+#: www/root/logs/nav_lvl3.epl:8
+msgid "Tasks"
+msgstr "Feladatok"
+
+#: www/root/openvz/index.htm:134 www/root/vmlist/create.htm:216
+#: www/root/vmlist/create.htm:58
+msgid "Template"
+msgstr "Sablon"
+
+#: www/root/system/dns.htm:59
+msgid "Third DNS Server"
+msgstr "Harmadik DNS szerver"
+
+#: www/root/qemu/options.htm:181
+msgid "Third boot device"
+msgstr "Harmadik rendszerbetöltő eszköz"
+
+#: www/root/vmlist/create.htm:174
+msgid ""
+"This CPU does not support KVM virtual machines (no Intel VT / AMD-V support)."
+msgstr ""
+"Ez a processzor nem támogatja a KVM virtuális gépeket (nincs Intel VT / AMD-"
+"V támogatás)."
+
+#: lib/PVE/HTMLUtils.pm:142
+msgid "This information is only available on the master node."
+msgstr "A kért információ csak a mester csomóponton áll rendelkezésre."
+
+#: www/root/system/nav_lvl3.epl:10 www/root/system/time.htm:42
+msgid "Time"
+msgstr "Idő"
+
+#: www/root/system/time.htm:44
+msgid "Timezone"
+msgstr "Időzóna"
+
+#: www/root/qemu/index.htm:75
+msgid "To manny CPUs (Cores * Sockets > $maxcpus)"
+msgstr ""
+
+#: www/root/apl/download.htm:49 www/root/storage/index.htm:544
+#: www/root/vmlist/create.htm:201
+msgid "Type"
+msgstr "Típus"
+
+#: lib/PVE/HTMLUtils.pm:385 lib/PVE/HTMLUtils.pm:635
+msgid "Unmount"
+msgstr "Leválasztás"
+
+#: www/root/qemu/hardware.htm:522
+msgid "Unused disk images"
+msgstr "Használaton kívüli lemezképek"
+
+#: www/root/apl/index.htm:86 www/root/iso/index.htm:93
+msgid "Upload File"
+msgstr "Fájl feltöltése"
+
+#: lib/PVE/HTMLUtils.pm:365 lib/PVE/HTMLUtils.pm:661 lib/PVE/HTMLUtils.pm:673
+#: lib/PVE/HTMLUtils.pm:732 lib/PVE/HTMLUtils.pm:830
+msgid "Uptime"
+msgstr "Üzemidő"
+
+#: www/root/storage/index.htm:352
+msgid "Use LUNs directly"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:344
+msgid "Use an existing virtual disk"
+msgstr "Meglévő virtuális lemez használata"
+
+#: www/root/storage/index.htm:548
+msgid "Used (GB)"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:476 lib/PVE/HTMLUtils.pm:484
+msgid "User"
+msgstr "Felhasználó"
+
+#: www/root/login.pl:70
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: www/root/base.epl:70
+msgid "VM Manager"
+msgstr "VM menedzser"
+
+#: www/root/backup/index.htm:226
+msgid "VM Type"
+msgstr "VM típus"
+
+#: lib/PVE/HTMLUtils.pm:362 lib/PVE/HTMLUtils.pm:478 lib/PVE/HTMLUtils.pm:486
+#: www/root/backup/index.htm:223
+msgid "VMID"
+msgstr "VMID"
+
+#: www/root/storage/index.htm:246 www/root/storage/index.htm:529
+#, fuzzy
+msgid "VZDump Backups"
+msgstr "Biztonsági mentés"
+
+#: lib/PVE/HTMLUtils.pm:1024 lib/PVE/HTMLUtils.pm:768
+#: www/root/apl/download.htm:48
+msgid "Version"
+msgstr "Verzió"
+
+#: www/root/qemu/options.htm:197
+msgid "Video Graphics Adapter"
+msgstr "Videó grafikus kártya"
+
+#: www/root/storage/index.htm:241 www/root/storage/index.htm:447
+#, fuzzy
+msgid "Virtual Disks"
+msgstr "Virtuális Gépek"
+
+#: www/root/openvz/headline.epl:2 www/root/qemu/headline.epl:2
+msgid "Virtual Machine Configuration"
+msgstr "Virtuális Gép Konfiguráció"
+
+#: www/root/nav_lvl1.epl:10 www/root/vmlist/headline.epl:2
+msgid "Virtual Machines"
+msgstr "Virtuális Gépek"
+
+#: www/root/openvz/vmlogs/headline.epl:2
+#, fuzzy
+msgid "Virtual Machines Logs"
+msgstr "Virtuális Gépek"
+
+#: www/root/vmlist/create.htm:327
+msgid "Virtual Network (venet)"
+msgstr "Virtuális Hálózat (venet)"
+
+#: www/root/storage/index.htm:55
+msgid "Volume Group Name"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:491 www/root/storage/index.htm:398
+#: www/root/storage/index.htm:428 www/root/storage/index.htm:458
+#: www/root/storage/index.htm:485 www/root/storage/index.htm:512
+msgid "Volume ID"
+msgstr ""
+
+#: www/root/storage/index.htm:596 www/root/storage/index.htm:597
+#: www/root/storage/index.htm:598
+#, fuzzy
+msgid "Yes"
+msgstr "igen"
+
+#: www/root/base.epl:82
+msgid "You are logged in as '%s'"
+msgstr "Ön belépett, mint '%s'"
+
+#: www/root/login.pl:64
+msgid ""
+"You could not be logged on. Make sure your user name and password are "
+"correct, and then try again."
+msgstr ""
+"Ön nem tudott bejelentkezni. Kérem győződjön meg róla, hogy a belépési "
+"paraméterek helyesek és próbálja újra."
+
+#: www/root/login.pl:62
+msgid "You could not be logged on. Ticket is no longer valid."
+msgstr "Ön nem tudott bejelentkezni. A jegye már érvénytelen."
+
+#: lib/PVE/HTMLUtils.pm:140
+msgid "You do not have write access."
+msgstr "Önnek nincs írási jogosultsága."
+
+#: lib/PVE/HTMLForm.pm:365
+#, fuzzy
+msgid "create"
+msgstr "Létrehozás"
+
+#: lib/PVE/HTMLUtils.pm:333
+msgid "day"
+msgstr "nap"
+
+#: lib/PVE/HTMLUtils.pm:333
+msgid "days"
+msgstr "nap"
+
+#: www/root/system/index.htm:412
+msgid "hide changes"
+msgstr "változások elrejtése"
+
+#: www/root/qemu/options.htm:95
+msgid "invalid format for start date"
+msgstr ""
+
+#: www/root/system/options.htm:73
+msgid "invalid proxy syntax (http://server:port)"
+msgstr ""
+
+#: www/root/iso/index.htm:60
+msgid "missing '.iso' extension"
+msgstr ""
+
+#: lib/PVE/HTMLUtils.pm:1014
+msgid "name '%s' does not conform to template naming scheme"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:65
+msgid "no %s devices available"
+msgstr "%s eszközök nem állnak rendelkezésre"
+
+#: www/root/backup/index.htm:363
+msgid "no backup jobs defined"
+msgstr "nincsenek biztonsági mentési feladatok definiálva"
+
+#: www/root/backup/index.htm:115
+msgid "no backup storage defined - please create a backup storage first"
+msgstr ""
+
+#: www/root/apl/index.htm:123 www/root/iso/index.htm:128
+#: www/root/storage/index.htm:414 www/root/storage/index.htm:444
+#: www/root/storage/index.htm:470 www/root/storage/index.htm:497
+#: www/root/storage/index.htm:526
+msgid "no entries"
+msgstr ""
+
+#: lib/PVE/HTMLForm.pm:361
+msgid "save"
+msgstr "mentés"
+
+#: lib/PVE/HTMLForm.pm:363
+msgid "search"
+msgstr "keresés"
+
+#: lib/PVE/HTMLUtils.pm:656
+msgid "unknown"
+msgstr "ismeretlen"
+
+#: lib/PVE/HTMLForm.pm:367
+msgid "upload"
+msgstr "feltöltés"
+
+#: www/root/apl/index.htm:74 www/root/iso/index.htm:73
+msgid "upload successful"
+msgstr "a feltöltés sikeres"
+
+#: www/root/system/index.htm:410
+msgid "view changes"
+msgstr "változások megjelenítése"
+
+#~ msgid "HD Space data"
+#~ msgstr "HD tárterület adat"
+
+#~ msgid "Jobs"
+#~ msgstr "Feladatok"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP kiszolgáló"
+
+#~ msgid "apply"
+#~ msgstr "alkalmaz"
+
+#~ msgid "hour"
+#~ msgstr "óra"
+
+#~ msgid "hours"
+#~ msgstr "óra"
+
+#~ msgid "minute"
+#~ msgstr "perc"
+
+#~ msgid "minutes"
+#~ msgstr "perc"
+
+#~ msgid "second"
+#~ msgstr "másodperc"
+
+#~ msgid "seconds"
+#~ msgstr "másodperc"
+
+#~ msgid "no"
+#~ msgstr "nem"

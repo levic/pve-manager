@@ -1,0 +1,2544 @@
+# Language JA translations for pve-manager package.
+# Copyright (C) 2008 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 1.0\n"
+"Report-Msgid-Bugs-To: support@proxmox.com\n"
+"POT-Creation-Date: Wed Jan 20 10:14:05 2010\n"
+"PO-Revision-Date: 2010-01-20 01:09+0900\n"
+"Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
+"Language-Team: Language JA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/PVE/APLInfo.pm:220
+msgid "<b>Welcome</b> to the Proxmox Virtual Environment!"
+msgstr "Proxmox 仮想環境へ<b>ようこそ</b>!"
+
+#: www/root/storage/index.htm:546 www/root/system/index.htm:340
+msgid "Active"
+msgstr "有効"
+
+#: www/root/storage/index.htm:26
+msgid "Add Directory"
+msgstr "ディレクトリを追加"
+
+#: www/root/storage/index.htm:29
+msgid "Add ISCSI Target"
+msgstr "ISCSI ターゲットを追加"
+
+#: www/root/storage/index.htm:27
+msgid "Add LVM Group"
+msgstr "LVMグループを追加"
+
+#: www/root/storage/index.htm:28
+msgid "Add NFS Share"
+msgstr "NFS 共有を追加"
+
+#: www/root/qemu/hardware.htm:414 www/root/qemu/hardware.htm:466
+msgid "Add a CD-ROM drive"
+msgstr "CD-ROM ドライブを追加"
+
+#: www/root/qemu/hardware.htm:464
+msgid "Add a hard disk"
+msgstr "ハードディスクを追加"
+
+#: www/root/qemu/hardware.htm:446
+msgid "Add a network card"
+msgstr "ネットワークカードを追加"
+
+#: www/root/qemu/hardware.htm:465
+msgid "Add an ethernet device"
+msgstr "ドライブ全体を追加"
+
+#: www/root/system/nav_lvl3.epl:11
+msgid "Admin"
+msgstr "管理"
+
+#: www/root/base.epl:72
+msgid "Administration"
+msgstr "管理"
+
+#: www/root/system/admin.htm:33 www/root/system/admin.htm:61
+msgid "Administrator EMail"
+msgstr "管理者Ｅメール"
+
+#: www/root/system/admin.htm:73
+msgid "Administrator Options"
+msgstr "管理者オプション"
+
+#: www/root/apl/headline.epl:2 www/root/nav_lvl1.epl:11
+msgid "Appliance Templates"
+msgstr "テンプレート"
+
+#: lib/PVE/HTMLUtils.pm:1024
+msgid "Arch."
+msgstr "アーカイブ"
+
+#: lib/PVE/HTMLUtils.pm:144
+msgid ""
+"Are you sure you want to remove VM %s? This will permanently erase all VM "
+"data."
+msgstr ""
+"本当に VM %s を削除しますか? VM 上のデータはすべて削除されてしまい復元できな"
+"くなります。"
+
+#: www/root/system/index.htm:415 www/root/vmlist/create.htm:175
+#: www/root/vmlist/create.htm:179
+msgid "Attention"
+msgstr "注意"
+
+#: www/root/server/index.htm:20 www/root/system/index.htm:271
+#: www/root/system/index.htm:342
+msgid "Autostart"
+msgstr "自動スタート"
+
+#: www/root/backup/headline.epl:2 www/root/nav_lvl1.epl:27
+msgid "Backup"
+msgstr "バックアップ"
+
+#: www/root/backup/index.htm:314
+msgid "Backup Jobs"
+msgstr "バックアップジョブ"
+
+#: www/root/storage/index.htm:49
+msgid "Base Storage"
+msgstr "ベースストレージ"
+
+#: www/root/storage/index.htm:50
+msgid "Base Volume"
+msgstr "ベースボリューム"
+
+#: www/root/system/index.htm:260
+msgid "Bond name"
+msgstr "ボンド名"
+
+#: www/root/openvz/vmlogs/nav_lvl3.epl:7
+msgid "Boot/Init"
+msgstr "Boot/Init"
+
+#: www/root/qemu/hardware.htm:435 www/root/qemu/hardware.htm:593
+#: www/root/vmlist/create.htm:341 www/root/vmlist/create.htm:371
+msgid "Bridge"
+msgstr "ブリッジ"
+
+#: www/root/system/index.htm:287
+msgid "Bridge Ports"
+msgstr "ブリッジポート"
+
+#: www/root/system/index.htm:254
+msgid "Bridge name"
+msgstr "ブリッジ名"
+
+#: www/root/vmlist/create.htm:327
+msgid "Bridged Ethernet (veth)"
+msgstr "ブリッジイーサネット (veth)"
+
+#: www/root/openvz/network.htm:258
+msgid "Bridged Ethernet Devices"
+msgstr "ブリッジイーサネットデバイス"
+
+#: www/root/storage/index.htm:562 www/root/storage/index.htm:568
+msgid "Browse"
+msgstr "詳細"
+
+#: www/root/qemu/hardware.htm:297 www/root/qemu/hardware.htm:333
+#: www/root/qemu/hardware.htm:393 www/root/qemu/hardware.htm:488
+#: www/root/qemu/hardware.htm:554
+msgid "Bus"
+msgstr "バス"
+
+#: www/root/qemu/hardware.htm:588
+msgid "CD-ROM drives"
+msgstr "CD-ROM ドライブ"
+
+#: www/root/qemu/hardware.htm:397
+msgid "CDROM"
+msgstr "CDROM"
+
+#: lib/PVE/HTMLUtils.pm:477 lib/PVE/HTMLUtils.pm:485
+msgid "CID"
+msgstr "CID"
+
+#: lib/PVE/HTMLUtils.pm:368
+msgid "CPU"
+msgstr "CPU"
+
+#: www/root/qemu/index.htm:125 www/root/qemu/index.htm:70
+#: www/root/vmlist/create.htm:114 www/root/vmlist/create.htm:311
+msgid "CPU Sockets"
+msgstr "CPU ソケット"
+
+#: www/root/openvz/options.htm:45 www/root/openvz/options.htm:68
+#: www/root/qemu/options.htm:100 www/root/qemu/options.htm:189
+msgid "CPU Units"
+msgstr "CPU ユニット"
+
+#: lib/PVE/HTMLUtils.pm:700 lib/PVE/HTMLUtils.pm:737
+msgid "CPU Utilization"
+msgstr "CPU 使用率"
+
+#: www/root/openvz/index.htm:151 www/root/openvz/index.htm:92
+#: www/root/vmlist/create.htm:237 www/root/vmlist/create.htm:64
+msgid "CPUs"
+msgstr "CPUs"
+
+#: lib/PVE/HTMLUtils.pm:582
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: www/root/storage/index.htm:549
+msgid "Capacity (GB)"
+msgstr "容量 (GB)"
+
+#: www/root/server/nav_lvl3.epl:9
+msgid "Certificates"
+msgstr "証明書"
+
+#: www/root/apl/download.htm:73
+msgid "Certified Appliances"
+msgstr "認証済みアプライアンス"
+
+#: www/root/qemu/hardware.htm:414
+msgid "Change CD-ROM"
+msgstr "CD-ROM を変更"
+
+#: www/root/nav_lvl1.epl:35
+msgid "Cluster"
+msgstr "クラスタ"
+
+#: www/root/backup/index.htm:184 www/root/openvz/index.htm:140
+#: www/root/qemu/index.htm:117 www/root/vmlist/create.htm:219
+#: www/root/vmlist/create.htm:253
+msgid "Cluster Node"
+msgstr "クラスターノード"
+
+#: www/root/cluster/headline.epl:2
+msgid "Cluster Nodes"
+msgstr "クラスターノード"
+
+#: lib/PVE/HTMLUtils.pm:474 lib/PVE/HTMLUtils.pm:482
+#: www/root/openvz/vmlogs/nav_lvl3.epl:8
+msgid "Command"
+msgstr "コマンド"
+
+#: www/root/backup/index.htm:214
+msgid "Compress files"
+msgstr "ファイルを圧縮"
+
+#: www/root/base.epl:71 www/root/openvz/index.htm:172
+msgid "Configuration"
+msgstr "設定"
+
+#: www/root/nav_lvl1.epl:16 www/root/openvz/nav_lvl2.epl:6
+msgid "Configure"
+msgstr "設定"
+
+#: www/root/system/index.htm:230
+msgid "Configure bond '%s'"
+msgstr "ボンド '%s' を設定"
+
+#: www/root/system/index.htm:227
+msgid "Configure bridge '%s'"
+msgstr "ブリッジ '%s' を設定"
+
+#: www/root/system/index.htm:233
+msgid "Configure network interface '%s'"
+msgstr "ネットワークインターフェース '%s' を設定"
+
+#: lib/PVE/HTMLUtils.pm:586
+msgid "Confirm"
+msgstr "確認"
+
+#: www/root/system/admin.htm:67 www/root/vmlist/create.htm:242
+msgid "Confirm Password"
+msgstr "パスワードの確認"
+
+#: lib/PVE/HTMLUtils.pm:381
+msgid "Console"
+msgstr "コンソール"
+
+#: www/root/storage/index.htm:58
+msgid "Content"
+msgstr "内容"
+
+#: www/root/storage/index.htm:391
+msgid "Content of Storage '%s'"
+msgstr "ストレージ '%s' の内容"
+
+#: www/root/qemu/index.htm:129 www/root/qemu/index.htm:71
+msgid "Cores/Socket"
+msgstr "コア/ソケット"
+
+#: www/root/vmlist/nav_lvl3.epl:12
+msgid "Create"
+msgstr "作成"
+
+#: www/root/qemu/hardware.htm:309
+msgid "Create a new virtual disk"
+msgstr "新規仮想ディスクを作成"
+
+#: www/root/system/index.htm:242 www/root/system/index.htm:353
+msgid "Create bonding device"
+msgstr "ボンディングデバイスを作成"
+
+#: www/root/system/index.htm:240 www/root/system/index.htm:352
+msgid "Create bridge device"
+msgstr "ブリッジデバイスを作成"
+
+#: www/root/backup/index.htm:277 www/root/backup/index.htm:308
+msgid "Create new job"
+msgstr "新規ジョブを作成"
+
+#: lib/PVE/HTMLUtils.pm:693
+msgid "Current"
+msgstr "現在値"
+
+#: www/root/openvz/network.htm:150 www/root/openvz/network.htm:203
+#: www/root/vmlist/create.htm:332 www/root/vmlist/create.htm:60
+msgid "DNS Domain"
+msgstr "DNS ドメイン"
+
+#: www/root/openvz/network.htm:214 www/root/system/dns.htm:65
+msgid "DNS settings"
+msgstr "DNS 設定"
+
+#: www/root/system/time.htm:41
+msgid "Date"
+msgstr "日付"
+
+#: www/root/backup/index.htm:203
+msgid "Day of Week"
+msgstr "曜日"
+
+#: www/root/vmlist/migrate.htm:88
+msgid "Define migration task"
+msgstr "マイグレーションタスクを定義"
+
+#: lib/PVE/HTMLUtils.pm:784
+msgid "Delay (minutes)"
+msgstr "遅延（分）"
+
+#: www/root/apl/index.htm:97 www/root/backup/index.htm:311
+#: www/root/iso/index.htm:102 www/root/qemu/hardware.htm:468
+#: www/root/qemu/hardware.htm:472 www/root/qemu/hardware.htm:475
+#: www/root/storage/index.htm:563 www/root/system/index.htm:357
+msgid "Delete"
+msgstr "削除"
+
+#: www/root/qemu/hardware.htm:470
+msgid "Delete from disk"
+msgstr "ディスクから削除"
+
+#: www/root/apl/download.htm:47 www/root/apl/index.htm:92
+#: www/root/server/index.htm:21
+msgid "Description"
+msgstr "説明"
+
+#: www/root/backup/index.htm:197 www/root/backup/index.htm:301
+msgid "Destination"
+msgstr "保存先"
+
+#: www/root/backup/index.htm:81
+msgid "Destination directory '%s' does not exist"
+msgstr "保存先ディレクトリ '%s' は存在しません"
+
+#: www/root/qemu/hardware.htm:302 www/root/qemu/hardware.htm:337
+#: www/root/qemu/hardware.htm:400 www/root/qemu/hardware.htm:489
+#: www/root/qemu/hardware.htm:555
+msgid "Device"
+msgstr "デバイス"
+
+#: www/root/storage/index.htm:48
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: www/root/storage/index.htm:565
+msgid "Disable"
+msgstr "無効にする"
+
+#: www/root/system/index.htm:354
+msgid "Discard all changes"
+msgstr "すべての変更を破棄"
+
+#: lib/PVE/HTMLUtils.pm:366
+msgid "Disk"
+msgstr "ディスク"
+
+#: www/root/qemu/hardware.htm:229 www/root/qemu/hardware.htm:276
+#: www/root/vmlist/create.htm:110 www/root/vmlist/create.htm:277
+msgid "Disk Storage"
+msgstr "ディスクストレージ"
+
+#: www/root/backup/index.htm:227
+msgid "Disk size"
+msgstr "ディスクサイズ"
+
+#: lib/PVE/HTMLUtils.pm:710 www/root/openvz/index.htm:138
+#: www/root/openvz/index.htm:91 www/root/qemu/hardware.htm:238
+#: www/root/qemu/hardware.htm:293 www/root/vmlist/create.htm:123
+#: www/root/vmlist/create.htm:231 www/root/vmlist/create.htm:293
+#: www/root/vmlist/create.htm:62
+msgid "Disk space"
+msgstr "ディスク使用量"
+
+#: www/root/vmlist/create.htm:299
+msgid "Disk type"
+msgstr "ディスクタイプ"
+
+#: www/root/server/reboot.htm:38 www/root/system/reboot.htm:38
+msgid "Do you really want to restart the Server?"
+msgstr "本当にサーバーを再起動しますか？"
+
+#: www/root/server/reboot.htm:35 www/root/system/reboot.htm:35
+msgid "Do you really want to shutdown the Server?"
+msgstr "本当にサーバーをシャットダウンしますか？"
+
+#: www/root/system/dns.htm:53
+msgid "Domain"
+msgstr "ドメイン"
+
+#: www/root/apl/download.htm:54 www/root/apl/nav_lvl3.epl:9
+msgid "Download"
+msgstr "ダウンロード"
+
+#: www/root/server/certs.htm:15
+msgid "Download server <a href='%s'>certficate</a>."
+msgstr "サーバー証明書を<a href='%s'>ダウンロード</a>"
+
+#: www/root/backup/index.htm:310 www/root/qemu/hardware.htm:474
+#: www/root/storage/index.htm:561 www/root/storage/index.htm:567
+#: www/root/system/index.htm:356
+msgid "Edit"
+msgstr "編集"
+
+#: www/root/storage/index.htm:33
+msgid "Edit Directory"
+msgstr "ディレクトリを編集"
+
+#: www/root/storage/index.htm:36
+msgid "Edit ISCSI Target"
+msgstr "ISCSI ターゲットを編集"
+
+#: www/root/storage/index.htm:34
+msgid "Edit LVM Group"
+msgstr "LVM グループを編集"
+
+#: www/root/storage/index.htm:35
+msgid "Edit NFS Share"
+msgstr "NFS 共有を編集"
+
+#: www/root/backup/index.htm:277
+msgid "Edit backup job"
+msgstr "バックアップジョブを編集"
+
+#: www/root/storage/index.htm:56 www/root/storage/index.htm:564
+msgid "Enable"
+msgstr "有効にする"
+
+#: www/root/openvz/options.htm:71
+msgid "Enable User Quotas"
+msgstr "ユーザークオータを使用"
+
+#: www/root/storage/index.htm:545
+msgid "Enabled"
+msgstr "有効"
+
+#: www/root/base.epl:84
+msgid "Error"
+msgstr "エラー"
+
+#: www/root/qemu/hardware.htm:625
+msgid "Ethernet devices"
+msgstr "イーサネットデバイス"
+
+#: www/root/qemu/hardware.htm:331
+msgid "Existing Disks"
+msgstr "既存のディスク"
+
+#: www/root/storage/index.htm:54
+msgid "Export"
+msgstr "エクスポート"
+
+#: lib/PVE/HTMLUtils.pm:86 lib/PVE/HTMLUtils.pm:88
+msgid "Field '%s' contains invalid characters"
+msgstr "フィールド '%s' に無効な文字があります"
+
+#: lib/PVE/HTMLUtils.pm:99
+msgid "Field '%s' does not look like a valid IP address"
+msgstr "フィールド '%s' は正しいIPアドレスではないようです"
+
+#: lib/PVE/HTMLUtils.pm:124
+msgid "Field '%s' does not look like a valid ISCSI portal"
+msgstr "フィールド '%s' は正しい ISCSI ポータルではないようです"
+
+#: lib/PVE/HTMLUtils.pm:95
+msgid "Field '%s' does not look like a valid email address"
+msgstr "フィールド '%s' は正しいEメールアドレスではないようです"
+
+#: lib/PVE/HTMLUtils.pm:108
+msgid "Field '%s' does not look like a valid server address"
+msgstr "フィールド '%s' のサーバーアドレスでは正しくないようです"
+
+#: lib/PVE/HTMLUtils.pm:103
+msgid ""
+"Field '%s' does not look like no valid MAC address (required format: XX:XX:"
+"XX:XX:XX:XX)"
+msgstr ""
+"フィールド '%s' のMACアドレスは正しくないようです (正しい形式: XX:XX:XX:XX:"
+"XX:XX)"
+
+#: lib/PVE/HTMLUtils.pm:75
+msgid "Field '%s' is above maximum ($value > $max)"
+msgstr "フィールド '%s' は最大値を越えています ($value > $max)"
+
+#: lib/PVE/HTMLUtils.pm:72
+msgid "Field '%s' is below minimum ($value < $min)"
+msgstr "フィールド '%s' は最小値を下回っています ($value < $min)"
+
+#: lib/PVE/HTMLUtils.pm:92
+msgid "Field '%s' is no valid html color (required format: #XXXXXX)"
+msgstr ""
+"フィールド '%s' の html 色指定は正しくないようです (正しい形式: #XXXXXX)"
+
+#: lib/PVE/HTMLUtils.pm:84
+msgid "Field '%s' must not be empty"
+msgstr "フィールド '%s' が空ではいけません"
+
+#: lib/PVE/HTMLUtils.pm:126 lib/PVE/HTMLUtils.pm:128
+msgid "Field '%s' must not contain special characters"
+msgstr "フィールド '%s' に特殊文字は使用できません"
+
+#: lib/PVE/HTMLUtils.pm:90
+msgid "Field '%s' must not contain white spaces"
+msgstr "フィールド '%s' に空白文字は使用できません"
+
+#: www/root/apl/index.htm:93 www/root/iso/index.htm:108
+msgid "File name"
+msgstr "ファイル名"
+
+#: www/root/logs/realtime.htm:17
+msgid "Filter expression"
+msgstr "フィルター"
+
+#: www/root/logs/index.htm:33
+msgid "Finished Maintainance Tasks"
+msgstr "完了したメンテナンスタスク"
+
+#: www/root/openvz/network.htm:199 www/root/system/dns.htm:50
+#: www/root/vmlist/create.htm:343 www/root/vmlist/create.htm:350
+msgid "First DNS Server"
+msgstr "プライマリ DNS サーバー"
+
+#: www/root/qemu/options.htm:173
+msgid "First boot device"
+msgstr "プライマリ ブートデバイス"
+
+#: lib/PVE/APLInfo.pm:222
+msgid "For more information please visit our homepage at"
+msgstr "詳しくは次のホームページを参照してください："
+
+#: www/root/storage/index.htm:92
+msgid "Found no exports"
+msgstr "エクスポートがありません"
+
+#: www/root/storage/index.htm:99
+msgid "Found no unused targets"
+msgstr "未使用のターゲットがありません"
+
+#: www/root/qemu/options.htm:209
+msgid "Freeze CPU at startup"
+msgstr "起動時にCPUを停止させる"
+
+#: www/root/system/index.htm:305 www/root/system/index.htm:345
+msgid "Gateway"
+msgstr "ゲートウェイ"
+
+#: www/root/openvz/nav_lvl2.epl:12
+msgid "General"
+msgstr "全般"
+
+#: www/root/openvz/options.htm:76
+msgid "Grace period (seconds)"
+msgstr "猶予期間 (秒)"
+
+#: www/root/qemu/index.htm:115 www/root/vmlist/create.htm:305
+msgid "Guest Type"
+msgstr "ゲストのタイプ"
+
+#: lib/PVE/HTMLUtils.pm:763
+msgid "HD Space root"
+msgstr "HD スペースのルート"
+
+#: www/root/system/options.htm:131
+msgid "HTTP Proxy"
+msgstr "HTTP プロキシ設定"
+
+#: www/root/qemu/hardware.htm:550
+msgid "Hard disks"
+msgstr "ハードディスク"
+
+#: www/root/qemu/nav_lvl3.epl:8
+msgid "Hardware"
+msgstr "ハードウェア"
+
+#: www/root/qemu/hardware.htm:480
+msgid "Hardware device list for VM %s"
+msgstr "VM %s のハードウェアデバイス一覧"
+
+#: www/root/base.epl:85
+msgid "Home"
+msgstr "ホーム"
+
+#: lib/PVE/HTMLUtils.pm:660 lib/PVE/HTMLUtils.pm:826
+#: www/root/openvz/network.htm:149 www/root/openvz/network.htm:197
+#: www/root/system/dns.htm:48 www/root/vmlist/create.htm:223
+#: www/root/vmlist/create.htm:59
+msgid "Hostname"
+msgstr "ホスト名"
+
+#: www/root/cluster/nav_lvl3.epl:8
+msgid "Hosts"
+msgstr "ホスト"
+
+#: lib/PVE/HTMLUtils.pm:740
+msgid "IO Delays"
+msgstr "IO 遅延"
+
+#: lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:670 lib/PVE/HTMLUtils.pm:781
+#: lib/PVE/HTMLUtils.pm:827 www/root/openvz/network.htm:223
+#: www/root/system/index.htm:269 www/root/system/index.htm:343
+#: www/root/vmlist/create.htm:348
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: www/root/qemu/hardware.htm:235 www/root/vmlist/create.htm:120
+msgid "ISCSI Device"
+msgstr "ISCSI デバイス"
+
+#: www/root/qemu/hardware.htm:290 www/root/vmlist/create.htm:290
+msgid "ISCSI Devive"
+msgstr "ISCSI デバイス"
+
+#: www/root/storage/index.htm:417
+msgid "ISCSI LUN list"
+msgstr "ISCSI LUN リスト"
+
+#: www/root/iso/index.htm:87
+msgid "ISO Image"
+msgstr "ISO イメージ"
+
+#: www/root/iso/headline.epl:2 www/root/iso/index.htm:126
+#: www/root/nav_lvl1.epl:12 www/root/storage/index.htm:242
+#: www/root/storage/index.htm:473
+msgid "ISO Images"
+msgstr "ISO イメージ"
+
+#: www/root/iso/index.htm:84 www/root/qemu/hardware.htm:390
+#: www/root/vmlist/create.htm:250
+msgid "ISO Storage"
+msgstr "ISO ストレージ"
+
+#: www/root/qemu/hardware.htm:279 www/root/vmlist/create.htm:280
+msgid "Image Format"
+msgstr "イメージ形式"
+
+#: www/root/backup/index.htm:194 www/root/backup/index.htm:199
+msgid "Include all VMs"
+msgstr "すべてのVMを含む"
+
+#: www/root/vmlist/create.htm:263
+msgid "Installation Media"
+msgstr "インストールメディア"
+
+#: www/root/system/index.htm:339
+msgid "Interface"
+msgstr "インターフェース"
+
+#: www/root/system/index.htm:360
+msgid "Interface configuration"
+msgstr "インターフェース設定"
+
+#: www/root/openvz/network.htm:128
+msgid "Invalid IP address '%s'"
+msgstr "IPアドレス '%s' が不正です"
+
+#: www/root/login.pl:74
+msgid "JavaScript is active: ok."
+msgstr "JavaScript: 有効"
+
+#: www/root/login.pl:75
+msgid ""
+"JavaScript is not available. Please activate it in your browser "
+"configuration."
+msgstr ""
+"JavaScript が利用できません。ブラウザの設定を変更して有効にしてください。"
+
+#: www/root/vmlist/create.htm:178
+msgid ""
+"KVM module not loaded. Maybe you need to enable Intel VT / AMD-V support in "
+"the BIOS."
+msgstr ""
+"KVMモジュールがロードされていません。BIOSで Intel VT / AMD-Vサポートを有効に"
+"する必要があると思われます。"
+
+#: lib/PVE/HTMLUtils.pm:770
+msgid "Kernel Version"
+msgstr "カーネルのバージョン"
+
+#: www/root/system/options.htm:126
+msgid "Keyboard Layout"
+msgstr "キーボードレイアウト"
+
+#: www/root/system/options.htm:103
+msgid "Language"
+msgstr "言語"
+
+#: lib/PVE/HTMLUtils.pm:783
+msgid "Last succesfull sync"
+msgstr "最新同期日時"
+
+#: www/root/vmlist/nav_lvl3.epl:10
+msgid "List"
+msgstr "リスト"
+
+#: www/root/apl/nav_lvl3.epl:8
+msgid "Local"
+msgstr "ローカル"
+
+#: www/root/base.epl:83
+msgid "Logout"
+msgstr "ログアウト"
+
+#: www/root/logs/headline.epl:2 www/root/nav_lvl1.epl:34
+#: www/root/openvz/nav_lvl2.epl:13
+msgid "Logs"
+msgstr "ログ"
+
+#: www/root/openvz/network.htm:101 www/root/openvz/network.htm:247
+#: www/root/qemu/hardware.htm:210 www/root/qemu/hardware.htm:439
+#: www/root/vmlist/create.htm:113 www/root/vmlist/create.htm:345
+#: www/root/vmlist/create.htm:379 www/root/vmlist/create.htm:63
+msgid "MAC Address"
+msgstr "MAC アドレス"
+
+#: www/root/qemu/hardware.htm:595
+msgid "MAC address"
+msgstr "MAC アドレス"
+
+#: lib/PVE/HTMLUtils.pm:1112
+msgid "Master"
+msgstr "マスター"
+
+#: lib/PVE/HTMLUtils.pm:694
+msgid "Maximum"
+msgstr "最大値"
+
+#: www/root/openvz/options.htm:74
+msgid "Maximum user/group IDs"
+msgstr "ユーザ/グループIDの最大値"
+
+#: www/root/qemu/hardware.htm:557
+msgid "Media"
+msgstr "メディア"
+
+#: lib/PVE/HTMLUtils.pm:367 lib/PVE/HTMLUtils.pm:715
+#: www/root/openvz/index.htm:143 www/root/openvz/index.htm:89
+#: www/root/qemu/index.htm:123 www/root/vmlist/create.htm:111
+#: www/root/vmlist/create.htm:229 www/root/vmlist/create.htm:309
+#: www/root/vmlist/create.htm:56
+msgid "Memory"
+msgstr "メモリ"
+
+#: lib/PVE/Cluster.pm:590
+msgid "Memory needs to be at least $min MB"
+msgstr "少なくとも $min MB のメモリが必要です"
+
+#: lib/PVE/Cluster.pm:593
+msgid "Memory needs to be less than $max MB"
+msgstr "メモリは $max MB 以下でなくてはなりません"
+
+#: lib/PVE/HTMLUtils.pm:706
+msgid "Memory/Swap"
+msgstr "メモリ/スワップ"
+
+#: lib/PVE/HTMLUtils.pm:376 lib/PVE/HTMLUtils.pm:382
+#: www/root/vmlist/nav_lvl3.epl:13
+msgid "Migrate"
+msgstr "マイグレート"
+
+#: www/root/backup/index.htm:210 www/root/system/index.htm:313
+msgid "Mode"
+msgstr "モード"
+
+#: www/root/qemu/hardware.htm:432 www/root/qemu/hardware.htm:592
+msgid "Model"
+msgstr "モデル"
+
+#: lib/PVE/HTMLForm.pm:327 www/root/backup/index.htm:288
+msgid "Mon Tue Wed Thu Fri Sat Sun"
+msgstr "月  火  水  木  金  土  日"
+
+#: www/root/qemu/nav_lvl3.epl:10
+msgid "Monitor"
+msgstr "モニタ"
+
+#: www/root/system/time.htm:50
+msgid "NTP Server settings"
+msgstr "NTP サーバーの設定"
+
+#: lib/PVE/HTMLUtils.pm:1024 lib/PVE/HTMLUtils.pm:1071
+#: lib/PVE/HTMLUtils.pm:1093 lib/PVE/HTMLUtils.pm:364
+#: www/root/backup/index.htm:225 www/root/qemu/index.htm:112
+#: www/root/qemu/index.htm:69 www/root/vmlist/create.htm:112
+#: www/root/vmlist/create.htm:303
+msgid "Name"
+msgstr "名前"
+
+#: www/root/openvz/nav_lvl3.epl:8 www/root/system/nav_lvl3.epl:8
+#: www/root/vmlist/create.htm:386
+msgid "Network"
+msgstr "ネットワーク"
+
+#: www/root/openvz/network.htm:231
+msgid "Network Addresses (venet)"
+msgstr "ネットワークアドレス (venet)"
+
+#: www/root/vmlist/create.htm:374
+msgid "Network Card"
+msgstr "ネットワークカード"
+
+#: www/root/vmlist/create.htm:329
+msgid "Network Type"
+msgstr "ネットワークタイプ"
+
+#: www/root/system/index.htm:405
+msgid "Network configuration changed."
+msgstr "ネットワークの設定が変更されました。"
+
+#: www/root/storage/index.htm:596 www/root/storage/index.htm:597
+#: www/root/storage/index.htm:598
+msgid "No"
+msgstr "いいえ"
+
+#: www/root/storage/index.htm:386
+msgid "No such Storage ID '$storeid'"
+msgstr "ID が '$storeid' というストレージはありません"
+
+#: lib/PVE/HTMLUtils.pm:1113 www/root/backup/index.htm:292
+msgid "Node"
+msgstr "ノード"
+
+#: lib/PVE/HTMLUtils.pm:453 www/root/backup/index.htm:265
+msgid "Node has no VMs"
+msgstr "ノードにはVMがありません"
+
+#: www/root/openvz/index.htm:161 www/root/qemu/index.htm:144
+msgid "Notes"
+msgstr "メモ"
+
+#: lib/PVE/HTMLUtils.pm:251 lib/PVE/HTMLUtils.pm:278 lib/PVE/HTMLUtils.pm:526
+#: www/root/openvz/vmlogs/command.htm:40
+msgid "Nothing to view"
+msgstr "表示できるものがありません"
+
+#: lib/PVE/HTMLUtils.pm:1024
+msgid "OS"
+msgstr "OS"
+
+#: www/root/vmlist/migrate.htm:81
+msgid "Online migration"
+msgstr "オンラインマイグレーション"
+
+#: www/root/vmlist/migrate.htm:24
+msgid "Only one cluster node defined - no migration possible."
+msgstr ""
+"クラスターノードがひとつしか定義されていません - マイグレーションできません。"
+
+#: lib/PVE/HTMLUtils.pm:667
+msgid "Open VNC console"
+msgstr "VNCコンソールを開く"
+
+#: www/root/storage/index.htm:244
+msgid "OpenVZ Containers"
+msgstr "OpenVZ コンテナ"
+
+#: www/root/apl/index.htm:127 www/root/storage/index.htm:245
+#: www/root/storage/index.htm:500
+msgid "OpenVZ Templates"
+msgstr "OpenVZ テンプレート"
+
+#: www/root/openvz/nav_lvl3.epl:9 www/root/openvz/options.htm:88
+#: www/root/qemu/nav_lvl3.epl:9 www/root/qemu/options.htm:223
+#: www/root/system/nav_lvl3.epl:12 www/root/system/options.htm:138
+msgid "Options"
+msgstr "オプション"
+
+#: www/root/apl/download.htm:50
+msgid "Package name"
+msgstr "パッケージ名"
+
+#: www/root/login.pl:71 www/root/system/admin.htm:64
+#: www/root/vmlist/create.htm:239 www/root/vmlist/create.htm:61
+msgid "Password"
+msgstr "パスワード"
+
+#: www/root/system/admin.htm:39 www/root/vmlist/create.htm:67
+msgid "Password is too short"
+msgstr "パスワードが短すぎます"
+
+#: www/root/system/admin.htm:38 www/root/vmlist/create.htm:66
+msgid "Passwords does not match"
+msgstr "パスワードが一致していません"
+
+#: lib/PVE/HTMLUtils.pm:744
+msgid "Physical Memory"
+msgstr "物理メモリ"
+
+#: www/root/system/index.htm:406
+msgid "Please <a href='%s'>reboot</a> to activate changes."
+msgstr "変更を反映するには<a href='%s'>リブート</a>して下さい"
+
+#: www/root/vmlist/migrate.htm:42
+msgid "Please select a VM"
+msgstr "VMを選択して下さい"
+
+#: www/root/qemu/hardware.htm:139 www/root/qemu/hardware.htm:159
+#: www/root/qemu/hardware.htm:177 www/root/qemu/hardware.htm:224
+msgid "Please select a device"
+msgstr "デバイスを選択して下さい"
+
+#: www/root/vmlist/migrate.htm:43
+msgid "Please select a target node"
+msgstr "ターゲットのノードを選択して下さい"
+
+#: www/root/backup/index.htm:95
+msgid "Please select at least one day"
+msgstr "少なくとも一日は選択して下さい"
+
+#: www/root/openvz/network.htm:159
+msgid "Please specify at least one DNS server."
+msgstr "DNS サーバーを少なくともひとつは指定して下さい。"
+
+#: www/root/login.pl:73
+msgid ""
+"Please use Microsoft Internet Explorer (> 6.0) or Firefox (> 1.5) for full "
+"functionality."
+msgstr ""
+"すべての機能を使えるようにするには、Microsoft Internet Explorer (> 6.0)もしく"
+"は Firefox (> 1.5) を使用してください"
+
+#: www/root/storage/index.htm:52
+msgid "Portal"
+msgstr "ポータル"
+
+#: www/root/system/index.htm:341
+msgid "Ports/Slaves"
+msgstr "ポート/スレーブ"
+
+#: www/root/qemu/options.htm:192
+msgid "Real Time Clock"
+msgstr "リアルタイムクロック"
+
+#: www/root/logs/realtime.htm:13
+msgid "Realtime Logfile Query (last 100 lines)"
+msgstr "リアルタイムログファイル照会 (最新100行)"
+
+#: lib/PVE/HTMLUtils.pm:375 lib/PVE/HTMLUtils.pm:639
+#: www/root/openvz/index.htm:62 www/root/qemu/index.htm:56
+#: www/root/vmlist/index.htm:54
+msgid "Remove"
+msgstr "削除"
+
+#: lib/PVE/HTMLUtils.pm:628
+msgid "Reset"
+msgstr "リセット"
+
+#: lib/PVE/HTMLUtils.pm:692
+msgid "Resource"
+msgstr "リソース"
+
+#: lib/PVE/HTMLUtils.pm:378 lib/PVE/HTMLUtils.pm:628
+#: www/root/server/index.htm:30 www/root/server/index.htm:32
+#: www/root/server/reboot.htm:39 www/root/system/reboot.htm:39
+msgid "Restart"
+msgstr "再起動"
+
+#: www/root/server/index.htm:86
+msgid "Restart Server"
+msgstr "サーバーを再起動する"
+
+#: lib/PVE/HTMLUtils.pm:1071 lib/PVE/HTMLUtils.pm:828
+msgid "Role"
+msgstr "役割"
+
+#: www/root/logs/index.htm:30 www/root/vmlist/index.htm:60
+msgid "Running Maintainance Tasks"
+msgstr "実行中のメンテナンスタスク"
+
+#: www/root/openvz/network.htm:205 www/root/system/dns.htm:55
+#: www/root/vmlist/create.htm:356
+msgid "Second DNS Server"
+msgstr "セカンダリ DNS サーバー"
+
+#: www/root/qemu/options.htm:177
+msgid "Second boot device"
+msgstr "セカンダリ ブートデバイス"
+
+#: www/root/apl/download.htm:97
+msgid "Section"
+msgstr "セクション"
+
+#: www/root/backup/index.htm:302
+msgid "Selection"
+msgstr "選択"
+
+#: www/root/backup/index.htm:186
+msgid "Send email to"
+msgstr "メールを送信"
+
+#: www/root/nav_lvl1.epl:33 www/root/storage/index.htm:51
+msgid "Server"
+msgstr "サーバー"
+
+#: www/root/server/headline.epl:2
+msgid "Server Administration"
+msgstr "サーバー管理"
+
+#: www/root/logs/realtime.htm:32
+msgid "Server Status"
+msgstr "サーバーステータス"
+
+#: www/root/server/reboot.htm:47 www/root/system/reboot.htm:47
+msgid ""
+"Server restart in progress. Please try to <a href='/'>reconnect</a> after "
+"the restart."
+msgstr ""
+"サーバーを再起動しています。再起動後に改めて<a href='/'>接続</a>してくださ"
+"い。"
+
+#: www/root/server/reboot.htm:45 www/root/system/reboot.htm:45
+msgid "Server shutdown in progress."
+msgstr "サーバーをシャットダウンしています"
+
+#: www/root/logs/realtime.htm:19 www/root/server/index.htm:18
+msgid "Service"
+msgstr "サービス"
+
+#: www/root/server/nav_lvl3.epl:8
+msgid "Services"
+msgstr "サービス"
+
+#: www/root/storage/index.htm:547 www/root/storage/index.htm:57
+msgid "Shared"
+msgstr "共有"
+
+#: lib/PVE/HTMLUtils.pm:379 lib/PVE/HTMLUtils.pm:633
+#: www/root/server/reboot.htm:36 www/root/system/reboot.htm:36
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+#: www/root/server/index.htm:87
+msgid "Shutdown Server"
+msgstr "サーバーをシャットダウンする"
+
+#: www/root/qemu/hardware.htm:490 www/root/qemu/hardware.htm:521
+msgid "Size"
+msgstr "サイズ"
+
+#: www/root/storage/index.htm:400 www/root/storage/index.htm:430
+#: www/root/storage/index.htm:513
+msgid "Size (GB)"
+msgstr "サイズ (GB)"
+
+#: www/root/system/index.htm:296
+msgid "Slaves"
+msgstr "スレーブ"
+
+#: www/root/vmlist/migrate.htm:72
+msgid "Source Node"
+msgstr "ソースノード"
+
+#: lib/PVE/HTMLUtils.pm:374 lib/PVE/HTMLUtils.pm:384 lib/PVE/HTMLUtils.pm:631
+#: www/root/server/index.htm:28
+msgid "Start"
+msgstr "起動"
+
+#: www/root/openvz/index.htm:145 www/root/qemu/index.htm:133
+#: www/root/vmlist/create.htm:225 www/root/vmlist/create.htm:266
+msgid "Start at boot"
+msgstr "ブート時に起動"
+
+#: www/root/qemu/options.htm:213
+msgid "Start date"
+msgstr "開始日"
+
+#: lib/PVE/HTMLUtils.pm:475 lib/PVE/HTMLUtils.pm:483
+#: www/root/backup/index.htm:207 www/root/backup/index.htm:300
+msgid "Start time"
+msgstr "開始時間"
+
+#: lib/PVE/HTMLUtils.pm:829 www/root/server/index.htm:19
+msgid "State"
+msgstr "状態"
+
+#: lib/PVE/HTMLUtils.pm:1093 lib/PVE/HTMLUtils.pm:363 lib/PVE/HTMLUtils.pm:642
+#: www/root/backup/index.htm:224 www/root/openvz/index.htm:179
+#: www/root/openvz/nav_lvl3.epl:7 www/root/qemu/nav_lvl3.epl:7
+msgid "Status"
+msgstr "ステータス"
+
+#: lib/PVE/HTMLUtils.pm:380 lib/PVE/HTMLUtils.pm:493 lib/PVE/HTMLUtils.pm:637
+#: www/root/server/index.htm:29
+msgid "Stop"
+msgstr "停止"
+
+#: www/root/backup/index.htm:191 www/root/backup/index.htm:301
+#: www/root/nav_lvl1.epl:26 www/root/storage/headline.epl:2
+msgid "Storage"
+msgstr "ストレージ"
+
+#: www/root/storage/index.htm:388
+msgid "Storage '$storeid' is disabled"
+msgstr "ストレージ '$storeid' は使用されていません"
+
+#: www/root/iso/index.htm:125
+msgid "Storage '%s'"
+msgstr "ストレージ '%s'"
+
+#: www/root/storage/index.htm:571
+msgid "Storage List"
+msgstr "ストレージリスト"
+
+#: www/root/storage/index.htm:47
+msgid "Storage Name"
+msgstr "ストレージ名"
+
+#: www/root/system/index.htm:277 www/root/system/index.htm:344
+msgid "Subnet Mask"
+msgstr "サブネットマスク"
+
+#: www/root/openvz/index.htm:149 www/root/openvz/index.htm:90
+#: www/root/vmlist/create.htm:234 www/root/vmlist/create.htm:57
+msgid "Swap"
+msgstr "スワップ"
+
+#: lib/PVE/HTMLUtils.pm:754
+msgid "Swap Space"
+msgstr "スワップスペース"
+
+#: lib/PVE/Cluster.pm:602
+msgid "Swap needs to be less than $max MB"
+msgstr "スワップ領域は $max MB 以下でなくてはなりません"
+
+#: lib/PVE/HTMLUtils.pm:782
+msgid "Sync Status"
+msgstr "ステータスを同期"
+
+#: lib/PVE/HTMLUtils.pm:780
+msgid "Synchronized Nodes"
+msgstr "同期されているノード"
+
+#: www/root/logs/nav_lvl3.epl:9 www/root/openvz/vmlogs/nav_lvl3.epl:9
+#: www/root/openvz/vmlogs/syslog.htm:25
+msgid "Syslog"
+msgstr "Syslog"
+
+#: www/root/nav_lvl1.epl:25
+msgid "System"
+msgstr "システム"
+
+#: www/root/system/headline.epl:2
+msgid "System Configuration"
+msgstr "システム設定"
+
+#: www/root/cluster/index.htm:20
+msgid "System Status for node '%s'"
+msgstr "ノード '%s' のシステムステータス"
+
+#: www/root/storage/index.htm:53
+msgid "Target"
+msgstr "ターゲット"
+
+#: www/root/vmlist/migrate.htm:78
+msgid "Target Node"
+msgstr "ターゲットノード"
+
+#: www/root/logs/nav_lvl3.epl:8
+msgid "Tasks"
+msgstr "タスク"
+
+#: www/root/openvz/index.htm:134 www/root/vmlist/create.htm:216
+#: www/root/vmlist/create.htm:58
+msgid "Template"
+msgstr "テンプレート"
+
+#: www/root/system/dns.htm:59
+msgid "Third DNS Server"
+msgstr "サード DNS サーバー"
+
+#: www/root/qemu/options.htm:181
+msgid "Third boot device"
+msgstr "サード ブートデバイス"
+
+#: www/root/vmlist/create.htm:174
+msgid ""
+"This CPU does not support KVM virtual machines (no Intel VT / AMD-V support)."
+msgstr ""
+"この CPU は KVM 仮想マシンをサポートしていません (Intel VT/ AMD-Vサポートがあ"
+"りません)。"
+
+#: lib/PVE/HTMLUtils.pm:142
+msgid "This information is only available on the master node."
+msgstr "この情報はマスターノードだけが利用できます。"
+
+#: www/root/system/nav_lvl3.epl:10 www/root/system/time.htm:42
+msgid "Time"
+msgstr "時刻"
+
+#: www/root/system/time.htm:44
+msgid "Timezone"
+msgstr "時間帯"
+
+#: www/root/qemu/index.htm:75
+msgid "To manny CPUs (Cores * Sockets > $maxcpus)"
+msgstr "CPUが多すぎます (Cores * Sockets > $maxcpus)"
+
+#: www/root/apl/download.htm:49 www/root/storage/index.htm:544
+#: www/root/vmlist/create.htm:201
+msgid "Type"
+msgstr "タイプ"
+
+#: lib/PVE/HTMLUtils.pm:385 lib/PVE/HTMLUtils.pm:635
+msgid "Unmount"
+msgstr "アンマウント"
+
+#: www/root/qemu/hardware.htm:522
+msgid "Unused disk images"
+msgstr "未使用のディスクイメージ"
+
+#: www/root/apl/index.htm:86 www/root/iso/index.htm:93
+msgid "Upload File"
+msgstr "ファイルをアップロード"
+
+#: lib/PVE/HTMLUtils.pm:365 lib/PVE/HTMLUtils.pm:661 lib/PVE/HTMLUtils.pm:673
+#: lib/PVE/HTMLUtils.pm:732 lib/PVE/HTMLUtils.pm:830
+msgid "Uptime"
+msgstr "稼働時間"
+
+#: www/root/storage/index.htm:352
+msgid "Use LUNs directly"
+msgstr "LUN を直接使用する"
+
+#: www/root/qemu/hardware.htm:344
+msgid "Use an existing virtual disk"
+msgstr "既存の仮想ディスクを使用する"
+
+#: www/root/storage/index.htm:548
+msgid "Used (GB)"
+msgstr "使用済み (GB)"
+
+#: lib/PVE/HTMLUtils.pm:476 lib/PVE/HTMLUtils.pm:484
+msgid "User"
+msgstr "ユーザー"
+
+#: www/root/login.pl:70
+msgid "Username"
+msgstr "ユーザー名"
+
+#: www/root/base.epl:70
+msgid "VM Manager"
+msgstr "VMマネージャー"
+
+#: www/root/backup/index.htm:226
+msgid "VM Type"
+msgstr "VM タイプ"
+
+#: lib/PVE/HTMLUtils.pm:362 lib/PVE/HTMLUtils.pm:478 lib/PVE/HTMLUtils.pm:486
+#: www/root/backup/index.htm:223
+msgid "VMID"
+msgstr "VMID"
+
+#: www/root/storage/index.htm:246 www/root/storage/index.htm:529
+msgid "VZDump Backups"
+msgstr "VZDump バックアップ"
+
+#: lib/PVE/HTMLUtils.pm:1024 lib/PVE/HTMLUtils.pm:768
+#: www/root/apl/download.htm:48
+msgid "Version"
+msgstr "バージョン"
+
+#: www/root/qemu/options.htm:197
+msgid "Video Graphics Adapter"
+msgstr "ビデオグラフィックアダプター"
+
+#: www/root/storage/index.htm:241 www/root/storage/index.htm:447
+msgid "Virtual Disks"
+msgstr "仮想ディスク"
+
+#: www/root/openvz/headline.epl:2 www/root/qemu/headline.epl:2
+msgid "Virtual Machine Configuration"
+msgstr "仮想マシンの設定"
+
+#: www/root/nav_lvl1.epl:10 www/root/vmlist/headline.epl:2
+msgid "Virtual Machines"
+msgstr "仮想マシン"
+
+#: www/root/openvz/vmlogs/headline.epl:2
+msgid "Virtual Machines Logs"
+msgstr "仮想マシンのログ"
+
+#: www/root/vmlist/create.htm:327
+msgid "Virtual Network (venet)"
+msgstr "仮想ネットワーク (venet)"
+
+#: www/root/storage/index.htm:55
+msgid "Volume Group Name"
+msgstr "ボリュームグループ名"
+
+#: www/root/qemu/hardware.htm:491 www/root/storage/index.htm:398
+#: www/root/storage/index.htm:428 www/root/storage/index.htm:458
+#: www/root/storage/index.htm:485 www/root/storage/index.htm:512
+msgid "Volume ID"
+msgstr "ボリュームID"
+
+#: www/root/storage/index.htm:596 www/root/storage/index.htm:597
+#: www/root/storage/index.htm:598
+msgid "Yes"
+msgstr "はい"
+
+#: www/root/base.epl:82
+msgid "You are logged in as '%s'"
+msgstr "'%s'としてログインしています"
+
+#: www/root/login.pl:64
+msgid ""
+"You could not be logged on. Make sure your user name and password are "
+"correct, and then try again."
+msgstr ""
+"ログインできませんでした。ユーザー名とパスワードを確認して、再度ログインして"
+"下さい。"
+
+#: www/root/login.pl:62
+msgid "You could not be logged on. Ticket is no longer valid."
+msgstr "ログインできませんでした。チケットが無効です。"
+
+#: lib/PVE/HTMLUtils.pm:140
+msgid "You do not have write access."
+msgstr "書き込み権限がありません。"
+
+#: lib/PVE/HTMLForm.pm:365
+msgid "create"
+msgstr "作成する"
+
+#: lib/PVE/HTMLUtils.pm:333
+msgid "day"
+msgstr "日"
+
+#: lib/PVE/HTMLUtils.pm:333
+msgid "days"
+msgstr "日"
+
+#: www/root/system/index.htm:412
+msgid "hide changes"
+msgstr "変更を隠す"
+
+#: www/root/qemu/options.htm:95
+msgid "invalid format for start date"
+msgstr "開始日の形式が不正です"
+
+#: www/root/system/options.htm:73
+msgid "invalid proxy syntax (http://server:port)"
+msgstr "プロキシの指定方法に誤りがあります (http://server:port)"
+
+#: www/root/iso/index.htm:60
+msgid "missing '.iso' extension"
+msgstr "'.iso' 拡張子がありません"
+
+#: lib/PVE/HTMLUtils.pm:1014
+msgid "name '%s' does not conform to template naming scheme"
+msgstr ""
+
+#: www/root/qemu/hardware.htm:65
+msgid "no %s devices available"
+msgstr "%s デバイスは使えません"
+
+#: www/root/backup/index.htm:363
+msgid "no backup jobs defined"
+msgstr "バックアップジョブが定義されていません"
+
+#: www/root/backup/index.htm:115
+msgid "no backup storage defined - please create a backup storage first"
+msgstr ""
+"バックアップストレージが定義されていません - まずバックアップストレージを作成"
+"して下さい"
+
+#: www/root/apl/index.htm:123 www/root/iso/index.htm:128
+#: www/root/storage/index.htm:414 www/root/storage/index.htm:444
+#: www/root/storage/index.htm:470 www/root/storage/index.htm:497
+#: www/root/storage/index.htm:526
+msgid "no entries"
+msgstr "項目がありません"
+
+#: lib/PVE/HTMLForm.pm:361
+msgid "save"
+msgstr "保存する"
+
+#: lib/PVE/HTMLForm.pm:363
+msgid "search"
+msgstr "検索"
+
+#: lib/PVE/HTMLUtils.pm:656
+msgid "unknown"
+msgstr "不明"
+
+#: lib/PVE/HTMLForm.pm:367
+msgid "upload"
+msgstr "アップロードする"
+
+#: www/root/apl/index.htm:74 www/root/iso/index.htm:73
+msgid "upload successful"
+msgstr "アップロード正常終了"
+
+#: www/root/system/index.htm:410
+msgid "view changes"
+msgstr "変更を表示"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTPサーバー"
+
+#, fuzzy
+#~ msgid "DNS Settings"
+#~ msgstr "%s 設定"
+
+#~ msgid "no"
+#~ msgstr "いいえ"
+
+#~ msgid "File"
+#~ msgstr "ファイル"
+
+#, fuzzy
+#~ msgid "Please select a device node."
+#~ msgstr "ルールを選択してください"
+
+#, fuzzy
+#~ msgid "Please select a VM first.\n"
+#~ msgstr "ルールを選択してください"
+
+#, fuzzy
+#~ msgid "Network Device"
+#~ msgstr "ネットワーク"
+
+#, fuzzy
+#~ msgid "Gateway Address"
+#~ msgstr "IPアドレス"
+
+#~ msgid "Filename"
+#~ msgstr "ファイル名"
+
+#~ msgid "%d users"
+#~ msgstr "%d ユーザー"
+
+#~ msgid "%s on behalf of %s"
+#~ msgstr "%s on behalf of %s"
+
+#~ msgid "(optional)"
+#~ msgstr "（オプション）"
+
+#~ msgid "<b>%s</b> received mail from the following senders (max %d entries)"
+#~ msgstr "<b>%s</b> received mail from the following senders (max %d entries)"
+
+#~ msgid "<b>%s</b> sent mail to the following receivers (max %d entries)"
+#~ msgstr "<b>%s</b> sent mail to the following receivers (max %d entries)"
+
+#~ msgid "<b>*.com</b> (all mails from <b>.com</b> domains)"
+#~ msgstr "<b>*.com</b> (<b>.com</b>ドメインからの全メール)"
+
+#~ msgid "<b>*@example.com</b> (all mails from domain <b>example.com</b>)"
+#~ msgstr "<b>*@example.com</b> (<b>example.com</b>ドメインからの全メール)"
+
+#~ msgid "<b>john@example.com</b> (all mails from <b>john@example.com</b>)"
+#~ msgstr "<b>john@example.com</b> (<b>john@example.com</b>からの全メール)"
+
+#~ msgid "Account attribute name"
+#~ msgstr "アカウント属性名"
+
+#~ msgid "Accounts"
+#~ msgstr "アカウント"
+
+#~ msgid "Action"
+#~ msgstr "アクション"
+
+#~ msgid "Action Objects"
+#~ msgstr "アクション”オブジェクト”"
+
+#~ msgid "Action specific settings"
+#~ msgstr "アクション設定"
+
+#~ msgid "Actions"
+#~ msgstr "アクション"
+
+#~ msgid "Add"
+#~ msgstr "追加"
+
+#~ msgid "Add %s"
+#~ msgstr "'%s' 追加"
+
+#~ msgid "Add Host"
+#~ msgstr "ホスト追加"
+
+#~ msgid "Add Object"
+#~ msgstr "オブジェクト追加"
+
+#~ msgid "Add SMTP Transport"
+#~ msgstr "SMTPトランスポート追加"
+
+#~ msgid "Add new Rule"
+#~ msgstr "新ルール追加"
+
+#~ msgid "Add object"
+#~ msgstr "オブジェクト追加"
+
+#~ msgid "Address"
+#~ msgstr "アドレス"
+
+#~ msgid "Addresses"
+#~ msgstr "アドレス"
+
+#~ msgid "Administrator"
+#~ msgstr "管理者"
+
+#~ msgid "Allow HREFs"
+#~ msgstr "HREF許可"
+
+#~ msgid "Allow access via HTTP"
+#~ msgstr "HTTPでのアクセス許可"
+
+#~ msgid "Allowed IP Networks/Hosts"
+#~ msgstr "許可するIPネットワーク/ホスト"
+
+#~ msgid "Allowed SSH Public Keys:"
+#~ msgstr "許可するSSH公開キー："
+
+#~ msgid "Always"
+#~ msgstr "常時"
+
+#~ msgid "Any Profile"
+#~ msgstr "全てのプロファイル"
+
+#~ msgid "Anybody"
+#~ msgstr "誰でも"
+
+#~ msgid "Anything"
+#~ msgstr "何でも"
+
+#~ msgid "April"
+#~ msgstr "4月"
+
+#~ msgid "Arrival Time"
+#~ msgstr "受信時刻"
+
+#~ msgid "Attachments"
+#~ msgstr "添付ファイル"
+
+#~ msgid "Audit"
+#~ msgstr "監査"
+
+#~ msgid "August"
+#~ msgstr "8月"
+
+#~ msgid "Authentication mode"
+#~ msgstr "認証モード"
+
+#~ msgid "Available Objects"
+#~ msgstr "可能なオブジェクト"
+
+#~ msgid "Average Size (Bytes)"
+#~ msgstr "平均サイズ(B）"
+
+#~ msgid "Average Spam level"
+#~ msgstr "平均スパムレベル"
+
+#~ msgid "Avg. Mail Processing Time"
+#~ msgstr "平均メール処理時間"
+
+#~ msgid "Backup time"
+#~ msgstr "バックアップ時間"
+
+#~ msgid "Base DN for Groups"
+#~ msgstr "グループのベースDN"
+
+#~ msgid "Blacklist"
+#~ msgstr "ブラックリスト"
+
+#~ msgid "Block encrypted archives"
+#~ msgstr "暗号化アーカイブをブロック"
+
+#~ msgid "Build time"
+#~ msgstr "作成時刻"
+
+#~ msgid "By default all languages are accepted."
+#~ msgstr "デフォルトでは全言語を許可"
+
+#~ msgid "Client Connection Count Limit"
+#~ msgstr "クライアント接続数制限"
+
+#~ msgid "Client Connection Rate Limit"
+#~ msgstr "クライアント接続速度制限"
+
+#~ msgid "Client Message Rate Limit"
+#~ msgstr "クライアントメッセージ率制限"
+
+#~ msgid "Cluster Status"
+#~ msgstr "クラスタステータス"
+
+#~ msgid ""
+#~ "Clustering disabled - no valid cluster license. Please upload a valid "
+#~ "cluster license first."
+#~ msgstr ""
+#~ "クラスタ不能です。有効なクラスタライセンスが有りません。クラスタライセンス"
+#~ "をアップロードしてください。"
+
+#~ msgid "Company"
+#~ msgstr "会社"
+
+#~ msgid "Contact overview (max. %d entries)"
+#~ msgstr "コンタクト概要(最大 %d エントリー)"
+
+#~ msgid "Contacts"
+#~ msgstr "コンタクト"
+
+#~ msgid "ContentType Filter"
+#~ msgstr "コンテンツタイプフィルタ"
+
+#~ msgid "Create new LDAP profile"
+#~ msgstr "新たなLDAPプロファイル作成"
+
+#~ msgid "Custom"
+#~ msgstr "カスタム"
+
+#~ msgid "Custom HREF"
+#~ msgstr "カスタムHREF"
+
+#~ msgid "Daily Spam Report for '%s'"
+#~ msgstr "'%s'あてデイリースパムレポート"
+
+#~ msgid "Database Mirror"
+#~ msgstr "データベースミラー"
+
+#~ msgid "December"
+#~ msgstr "１２月"
+
+#~ msgid "Default Relay"
+#~ msgstr "デフォルトリレー"
+
+#~ msgid "Deferred Mails for Domain <b>'%s'</b> (max %d entries)"
+#~ msgstr "ドメイン<b>'%s'</b>のディファードメール (最大 %d エントリー)"
+
+#~ msgid "Deferred mails per recipient domain (max %d entries)"
+#~ msgstr "受信者ドメインごとのディファードメール (最大 %d エントリー)"
+
+#~ msgid "Delay Warning Time (hours)"
+#~ msgstr "遅れ警告時間(時)"
+
+#~ msgid "Delete all Messages"
+#~ msgstr "全メッセージを削除"
+
+#~ msgid "Delete files older than X days"
+#~ msgstr "Delete files older than X days"
+
+#~ msgid "Deliver"
+#~ msgstr "配信"
+
+#~ msgid "Deliver to"
+#~ msgstr "通知送信先"
+
+#~ msgid "Detected Spam Mails"
+#~ msgstr "検出したスパムメール"
+
+#~ msgid "Detected Virus Mails"
+#~ msgstr "検出したウィルスメール"
+
+#~ msgid "Disable MX lookup"
+#~ msgstr "MXルックアップを無効にする"
+
+#~ msgid "Disable scheduled backups"
+#~ msgstr "スケジュールバックアップを無効にする"
+
+#~ msgid "Disclaimer"
+#~ msgstr "Disclaimer"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Do Nothing"
+
+#~ msgid "Domain In"
+#~ msgstr "受信ドメイン"
+
+#~ msgid "Domain/Address"
+#~ msgstr "ドメイン/アドレス"
+
+#~ msgid "Domains"
+#~ msgstr "ドメイン"
+
+#~ msgid "EMail attribute name(s)"
+#~ msgstr "Eメール属性名"
+
+#~ msgid "Edit Action '%s'"
+#~ msgstr "アクション'%s'編集"
+
+#~ msgid "Edit Domain"
+#~ msgstr "ドメイン編集"
+
+#~ msgid "Edit Host"
+#~ msgstr "ホスト編集"
+
+#~ msgid "Edit LDAP profile"
+#~ msgstr "LDAPプロファイル編集"
+
+#~ msgid "Edit Object '%s'"
+#~ msgstr "オブジェクト'%s'編集"
+
+#~ msgid "Edit Rule '%s'"
+#~ msgstr "ルール'%s'編集"
+
+#~ msgid "Edit user"
+#~ msgstr "ユーザー編集"
+
+#~ msgid "End time"
+#~ msgstr "時刻編集"
+
+#~ msgid "Everything"
+#~ msgstr "全て"
+
+#~ msgid "External SMTP Port"
+#~ msgstr "外部SMTPポート"
+
+#~ msgid "Factory Defaults"
+#~ msgstr "出荷時初期設定"
+
+#~ msgid "February"
+#~ msgstr "2月"
+
+#~ msgid "Field Name"
+#~ msgstr "フィールド名"
+
+#~ msgid "Field Value"
+#~ msgstr "フィールド変数"
+
+#~ msgid "First DNS"
+#~ msgstr "DNS#1"
+
+#~ msgid "Flush Queue"
+#~ msgstr "キューを開放"
+
+#~ msgid "From"
+#~ msgstr "送信者"
+
+#~ msgid "General Mail Statistics"
+#~ msgstr "全体メール統計"
+
+#~ msgid "General Settings"
+#~ msgstr "全体設定"
+
+#~ msgid "Graphics"
+#~ msgstr "グラフィックス"
+
+#~ msgid "Greylist"
+#~ msgstr "グレイリスト"
+
+#~ msgid "Greylisted Mails"
+#~ msgstr "グレイリスト登録メール"
+
+#~ msgid "Groups"
+#~ msgstr "グループ"
+
+#~ msgid "Header Attribute"
+#~ msgstr "Header Attribute"
+
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
+
+#~ msgid "Highlight Color"
+#~ msgstr "ハイライト色"
+
+#~ msgid "Host '%s' not reachable."
+#~ msgstr "ホスト'%s'はアクセスできません"
+
+#~ msgid "Host not reachable"
+#~ msgstr "ホストに到達できません"
+
+#~ msgid "Host/IP"
+#~ msgstr "ホスト/IP"
+
+#~ msgid "Hostname/IP Address"
+#~ msgstr "ホスト名/IPアドレス"
+
+#~ msgid "IP Network"
+#~ msgstr "IPネットワーク"
+
+#~ msgid "Inactive"
+#~ msgstr "無効"
+
+#~ msgid "Incoming Mail Count (%s)"
+#~ msgstr "受信メール数(%s)"
+
+#~ msgid "Incoming Mail Distribution (%s)"
+#~ msgstr "受信メール分布 (%s)"
+
+#~ msgid "Incoming Mail Traffic"
+#~ msgstr "受信メールトラフィック"
+
+#~ msgid "Incoming Mails"
+#~ msgstr "受信メール"
+
+#~ msgid "Input Field Color"
+#~ msgstr "フィールド色入力"
+
+#~ msgid "Internal (trusted) IP Networks/Hosts"
+#~ msgstr "内部（信頼）IPネットワーク/ホスト"
+
+#~ msgid "Internal SMTP Port"
+#~ msgstr "内部SMTPポート"
+
+#~ msgid "Invalid MAC address."
+#~ msgstr "不正MACアドレス"
+
+#~ msgid "Invalid cluster ID '%d'."
+#~ msgstr "不正クラスタID '%d'"
+
+#~ msgid "Invalid file - not uploaded"
+#~ msgstr "不正ファイル　－　アップロードされていません"
+
+#~ msgid "Invalid license - wrong MAC address."
+#~ msgstr "不正ライセンス　－　MACアドレスが間違っています"
+
+#~ msgid "Invalid license file - wrong license type!"
+#~ msgstr "不正ライセンスファイル　－　ライセンスタイプが間違っています"
+
+#~ msgid "Invalid license file!"
+#~ msgstr "不正ライセンスファイル !"
+
+#~ msgid "January"
+#~ msgstr "1月"
+
+#~ msgid "July"
+#~ msgstr "7月"
+
+#~ msgid "June"
+#~ msgstr "6月"
+
+#~ msgid "Junk Mails"
+#~ msgstr "不要メール"
+
+#~ msgid "Kaspersky Antivirus not enabled (no License)"
+#~ msgstr "Kaspersky AVは無効です（ライセンス無）"
+
+#~ msgid "Keep old mails"
+#~ msgstr "古いメールを保存"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "LDAP Profile"
+#~ msgstr "LDAPプロファイル"
+
+#~ msgid "LDAP Profiles"
+#~ msgstr "LDAPプロファイル"
+
+#~ msgid "LDAP Protocol"
+#~ msgstr "LDAPプロトコル"
+
+#~ msgid "LDAP User"
+#~ msgstr "LDAPユーザー"
+
+#~ msgid "LDAP filter"
+#~ msgstr "LDAPフィルタ"
+
+#~ msgid "LDAP support is not enabled."
+#~ msgstr "DAPサポートが無効です"
+
+#~ msgid "Languages"
+#~ msgstr "言語"
+
+#~ msgid "License"
+#~ msgstr "ライセンス"
+
+#~ msgid "License Information"
+#~ msgstr "ライセンス情報"
+
+#~ msgid "License Invalid"
+#~ msgstr "ライセンス不正"
+
+#~ msgid "License MAC Address"
+#~ msgstr "ライセンスMACアドレス"
+
+#~ msgid "License Nr."
+#~ msgstr "License Nr."
+
+#~ msgid "License file does not exist!"
+#~ msgstr "ライセンスファイルが有りません !"
+
+#~ msgid "License valid"
+#~ msgstr "ライセンス有効"
+
+#~ msgid "Lifetime (days)"
+#~ msgstr "保存日数（日）"
+
+#~ msgid "Local Users"
+#~ msgstr "ローカルユーザー"
+
+#~ msgid "Mail"
+#~ msgstr "メール"
+
+#~ msgid "Mail Domain/Address Statistics"
+#~ msgstr "メールドメイン/アドレス統計"
+
+#~ msgid "Mail Filter"
+#~ msgstr "メールフィルタ"
+
+#~ msgid "Mail Preview Settings"
+#~ msgstr "メールプレビュー設定"
+
+#~ msgid "Mail Proxy"
+#~ msgstr "メールプロキシ"
+
+#~ msgid "Mail Proxy Configuration"
+#~ msgstr "メールプロキシ設定"
+
+#~ msgid "Mail Queue"
+#~ msgstr "メールキュー"
+
+#~ msgid "Mail Statistics (graphical view)"
+#~ msgstr "メール統計（グラフ表示）"
+
+#~ msgid "Mail Traffic"
+#~ msgstr "メールトラフィック"
+
+#~ msgid "Mail address filter"
+#~ msgstr "メールアドレスフィルタ"
+
+#~ msgid "Mail count"
+#~ msgstr "メール数"
+
+#~ msgid "Mail count (without bounces)"
+#~ msgstr "メール数（バウンス含まず）"
+
+#~ msgid "Mail(s) successfully deleted"
+#~ msgstr "削除成功メール数"
+
+#~ msgid "Mail(s) successfully delivered"
+#~ msgstr "配信成功メール数"
+
+#~ msgid "March"
+#~ msgstr "3月"
+
+#~ msgid "Match Field"
+#~ msgstr "一致フィールド"
+
+#~ msgid "Match Filename"
+#~ msgstr "一致ファイル名"
+
+#~ msgid "May"
+#~ msgstr "5月"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "メニュー背景色"
+
+#~ msgid "Message Size (bytes)"
+#~ msgstr "メッセージサイズ（バイト）"
+
+#~ msgid "Message Tracking Center"
+#~ msgstr "メッセージ追跡センター"
+
+#~ msgid "Networks"
+#~ msgstr "ネットワーク"
+
+#~ msgid "New Object"
+#~ msgstr "New Object"
+
+#~ msgid "No Description available"
+#~ msgstr "No Description available"
+
+#~ msgid "No Objects selected"
+#~ msgstr "オブジェクトが未選択です"
+
+#~ msgid "No Subject"
+#~ msgstr "件名がありません"
+
+#~ msgid "No User selected"
+#~ msgstr "ユーザーが未選択です"
+
+#~ msgid "No data available."
+#~ msgstr "有効なデータが有りません"
+
+#~ msgid "No mails for '%s'"
+#~ msgstr "'%s'　あてのメールが有りません"
+
+#~ msgid "No mails selected"
+#~ msgstr "メールが未選択です"
+
+#~ msgid "Notification"
+#~ msgstr "Notification"
+
+#~ msgid "November"
+#~ msgstr "11月"
+
+#~ msgid "Number of Mails"
+#~ msgstr "メール数"
+
+#~ msgid "October"
+#~ msgstr "10月"
+
+#~ msgid "Only showing first %d entries."
+#~ msgstr "最初の %d エントリーだけを表示"
+
+#~ msgid "Outgoing Mail Count (%s)"
+#~ msgstr "送信メール数(%s)"
+
+#~ msgid "Outgoing Mail Distribution (%s)"
+#~ msgstr "送信メール分布(%s)"
+
+#~ msgid "Outgoing Mail Traffic"
+#~ msgstr "送信メールトラフィック"
+
+#~ msgid "Outgoing Mails"
+#~ msgstr "送信メール"
+
+#~ msgid "POP3 Accounts"
+#~ msgstr "POP3アカウント"
+
+#~ msgid "Performance"
+#~ msgstr "性能"
+
+#~ msgid "Please reconnect at the new <a href='%s'>location</a>"
+#~ msgstr "Please reconnect at the new <a href='%s'>location</a>"
+
+#~ msgid "Please select an object."
+#~ msgstr "オブジェクトを選択してください"
+
+#~ msgid "Please upgrade your license to enable LDAP."
+#~ msgstr "LDAPが使用できるようにライセンスをアップグレードしてください"
+
+#~ msgid "Please upload a valid license file."
+#~ msgstr "正規ライセンスファイルをアップロードしてください"
+
+#~ msgid ""
+#~ "Please use the <a href='%s'>web interface</a> to manage your spam "
+#~ "quarantine."
+#~ msgstr ""
+#~ "スパム検疫の管理には<a href='%s'>web interface</a>を使用してください"
+
+#~ msgid "Priority"
+#~ msgstr "プライオリティ"
+
+#~ msgid "Product"
+#~ msgstr "製品"
+
+#~ msgid "Profile Name"
+#~ msgstr "製品名"
+
+#~ msgid "Profile already exists - please choose another name"
+#~ msgstr "プロファイルは存在します　－　他の名前を選択してください"
+
+#~ msgid "Proxmox Status Report"
+#~ msgstr "Proxomoxステータスレポート"
+
+#~ msgid "Quarantine"
+#~ msgstr "検疫"
+
+#~ msgid "Quarantine Host (optional)"
+#~ msgstr "検疫ホスト（オプション）"
+
+#~ msgid "Quarantine Manager"
+#~ msgstr "検疫マネージャ"
+
+#~ msgid "Quarantine Size (MBytes on disk)"
+#~ msgstr "検疫サイズ（ディスクのMB）"
+
+#~ msgid "Quarantine Size (MBytes)"
+#~ msgstr "検疫サイズ（MB)"
+
+#~ msgid "Quarantine Status"
+#~ msgstr "検疫ステータス"
+
+#~ msgid "Quarantine User"
+#~ msgstr "検疫ユーザー"
+
+#~ msgid "Quarantine is empty."
+#~ msgstr "検疫には何も有りません"
+
+#~ msgid "Queues"
+#~ msgstr "キュー"
+
+#~ msgid "Received"
+#~ msgstr "受信済み"
+
+#~ msgid "Receiver"
+#~ msgstr "受信者"
+
+#~ msgid "Receiver domain overview"
+#~ msgstr "受信者ドメイン概要"
+
+#~ msgid "Receiver overview (max. %d entries)"
+#~ msgstr "受信者概要（最大　%d エントリー）"
+
+#~ msgid "Receiver(s)"
+#~ msgstr "受信者"
+
+#~ msgid "Recipient domain"
+#~ msgstr "受信者ドメイン"
+
+#~ msgid "Reject Unknown Clients"
+#~ msgstr "未知クライアントを拒否"
+
+#~ msgid "Reject Unknown Senders"
+#~ msgstr "未知送信者を拒否"
+
+#~ msgid "Relayed Domains"
+#~ msgstr "リレーするドメイン"
+
+#~ msgid "Relaying"
+#~ msgstr "リレー"
+
+#~ msgid "Remove Object"
+#~ msgstr "オブジェクト削除"
+
+#~ msgid "Report Style"
+#~ msgstr "レポートスタイル"
+
+#~ msgid "Reports"
+#~ msgstr "レポート"
+
+#~ msgid "Reset All"
+#~ msgstr "全てをリセット"
+
+#~ msgid "Restore Backup"
+#~ msgstr "バックアップをリストア"
+
+#~ msgid "Rule"
+#~ msgstr "ルール"
+
+#~ msgid "Rule Database"
+#~ msgstr "ルールデータベース"
+
+#~ msgid "Rules"
+#~ msgstr "ルール"
+
+#~ msgid "SMTP HELO checks"
+#~ msgstr "SMTP HELOチェック"
+
+#~ msgid "SMTP Port"
+#~ msgstr "SMTPポート"
+
+#~ msgid "SMTP Transports"
+#~ msgstr "SMTPトランスポート"
+
+#~ msgid "SPF rejects"
+#~ msgstr "SPF拒否"
+
+#~ msgid "SSH Access"
+#~ msgstr "SSHアクセス"
+
+#~ msgid "Scheduled Backup"
+#~ msgstr "スケジュール化バックアップ"
+
+#~ msgid "Score"
+#~ msgstr "スコア"
+
+#~ msgid "Search"
+#~ msgstr "検索"
+
+#~ msgid "Select All"
+#~ msgstr "全選択"
+
+#~ msgid "Select None"
+#~ msgstr "何も選択しない"
+
+#~ msgid "Selected group does not exist"
+#~ msgstr "選択したグループは有りません"
+
+#~ msgid "Selected profile does not exist"
+#~ msgstr "選択したプロファイルは有りません"
+
+#~ msgid "Sender"
+#~ msgstr "送信者"
+
+#~ msgid "Sender IP"
+#~ msgstr "送信者IP"
+
+#~ msgid "Sender domain overview"
+#~ msgstr "送信者ドメイン概要"
+
+#~ msgid "Sender overview (max. %d entries)"
+#~ msgstr "送信者概要（最大　%d エントリー）"
+
+#~ msgid "September"
+#~ msgstr "9月"
+
+#~ msgid "Server Performance Statistics"
+#~ msgstr "サーバー性能統計"
+
+#~ msgid "Set Active"
+#~ msgstr "有効にする"
+
+#~ msgid "Set Inactive"
+#~ msgstr "無効にする"
+
+#~ msgid "Short"
+#~ msgstr "Short"
+
+#~ msgid "Signatures"
+#~ msgstr "シグネチャ"
+
+#~ msgid "Smarthost"
+#~ msgstr "スマートホスト"
+
+#~ msgid "Spam"
+#~ msgstr "スパム"
+
+#~ msgid "Spam Detector"
+#~ msgstr "スパム検知"
+
+#~ msgid "Spam Detector Configuration"
+#~ msgstr "スパム検知設定"
+
+#~ msgid "Spam Level Chart"
+#~ msgstr "スパムレベルチャート"
+
+#~ msgid "Spam Mails"
+#~ msgstr "スパムメール"
+
+#~ msgid "Spam Quarantine"
+#~ msgstr "スパム検疫"
+
+#~ msgid "Spam Quarantine for '%s'"
+#~ msgstr "'%s'スパム検疫"
+
+#~ msgid "Spam count"
+#~ msgstr "スパム"
+
+#~ msgid "Spam level"
+#~ msgstr "スパムレベル"
+
+#~ msgid "Standard Foreground Color"
+#~ msgstr "標準前景色"
+
+#~ msgid "Start downloading now"
+#~ msgstr "ダウンロードをすぐに開始"
+
+#~ msgid "Statistics"
+#~ msgstr "統計"
+
+#~ msgid "Subject"
+#~ msgstr "件名"
+
+#~ msgid "Submit"
+#~ msgstr "送信"
+
+#~ msgid "Successfully added '%s' to blacklist"
+#~ msgstr "'%s'をブラックリストに登録しました"
+
+#~ msgid "Successfully added '%s' to whitelist"
+#~ msgstr "'%s'をホワイトリストに登録しました"
+
+#~ msgid "Summary"
+#~ msgstr "サマリー"
+
+#~ msgid "Superuser"
+#~ msgstr "スーパーユーザー"
+
+#~ msgid "Test EMail address"
+#~ msgstr "Eメールアドレステスト"
+
+#~ msgid "Test doesn't match!"
+#~ msgstr "Test doesn't match!"
+
+#~ msgid "Test failed: user does not use this address"
+#~ msgstr "Test failed: user does not use this address"
+
+#~ msgid "Test failed: user is no member of this group"
+#~ msgstr "Test failed: user is no member of this group"
+
+#~ msgid "Test matched!"
+#~ msgstr "Test matched!"
+
+#~ msgid "TestNow"
+#~ msgstr "TestNow"
+
+#~ msgid "Teststring"
+#~ msgstr "Teststring"
+
+#~ msgid "There are no items in this list"
+#~ msgstr "このリストには項目が有りません"
+
+#~ msgid ""
+#~ "This is the free version of Proxmox Mail Gateway. Please consider "
+#~ "upgrading to the commercial version to get full functionality. See <a "
+#~ "target=_blank href='http://www.proxmox.com'>www.proxmox.com</a> for more "
+#~ "information."
+#~ msgstr ""
+#~ "これは Proxmox Mail Gatewayフリー版です。全機能を使用するためにはアップグ"
+#~ "レードが必要です。詳細は以下をご覧ください。<a target=_blank href='http://"
+#~ "www.proxmox.com'>www.proxmox.com</a>"
+
+#~ msgid "This object does not contain editable data."
+#~ msgstr "このオブジェクトには変種できるデータが有りません"
+
+#~ msgid "Ticket"
+#~ msgstr "チケット"
+
+#~ msgid "TimeFrame"
+#~ msgstr "時間幅"
+
+#~ msgid "To"
+#~ msgstr "受信者"
+
+#~ msgid "Total"
+#~ msgstr "合計"
+
+#~ msgid "Total Mails"
+#~ msgstr "メール合計"
+
+#~ msgid "Tracking Center"
+#~ msgstr "追跡センター"
+
+#~ msgid "Transports"
+#~ msgstr "トランスポート"
+
+#~ msgid "Unable to create user: %s"
+#~ msgstr "ユーザー %s を作成できません"
+
+#~ msgid "Unable to get next mail - no more mails"
+#~ msgstr "次のメールを取得できません　－　メールがありません"
+
+#~ msgid "Unable to get previous mail - no more mails"
+#~ msgstr "前のメールを取得できません　－　メールがありません"
+
+#~ msgid "Unable to load data."
+#~ msgstr "データをロードできません"
+
+#~ msgid "Unable to upload image - wrong format"
+#~ msgstr "イメージアップロードができません　－　不正なフォーマット"
+
+#~ msgid "Unable to view content"
+#~ msgstr "内容を見ることができません"
+
+#~ msgid "Unknown LDAP address"
+#~ msgstr "未知LDAPアドレス"
+
+#~ msgid "Unsupported feature!"
+#~ msgstr "サポートされていない機能です!"
+
+#~ msgid "Update now"
+#~ msgstr "今すぐ更新"
+
+#~ msgid "Updates"
+#~ msgstr "更新"
+
+#~ msgid "Upload Servicepack"
+#~ msgstr "サービスパック更新"
+
+#~ msgid "Upload custom logo"
+#~ msgstr "カスタムロゴのアップロード"
+
+#~ msgid "Upload new license file"
+#~ msgstr "新たなライセンスファイルのアップロード"
+
+#~ msgid "Use Advanced Statistic Filters"
+#~ msgstr "高度な統計フィルターを使用"
+
+#~ msgid "Use Advanced Tests"
+#~ msgstr "高度なテストを使用"
+
+#~ msgid "Use Bayesian filter"
+#~ msgstr "ベイジアンフィルタ使用"
+
+#~ msgid "Use DCC Network"
+#~ msgstr "DCCネットワーク使用"
+
+#~ msgid "Use Greylisting"
+#~ msgstr "グレイリスト使用"
+
+#~ msgid "Use OCR"
+#~ msgstr "OCR使用"
+
+#~ msgid "Use RBL checks"
+#~ msgstr "RBLチェック使用"
+
+#~ msgid "Use Razor Network"
+#~ msgstr "Razorネットワーク使用"
+
+#~ msgid "Use SPF"
+#~ msgstr "SPF使用"
+
+#~ msgid "Use SSL"
+#~ msgstr "SSL使用"
+
+#~ msgid "Use auto-whitelists"
+#~ msgstr "オートホワイトリスト使用"
+
+#~ msgid "Use local DNS cache"
+#~ msgstr "ローカルDNSキャッシュ使用"
+
+#~ msgid "User (E-mail address)"
+#~ msgstr "ユーザー(Eメールアドレス）"
+
+#~ msgid "User Management"
+#~ msgstr "ユーザー管理"
+
+#~ msgid "User Statistics Lifetime (days)"
+#~ msgstr "ユーザー統計生存時間（日）"
+
+#~ msgid "User already exists"
+#~ msgstr "既存ユーザーです"
+
+#~ msgid "User is a member of this group"
+#~ msgstr "ユーザーはこのグループのメンバーです"
+
+#~ msgid "User is using this email address"
+#~ msgstr "ユーザーはこのEメールアドレスを使用中です"
+
+#~ msgid "Value"
+#~ msgstr "値"
+
+#~ msgid "Verify Receivers"
+#~ msgstr "受信者認証"
+
+#~ msgid "Virus"
+#~ msgstr "ウィルス"
+
+#~ msgid "Virus Charts"
+#~ msgstr "ウィルスチャート"
+
+#~ msgid "Virus Detector"
+#~ msgstr "ウィルス検知"
+
+#~ msgid "Virus Detector Configuration"
+#~ msgstr "ウィルス検知設定"
+
+#~ msgid "Virus Filter"
+#~ msgstr "ウィルスフィルタ"
+
+#~ msgid "Virus Outbreaks"
+#~ msgstr "ウィルス発生"
+
+#~ msgid "Virus Quarantine"
+#~ msgstr "ウィルス検疫"
+
+#~ msgid "Virus count"
+#~ msgstr "ウィルス"
+
+#~ msgid "Virus info"
+#~ msgstr "ウィルス情報"
+
+#~ msgid "What"
+#~ msgstr "何を"
+
+#~ msgid "What Objects"
+#~ msgstr "オブジェクト”何を”"
+
+#~ msgid "When"
+#~ msgstr "いつ"
+
+#~ msgid "When Objects"
+#~ msgstr "オブジェクト”何時”"
+
+#~ msgid "Whitelist"
+#~ msgstr "ホワイトリスト"
+
+#~ msgid "Who"
+#~ msgstr "誰が"
+
+#~ msgid "Who Objects"
+#~ msgstr "オブジェクト”誰が”"
+
+#~ msgid ""
+#~ "With this feature, you can manually bypass spam checking for certain "
+#~ "domains or E-mail addresses."
+#~ msgstr ""
+#~ "この機能では、あるドメインやEメールアドレスをマニュアルでスパムチェック回"
+#~ "避することができます。"
+
+#~ msgid ""
+#~ "With this feature, you can manually mark E-mails from certain domains or "
+#~ "addresses as spam."
+#~ msgstr ""
+#~ "この機能では、あるドメインやアドレスからのEメールをマニュアルでスパムマー"
+#~ "クをつけることができます。"
+
+#~ msgid "Workgroup"
+#~ msgstr "ワークグループ"
+
+#~ msgid "You do not have a valid Kaspersky license."
+#~ msgstr "正規Kasperskyライセンスが有りません。"
+
+#~ msgid "You received %d spam mail(s) yesterday."
+#~ msgstr "昨日'%d'件のスパムメールを受信しました。"
+
+#~ msgid ""
+#~ "Your license is expired! See <a href='http://www.proxmox.com'>www.proxmox."
+#~ "com</a> for more information."
+#~ msgstr ""
+#~ "ライセンス有効期限切れです。詳細な情報は以下をご覧ください。<a "
+#~ "href='http://www.proxmox.com'>www.proxmox.com</a>"
+
+#~ msgid "Your license will expire in %d days!"
+#~ msgstr "ライセンスは'%d'日で無効になります。"
+
+#~ msgid "Your license will expire in %d hours!"
+#~ msgstr "ライセンスは'%d'時間で無効になります"
+
+#~ msgid "Your license will expire within the next hour!"
+#~ msgstr "ライセンスは1時間後に無効になります。"
+
+#~ msgid "delete custom logo"
+#~ msgstr "カスタムロゴを削除"
+
+#~ msgid "domain '%s' contains illegal character"
+#~ msgstr "ドメイン'%s'は不正文字を含んでいます"
+
+#~ msgid "field name is empty"
+#~ msgstr "フィールド名が有りません"
+
+#~ msgid "field name must not contain colons"
+#~ msgstr "フィールド名には：が必要です"
+
+#~ msgid "hide spam info"
+#~ msgstr "スパム情報を表示しない"
+
+#~ msgid "host/network already exists"
+#~ msgstr "ホスト/ネットワークは存在します"
+
+#~ msgid "invalid port number specified"
+#~ msgstr "不正なポート番号が指定されました"
+
+#~ msgid "no domains specified"
+#~ msgstr "ドメインが指定されていません"
+
+#~ msgid "reset colors"
+#~ msgstr "色をリセット"
+
+#~ msgid "send report now"
+#~ msgstr "レポートをすぐに送信"
+
+#~ msgid "show header"
+#~ msgstr "ヘッダーを表示"
+
+#~ msgid "show spam info"
+#~ msgstr "スパム情報を表示"
+
+#~ msgid "transport '%s' already exists"
+#~ msgstr "トランスポート'%s'はすでに存在しています"
+
+#~ msgid "unable to find valid email addresses"
+#~ msgstr "正しいEメールアドレスが見つかりません"
+
+#~ msgid "whole month"
+#~ msgstr "全月"
+
+#~ msgid "whole year"
+#~ msgstr "全年"
