@@ -1,7 +1,7 @@
 include ../../defines.mk
 
-EXTJSDIR=ext-4.0.2a
-EXTJSSRC=${EXTJSDIR}-gpl.zip
+EXTJSDIR=ext-4.0.7-gpl
+EXTJSSRC=${EXTJSDIR}.zip
 
 EXTDATA = 					\
 	extjs/ext-all.js 			\
