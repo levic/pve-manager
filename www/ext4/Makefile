@@ -23,6 +23,7 @@ install: ${EXTDATA}
 	install -m 0644 extjs/resources/css/ext-all.css ${WWWEXT4DIR}/resources/css
 	install -d ${WWWEXT4DIR}/resources/themes/images
 	cp -a extjs/resources/themes/images/default ${WWWEXT4DIR}/resources/themes/images
+	cp -a extjs/locale ${WWWEXT4DIR}
 	chown -R www-data:www-data ${WWWEXT4DIR}
 	find ${WWWEXT4DIR} -type f -exec chmod -R 0644 '{}' ';'
 

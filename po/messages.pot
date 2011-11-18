@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 2\n"
+"POT-Creation-Date: Mon Nov 21 12:40:32 2011\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <support@proxmox.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../www/manager/window/LoginWindow.js:88
+msgid "Enter your password"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:65
+msgid "Enter your user name"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:103
+msgid "Language"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:118
+msgid "Login"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:86
+msgid "Password"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:44
+msgid "Proxmox VE Login"
+msgstr ""
+
+#: ../www/manager/qemu/Config.js:71
+msgid "Shutdown"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:63
+msgid "User name"
+msgstr ""
