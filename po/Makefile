@@ -8,8 +8,8 @@ all: $(patsubst %, pve-lang-%.js, $(LINGUAS))
 
 .PHONY: update-po
 update-po:
-	../xgettext.pl -f POTFILES
-	for i in $(LINGUAS); do echo -n "$$i: ";msgmerge -v $$i.po messages.pot >$$i.po.tmp; mv $$i.po.tmp $$i.po; done
+	./jsgettext.pl ../www/manager
+	for i in $(LINGUAS); do echo -n "$$i: ";msgmerge -s -v $$i.po messages.pot >$$i.po.tmp; mv $$i.po.tmp $$i.po; done
 
 pve-lang-%.js: %.po
 	./po2js.pl $< >$@.tmp
