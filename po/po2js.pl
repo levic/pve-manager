@@ -3,6 +3,7 @@
 use strict;
 use Locale::PO;
 use JSON;
+use Encode;
 
 # current limits:
 # - we do not support plural. forms
@@ -29,18 +30,30 @@ sub fnv31a {
     return $hval & 0x7fffffff;
 }
 
-my $aref = Locale::PO->load_file_asarray($filename);
+my $href = Locale::PO->load_file_ashash($filename);
 
 my $catalog;
 
-foreach my $po (@$aref) {
-    my $qmsgid = $po->msgid;
+my $charset;
+my $hpo = $href->{'""'} || die "no header";
+my $header = $hpo->dequote($hpo->msgstr);
+if ($header =~ m|\\nContent-Type:\s+text/plain;\s+charset=(\S+)\\n|im) {
+    $charset = $1;
+} else {
+    die "unable to get charset\n" if !$charset;
+}
+
+
+foreach my $k (keys %$href) {
+    my $po = $href->{$k};
+    my $qmsgid = decode($charset, $po->msgid);
     my $msgid = $po->dequote($qmsgid);
+
+    my $qmsgstr = decode($charset, $po->msgstr);
+    my $msgstr = $po->dequote($qmsgstr);
 
     next if !length($msgid); # skip header
 
-    my $qmsgstr = $po->msgstr;
-    my $msgstr = $po->dequote($qmsgstr);
     my $digest = fnv31a($msgid);
 
     die "duplicate digest" if $catalog->{$digest};
@@ -48,6 +61,9 @@ foreach my $po (@$aref) {
     $catalog->{$digest} = [ $msgstr ];
     # later, we can add plural forms to the array
 }
+
+#use Data::Dumper;
+#print STDERR Dumper(encode_json({test => decode('UTF-8', "müssen")}));
 
 my $json = encode_json($catalog);
 
@@ -74,7 +90,7 @@ function gettext(buf) {
     if (!data) {
 	return buf;
     }
-    return data[0];
+    return data[0] || buf;
 }
 
 __EOD

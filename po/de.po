@@ -5,9 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pve-manager 2\n"
-"POT-Creation-Date: Mon Nov 21 12:40:32 2011\n"
-"PO-Revision-Date: 2011-11-21 07:01+0100\n"
+"Project-Id-Version: pve-manager 2.0\n"
+"Report-Msgid-Bugs-To: <support@proxmox.com>\n"
+"POT-Creation-Date: Tue Nov 22 13:57:09 2011\n"
+"PO-Revision-Date: 2011-11-22 13:57+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -15,6 +16,110 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../www/manager/Utils.js:60
+msgid "Allowed characters"
+msgstr "Erlaubte Zeichen"
+
+#: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:72
+msgid ""
+"Are you sure you want to remove VM {0}? This will permanently erase all VM "
+"data."
+msgstr ""
+"Sind Sie sicher dass Sie VM {0} entfernen wollen? Damit löschen Sie alle "
+"Daten der VM."
+
+#: ../www/manager/dc/Config.js:49
+msgid "Authentication"
+msgstr "Authentifikation"
+
+#: ../www/manager/dc/Config.js:24 ../www/manager/qemu/Config.js:131
+#: ../www/manager/openvz/Config.js:140
+msgid "Backup"
+msgstr "Backup"
+
+#: ../www/manager/panel/StatusPanel.js:41
+msgid "Cluster log"
+msgstr "Cluster log"
+
+#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:257
+#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:376 ../www/manager/VNCConsole.js:388
+#: ../www/manager/openvz/CmdMenu.js:41
+msgid "Confirm"
+msgstr "Bestätigung"
+
+#: ../www/manager/Utils.js:276 ../www/manager/Utils.js:327
+#: ../www/manager/Utils.js:329 ../www/manager/Utils.js:331
+#: ../www/manager/Utils.js:333
+msgid "Connection error"
+msgstr "Verbindungsfehler"
+
+#: ../www/manager/qemu/Config.js:94 ../www/manager/qemu/CmdMenu.js:51
+#: ../www/manager/VNCConsole.js:310 ../www/manager/VNCConsole.js:411
+#: ../www/manager/openvz/Config.js:86 ../www/manager/openvz/CmdMenu.js:51
+msgid "Console"
+msgstr "Konsole"
+
+#: ../www/manager/openvz/Config.js:96
+msgid "Container {0} on node {1}"
+msgstr "Container {0} auf Knoten {1}"
+
+#: ../www/manager/storage/Browser.js:30
+msgid "Content"
+msgstr "Inhalt"
+
+#: ../www/manager/Workspace.js:333
+msgid "Create CT"
+msgstr "Erstelle CT"
+
+#: ../www/manager/Workspace.js:322
+msgid "Create VM"
+msgstr "Erstelle VM"
+
+#: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
+msgid "Datacenter"
+msgstr "Rechenzentrum"
+
+#: ../www/manager/Utils.js:546
+msgid "Default"
+msgstr "Standardeinstellung"
+
+#: ../www/manager/node/Tasks.js:136 ../www/manager/dc/Tasks.js:91
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:256
+msgid "Do you really want to reset VM {0}?"
+msgstr "Möchten Sie VM {0} wirklich zurücksetzen (reset)?"
+
+#: ../www/manager/node/Config.js:32
+msgid "Do you really want to restart node {0}?"
+msgstr "Möchten Sie Knoten {0} wirklich neu starten?"
+
+#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:40
+#: ../www/manager/VNCConsole.js:268 ../www/manager/VNCConsole.js:387
+#: ../www/manager/openvz/Config.js:52 ../www/manager/openvz/CmdMenu.js:40
+msgid "Do you really want to shutdown VM {0}?"
+msgstr "Möchten Sie VM {0} wirklich herunterfahren?"
+
+#: ../www/manager/node/Config.js:40
+msgid "Do you really want to shutdown node {0}?"
+msgstr "Möchten Sie Knoten {0} wirklich herunterfahren?"
+
+#: ../www/manager/qemu/Config.js:44 ../www/manager/VNCConsole.js:239
+#: ../www/manager/VNCConsole.js:375 ../www/manager/openvz/Config.js:44
+msgid "Do you really want to stop VM {0}?"
+msgstr "Möchten Sie VM {0} wirklich stoppen?"
+
+#: ../www/manager/VNCConsole.js:280
+msgid "Do you really want to suspend VM {0}?"
+msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
+
+#: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
+msgid "End Time"
+msgstr "Endzeit"
 
 #: ../www/manager/window/LoginWindow.js:88
 msgid "Enter your password"
@@ -24,6 +129,32 @@ msgstr "Bitte geben Sie Ihr Passwort ein"
 msgid "Enter your user name"
 msgstr "Bitte geben Sie Ihren Benutzernamen ein"
 
+#: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
+#: ../www/manager/Utils.js:65
+msgid "Example"
+msgstr "Beispiel"
+
+#: ../www/manager/form/ViewSelector.js:15
+msgid "Folder View"
+msgstr "Ordner Ansicht"
+
+#: ../www/manager/Utils.js:273
+msgid "Form fields may not be submitted with invalid values"
+msgstr "Formularfelder müssen gültige Werte haben"
+
+#: ../www/manager/Utils.js:45 ../www/manager/Utils.js:50
+#: ../www/manager/Utils.js:55
+msgid "Format"
+msgstr "Format"
+
+#: ../www/manager/dc/Config.js:34
+msgid "Groups"
+msgstr "Gruppen"
+
+#: ../www/manager/qemu/Config.js:116
+msgid "Hardware"
+msgstr "Hardware"
+
 #: ../www/manager/window/LoginWindow.js:103
 msgid "Language"
 msgstr "Sprache"
@@ -32,18 +163,221 @@ msgstr "Sprache"
 msgid "Login"
 msgstr "Anmelden"
 
+#: ../www/manager/Workspace.js:308
+msgid "Logout"
+msgstr "Logout"
+
+#: ../www/manager/dc/Log.js:76
+msgid "Message"
+msgstr "Meldung"
+
+#: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:59
+msgid "Migrate"
+msgstr "Migration"
+
+#: ../www/manager/qemu/Config.js:126
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:113
+msgid "Network"
+msgstr "Netzwerk"
+
+#: ../www/manager/Utils.js:545
+msgid "No"
+msgstr "Nein"
+
+#: ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126
+#: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+msgid "Node"
+msgstr "Knoten"
+
+#: ../www/manager/tree/ResourceTree.js:13
+msgid "Node list"
+msgstr "Knotenliste"
+
+#: ../www/manager/node/Tasks.js:94
+msgid "Only Errors"
+msgstr "Nur Fehler"
+
+#: ../www/manager/tree/ResourceTree.js:25
+msgid "OpenVZ containers"
+msgstr "OpenVZ Container"
+
+#: ../www/manager/dc/Config.js:14 ../www/manager/qemu/Config.js:121
+#: ../www/manager/openvz/Config.js:123
+msgid "Options"
+msgstr "Optionen"
+
 #: ../www/manager/window/LoginWindow.js:86
 msgid "Password"
 msgstr "Passwort"
+
+#: ../www/manager/dc/Config.js:39 ../www/manager/storage/Browser.js:34
+#: ../www/manager/qemu/Config.js:136 ../www/manager/openvz/Config.js:145
+msgid "Permissions"
+msgstr "Rechte"
+
+#: ../www/manager/Utils.js:294
+msgid "Please wait..."
+msgstr "Bitte warten..."
 
 #: ../www/manager/window/LoginWindow.js:44
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE Anmeldung"
 
-#: ../www/manager/qemu/Config.js:71
+#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:398
+#: ../www/manager/VNCConsole.js:448
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:405
+#: ../www/manager/VNCConsole.js:455
+msgid "Reload"
+msgstr "Neu laden"
+
+#: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:254
+msgid "Reset"
+msgstr "Reset"
+
+#: ../www/manager/openvz/Config.js:108
+msgid "Resources"
+msgstr "Ressourcen"
+
+#: ../www/manager/node/Config.js:31
+msgid "Restart"
+msgstr "Restart"
+
+#: ../www/manager/VNCConsole.js:290
+msgid "Resume"
+msgstr "Resume"
+
+#: ../www/manager/dc/Config.js:44
+msgid "Roles"
+msgstr "Rollen"
+
+#: ../www/manager/grid/ResourceGrid.js:177
+#: ../www/manager/grid/ResourceGrid.js:181
+msgid "Search"
+msgstr "Suche"
+
+#: ../www/manager/form/ViewSelector.js:11
+msgid "Server View"
+msgstr "Server Ansicht"
+
+#: ../www/manager/dc/Log.js:55
+msgid "Service"
+msgstr "Service"
+
+#: ../www/manager/node/Config.js:71
+msgid "Services"
+msgstr "Services"
+
+#: ../www/manager/dc/Log.js:70
+msgid "Severity"
+msgstr "Schwere"
+
+#: ../www/manager/node/Config.js:47 ../www/manager/VNCConsole.js:459
+msgid "Shell"
+msgstr "Shell"
+
+#: ../www/manager/node/Config.js:39 ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:37 ../www/manager/VNCConsole.js:266
+#: ../www/manager/VNCConsole.js:385 ../www/manager/openvz/Config.js:51
+#: ../www/manager/openvz/CmdMenu.js:37
 msgid "Shutdown"
 msgstr "Herunterfahren"
 
+#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:30
+#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:367
+#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:30
+msgid "Start"
+msgstr "Start"
+
+#: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Tasks.js:61
+msgid "Start Time"
+msgstr "Startzeit"
+
+#: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Tasks.js:97
+msgid "Status"
+msgstr "Status"
+
+#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:373 ../www/manager/openvz/Config.js:43
+msgid "Stop"
+msgstr "Stop"
+
+#: ../www/manager/dc/Config.js:19
+msgid "Storage"
+msgstr "Speicher"
+
+#: ../www/manager/form/ViewSelector.js:19
+msgid "Storage View"
+msgstr "Speicher Ansicht"
+
+#: ../www/manager/tree/ResourceTree.js:17
+msgid "Storage list"
+msgstr "Speicherliste"
+
+#: ../www/manager/storage/Browser.js:19
+msgid "Storage {0} on node {1}"
+msgstr "Speicher {0} auf Knoten {1}"
+
+#: ../www/manager/Utils.js:247
+msgid "Successful"
+msgstr "Erfolgreich"
+
+#: ../www/manager/node/Config.js:66 ../www/manager/storage/Browser.js:24
+#: ../www/manager/qemu/Config.js:111 ../www/manager/openvz/Config.js:103
+msgid "Summary"
+msgstr "Übersicht"
+
+#: ../www/manager/VNCConsole.js:278
+msgid "Suspend"
+msgstr "Suspend"
+
+#: ../www/manager/panel/StatusPanel.js:36
+msgid "Tasks"
+msgstr "Tasks"
+
+#: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
+msgid "Time"
+msgstr "Zeit"
+
+#: ../www/manager/Utils.js:250
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
+#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:63
 msgid "User name"
 msgstr "Benutzername"
+
+#: ../www/manager/dc/Config.js:29
+msgid "Users"
+msgstr "Benutzer"
+
+#: ../www/manager/node/Tasks.js:57
+msgid "View"
+msgstr "Anzeigen"
+
+#: ../www/manager/qemu/Config.js:104
+msgid "Virtual machine {0} on node {1}"
+msgstr "Virtuelle Maschine {0} auf Knoten {1}"
+
+#: ../www/manager/tree/ResourceTree.js:21
+msgid "Virtual machines"
+msgstr "Virtuelle Maschinen"
+
+#: ../www/manager/Utils.js:544
+msgid "Yes"
+msgstr "Ja"
+
+#: ../www/manager/Workspace.js:211
+msgid "You are logged in as {0}"
+msgstr "Sie sind angemeldet als {0}"
