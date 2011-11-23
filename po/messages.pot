@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Nov 23 06:18:52 2011\n"
+"POT-Creation-Date: Wed Nov 23 10:13:52 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -30,6 +30,10 @@ msgstr ""
 
 #: ../www/manager/dc/Config.js:24 ../www/manager/qemu/Config.js:131 ../www/manager/openvz/Config.js:140
 msgid "Backup"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:132
+msgid "CPU usage"
 msgstr ""
 
 #: ../www/manager/panel/StatusPanel.js:41
@@ -72,8 +76,20 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: ../www/manager/node/Tasks.js:136 ../www/manager/dc/Tasks.js:91
+#: ../www/manager/data/ResourceStore.js:61 ../www/manager/node/Tasks.js:136 ../www/manager/dc/Tasks.js:91
 msgid "Description"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:109
+msgid "Disk size"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:102
+msgid "Disk usage"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:74
+msgid "Do not use any proxy"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:256
@@ -98,6 +114,22 @@ msgstr ""
 
 #: ../www/manager/VNCConsole.js:280
 msgid "Do you really want to suspend VM {0}?"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:130
+msgid "Edit"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:8
+msgid "Edit HTTP proxy settings"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:55
+msgid "Edit keyboard settings"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:33
+msgid "Edit language settings"
 msgstr ""
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
@@ -132,6 +164,10 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
+#: ../www/manager/dc/OptionView.js:91
+msgid "GUI language"
+msgstr ""
+
 #: ../www/manager/dc/Config.js:34
 msgid "Groups"
 msgstr ""
@@ -140,7 +176,15 @@ msgstr ""
 msgid "Hardware"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:105
+#: ../www/manager/dc/OptionView.js:85
+msgid "Keyboard"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:60
+msgid "Keyboard Layout"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:38 ../www/manager/window/LoginWindow.js:105
 msgid "Language"
 msgstr ""
 
@@ -156,6 +200,14 @@ msgstr ""
 msgid "Logout"
 msgstr ""
 
+#: ../www/manager/data/ResourceStore.js:124
+msgid "Memory size"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:117
+msgid "Memory usage"
+msgstr ""
+
 #: ../www/manager/dc/Log.js:76
 msgid "Message"
 msgstr ""
@@ -168,6 +220,10 @@ msgstr ""
 msgid "Monitor"
 msgstr ""
 
+#: ../www/manager/data/ResourceStore.js:96
+msgid "Name"
+msgstr ""
+
 #: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:113
 msgid "Network"
 msgstr ""
@@ -176,12 +232,16 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126 ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/data/ResourceStore.js:153 ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126 ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
 msgid "Node"
 msgstr ""
 
 #: ../www/manager/tree/ResourceTree.js:13
 msgid "Node list"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:48
+msgid "Online"
 msgstr ""
 
 #: ../www/manager/node/Tasks.js:94
@@ -288,7 +348,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: ../www/manager/dc/Config.js:19
+#: ../www/manager/data/ResourceStore.js:160 ../www/manager/dc/Config.js:19
 msgid "Storage"
 msgstr ""
 
@@ -324,8 +384,16 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
+#: ../www/manager/data/ResourceStore.js:33
+msgid "Type"
+msgstr ""
+
 #: ../www/manager/Utils.js:250
 msgid "Unknown error"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:146
+msgid "Uptime"
 msgstr ""
 
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131 ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65 ../www/manager/window/LoginWindow.js:65

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Nov 23 06:18:52 2011\n"
-"PO-Revision-Date: 2011-11-23 06:18+0100\n"
+"POT-Creation-Date: Wed Nov 23 10:13:52 2011\n"
+"PO-Revision-Date: 2011-11-23 10:16+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -37,6 +37,10 @@ msgstr "Authentifikation"
 #: ../www/manager/openvz/Config.js:140
 msgid "Backup"
 msgstr "Backup"
+
+#: ../www/manager/data/ResourceStore.js:132
+msgid "CPU usage"
+msgstr "CPU-Auslastung"
 
 #: ../www/manager/panel/StatusPanel.js:41
 msgid "Cluster log"
@@ -86,9 +90,22 @@ msgstr "Rechenzentrum"
 msgid "Default"
 msgstr "Standardeinstellung"
 
-#: ../www/manager/node/Tasks.js:136 ../www/manager/dc/Tasks.js:91
+#: ../www/manager/data/ResourceStore.js:61 ../www/manager/node/Tasks.js:136
+#: ../www/manager/dc/Tasks.js:91
 msgid "Description"
 msgstr "Beschreibung"
+
+#: ../www/manager/data/ResourceStore.js:109
+msgid "Disk size"
+msgstr "Disk-Größe"
+
+#: ../www/manager/data/ResourceStore.js:102
+msgid "Disk usage"
+msgstr "Disk-Auslastung"
+
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:74
+msgid "Do not use any proxy"
+msgstr "Keinen Proxy verwenden"
 
 #: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:256
 msgid "Do you really want to reset VM {0}?"
@@ -116,6 +133,22 @@ msgstr "Möchten Sie VM {0} wirklich stoppen?"
 #: ../www/manager/VNCConsole.js:280
 msgid "Do you really want to suspend VM {0}?"
 msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
+
+#: ../www/manager/dc/OptionView.js:130
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../www/manager/dc/OptionView.js:8
+msgid "Edit HTTP proxy settings"
+msgstr "Bearbeite HTTP-Proxy-Einstellungen"
+
+#: ../www/manager/dc/OptionView.js:55
+msgid "Edit keyboard settings"
+msgstr "Bearbeite Tastatureinstellungen"
+
+#: ../www/manager/dc/OptionView.js:33
+msgid "Edit language settings"
+msgstr "Bearbeiten Spracheinstellungen"
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
@@ -151,6 +184,10 @@ msgstr "Formularfelder müssen gültige Werte haben"
 msgid "Format"
 msgstr "Format"
 
+#: ../www/manager/dc/OptionView.js:91
+msgid "GUI language"
+msgstr "GUI-Sprache"
+
 #: ../www/manager/dc/Config.js:34
 msgid "Groups"
 msgstr "Gruppen"
@@ -159,7 +196,15 @@ msgstr "Gruppen"
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../www/manager/window/LoginWindow.js:105
+#: ../www/manager/dc/OptionView.js:85
+msgid "Keyboard"
+msgstr "Tastatur"
+
+#: ../www/manager/dc/OptionView.js:60
+msgid "Keyboard Layout"
+msgstr "Tastatur-Layout"
+
+#: ../www/manager/dc/OptionView.js:38 ../www/manager/window/LoginWindow.js:105
 msgid "Language"
 msgstr "Sprache"
 
@@ -175,6 +220,14 @@ msgstr "Anmeldung fehlgeschlagen. Bitte versuchen Sie es noch einmal."
 msgid "Logout"
 msgstr "Logout"
 
+#: ../www/manager/data/ResourceStore.js:124
+msgid "Memory size"
+msgstr "Speichergröße"
+
+#: ../www/manager/data/ResourceStore.js:117
+msgid "Memory usage"
+msgstr "Speicherverbrauch"
+
 #: ../www/manager/dc/Log.js:76
 msgid "Message"
 msgstr "Meldung"
@@ -187,6 +240,10 @@ msgstr "Migration"
 msgid "Monitor"
 msgstr "Monitor"
 
+#: ../www/manager/data/ResourceStore.js:96
+msgid "Name"
+msgstr "Name"
+
 #: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:113
 msgid "Network"
 msgstr "Netzwerk"
@@ -195,14 +252,19 @@ msgstr "Netzwerk"
 msgid "No"
 msgstr "Nein"
 
-#: ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126
-#: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/data/ResourceStore.js:153 ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Tasks.js:81
+#: ../www/manager/dc/Log.js:50
 msgid "Node"
 msgstr "Knoten"
 
 #: ../www/manager/tree/ResourceTree.js:13
 msgid "Node list"
 msgstr "Knotenliste"
+
+#: ../www/manager/data/ResourceStore.js:48
+msgid "Online"
+msgstr "Online"
 
 #: ../www/manager/node/Tasks.js:94
 msgid "Only Errors"
@@ -320,7 +382,7 @@ msgstr "Status"
 msgid "Stop"
 msgstr "Stop"
 
-#: ../www/manager/dc/Config.js:19
+#: ../www/manager/data/ResourceStore.js:160 ../www/manager/dc/Config.js:19
 msgid "Storage"
 msgstr "Speicher"
 
@@ -357,9 +419,17 @@ msgstr "Tasks"
 msgid "Time"
 msgstr "Zeit"
 
+#: ../www/manager/data/ResourceStore.js:33
+msgid "Type"
+msgstr "Typ"
+
 #: ../www/manager/Utils.js:250
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
+
+#: ../www/manager/data/ResourceStore.js:146
+msgid "Uptime"
+msgstr "Betriebszeit"
 
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
