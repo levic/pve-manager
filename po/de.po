@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Nov 22 13:57:09 2011\n"
-"PO-Revision-Date: 2011-11-22 13:57+0100\n"
+"POT-Creation-Date: Wed Nov 23 06:18:52 2011\n"
+"PO-Revision-Date: 2011-11-23 06:18+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -121,13 +121,17 @@ msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 msgid "End Time"
 msgstr "Endzeit"
 
-#: ../www/manager/window/LoginWindow.js:88
+#: ../www/manager/window/LoginWindow.js:90
 msgid "Enter your password"
 msgstr "Bitte geben Sie Ihr Passwort ein"
 
-#: ../www/manager/window/LoginWindow.js:65
+#: ../www/manager/window/LoginWindow.js:67
 msgid "Enter your user name"
 msgstr "Bitte geben Sie Ihren Benutzernamen ein"
+
+#: ../www/manager/window/LoginWindow.js:17
+msgid "Error"
+msgstr "Fehler"
 
 #: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
@@ -155,13 +159,17 @@ msgstr "Gruppen"
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../www/manager/window/LoginWindow.js:103
+#: ../www/manager/window/LoginWindow.js:105
 msgid "Language"
 msgstr "Sprache"
 
-#: ../www/manager/window/LoginWindow.js:118
+#: ../www/manager/window/LoginWindow.js:121
 msgid "Login"
 msgstr "Anmelden"
+
+#: ../www/manager/window/LoginWindow.js:18
+msgid "Login failed. Please try again"
+msgstr "Anmeldung fehlgeschlagen. Bitte versuchen Sie es noch einmal."
 
 #: ../www/manager/Workspace.js:308
 msgid "Logout"
@@ -209,7 +217,7 @@ msgstr "OpenVZ Container"
 msgid "Options"
 msgstr "Optionen"
 
-#: ../www/manager/window/LoginWindow.js:86
+#: ../www/manager/window/LoginWindow.js:88
 msgid "Password"
 msgstr "Passwort"
 
@@ -218,11 +226,12 @@ msgstr "Passwort"
 msgid "Permissions"
 msgstr "Rechte"
 
-#: ../www/manager/Utils.js:294
+#: ../www/manager/Utils.js:294 ../www/manager/window/LoginWindow.js:12
+#: ../www/manager/window/LoginWindow.js:113
 msgid "Please wait..."
 msgstr "Bitte warten..."
 
-#: ../www/manager/window/LoginWindow.js:44
+#: ../www/manager/window/LoginWindow.js:46
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE Anmeldung"
 
@@ -354,7 +363,7 @@ msgstr "Unbekannter Fehler"
 
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
-#: ../www/manager/window/LoginWindow.js:63
+#: ../www/manager/window/LoginWindow.js:65
 msgid "User name"
 msgstr "Benutzername"
 

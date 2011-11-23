@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Nov 22 13:57:09 2011\n"
+"POT-Creation-Date: Wed Nov 23 06:18:52 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -104,12 +104,16 @@ msgstr ""
 msgid "End Time"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:88
+#: ../www/manager/window/LoginWindow.js:90
 msgid "Enter your password"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:65
+#: ../www/manager/window/LoginWindow.js:67
 msgid "Enter your user name"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:17
+msgid "Error"
 msgstr ""
 
 #: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40 ../www/manager/Utils.js:65
@@ -136,12 +140,16 @@ msgstr ""
 msgid "Hardware"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:103
+#: ../www/manager/window/LoginWindow.js:105
 msgid "Language"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:118
+#: ../www/manager/window/LoginWindow.js:121
 msgid "Login"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:18
+msgid "Login failed. Please try again"
 msgstr ""
 
 #: ../www/manager/Workspace.js:308
@@ -188,7 +196,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:86
+#: ../www/manager/window/LoginWindow.js:88
 msgid "Password"
 msgstr ""
 
@@ -196,11 +204,11 @@ msgstr ""
 msgid "Permissions"
 msgstr ""
 
-#: ../www/manager/Utils.js:294
+#: ../www/manager/Utils.js:294 ../www/manager/window/LoginWindow.js:12 ../www/manager/window/LoginWindow.js:113
 msgid "Please wait..."
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:44
+#: ../www/manager/window/LoginWindow.js:46
 msgid "Proxmox VE Login"
 msgstr ""
 
@@ -320,7 +328,7 @@ msgstr ""
 msgid "Unknown error"
 msgstr ""
 
-#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131 ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65 ../www/manager/window/LoginWindow.js:63
+#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131 ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65 ../www/manager/window/LoginWindow.js:65
 msgid "User name"
 msgstr ""
 
