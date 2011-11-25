@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Nov 24 13:10:49 2011\n"
+"POT-Creation-Date: Fri Nov 25 12:30:05 2011\n"
 "PO-Revision-Date: 2011-11-22 09:15+0100\n"
 "Last-Translator: Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: French\n"
@@ -21,7 +21,9 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: ../www/manager/storage/DirEdit.js:72
+#: ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:72
+#: ../www/manager/storage/NFSEdit.js:130
 msgid "All"
 msgstr ""
 
@@ -48,6 +50,14 @@ msgstr ""
 msgid "Backup"
 msgstr ""
 
+#: ../www/manager/storage/LVMEdit.js:149
+msgid "Base storage"
+msgstr ""
+
+#: ../www/manager/storage/LVMEdit.js:142
+msgid "Base volume"
+msgstr ""
+
 #: ../www/manager/data/ResourceStore.js:132
 msgid "CPU usage"
 msgstr ""
@@ -58,9 +68,9 @@ msgstr ""
 
 #: ../www/manager/dc/StorageView.js:72 ../www/manager/qemu/CmdMenu.js:41
 #: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
-#: ../www/manager/VNCConsole.js:257 ../www/manager/VNCConsole.js:269
-#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:376
-#: ../www/manager/VNCConsole.js:388 ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/VNCConsole.js:268 ../www/manager/VNCConsole.js:280
+#: ../www/manager/VNCConsole.js:292 ../www/manager/VNCConsole.js:387
+#: ../www/manager/VNCConsole.js:399 ../www/manager/openvz/CmdMenu.js:41
 msgid "Confirm"
 msgstr ""
 
@@ -71,7 +81,7 @@ msgid "Connection error"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:94 ../www/manager/qemu/CmdMenu.js:51
-#: ../www/manager/VNCConsole.js:310 ../www/manager/VNCConsole.js:411
+#: ../www/manager/VNCConsole.js:321 ../www/manager/VNCConsole.js:422
 #: ../www/manager/openvz/Config.js:86 ../www/manager/openvz/CmdMenu.js:51
 msgid "Console"
 msgstr ""
@@ -93,12 +103,24 @@ msgstr ""
 msgid "Create CT"
 msgstr ""
 
+#: ../www/manager/storage/LVMEdit.js:233
+msgid "Create LVM storage"
+msgstr ""
+
+#: ../www/manager/storage/NFSEdit.js:172
+msgid "Create NFS storage"
+msgstr ""
+
 #: ../www/manager/Workspace.js:322
 msgid "Create VM"
 msgstr ""
 
 #: ../www/manager/storage/DirEdit.js:107
 msgid "Create directory storage"
+msgstr ""
+
+#: ../www/manager/storage/IScsiEdit.js:173
+msgid "Create iSCSI storage"
 msgstr ""
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
@@ -130,7 +152,7 @@ msgstr ""
 msgid "Do not use any proxy"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:256
+#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:267
 msgid "Do you really want to reset VM {0}?"
 msgstr ""
 
@@ -139,7 +161,7 @@ msgid "Do you really want to restart node {0}?"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:40
-#: ../www/manager/VNCConsole.js:268 ../www/manager/VNCConsole.js:387
+#: ../www/manager/VNCConsole.js:279 ../www/manager/VNCConsole.js:398
 #: ../www/manager/openvz/Config.js:52 ../www/manager/openvz/CmdMenu.js:40
 msgid "Do you really want to shutdown VM {0}?"
 msgstr ""
@@ -149,11 +171,11 @@ msgid "Do you really want to shutdown node {0}?"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:44 ../www/manager/VNCConsole.js:239
-#: ../www/manager/VNCConsole.js:375 ../www/manager/openvz/Config.js:44
+#: ../www/manager/VNCConsole.js:386 ../www/manager/openvz/Config.js:44
 msgid "Do you really want to stop VM {0}?"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:280
+#: ../www/manager/VNCConsole.js:291
 msgid "Do you really want to suspend VM {0}?"
 msgstr ""
 
@@ -165,8 +187,20 @@ msgstr ""
 msgid "Edit HTTP proxy settings"
 msgstr ""
 
+#: ../www/manager/storage/LVMEdit.js:235
+msgid "Edit LVM storage {0}"
+msgstr ""
+
+#: ../www/manager/storage/NFSEdit.js:174
+msgid "Edit NFS storage {0}"
+msgstr ""
+
 #: ../www/manager/storage/DirEdit.js:109
 msgid "Edit directory storage {0}"
+msgstr ""
+
+#: ../www/manager/storage/IScsiEdit.js:175
+msgid "Edit iSCSI storage {0}"
 msgstr ""
 
 #: ../www/manager/dc/OptionView.js:55
@@ -177,7 +211,10 @@ msgstr ""
 msgid "Edit language settings"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:200 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/dc/StorageView.js:200
+#: ../www/manager/storage/IScsiEdit.js:135
+#: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/NFSEdit.js:140
 msgid "Enable"
 msgstr ""
 
@@ -201,6 +238,10 @@ msgstr ""
 #: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
 msgid "Example"
+msgstr ""
+
+#: ../www/manager/storage/LVMEdit.js:40
+msgid "Existing volume groups"
 msgstr ""
 
 #: ../www/manager/form/ViewSelector.js:15
@@ -264,7 +305,8 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:59
+#: ../www/manager/qemu/Config.js:51 ../www/manager/VNCConsole.js:249
+#: ../www/manager/openvz/Config.js:59
 msgid "Migrate"
 msgstr ""
 
@@ -284,7 +326,9 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: ../www/manager/storage/DirEdit.js:73
+#: ../www/manager/storage/IScsiEdit.js:126
+#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
+#: ../www/manager/storage/NFSEdit.js:131
 msgid "No restrictions"
 msgstr ""
 
@@ -298,7 +342,9 @@ msgstr ""
 msgid "Node list"
 msgstr ""
 
-#: ../www/manager/storage/DirEdit.js:71
+#: ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:71
+#: ../www/manager/storage/NFSEdit.js:129
 msgid "Nodes"
 msgstr ""
 
@@ -337,13 +383,13 @@ msgstr ""
 msgid "Proxmox VE Login"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:398
-#: ../www/manager/VNCConsole.js:448
+#: ../www/manager/VNCConsole.js:308 ../www/manager/VNCConsole.js:409
+#: ../www/manager/VNCConsole.js:459
 msgid "Refresh"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:405
-#: ../www/manager/VNCConsole.js:455
+#: ../www/manager/VNCConsole.js:315 ../www/manager/VNCConsole.js:416
+#: ../www/manager/VNCConsole.js:466
 msgid "Reload"
 msgstr ""
 
@@ -352,7 +398,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:254
+#: ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:265
 msgid "Reset"
 msgstr ""
 
@@ -364,7 +410,7 @@ msgstr ""
 msgid "Restart"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:290
+#: ../www/manager/VNCConsole.js:301
 msgid "Resume"
 msgstr ""
 
@@ -375,6 +421,10 @@ msgstr ""
 #: ../www/manager/grid/ResourceGrid.js:177
 #: ../www/manager/grid/ResourceGrid.js:181
 msgid "Search"
+msgstr ""
+
+#: ../www/manager/storage/NFSEdit.js:95
+msgid "Server"
 msgstr ""
 
 #: ../www/manager/form/ViewSelector.js:11
@@ -393,23 +443,24 @@ msgstr ""
 msgid "Severity"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/LVMEdit.js:201
+#: ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr ""
 
-#: ../www/manager/node/Config.js:47 ../www/manager/VNCConsole.js:459
+#: ../www/manager/node/Config.js:47 ../www/manager/VNCConsole.js:470
 msgid "Shell"
 msgstr ""
 
 #: ../www/manager/node/Config.js:39 ../www/manager/qemu/Config.js:71
-#: ../www/manager/qemu/CmdMenu.js:37 ../www/manager/VNCConsole.js:266
-#: ../www/manager/VNCConsole.js:385 ../www/manager/openvz/Config.js:51
+#: ../www/manager/qemu/CmdMenu.js:37 ../www/manager/VNCConsole.js:277
+#: ../www/manager/VNCConsole.js:396 ../www/manager/openvz/Config.js:51
 #: ../www/manager/openvz/CmdMenu.js:37
 msgid "Shutdown"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:30
-#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:367
+#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:378
 #: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:30
 msgid "Start"
 msgstr ""
@@ -423,7 +474,7 @@ msgid "Status"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:237
-#: ../www/manager/VNCConsole.js:373 ../www/manager/openvz/Config.js:43
+#: ../www/manager/VNCConsole.js:384 ../www/manager/openvz/Config.js:43
 msgid "Stop"
 msgstr ""
 
@@ -452,7 +503,7 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:278
+#: ../www/manager/VNCConsole.js:289
 msgid "Suspend"
 msgstr ""
 
@@ -477,6 +528,10 @@ msgstr ""
 msgid "Uptime"
 msgstr ""
 
+#: ../www/manager/storage/IScsiEdit.js:141
+msgid "Use LUNs directly"
+msgstr ""
+
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:65
@@ -497,6 +552,10 @@ msgstr ""
 
 #: ../www/manager/tree/ResourceTree.js:21
 msgid "Virtual machines"
+msgstr ""
+
+#: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
+msgid "Volume group"
 msgstr ""
 
 #: ../www/manager/Utils.js:544
