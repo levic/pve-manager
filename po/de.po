@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Nov 23 10:13:52 2011\n"
-"PO-Revision-Date: 2011-11-23 10:16+0100\n"
+"POT-Creation-Date: Thu Nov 24 13:10:49 2011\n"
+"PO-Revision-Date: 2011-11-24 13:10+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../www/manager/dc/StorageView.js:114
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: ../www/manager/storage/DirEdit.js:72
+msgid "All"
+msgstr "Alle"
 
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
@@ -28,6 +36,10 @@ msgid ""
 msgstr ""
 "Sind Sie sicher dass Sie VM {0} entfernen wollen? Damit löschen Sie alle "
 "Daten der VM."
+
+#: ../www/manager/dc/StorageView.js:70
+msgid "Are you sure you want to remove storage {0}?"
+msgstr "Möchten Sie Speicher {0} wirklich entfernen?"
 
 #: ../www/manager/dc/Config.js:49
 msgid "Authentication"
@@ -46,11 +58,11 @@ msgstr "CPU-Auslastung"
 msgid "Cluster log"
 msgstr "Cluster log"
 
-#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/button/Button.js:40
-#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:257
-#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
-#: ../www/manager/VNCConsole.js:376 ../www/manager/VNCConsole.js:388
-#: ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/dc/StorageView.js:72 ../www/manager/qemu/CmdMenu.js:41
+#: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
+#: ../www/manager/VNCConsole.js:257 ../www/manager/VNCConsole.js:269
+#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:376
+#: ../www/manager/VNCConsole.js:388 ../www/manager/openvz/CmdMenu.js:41
 msgid "Confirm"
 msgstr "Bestätigung"
 
@@ -70,9 +82,14 @@ msgstr "Konsole"
 msgid "Container {0} on node {1}"
 msgstr "Container {0} auf Knoten {1}"
 
+#: ../www/manager/dc/StorageView.js:174 ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/Browser.js:30
 msgid "Content"
 msgstr "Inhalt"
+
+#: ../www/manager/window/Edit.js:166
+msgid "Create"
+msgstr "Erstellen"
 
 #: ../www/manager/Workspace.js:333
 msgid "Create CT"
@@ -81,6 +98,10 @@ msgstr "Erstelle CT"
 #: ../www/manager/Workspace.js:322
 msgid "Create VM"
 msgstr "Erstelle VM"
+
+#: ../www/manager/storage/DirEdit.js:107
+msgid "Create directory storage"
+msgstr "Erstelle Directory-Speicher"
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
@@ -94,6 +115,10 @@ msgstr "Standardeinstellung"
 #: ../www/manager/dc/Tasks.js:91
 msgid "Description"
 msgstr "Beschreibung"
+
+#: ../www/manager/storage/DirEdit.js:38
+msgid "Directory"
+msgstr "Verzeichnis"
 
 #: ../www/manager/data/ResourceStore.js:109
 msgid "Disk size"
@@ -134,13 +159,17 @@ msgstr "Möchten Sie VM {0} wirklich stoppen?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 
-#: ../www/manager/dc/OptionView.js:130
+#: ../www/manager/dc/StorageView.js:54 ../www/manager/dc/OptionView.js:130
 msgid "Edit"
 msgstr "Bearbeiten"
 
 #: ../www/manager/dc/OptionView.js:8
 msgid "Edit HTTP proxy settings"
 msgstr "Bearbeite HTTP-Proxy-Einstellungen"
+
+#: ../www/manager/storage/DirEdit.js:109
+msgid "Edit directory storage {0}"
+msgstr "Bearbeite Directory-Speicher {0}"
 
 #: ../www/manager/dc/OptionView.js:55
 msgid "Edit keyboard settings"
@@ -149,6 +178,10 @@ msgstr "Bearbeite Tastatureinstellungen"
 #: ../www/manager/dc/OptionView.js:33
 msgid "Edit language settings"
 msgstr "Bearbeiten Spracheinstellungen"
+
+#: ../www/manager/dc/StorageView.js:200 ../www/manager/storage/DirEdit.js:57
+msgid "Enable"
+msgstr "Freigabe"
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
@@ -162,7 +195,8 @@ msgstr "Bitte geben Sie Ihr Passwort ein"
 msgid "Enter your user name"
 msgstr "Bitte geben Sie Ihren Benutzernamen ein"
 
-#: ../www/manager/window/LoginWindow.js:17
+#: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:87
+#: ../www/manager/window/Edit.js:124
 msgid "Error"
 msgstr "Fehler"
 
@@ -252,6 +286,10 @@ msgstr "Netzwerk"
 msgid "No"
 msgstr "Nein"
 
+#: ../www/manager/storage/DirEdit.js:73
+msgid "No restrictions"
+msgstr "Keine Einschränkung"
+
 #: ../www/manager/data/ResourceStore.js:153 ../www/manager/node/Config.js:60
 #: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Tasks.js:81
 #: ../www/manager/dc/Log.js:50
@@ -261,6 +299,10 @@ msgstr "Knoten"
 #: ../www/manager/tree/ResourceTree.js:13
 msgid "Node list"
 msgstr "Knotenliste"
+
+#: ../www/manager/storage/DirEdit.js:71
+msgid "Nodes"
+msgstr "Knoten"
 
 #: ../www/manager/data/ResourceStore.js:48
 msgid "Online"
@@ -307,7 +349,8 @@ msgstr "Aktualisieren"
 msgid "Reload"
 msgstr "Neu laden"
 
-#: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
+#: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79
+#: ../www/manager/openvz/Config.js:71
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -351,6 +394,10 @@ msgstr "Services"
 #: ../www/manager/dc/Log.js:70
 msgid "Severity"
 msgstr "Schwere"
+
+#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/DirEdit.js:63
+msgid "Shared"
+msgstr "Verteilt"
 
 #: ../www/manager/node/Config.js:47 ../www/manager/VNCConsole.js:459
 msgid "Shell"
@@ -420,6 +467,7 @@ msgid "Time"
 msgstr "Zeit"
 
 #: ../www/manager/data/ResourceStore.js:33
+#: ../www/manager/dc/StorageView.js:167
 msgid "Type"
 msgstr "Typ"
 

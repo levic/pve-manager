@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Nov 23 10:13:52 2011\n"
+"POT-Creation-Date: Thu Nov 24 13:10:49 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -16,12 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../www/manager/dc/StorageView.js:114
+msgid "Add"
+msgstr ""
+
+#: ../www/manager/storage/DirEdit.js:72
+msgid "All"
+msgstr ""
+
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:72
 msgid "Are you sure you want to remove VM {0}? This will permanently erase all VM data."
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:70
+msgid "Are you sure you want to remove storage {0}?"
 msgstr ""
 
 #: ../www/manager/dc/Config.js:49
@@ -40,7 +52,7 @@ msgstr ""
 msgid "Cluster log"
 msgstr ""
 
-#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:257 ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:376 ../www/manager/VNCConsole.js:388 ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/dc/StorageView.js:72 ../www/manager/qemu/CmdMenu.js:41 ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:257 ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:376 ../www/manager/VNCConsole.js:388 ../www/manager/openvz/CmdMenu.js:41
 msgid "Confirm"
 msgstr ""
 
@@ -56,8 +68,12 @@ msgstr ""
 msgid "Container {0} on node {1}"
 msgstr ""
 
-#: ../www/manager/storage/Browser.js:30
+#: ../www/manager/dc/StorageView.js:174 ../www/manager/storage/DirEdit.js:46 ../www/manager/storage/Browser.js:30
 msgid "Content"
+msgstr ""
+
+#: ../www/manager/window/Edit.js:166
+msgid "Create"
 msgstr ""
 
 #: ../www/manager/Workspace.js:333
@@ -66,6 +82,10 @@ msgstr ""
 
 #: ../www/manager/Workspace.js:322
 msgid "Create VM"
+msgstr ""
+
+#: ../www/manager/storage/DirEdit.js:107
+msgid "Create directory storage"
 msgstr ""
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
@@ -78,6 +98,10 @@ msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:61 ../www/manager/node/Tasks.js:136 ../www/manager/dc/Tasks.js:91
 msgid "Description"
+msgstr ""
+
+#: ../www/manager/storage/DirEdit.js:38
+msgid "Directory"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:109
@@ -116,12 +140,16 @@ msgstr ""
 msgid "Do you really want to suspend VM {0}?"
 msgstr ""
 
-#: ../www/manager/dc/OptionView.js:130
+#: ../www/manager/dc/StorageView.js:54 ../www/manager/dc/OptionView.js:130
 msgid "Edit"
 msgstr ""
 
 #: ../www/manager/dc/OptionView.js:8
 msgid "Edit HTTP proxy settings"
+msgstr ""
+
+#: ../www/manager/storage/DirEdit.js:109
+msgid "Edit directory storage {0}"
 msgstr ""
 
 #: ../www/manager/dc/OptionView.js:55
@@ -130,6 +158,10 @@ msgstr ""
 
 #: ../www/manager/dc/OptionView.js:33
 msgid "Edit language settings"
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:200 ../www/manager/storage/DirEdit.js:57
+msgid "Enable"
 msgstr ""
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
@@ -144,7 +176,7 @@ msgstr ""
 msgid "Enter your user name"
 msgstr ""
 
-#: ../www/manager/window/LoginWindow.js:17
+#: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:87 ../www/manager/window/Edit.js:124
 msgid "Error"
 msgstr ""
 
@@ -232,12 +264,20 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: ../www/manager/storage/DirEdit.js:73
+msgid "No restrictions"
+msgstr ""
+
 #: ../www/manager/data/ResourceStore.js:153 ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126 ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
 msgid "Node"
 msgstr ""
 
 #: ../www/manager/tree/ResourceTree.js:13
 msgid "Node list"
+msgstr ""
+
+#: ../www/manager/storage/DirEdit.js:71
+msgid "Nodes"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:48
@@ -280,7 +320,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
+#: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
 msgid "Remove"
 msgstr ""
 
@@ -322,6 +362,10 @@ msgstr ""
 
 #: ../www/manager/dc/Log.js:70
 msgid "Severity"
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/DirEdit.js:63
+msgid "Shared"
 msgstr ""
 
 #: ../www/manager/node/Config.js:47 ../www/manager/VNCConsole.js:459
@@ -384,7 +428,7 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:33
+#: ../www/manager/data/ResourceStore.js:33 ../www/manager/dc/StorageView.js:167
 msgid "Type"
 msgstr ""
 
