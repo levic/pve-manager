@@ -2,7 +2,7 @@ include ../defines.mk
 
 # msginit -i messages.pot -l de
 
-LINGUAS=de fr
+LINGUAS=de fr ja
 
 all: $(patsubst %, pve-lang-%.js, $(LINGUAS))
 

@@ -1,0 +1,2045 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 20011 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 2.0\n"
+"Report-Msgid-Bugs-To: <support@proxmox.com>\n"
+"POT-Creation-Date: Wed Dec  7 09:14:58 2011\n"
+"PO-Revision-Date: 2011-12-06 19:55+0900\n"
+"Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
+"Language-Team: Japanese <support@proxmox.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+
+#: ../www/manager/dc/StorageView.js:114
+msgid "Add"
+msgstr "追加"
+
+#: ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:72
+#: ../www/manager/storage/NFSEdit.js:130
+msgid "All"
+msgstr "すべて"
+
+#: ../www/manager/Utils.js:60
+msgid "Allowed characters"
+msgstr "使用可能な文字"
+
+#: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:72
+msgid ""
+"Are you sure you want to remove VM {0}? This will permanently erase all VM "
+"data."
+msgstr ""
+"本当に VM {0} を削除してもよろしいですか? 削除すると、VM データを復活させるこ"
+"とはできません。"
+
+#: ../www/manager/dc/StorageView.js:70
+msgid "Are you sure you want to remove storage {0}?"
+msgstr "本当にストレージ {0} を削除してもよろしいですか?"
+
+#: ../www/manager/dc/Config.js:49
+msgid "Authentication"
+msgstr "認証"
+
+#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:395
+#: ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
+msgid "Backup"
+msgstr "バックアップ"
+
+#: ../www/manager/storage/LVMEdit.js:149
+msgid "Base storage"
+msgstr "ベースストレージ"
+
+#: ../www/manager/storage/LVMEdit.js:142
+msgid "Base volume"
+msgstr "ベースボリューム"
+
+#: ../www/manager/data/ResourceStore.js:132
+msgid "CPU usage"
+msgstr "CPU 使用率"
+
+#: ../www/manager/panel/StatusPanel.js:41
+msgid "Cluster log"
+msgstr "クラスタログ"
+
+#: ../www/manager/dc/StorageView.js:72 ../www/manager/qemu/CmdMenu.js:45
+#: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
+#: ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269
+#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370
+#: ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CmdMenu.js:45
+msgid "Confirm"
+msgstr "確認"
+
+#: ../www/manager/Utils.js:277 ../www/manager/Utils.js:328
+#: ../www/manager/Utils.js:330 ../www/manager/Utils.js:332
+#: ../www/manager/Utils.js:334
+msgid "Connection error"
+msgstr "接続エラー"
+
+#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
+#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
+msgid "Console"
+msgstr "コンソール"
+
+#: ../www/manager/openvz/Config.js:97
+msgid "Container {0} on node {1}"
+msgstr "ノード {1} 上のコンテナ {0}"
+
+#: ../www/manager/dc/StorageView.js:174 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/storage/Browser.js:30
+msgid "Content"
+msgstr "内容"
+
+#: ../www/manager/window/Edit.js:166
+msgid "Create"
+msgstr "作成"
+
+#: ../www/manager/Workspace.js:341
+msgid "Create CT"
+msgstr "CT を作成"
+
+#: ../www/manager/storage/LVMEdit.js:233
+msgid "Create LVM storage"
+msgstr "LVM ストレージを作成"
+
+#: ../www/manager/storage/NFSEdit.js:172
+msgid "Create NFS storage"
+msgstr "NFS ストレージを作成"
+
+#: ../www/manager/Workspace.js:330
+msgid "Create VM"
+msgstr "VM を作成"
+
+#: ../www/manager/storage/DirEdit.js:107
+msgid "Create directory storage"
+msgstr "ディレクトリストレージを作成"
+
+#: ../www/manager/storage/IScsiEdit.js:173
+msgid "Create iSCSI storage"
+msgstr "iSCSI ストレージを作成"
+
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#, fuzzy
+msgid "Create {0}"
+msgstr "CT {0} を作成"
+
+#: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
+msgid "Datacenter"
+msgstr "データセンター"
+
+#: ../www/manager/Utils.js:552
+msgid "Default"
+msgstr "デフォルト"
+
+#: ../www/manager/data/ResourceStore.js:61 ../www/manager/node/Tasks.js:136
+#: ../www/manager/dc/Tasks.js:91
+msgid "Description"
+msgstr "説明"
+
+#: ../www/manager/Utils.js:378 ../www/manager/Utils.js:388
+#, fuzzy
+msgid "Destroy {0}"
+msgstr "CT {0} を破棄"
+
+#: ../www/manager/storage/DirEdit.js:38
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: ../www/manager/data/ResourceStore.js:109
+msgid "Disk size"
+msgstr "ディスクサイズ"
+
+#: ../www/manager/data/ResourceStore.js:102
+msgid "Disk usage"
+msgstr "ディスク使用状況"
+
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
+msgid "Do not use any proxy"
+msgstr "プロキシを使用しない"
+
+#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:268
+msgid "Do you really want to reset VM {0}?"
+msgstr "本当に、VM {0} をリセットしますか?"
+
+#: ../www/manager/node/Config.js:32
+msgid "Do you really want to restart node {0}?"
+msgstr "本当に、ノード {0} を再起動しますか?"
+
+#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:44
+#: ../www/manager/VNCConsole.js:239 ../www/manager/VNCConsole.js:369
+#: ../www/manager/openvz/Config.js:52 ../www/manager/openvz/CmdMenu.js:44
+msgid "Do you really want to shutdown VM {0}?"
+msgstr "本当に、VM {0} をシャットダウンしますか?"
+
+#: ../www/manager/node/Config.js:40
+msgid "Do you really want to shutdown node {0}?"
+msgstr "本当に、ノード {0} をシャットダウンしますか?"
+
+#: ../www/manager/qemu/Config.js:44 ../www/manager/VNCConsole.js:251
+#: ../www/manager/VNCConsole.js:381 ../www/manager/openvz/Config.js:44
+msgid "Do you really want to stop VM {0}?"
+msgstr "本当に、VM {0} を停止しますか?"
+
+#: ../www/manager/VNCConsole.js:280
+msgid "Do you really want to suspend VM {0}?"
+msgstr "本当に、VM {0} を一時停止しますか?"
+
+#: ../www/manager/dc/StorageView.js:54 ../www/manager/dc/OptionView.js:102
+msgid "Edit"
+msgstr "編集"
+
+#: ../www/manager/dc/OptionView.js:8
+msgid "Edit HTTP proxy settings"
+msgstr "HTTP プロキシ設定を編集"
+
+#: ../www/manager/storage/LVMEdit.js:235
+msgid "Edit LVM storage {0}"
+msgstr "LVM ストレージ {0} を編集"
+
+#: ../www/manager/storage/NFSEdit.js:174
+msgid "Edit NFS storage {0}"
+msgstr "NFS ストレージ {0} を編集"
+
+#: ../www/manager/storage/DirEdit.js:109
+msgid "Edit directory storage {0}"
+msgstr "ディレクトリストレージ {0} を編集"
+
+#: ../www/manager/storage/IScsiEdit.js:175
+msgid "Edit iSCSI storage {0}"
+msgstr "iSCSI ストレージ {0} を編集"
+
+#: ../www/manager/dc/OptionView.js:33
+msgid "Edit keyboard settings"
+msgstr "キーボード設定を編集"
+
+#: ../www/manager/dc/StorageView.js:200
+#: ../www/manager/storage/IScsiEdit.js:135
+#: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/NFSEdit.js:140
+msgid "Enable"
+msgstr "有効"
+
+#: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
+msgid "End Time"
+msgstr "終了時刻"
+
+#: ../www/manager/window/LoginWindow.js:90
+msgid "Enter your password"
+msgstr "パスワードを入力して下さい"
+
+#: ../www/manager/window/LoginWindow.js:67
+msgid "Enter your user name"
+msgstr "ユーザー名を入力して下さい"
+
+#: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:87
+#: ../www/manager/window/Edit.js:124
+msgid "Error"
+msgstr "エラー"
+
+#: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
+#: ../www/manager/Utils.js:65
+msgid "Example"
+msgstr "例"
+
+#: ../www/manager/storage/LVMEdit.js:40
+msgid "Existing volume groups"
+msgstr "既存のボリュームグループ"
+
+#: ../www/manager/form/ViewSelector.js:15
+msgid "Folder View"
+msgstr "フォルダ表示"
+
+#: ../www/manager/Utils.js:274
+msgid "Form fields may not be submitted with invalid values"
+msgstr "すべての欄が正しく入力されていないとフォームを送信することはできません"
+
+#: ../www/manager/Utils.js:45 ../www/manager/Utils.js:50
+#: ../www/manager/Utils.js:55
+msgid "Format"
+msgstr "形式"
+
+#: ../www/manager/dc/Config.js:34
+msgid "Groups"
+msgstr "グループ"
+
+#: ../www/manager/qemu/Config.js:117
+msgid "Hardware"
+msgstr "ハードウェア"
+
+#: ../www/manager/dc/OptionView.js:63
+msgid "Keyboard"
+msgstr "キーボード"
+
+#: ../www/manager/dc/OptionView.js:38
+msgid "Keyboard Layout"
+msgstr "レイアウト"
+
+#: ../www/manager/window/LoginWindow.js:105
+msgid "Language"
+msgstr "言語"
+
+#: ../www/manager/window/LoginWindow.js:121
+msgid "Login"
+msgstr "ログイン"
+
+#: ../www/manager/window/LoginWindow.js:18
+msgid "Login failed. Please try again"
+msgstr "ログインできませんでした。やり直して下さい"
+
+#: ../www/manager/Workspace.js:316
+msgid "Logout"
+msgstr "ログアウト"
+
+#: ../www/manager/data/ResourceStore.js:124
+msgid "Memory size"
+msgstr "メモリーサイズ"
+
+#: ../www/manager/data/ResourceStore.js:117
+msgid "Memory usage"
+msgstr "メモリー使用状況"
+
+#: ../www/manager/dc/Log.js:76
+msgid "Message"
+msgstr "メッセージ"
+
+#: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:59
+msgid "Migrate"
+msgstr "マイグレート"
+
+#: ../www/manager/Utils.js:379
+#, fuzzy
+msgid "Migrate {0}"
+msgstr "VM {0} をマイグレート"
+
+#: ../www/manager/qemu/Config.js:127
+msgid "Monitor"
+msgstr "モニター"
+
+#: ../www/manager/data/ResourceStore.js:96
+msgid "Name"
+msgstr "名前"
+
+#: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:114
+msgid "Network"
+msgstr "ネットワーク"
+
+#: ../www/manager/Utils.js:551
+msgid "No"
+msgstr "いいえ"
+
+#: ../www/manager/storage/IScsiEdit.js:126
+#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
+#: ../www/manager/storage/NFSEdit.js:131
+msgid "No restrictions"
+msgstr "無制限"
+
+#: ../www/manager/data/ResourceStore.js:153 ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Tasks.js:81
+#: ../www/manager/dc/Log.js:50
+msgid "Node"
+msgstr "ノード"
+
+#: ../www/manager/tree/ResourceTree.js:13
+msgid "Node list"
+msgstr "ノードリスト"
+
+#: ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:71
+#: ../www/manager/storage/NFSEdit.js:129
+msgid "Nodes"
+msgstr "ノード"
+
+#: ../www/manager/data/ResourceStore.js:48
+msgid "Online"
+msgstr "オンライン"
+
+#: ../www/manager/node/Tasks.js:94
+msgid "Only Errors"
+msgstr "エラーのみ"
+
+#: ../www/manager/tree/ResourceTree.js:25
+msgid "OpenVZ containers"
+msgstr "OpenVZ コンテナ"
+
+#: ../www/manager/dc/Config.js:14 ../www/manager/qemu/Config.js:122
+#: ../www/manager/openvz/Config.js:124
+msgid "Options"
+msgstr "オプション"
+
+#: ../www/manager/Utils.js:99 ../www/manager/Utils.js:110
+msgid "Other OS types"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:88
+msgid "Password"
+msgstr "パスワード"
+
+#: ../www/manager/dc/Config.js:39 ../www/manager/storage/Browser.js:34
+#: ../www/manager/qemu/Config.js:137 ../www/manager/openvz/Config.js:146
+msgid "Permissions"
+msgstr "アクセス権限"
+
+#: ../www/manager/Utils.js:295 ../www/manager/window/LoginWindow.js:12
+#: ../www/manager/window/LoginWindow.js:113
+msgid "Please wait..."
+msgstr "しばらくお待ち下さい…"
+
+#: ../www/manager/window/LoginWindow.js:46
+msgid "Proxmox VE Login"
+msgstr "Proxmox VE ログイン"
+
+#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
+#: ../www/manager/VNCConsole.js:437
+msgid "Refresh"
+msgstr "再表示"
+
+#: ../www/manager/VNCConsole.js:311 ../www/manager/VNCConsole.js:407
+#: ../www/manager/VNCConsole.js:444
+msgid "Reload"
+msgstr "再読込"
+
+#: ../www/manager/Utils.js:394
+#, fuzzy
+msgid "Reload {0}"
+msgstr "再読込"
+
+#: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79
+#: ../www/manager/openvz/Config.js:71
+msgid "Remove"
+msgstr "削除"
+
+#: ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:266
+msgid "Reset"
+msgstr "リセット"
+
+#: ../www/manager/Utils.js:382
+#, fuzzy
+msgid "Reset {0}"
+msgstr "VM {0} をリセット"
+
+#: ../www/manager/openvz/Config.js:109
+msgid "Resources"
+msgstr "リソース"
+
+#: ../www/manager/node/Config.js:31
+msgid "Restart"
+msgstr "再起動"
+
+#: ../www/manager/Utils.js:393
+#, fuzzy
+msgid "Restart {0}"
+msgstr "再起動"
+
+#: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
+#, fuzzy
+msgid "Restore {0}"
+msgstr "CT {0} をリストア"
+
+#: ../www/manager/VNCConsole.js:290
+msgid "Resume"
+msgstr "再開"
+
+#: ../www/manager/Utils.js:385
+#, fuzzy
+msgid "Resume {0}"
+msgstr "VM {0} を再開"
+
+#: ../www/manager/dc/Config.js:44
+msgid "Roles"
+msgstr "ロール"
+
+#: ../www/manager/grid/ResourceGrid.js:177
+#: ../www/manager/grid/ResourceGrid.js:181
+msgid "Search"
+msgstr "検索"
+
+#: ../www/manager/storage/NFSEdit.js:95
+msgid "Server"
+msgstr "サーバー"
+
+#: ../www/manager/form/ViewSelector.js:11
+msgid "Server View"
+msgstr "サーバー表示"
+
+#: ../www/manager/dc/Log.js:55
+msgid "Service"
+msgstr "サービス"
+
+#: ../www/manager/node/Config.js:71
+msgid "Services"
+msgstr "サービス"
+
+#: ../www/manager/dc/Log.js:70
+msgid "Severity"
+msgstr "重要度"
+
+#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/LVMEdit.js:201
+#: ../www/manager/storage/DirEdit.js:63
+msgid "Shared"
+msgstr "共有"
+
+#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:375
+#: ../www/manager/VNCConsole.js:448
+msgid "Shell"
+msgstr "シェル"
+
+#: ../www/manager/node/Config.js:39 ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:51
+#: ../www/manager/openvz/CmdMenu.js:41
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+#: ../www/manager/Utils.js:383
+#, fuzzy
+msgid "Shutdown {0}"
+msgstr "VM {0} をシャットダウン"
+
+#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361
+#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
+msgid "Start"
+msgstr "起動"
+
+#: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Tasks.js:61
+msgid "Start Time"
+msgstr "開始時刻"
+
+#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:389
+#: ../www/manager/Utils.js:391
+#, fuzzy
+msgid "Start {0}"
+msgstr "CT {0} を起動"
+
+#: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Tasks.js:97
+msgid "Status"
+msgstr "状態"
+
+#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379 ../www/manager/openvz/Config.js:43
+msgid "Stop"
+msgstr "停止"
+
+#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:390
+#: ../www/manager/Utils.js:392
+#, fuzzy
+msgid "Stop {0}"
+msgstr "CT {0} を停止"
+
+#: ../www/manager/data/ResourceStore.js:160 ../www/manager/dc/Config.js:19
+msgid "Storage"
+msgstr "ストレージ"
+
+#: ../www/manager/form/ViewSelector.js:19
+msgid "Storage View"
+msgstr "ストレージ表示"
+
+#: ../www/manager/tree/ResourceTree.js:17
+msgid "Storage list"
+msgstr "ストレージリスト"
+
+#: ../www/manager/storage/Browser.js:19
+msgid "Storage {0} on node {1}"
+msgstr "ノード {1} 上のストレージ {0}"
+
+#: ../www/manager/Utils.js:248
+msgid "Successful"
+msgstr "正常終了"
+
+#: ../www/manager/node/Config.js:66 ../www/manager/storage/Browser.js:24
+#: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:104
+msgid "Summary"
+msgstr "サマリー"
+
+#: ../www/manager/VNCConsole.js:278
+msgid "Suspend"
+msgstr "一時停止"
+
+#: ../www/manager/Utils.js:384
+#, fuzzy
+msgid "Suspend {0}"
+msgstr "VM {0} を一時停止"
+
+#: ../www/manager/panel/StatusPanel.js:36
+msgid "Tasks"
+msgstr "タスク"
+
+#: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
+msgid "Time"
+msgstr "時刻"
+
+#: ../www/manager/data/ResourceStore.js:33
+#: ../www/manager/dc/StorageView.js:167
+msgid "Type"
+msgstr "種別"
+
+#: ../www/manager/Utils.js:251
+msgid "Unknown error"
+msgstr "未知のエラー"
+
+#: ../www/manager/data/ResourceStore.js:146
+msgid "Uptime"
+msgstr "稼働時間"
+
+#: ../www/manager/storage/IScsiEdit.js:141
+msgid "Use LUNs directly"
+msgstr "LUNs を直接使用する"
+
+#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
+#: ../www/manager/window/LoginWindow.js:65
+msgid "User name"
+msgstr "ユーザー名"
+
+#: ../www/manager/dc/Config.js:29
+msgid "Users"
+msgstr "ユーザー"
+
+#: ../www/manager/Utils.js:374
+#, fuzzy
+msgid "VNC connection to {0}"
+msgstr "VM/CT {0} へ VNC 接続"
+
+#: ../www/manager/node/Tasks.js:57
+msgid "View"
+msgstr "表示"
+
+#: ../www/manager/qemu/Config.js:105
+msgid "Virtual machine {0} on node {1}"
+msgstr "ノード {1} 上の仮想マシン {0}"
+
+#: ../www/manager/tree/ResourceTree.js:21
+msgid "Virtual machines"
+msgstr "仮想マシン"
+
+#: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
+msgid "Volume group"
+msgstr "ボリュームグループ"
+
+#: ../www/manager/Utils.js:550
+msgid "Yes"
+msgstr "はい"
+
+#: ../www/manager/Workspace.js:219
+msgid "You are logged in as {0}"
+msgstr "{0} でログイン中"
+
+#~ msgid "\"now\" or \"2006-06-17T16:01:21\" or \"2006-06-17\""
+#~ msgstr "\"now\" または、\"2006-06-17T16:01:21\"、\"2006-06-17\""
+
+#~ msgid "-- all --"
+#~ msgstr "-- すべて --"
+
+#~ msgid "-- any --"
+#~ msgstr "-- いずれか --"
+
+#~ msgid "192.168.2.23,ldap.company.net"
+#~ msgstr "192.168.2.23, ldap.example.jp"
+
+#~ msgid "486"
+#~ msgstr "486"
+
+#~ msgid "802.3ad"
+#~ msgstr "802.3ad"
+
+#~ msgid "ACPI support"
+#~ msgstr "ACPI サポート"
+
+#~ msgid "Abort"
+#~ msgstr "中止"
+
+#~ msgid "Active"
+#~ msgstr "稼働中"
+
+#~ msgid "Active Directory Server"
+#~ msgstr "Active Directory サーバー"
+
+#~ msgid "Add (previously unused) Harddisk"
+#~ msgstr "(未使用の) ハードディスクを追加"
+
+#~ msgid "Add CD/DVD Drive"
+#~ msgstr "CD/DVD ドライブを追加"
+
+#~ msgid "Add Harddisk"
+#~ msgstr "ハードディスクを追加"
+
+#~ msgid "Add IP address (venet)"
+#~ msgstr "IP アドレスを追加 (venet)"
+
+#~ msgid "Add ethernet device (veth)"
+#~ msgstr "イーサネットデバイスを追加 (veth)"
+
+#~ msgid "Add network device"
+#~ msgstr "ネットワークデバイスを追加"
+
+#~ msgid "All VMs"
+#~ msgstr "すべての VM"
+
+#~ msgid "Arabic"
+#~ msgstr "アラビア語"
+
+#~ msgid "Are you sure you want to delete this backup job?"
+#~ msgstr "本当にこのバックアップジョブを削除しますか?"
+
+#~ msgid "Are you sure you want to delete volume {0}"
+#~ msgstr "本当にボリューム {0} を削除しますか?"
+
+#~ msgid "Are you sure you want to navigate away from this page?"
+#~ msgstr "本当にこのページから移動してもよろしいですか?"
+
+#~ msgid "Are you sure you want to permanently delete the group: {0}"
+#~ msgstr "本当にグループ: {0} を削除してしまってもよろしいですか?"
+
+#~ msgid "Are you sure you want to permanently delete the user: {0}?"
+#~ msgstr "本当にユーザー: {0} を削除してしまってもよろしいですか?"
+
+#~ msgid "Are you sure you want to permanently the authentication realm: {0}"
+#~ msgstr "本当に認証レルム: {0} を削除してしまってもよろしいですか?"
+
+#~ msgid "Are you sure you want to remove IP address {0}"
+#~ msgstr "本当に IP アドレス {0} を削除してもよろしいですか"
+
+#~ msgid "Are you sure you want to remove device {0}"
+#~ msgstr "本当にデバイス {0} を削除してもよろしいですか"
+
+#~ msgid ""
+#~ "Are you sure you want to remove image {0}? This will permanently erase "
+#~ "all image data."
+#~ msgstr ""
+#~ "本当にイメージ {0} を削除してもよろしいですか? 削除すると、イメージデータ"
+#~ "を復活させることはできません。"
+
+#~ msgid "Are you sure you want to remove this item"
+#~ msgstr "本当にこの項目を削除してもよろしいですか?"
+
+#~ msgid "Are you sure you want to remove: {0}?"
+#~ msgstr "本当に {0} を削除してもよろしいですか?"
+
+#~ msgid ""
+#~ "Are you sure you want to restore VM {0}? This will permanently erase "
+#~ "current VM data."
+#~ msgstr ""
+#~ "本当に VM {0} をリストアしてもよろしいですか? リストアすると現在の VM デー"
+#~ "タは消去されます。"
+
+#~ msgid "Autostart"
+#~ msgstr "自動的に開始"
+
+#~ msgid "Avail"
+#~ msgstr "空き容量"
+
+#~ msgid "Back"
+#~ msgstr "戻る"
+
+#~ msgid "Backup CT {0}"
+#~ msgstr "CT {0} をバックアップ"
+
+#~ msgid "Backup VM {0}"
+#~ msgstr "VM {0} をバックアップ"
+
+#~ msgid "Backup now"
+#~ msgstr "今すぐバックアップ"
+
+#~ msgid "Backups"
+#~ msgstr "バックアップ"
+
+#~ msgid "Base Domain Name"
+#~ msgstr "ベースドメイン名"
+
+#~ msgid "Bond"
+#~ msgstr "Bond"
+
+#~ msgid "Boot order"
+#~ msgstr "ブート順"
+
+#~ msgid "Bridge"
+#~ msgstr "ブリッジ"
+
+#~ msgid "Bridge ports"
+#~ msgstr "ブリッジポート"
+
+#~ msgid "Bridged mode"
+#~ msgstr "ブリッジモード"
+
+#~ msgid "Bus/Device"
+#~ msgstr "バス/デバイス"
+
+#~ msgid "CD-ROM"
+#~ msgstr "CD-ROM"
+
+#~ msgid "CD/DVD"
+#~ msgstr "CD/DVD"
+
+#~ msgid "CD/DVD Drive"
+#~ msgstr "CD/DVD ドライブ"
+
+#~ msgid "CPU"
+#~ msgstr "CPU"
+
+#~ msgid "CPU type"
+#~ msgstr "CPU 種別"
+
+#~ msgid "CPU units"
+#~ msgstr "CPU ユニット"
+
+#~ msgid "CPU usage %"
+#~ msgstr "CPU 使用率"
+
+#~ msgid "CPUs"
+#~ msgstr "CPU"
+
+#~ msgid "Cache"
+#~ msgstr "キャッシュ"
+
+#~ msgid "Capacity"
+#~ msgstr "容量"
+
+#~ msgid "Change CD/DVD settings ({0})"
+#~ msgstr "CD/DVD 設定 ({0}) を変更"
+
+#~ msgid "Cirrus Logic GD5446"
+#~ msgstr "Cirrus Logic GD5446"
+
+#~ msgid "Comment"
+#~ msgstr "コメント"
+
+#~ msgid "Compress"
+#~ msgstr "圧縮"
+
+#~ msgid "Compression"
+#~ msgstr "圧縮"
+
+#~ msgid "Confirm password"
+#~ msgstr "パスワードの確認"
+
+#~ msgid "Confirmation"
+#~ msgstr "確認"
+
+#~ msgid "Container"
+#~ msgstr "コンテナ"
+
+#~ msgid "Container Hostname"
+#~ msgstr "コンテナのホスト名"
+
+#~ msgid "Containers"
+#~ msgstr "コンテナ"
+
+#~ msgid "Content type"
+#~ msgstr "種別"
+
+#~ msgid "Cores"
+#~ msgstr "コア"
+
+#~ msgid "Create Auth"
+#~ msgstr "認証を作成"
+
+#~ msgid "Create Backup Job"
+#~ msgstr "バックアップジョブを作成"
+
+#~ msgid "Create Bond"
+#~ msgstr "Bond を作成"
+
+#~ msgid "Create Bridge"
+#~ msgstr "ブリッジを作成"
+
+#~ msgid "Create Group"
+#~ msgstr "グループを作成"
+
+#~ msgid "Create User"
+#~ msgstr "ユーザーを作成"
+
+#~ msgid "Create VM {0}"
+#~ msgstr "VM {0} を作成"
+
+#~ msgid "Create new container"
+#~ msgstr "新規コンテナを作成"
+
+#~ msgid "Create new virtual machine"
+#~ msgstr "新規仮想マシンを作成"
+
+#~ msgid "Croatia"
+#~ msgstr "クロアチア語"
+
+#~ msgid "Ctrl-Alt-Backspace"
+#~ msgstr "Ctrl+Alt+Backspace"
+
+#~ msgid "Ctrl-Alt-Delete"
+#~ msgstr "Ctrl+Alt+Delete"
+
+#~ msgid "Ctrl-Alt-F1"
+#~ msgstr "Ctrl+Alt+F1"
+
+#~ msgid "Ctrl-Alt-F10"
+#~ msgstr "Ctrl+Alt+F10"
+
+#~ msgid "Ctrl-Alt-F11"
+#~ msgstr "Ctrl+Alt+F11"
+
+#~ msgid "Ctrl-Alt-F12"
+#~ msgstr "Ctrl+Alt+F12"
+
+#~ msgid "Ctrl-Alt-F2"
+#~ msgstr "Ctrl+Alt+F2"
+
+#~ msgid "Ctrl-Alt-F3"
+#~ msgstr "Ctrl+Alt+F3"
+
+#~ msgid "Ctrl-Alt-F4"
+#~ msgstr "Ctrl+Alt+F4"
+
+#~ msgid "Ctrl-Alt-F5"
+#~ msgstr "Ctrl+Alt+F5"
+
+#~ msgid "Ctrl-Alt-F6"
+#~ msgstr "Ctrl+Alt+F6"
+
+#~ msgid "Ctrl-Alt-F7"
+#~ msgstr "Ctrl+Alt+F7"
+
+#~ msgid "Ctrl-Alt-F8"
+#~ msgstr "Ctrl+Alt+F8"
+
+#~ msgid "Ctrl-Alt-F9"
+#~ msgstr "Ctrl+Alt+F9"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "DNS domain"
+#~ msgstr "DNS ドメイン"
+
+#~ msgid "DNS server 1"
+#~ msgstr "DNS サーバー 1"
+
+#~ msgid "DNS server 2"
+#~ msgstr "DNS サーバー 2"
+
+#~ msgid "DNS servers"
+#~ msgstr "DNS サーバー"
+
+#~ msgid "Danish"
+#~ msgstr "デンマーク語"
+
+#~ msgid "Data load error"
+#~ msgstr "データ読み込みエラー"
+
+#~ msgid "Day (average)"
+#~ msgstr "一日 (平均)"
+
+#~ msgid "Day (max)"
+#~ msgstr "一日 (最大)"
+
+#~ msgid "Day of week"
+#~ msgstr "曜日"
+
+#~ msgid "Default (English)"
+#~ msgstr "デフォルト (英語)"
+
+#~ msgid "Default (no cache)"
+#~ msgstr "デフォルト (キャッシュなし)"
+
+#~ msgid "Default (qemu64)"
+#~ msgstr "デフォルト (qemu64)"
+
+#~ msgid "Default Realm"
+#~ msgstr "デフォルトレルム"
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "Deletion Confirmation"
+#~ msgstr "削除の確認"
+
+#~ msgid "Destroy VM {0}"
+#~ msgstr "VM {0} を破棄"
+
+#~ msgid "Device name"
+#~ msgstr "デバイス名"
+
+#~ msgid "Disk"
+#~ msgstr "ディスク"
+
+#~ msgid "Disk IO"
+#~ msgstr "ディスク I/O"
+
+#~ msgid "Disk image"
+#~ msgstr "ディスクイメージ"
+
+#~ msgid "Disk size (GB)"
+#~ msgstr "サイズ (GB)"
+
+#~ msgid "Disk space"
+#~ msgstr "ディスクスペース"
+
+#~ msgid "Disk space (GB)"
+#~ msgstr "ディスク容量 (GB)"
+
+#~ msgid "Display"
+#~ msgstr "ディスプレイ"
+
+#~ msgid "Do not use any media"
+#~ msgstr "メディアを使用しない"
+
+#~ msgid "Dutch"
+#~ msgstr "オランダ語"
+
+#~ msgid "Dutch (Belgium)"
+#~ msgstr "オランダ語 (ベルギー)"
+
+#~ msgid "ERROR"
+#~ msgstr "エラー"
+
+#~ msgid "Edit Harddisk settings ({0})"
+#~ msgstr "ハードディスク({0})の設定を編集"
+
+#~ msgid "Edit User {0}"
+#~ msgstr "ユーザー {0} を編集"
+
+#~ msgid "Edit display settings"
+#~ msgstr "ディスプレイ設定を編集"
+
+#~ msgid "Edit language settings"
+#~ msgstr "言語設定を編集"
+
+#~ msgid "Edit memory settings"
+#~ msgstr "メモリ設定を編集"
+
+#~ msgid "Edit network device settings"
+#~ msgstr "ネットワークデバイス設定を編集"
+
+#~ msgid "Edit network device {0}"
+#~ msgstr "ネットワークデバイス {0} を編集"
+
+#~ msgid "Edit processor settings"
+#~ msgstr "プロセッサー設定を編集"
+
+#~ msgid "Edit ressource settings"
+#~ msgstr "リソース設定を編集"
+
+#~ msgid "Email"
+#~ msgstr "メール"
+
+#~ msgid "Enabled"
+#~ msgstr "有効"
+
+#~ msgid "English"
+#~ msgstr "英語"
+
+#~ msgid "English (UK)"
+#~ msgstr "英語 (UK)"
+
+#~ msgid "English (USA)"
+#~ msgstr "英語 (USA)"
+
+#~ msgid "Enterprise Directory Server"
+#~ msgstr "エンタープライズディレクトリサーバー"
+
+#~ msgid "Error: No such console type"
+#~ msgstr "エラー: 指定のコンソールタイプがありません"
+
+#~ msgid "Estonia"
+#~ msgstr "エストニア語"
+
+#~ msgid "Ethernet device"
+#~ msgstr "イーサネットデバイス"
+
+#~ msgid "Ethernet device (veth)"
+#~ msgstr "イーサネットデバイス (veth)"
+
+#~ msgid "Exclude selected VMs"
+#~ msgstr "選択した VM を除外"
+
+#~ msgid "Expire"
+#~ msgstr "有効期限"
+
+#~ msgid "Export"
+#~ msgstr "Export"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "フェロー諸島"
+
+#~ msgid "File"
+#~ msgstr "ファイル"
+
+#~ msgid "Finish"
+#~ msgstr "完了"
+
+#~ msgid "Finnish"
+#~ msgstr "フィンランド語"
+
+#~ msgid "First DNS server"
+#~ msgstr "プライマリ DNS サーバー"
+
+#~ msgid "First Name"
+#~ msgstr "名"
+
+#~ msgid "First boot device"
+#~ msgstr "最初にブートするデバイス"
+
+#~ msgid "Floppy"
+#~ msgstr "フロッピー"
+
+#~ msgid "Freeze CPU at startup"
+#~ msgstr "起動時に CPU をロックする"
+
+#~ msgid "French"
+#~ msgstr "フランス語"
+
+#~ msgid "French (Belgium)"
+#~ msgstr "フランス語 (ベルギー)"
+
+#~ msgid "French (Canada)"
+#~ msgstr "フランス語 (カナダ)"
+
+#~ msgid "French (Swiss)"
+#~ msgstr "フランス語 (スイス)"
+
+#~ msgid "Friday"
+#~ msgstr "金曜日"
+
+#~ msgid "GUI language"
+#~ msgstr "GUI の言語"
+
+#~ msgid "Gateway"
+#~ msgstr "ゲートウェイ"
+
+#~ msgid "General"
+#~ msgstr "全般"
+
+#~ msgid "German"
+#~ msgstr "ドイツ語"
+
+#~ msgid "German (Swiss)"
+#~ msgstr "ドイツ語 (スイス)"
+
+#~ msgid "Got unexpected device type"
+#~ msgstr "取得したデバイスタイプを判別できません"
+
+#~ msgid "Grace period"
+#~ msgstr "猶予期間"
+
+#~ msgid "Graphic card"
+#~ msgstr "グラフィックカード"
+
+#~ msgid "Group"
+#~ msgstr "グループ"
+
+#~ msgid "Group name"
+#~ msgstr "グループ名"
+
+#~ msgid "GroupID"
+#~ msgstr "グループ ID"
+
+#~ msgid "HD space (root)"
+#~ msgstr "HD スペース (root)"
+
+#~ msgid "HTTP proxy"
+#~ msgstr "HTTP プロキシ"
+
+#~ msgid "Hard Disk"
+#~ msgstr "ハードディスク"
+
+#~ msgid "Harddisk"
+#~ msgstr "ハードディスク"
+
+#~ msgid "Host MAC"
+#~ msgstr "ホスト MAC"
+
+#~ msgid "Host MAC address"
+#~ msgstr "ホスト MAC アドレス"
+
+#~ msgid "Host device name"
+#~ msgstr "ホストデバイス名"
+
+#~ msgid "Host ifname"
+#~ msgstr "ホスト if 名"
+
+#~ msgid "Hostname"
+#~ msgstr "ホスト名"
+
+#~ msgid "Hour (average)"
+#~ msgstr "一時間 (平均)"
+
+#~ msgid "Hour (max)"
+#~ msgstr "一時間 (最大)"
+
+#~ msgid "Hungarian"
+#~ msgstr "ハンガリー語"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "IDE"
+#~ msgstr "IDE"
+
+#~ msgid "IO delay"
+#~ msgstr "IO 遅延"
+
+#~ msgid "IP Address"
+#~ msgstr "IP アドレス"
+
+#~ msgid "IP address"
+#~ msgstr "IP アドレス"
+
+#~ msgid "IP address (venet)"
+#~ msgstr "IP アドレス (venet)"
+
+#~ msgid "IP network"
+#~ msgstr "IP ネットワーク"
+
+#~ msgid "IP/Name"
+#~ msgstr "IP/名前"
+
+#~ msgid "ISO"
+#~ msgstr "ISO"
+
+#~ msgid "ISO Image"
+#~ msgstr "ISO イメージ"
+
+#~ msgid "ISO image"
+#~ msgstr "ISO イメージ"
+
+#~ msgid "Icelandic"
+#~ msgstr "アイスランド語"
+
+#~ msgid "Image"
+#~ msgstr "イメージ"
+
+#~ msgid "Image format"
+#~ msgstr "イメージ形式"
+
+#~ msgid "Images"
+#~ msgstr "イメージ"
+
+#~ msgid "Include selected VMs"
+#~ msgstr "選択した VM を含む"
+
+#~ msgid "Installation Media"
+#~ msgstr "インストールメディア"
+
+#~ msgid "Intel E1000"
+#~ msgstr "Intel E1000"
+
+#~ msgid "Interface Name"
+#~ msgstr "インターフェース名"
+
+#~ msgid "Italian"
+#~ msgstr "イタリア語"
+
+#~ msgid "Item"
+#~ msgstr "個"
+
+#~ msgid "Items"
+#~ msgstr "個"
+
+#~ msgid "Japanese"
+#~ msgstr "日本語"
+
+#~ msgid "KVM hardware virtualization"
+#~ msgstr "KVM ハードウェア仮想化"
+
+#~ msgid "Kernel version"
+#~ msgstr "カーネルのバージョン"
+
+#~ msgid "Key"
+#~ msgstr "キー"
+
+#~ msgid "LDAP/LDAPs Server"
+#~ msgstr "LDAP サーバー"
+
+#~ msgid "LVM"
+#~ msgstr "LVM"
+
+#~ msgid "LVM group"
+#~ msgstr "LVM グループ"
+
+#~ msgid "Last Name"
+#~ msgstr "姓"
+
+#~ msgid "Latvian"
+#~ msgstr "ラトビア語"
+
+#~ msgid "Linux 2.4 Kernel"
+#~ msgstr "Linux 2.4 カーネル"
+
+#~ msgid "Linux 3.X/2.6 Kernel"
+#~ msgstr "Linux 3.x/2.6 カーネル"
+
+#~ msgid "Linux/Other"
+#~ msgstr "Linux/その他"
+
+#~ msgid "Lithuanian"
+#~ msgstr "リトアニア語"
+
+#~ msgid "Load average"
+#~ msgstr "負荷平均"
+
+#~ msgid "Load failed"
+#~ msgstr "読み込めませんでした"
+
+#~ msgid "MAC"
+#~ msgstr "MAC"
+
+#~ msgid "MAC address"
+#~ msgstr "MAC アドレス"
+
+#~ msgid "Macedonian"
+#~ msgstr "マケドニア語"
+
+#~ msgid "Max files"
+#~ msgstr "最大ファイル数"
+
+#~ msgid "Memory"
+#~ msgstr "メモリー"
+
+#~ msgid "Memory (MB)"
+#~ msgstr "メモリー (MB)"
+
+#~ msgid "Microsoft Windows"
+#~ msgstr "Microsoft Windows"
+
+#~ msgid "Microsoft Windows 2000"
+#~ msgstr "Microsoft Windows 2000"
+
+#~ msgid "Microsoft Windows 7/2008r2"
+#~ msgstr "Microsoft Windows 7/2008R2"
+
+#~ msgid "Microsoft Windows Vista/2008"
+#~ msgstr "Microsoft Windows Vista/2008"
+
+#~ msgid "Microsoft Windows XP/2003"
+#~ msgstr "Microsoft Windows XP/2003"
+
+#~ msgid "Mode"
+#~ msgstr "モード"
+
+#~ msgid "Modify"
+#~ msgstr "変更"
+
+#~ msgid "Monday"
+#~ msgstr "月曜日"
+
+#~ msgid "Month (average)"
+#~ msgstr "月間 (平均)"
+
+#~ msgid "Month (max)"
+#~ msgstr "月間 (最大)"
+
+#~ msgid "NAT mode"
+#~ msgstr "NAT モード"
+
+#~ msgid "NFS"
+#~ msgstr "NFS"
+
+#~ msgid "NFS share"
+#~ msgstr "NFS 共有"
+
+#~ msgid "Network Adapter"
+#~ msgstr "ネットワークアダプタ"
+
+#~ msgid "Network Device"
+#~ msgstr "ネットワークデバイス"
+
+#~ msgid "Network card"
+#~ msgstr "カード種別"
+
+#~ msgid "Network traffic"
+#~ msgstr "ネットワーク転送量"
+
+#~ msgid "Next"
+#~ msgstr "次へ"
+
+#~ msgid "No Groups Selected"
+#~ msgstr "グループが選択されていません"
+
+#~ msgid "No backup"
+#~ msgstr "バックアップなし"
+
+#~ msgid "No cache"
+#~ msgstr "キャッシュなし"
+
+#~ msgid "No network device"
+#~ msgstr "ネットワークデバイスなし"
+
+#~ msgid "Node {0} seems to be offline!"
+#~ msgstr "ノード {0} はオフラインのようです!"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "Norwegian"
+#~ msgstr "ノルウェー語"
+
+#~ msgid "Notes"
+#~ msgstr "メモ"
+
+#~ msgid "OS Type"
+#~ msgstr "OS の種別"
+
+#~ msgid "OS default"
+#~ msgstr "OS デフォルト"
+
+#~ msgid "OS template"
+#~ msgstr "OS テンプレート"
+
+#~ msgid "OpenVZ template"
+#~ msgstr "OpenVZ テンプレート"
+
+#~ msgid "Option 'IP address' requires a subnet mask"
+#~ msgstr "'IP アドレス' オプションにはサブネットマスクが必須です"
+
+#~ msgid "Other"
+#~ msgstr "その他"
+
+#~ msgid "Output"
+#~ msgstr "出力"
+
+#~ msgid "PID"
+#~ msgstr "PID"
+
+#~ msgid "PVE Manager version"
+#~ msgstr "PVE マネージャーのバージョン"
+
+#~ msgid "Passowords does not match!"
+#~ msgstr "パスワードが一致しません!"
+
+#~ msgid "Path"
+#~ msgstr "パス"
+
+#~ msgid "Path/Target"
+#~ msgstr "パス/ターゲット"
+
+#~ msgid "Pending changes (please reboot to activate changes)"
+#~ msgstr "保留中の変更 (変更はリブートすると有効になります)"
+
+#~ msgid "Polish"
+#~ msgstr "ポーランド語"
+
+#~ msgid "Portal"
+#~ msgstr "ポータル"
+
+#~ msgid "Ports/Slaves"
+#~ msgstr "ポート/スレーブ"
+
+#~ msgid "Portuguese"
+#~ msgstr "ポルトガル語"
+
+#~ msgid "Portuguese (Brazil)"
+#~ msgstr "ポルトガル語 (ブラジル)"
+
+#~ msgid "Privileges"
+#~ msgstr "権限"
+
+#~ msgid "Process ID"
+#~ msgstr "プロセス ID"
+
+#~ msgid "Processors"
+#~ msgstr "プロセッサー"
+
+#~ msgid "Propagate"
+#~ msgstr "継承"
+
+#~ msgid "Proxmox Console"
+#~ msgstr "Proxmox コンソール"
+
+#~ msgid "Proxmox VE Wizard"
+#~ msgstr "Proxmox VE ウィザード"
+
+#~ msgid "QEMU image format (qcow2)"
+#~ msgstr "QEMU イメージ形式 (qcow2)"
+
+#~ msgid "Quota Grace period"
+#~ msgstr "クォータ猶予期間"
+
+#~ msgid "Quota Grace period (seconds)"
+#~ msgstr "クォータ猶予期間 (秒)"
+
+#~ msgid "Quota UGID limit"
+#~ msgstr "クォータ UGID リミット"
+
+#~ msgid "Quota UGID limit (0 to disable user quotas)"
+#~ msgstr "クォータ UGID リミット (ユーザークォータを無効にする場合は、0)"
+
+#~ msgid "RAM usage"
+#~ msgstr "RAM 使用状況"
+
+#~ msgid "RTC start date"
+#~ msgstr "RTC 開始日時"
+
+#~ msgid "Rate limit (MB/s)"
+#~ msgstr "帯域上限 (MB/s)"
+
+#~ msgid "Raw disk image (raw)"
+#~ msgstr "Raw ディスクイメージ (raw)"
+
+#~ msgid "Ready"
+#~ msgstr "完了"
+
+#~ msgid "Realm"
+#~ msgstr "レルム"
+
+#~ msgid "Realtec RTL8139"
+#~ msgstr "Realtec RTL8139"
+
+#~ msgid "Reload service {0}"
+#~ msgstr "サービス {0} を再読込"
+
+#~ msgid "Ressource"
+#~ msgstr "リソース"
+
+#~ msgid "Restart service {0}"
+#~ msgstr "サービス {0} を再起動"
+
+#~ msgid "Restore"
+#~ msgstr "リストア"
+
+#~ msgid "Restore CT"
+#~ msgstr "CT をリストア"
+
+#~ msgid "Restore VM"
+#~ msgstr "VM をリストア"
+
+#~ msgid "Restore VM {0}"
+#~ msgstr "VM {0} をリストア"
+
+#~ msgid "Revert changes"
+#~ msgstr "元に戻す"
+
+#~ msgid "Role"
+#~ msgstr "ロール"
+
+#~ msgid "Role name"
+#~ msgstr "ロール名"
+
+#~ msgid "Routed mode (venet)"
+#~ msgstr "ルーティングモード (venet)"
+
+#~ msgid "Russian"
+#~ msgstr "ロシア語"
+
+#~ msgid "SCSI"
+#~ msgstr "SCSI"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "SWAP usage"
+#~ msgstr "SWAP 使用状況"
+
+#~ msgid "Saturday"
+#~ msgstr "土曜日"
+
+#~ msgid "Scanning..."
+#~ msgstr "スキャン中…"
+
+#~ msgid "Search domain"
+#~ msgstr "Search domain"
+
+#~ msgid "Second DNS server"
+#~ msgstr "セカンダリ DNS サーバー"
+
+#~ msgid "Second boot device"
+#~ msgstr "二番目にブートするデバイス"
+
+#~ msgid "Select File..."
+#~ msgstr "ファイルを選択…"
+
+#~ msgid "Selection"
+#~ msgstr "選択"
+
+#~ msgid "Selection mode"
+#~ msgstr "選択モード"
+
+#~ msgid "Send email to"
+#~ msgstr "メールの送信先"
+
+#~ msgid "SendKey"
+#~ msgstr "キーの送信"
+
+#~ msgid "Server Address"
+#~ msgstr "サーバーアドレス"
+
+#~ msgid "Server Port"
+#~ msgstr "サーバーポート"
+
+#~ msgid "Server Type"
+#~ msgstr "サーバー種別"
+
+#~ msgid "Server load"
+#~ msgstr "サーバー負荷"
+
+#~ msgid "Server time"
+#~ msgstr "サーバーの時刻"
+
+#~ msgid "Set time zone"
+#~ msgstr "タイムゾーンを設定"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
+
+#~ msgid "Size"
+#~ msgstr "サイズ"
+
+#~ msgid "Slaves"
+#~ msgstr "スレーブ"
+
+#~ msgid "Slovenian"
+#~ msgstr "スロベニア語"
+
+#~ msgid "Snapshot"
+#~ msgstr "スナップショット"
+
+#~ msgid "Sockets"
+#~ msgstr "ソケット"
+
+#~ msgid "Source"
+#~ msgstr "リストアデータ"
+
+#~ msgid "Spanish"
+#~ msgstr "スペイン語"
+
+#~ msgid "Standard VGA"
+#~ msgstr "標準 VGA"
+
+#~ msgid "Start VM {0}"
+#~ msgstr "VM {0} を起動"
+
+#~ msgid "Start at boot"
+#~ msgstr "ブート時に起動"
+
+#~ msgid "Start service {0}"
+#~ msgstr "サービス {0} を開始"
+
+#~ msgid "Start time"
+#~ msgstr "開始時刻"
+
+#~ msgid "State"
+#~ msgstr "状態"
+
+#~ msgid "Stop VM {0}"
+#~ msgstr "VM {0} を停止"
+
+#~ msgid "Stop service {0}"
+#~ msgstr "サービス {0} を停止"
+
+#~ msgid "Storage ID"
+#~ msgstr "ストレージ ID"
+
+#~ msgid "Subnet mask"
+#~ msgstr "サブネットマスク"
+
+#~ msgid "Subnet mask requires option 'IP address'"
+#~ msgstr ""
+#~ "サブネットマスクを指定する場合は 'IP アドレス' オプションも入力して下さい"
+
+#~ msgid "Sunday"
+#~ msgstr "日曜日"
+
+#~ msgid "Swap"
+#~ msgstr "スワップ"
+
+#~ msgid "Swap (MB)"
+#~ msgstr "スワップ (MB)"
+
+#~ msgid "Swedish"
+#~ msgstr "スウェーデン語"
+
+#~ msgid "Syslog"
+#~ msgstr "システムログ"
+
+#~ msgid "Target"
+#~ msgstr "ターゲット"
+
+#~ msgid "Target node"
+#~ msgstr "ターゲットノード"
+
+#~ msgid "Task History"
+#~ msgstr "タスク実行履歴"
+
+#~ msgid "Task type"
+#~ msgstr "タスクの種別"
+
+#~ msgid "Task viewer: "
+#~ msgstr "タスクビューワー:"
+
+#~ msgid "Template"
+#~ msgstr "テンプレート"
+
+#~ msgid "Templates"
+#~ msgstr "テンプレート"
+
+#~ msgid "Thai"
+#~ msgstr "タイ語"
+
+#~ msgid "Third DNS server"
+#~ msgstr "その他の DNS サーバー"
+
+#~ msgid "Third boot device"
+#~ msgstr "三番目にブートするデバイス"
+
+#~ msgid "This VM ID does not exists."
+#~ msgstr "この VM ID は存在しません。"
+
+#~ msgid "This VM ID is already in use."
+#~ msgstr "この VM ID は既に使用されています。"
+
+#~ msgid "This device is already in use."
+#~ msgstr "このデバイスは既に使用されています。"
+
+#~ msgid "Thursday"
+#~ msgstr "木曜日"
+
+#~ msgid "Time zone"
+#~ msgstr "タイムゾーン"
+
+#~ msgid "Timezone"
+#~ msgstr "タイムゾーン"
+
+#~ msgid "Total"
+#~ msgstr "合計"
+
+#~ msgid "Total cores"
+#~ msgstr "合計コア数"
+
+#~ msgid "Tuesday"
+#~ msgstr "火曜日"
+
+#~ msgid "Turkish"
+#~ msgstr "トルコ語"
+
+#~ msgid "Type 'help' for help."
+#~ msgstr "ヘルプを参照する場合は 'help' とタイプして下さい。"
+
+#~ msgid "UBC"
+#~ msgstr "UBC"
+
+#~ msgid "UGID limit"
+#~ msgstr "UGID の上限"
+
+#~ msgid "Unable to parse drive options"
+#~ msgstr "ドライブオプションを解析できません"
+
+#~ msgid "Unable to parse network options"
+#~ msgstr "ネットワークオプションを解析できません"
+
+#~ msgid "Unable to parse the JSON returned by the server: {0}"
+#~ msgstr "サーバーが返信してきた JSON データを解析できません: {0}"
+
+#~ msgid "Unique task ID"
+#~ msgstr "タスク ID"
+
+#~ msgid "Unused Disk"
+#~ msgstr "未使用のディスク"
+
+#~ msgid "Upload"
+#~ msgstr "アップロード"
+
+#~ msgid "Upload failed"
+#~ msgstr "アップロードできませんでした"
+
+#~ msgid "Uploading file..."
+#~ msgstr "ファイルをアップロード中…"
+
+#~ msgid "Usage"
+#~ msgstr "使用状況"
+
+#~ msgid "Use CD/DVD disc image file (iso)"
+#~ msgstr "CD/DVD イメージファイル (iso) を使用する"
+
+#~ msgid "Use local time for RTC"
+#~ msgstr "RTC にローカルタイムを設定する"
+
+#~ msgid "Use physical CD/DVD Drive"
+#~ msgstr "CD/DVD 物理ドライブを使用する"
+
+#~ msgid "Used"
+#~ msgstr "使用中"
+
+#~ msgid "User Attribute Name"
+#~ msgstr "ユーザー属性名"
+
+#~ msgid "User quotas disabled."
+#~ msgstr "ユーザークォータは使用できません。"
+
+#~ msgid "User/Group"
+#~ msgstr "ユーザー/グループ"
+
+#~ msgid "Userid"
+#~ msgstr "ユーザーID"
+
+#~ msgid "VIRTIO"
+#~ msgstr "VIRTIO"
+
+#~ msgid "VM ID"
+#~ msgstr "VM ID"
+
+#~ msgid "VM Type"
+#~ msgstr "VM 種別"
+
+#~ msgid "VM name"
+#~ msgstr "VM 名"
+
+#~ msgid "VMID"
+#~ msgstr "VMID"
+
+#~ msgid "VMWare compatible"
+#~ msgstr "VMWare 互換"
+
+#~ msgid "VMware image format (vmdk)"
+#~ msgstr "VMware イメージ形式 (vmdk)"
+
+#~ msgid "VNC shell"
+#~ msgstr "VNC シェル"
+
+#~ msgid "VSwap usage"
+#~ msgstr "VSwap 使用状況"
+
+#~ msgid "VZDump backup file"
+#~ msgstr "VZDump ファイル"
+
+#~ msgid "Value"
+#~ msgstr "値"
+
+#~ msgid "Version"
+#~ msgstr "バージョン"
+
+#~ msgid "VirtIO (paravirtualized)"
+#~ msgstr "VirtIO (準仮想化)"
+
+#~ msgid "Wednesday"
+#~ msgstr "水曜日"
+
+#~ msgid "Week (average)"
+#~ msgstr "週間 (平均)"
+
+#~ msgid "Week (max)"
+#~ msgstr "週間 (最大)"
+
+#~ msgid "Write back"
+#~ msgstr "ライトバック"
+
+#~ msgid "Write back (unsafe)"
+#~ msgstr "ライトバック (危険)"
+
+#~ msgid "Write through"
+#~ msgstr "ライトスルー"
+
+#~ msgid "Year (average)"
+#~ msgstr "年間 (平均)"
+
+#~ msgid "Year (max)"
+#~ msgstr "年間 (最大)"
+
+#~ msgid "You are not permitted to delete the auth method: pam"
+#~ msgstr "pam 認証方式を削除する権限がありません"
+
+#~ msgid "active-backup"
+#~ msgstr "active-backup"
+
+#~ msgid "all except {0}"
+#~ msgstr "{0} を除くすべて"
+
+#~ msgid "athlon"
+#~ msgstr "Athlon"
+
+#~ msgid "balance-alb"
+#~ msgstr "balance-alb"
+
+#~ msgid "balance-rr"
+#~ msgstr "balance-rr"
+
+#~ msgid "balance-tlb"
+#~ msgstr "balance-tlb"
+
+#~ msgid "balance-xor"
+#~ msgstr "balance-xor"
+
+#~ msgid "barrier"
+#~ msgstr "バリア値"
+
+#~ msgid "broadcast"
+#~ msgstr "broadcast"
+
+#~ msgid "can't create unknown device type"
+#~ msgstr "デバイスの種別が不明のため作成できません"
+
+#~ msgid "can't get window size"
+#~ msgstr "ウインドウサイズを取得できません"
+
+#~ msgid "core2duo"
+#~ msgstr "Core 2 Duo"
+
+#~ msgid "coreduo"
+#~ msgstr "Core Duo"
+
+#~ msgid "day"
+#~ msgstr "日 +"
+
+#~ msgid "days"
+#~ msgstr "日 +"
+
+#~ msgid "failcnt"
+#~ msgstr "割当失敗回数"
+
+#~ msgid "held"
+#~ msgstr "現在値"
+
+#~ msgid "host"
+#~ msgstr "ホスト"
+
+#~ msgid "iSCSI"
+#~ msgstr "iSCSI"
+
+#~ msgid "iSCSI target"
+#~ msgstr "iSCSI ターゲット"
+
+#~ msgid "interface name already in use"
+#~ msgstr "インターフェース名は既に使用されています"
+
+#~ msgid "kvm32"
+#~ msgstr "kvm32"
+
+#~ msgid "kvm64"
+#~ msgstr "kvm64"
+
+#~ msgid "limit"
+#~ msgstr "リミット値"
+
+#~ msgid "maxcpu"
+#~ msgstr "CPU最大値"
+
+#~ msgid "maxheld"
+#~ msgstr "直近の最大値"
+
+#~ msgid "never"
+#~ msgstr "無期限"
+
+#~ msgid "no VM ID specified"
+#~ msgstr "VM ID が指定されていません"
+
+#~ msgid "no VM type specified"
+#~ msgstr "VM 種別が指定されていません"
+
+#~ msgid "no changes"
+#~ msgstr "変更はありません"
+
+#~ msgid "no dataCache specified"
+#~ msgstr "データキャッシュが指定されていません"
+
+#~ msgid "no datasource specified"
+#~ msgstr "データソースが指定されていません"
+
+#~ msgid "no interface name specified"
+#~ msgstr "インターフェース名が指定されていません"
+
+#~ msgid "no network device type specified"
+#~ msgstr "ネットワークデバイスの種別が指定されていません"
+
+#~ msgid "no node name specified"
+#~ msgstr "ノード名が指定されていません"
+
+#~ msgid "no rrdurl specified"
+#~ msgstr "RRDURLが指定されていません"
+
+#~ msgid "no rstore model specified"
+#~ msgstr "rstore モデルが指定されていません"
+
+#~ msgid "no rstore specified"
+#~ msgstr "rstore が指定されていません"
+
+#~ msgid "no status storage specified"
+#~ msgstr "状態ストレージが指定されていません"
+
+#~ msgid "no storage ID specified"
+#~ msgstr "ストレージ ID が指定されていません"
+
+#~ msgid "no storeid specified"
+#~ msgstr "ストア ID が指定されていません"
+
+#~ msgid "no such interface {0}"
+#~ msgstr "{0} というインターフェースは存在しません"
+
+#~ msgid "no task specified"
+#~ msgstr "タスクが指定されていません"
+
+#~ msgid "no url specified"
+#~ msgstr "URL が指定されていません"
+
+#~ msgid "no vmtype specified"
+#~ msgstr "VM の種別が指定されていません"
+
+#~ msgid "no volume ID specified"
+#~ msgstr "ボリューム ID が指定されていません"
+
+#~ msgid "no workspace specified"
+#~ msgstr "ワークスペースが指定されていません"
+
+#~ msgid "not a vm type"
+#~ msgstr "VM 種別ではありません"
+
+#~ msgid "nothing selected"
+#~ msgstr "何も選択されていません"
+
+#~ msgid "pentium"
+#~ msgstr "Pentium"
+
+#~ msgid "pentium2"
+#~ msgstr "Pentium 2"
+
+#~ msgid "pentium3"
+#~ msgstr "Pentium 3"
+
+#~ msgid "phenom"
+#~ msgstr "Phenom"
+
+#~ msgid "qemu32"
+#~ msgstr "qemu32"
+
+#~ msgid "qemu64"
+#~ msgstr "qemu64"
+
+#~ msgid "running"
+#~ msgstr "稼働中"
+
+#~ msgid "server offline?"
+#~ msgstr "サーバーオフライン?"
+
+#~ msgid "stopped"
+#~ msgstr "停止中"
+
+#~ msgid "unable to parse upid {0}"
+#~ msgstr "upid {0} を解析できません"
+
+#~ msgid "unable to queue store without storeid"
+#~ msgstr "ストア ID がないためストアをキューに入れられません"
+
+#~ msgid "unknown"
+#~ msgstr "不明"
+
+#~ msgid "unknown vm type {0}"
+#~ msgstr "VM 種別 が不明: {0}"
+
+#~ msgid "unsupported VM type {0}"
+#~ msgstr "VM 種別 {0} はサポートしていません"
+
+#~ msgid "unsupported config"
+#~ msgstr "サポートしていない設定です"
+
+#~ msgid "use host settings"
+#~ msgstr "ホスト設定を使用する"
+
+#~ msgid "where 0 <= <b>N</b> <= 9999"
+#~ msgstr "<b>N</b> は、0 以上で、9999 以下"
+
+#~ msgid "{0} ({1} sockets, {2} cores)"
+#~ msgstr "{0} ({1} ソケット、{2} コア)"
+
+#~ msgid "{0}% of {1} {2}"
+#~ msgstr "{1} {2} の {0}%"

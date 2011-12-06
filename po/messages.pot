@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Dec  7 08:23:54 2011\n"
+"POT-Creation-Date: Wed Dec  7 09:14:58 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Authentication"
 msgstr ""
 
-#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:394 ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
+#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:395 ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
 msgid "Backup"
 msgstr ""
 
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: ../www/manager/Utils.js:276 ../www/manager/Utils.js:327 ../www/manager/Utils.js:329 ../www/manager/Utils.js:331 ../www/manager/Utils.js:333
+#: ../www/manager/Utils.js:277 ../www/manager/Utils.js:328 ../www/manager/Utils.js:330 ../www/manager/Utils.js:332 ../www/manager/Utils.js:334
 msgid "Connection error"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Create iSCSI storage"
 msgstr ""
 
-#: ../www/manager/Utils.js:375 ../www/manager/Utils.js:385
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
 msgid "Create {0}"
 msgstr ""
 
@@ -116,7 +116,7 @@ msgstr ""
 msgid "Datacenter"
 msgstr ""
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:552
 msgid "Default"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
+#: ../www/manager/Utils.js:378 ../www/manager/Utils.js:388
 msgid "Destroy {0}"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 msgid "Folder View"
 msgstr ""
 
-#: ../www/manager/Utils.js:273
+#: ../www/manager/Utils.js:274
 msgid "Form fields may not be submitted with invalid values"
 msgstr ""
 
@@ -284,7 +284,7 @@ msgstr ""
 msgid "Migrate"
 msgstr ""
 
-#: ../www/manager/Utils.js:378
+#: ../www/manager/Utils.js:379
 msgid "Migrate {0}"
 msgstr ""
 
@@ -300,7 +300,7 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-#: ../www/manager/Utils.js:550
+#: ../www/manager/Utils.js:551
 msgid "No"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 msgid "Permissions"
 msgstr ""
 
-#: ../www/manager/Utils.js:294 ../www/manager/window/LoginWindow.js:12 ../www/manager/window/LoginWindow.js:113
+#: ../www/manager/Utils.js:295 ../www/manager/window/LoginWindow.js:12 ../www/manager/window/LoginWindow.js:113
 msgid "Please wait..."
 msgstr ""
 
@@ -364,7 +364,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: ../www/manager/Utils.js:393
+#: ../www/manager/Utils.js:394
 msgid "Reload {0}"
 msgstr ""
 
@@ -376,7 +376,7 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: ../www/manager/Utils.js:381
+#: ../www/manager/Utils.js:382
 msgid "Reset {0}"
 msgstr ""
 
@@ -388,11 +388,11 @@ msgstr ""
 msgid "Restart"
 msgstr ""
 
-#: ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:393
 msgid "Restart {0}"
 msgstr ""
 
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
 msgid "Restore {0}"
 msgstr ""
 
@@ -400,7 +400,7 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
-#: ../www/manager/Utils.js:384
+#: ../www/manager/Utils.js:385
 msgid "Resume {0}"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgstr ""
 msgid "Shared"
 msgstr ""
 
-#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:374 ../www/manager/VNCConsole.js:448
+#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:375 ../www/manager/VNCConsole.js:448
 msgid "Shell"
 msgstr ""
 
@@ -444,7 +444,7 @@ msgstr ""
 msgid "Shutdown"
 msgstr ""
 
-#: ../www/manager/Utils.js:382
+#: ../www/manager/Utils.js:383
 msgid "Shutdown {0}"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgstr ""
 msgid "Start Time"
 msgstr ""
 
-#: ../www/manager/Utils.js:379 ../www/manager/Utils.js:388 ../www/manager/Utils.js:390
+#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:389 ../www/manager/Utils.js:391
 msgid "Start {0}"
 msgstr ""
 
@@ -468,7 +468,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:389 ../www/manager/Utils.js:391
+#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:390 ../www/manager/Utils.js:392
 msgid "Stop {0}"
 msgstr ""
 
@@ -488,7 +488,7 @@ msgstr ""
 msgid "Storage {0} on node {1}"
 msgstr ""
 
-#: ../www/manager/Utils.js:247
+#: ../www/manager/Utils.js:248
 msgid "Successful"
 msgstr ""
 
@@ -500,7 +500,7 @@ msgstr ""
 msgid "Suspend"
 msgstr ""
 
-#: ../www/manager/Utils.js:383
+#: ../www/manager/Utils.js:384
 msgid "Suspend {0}"
 msgstr ""
 
@@ -516,7 +516,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: ../www/manager/Utils.js:250
+#: ../www/manager/Utils.js:251
 msgid "Unknown error"
 msgstr ""
 
@@ -536,7 +536,7 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: ../www/manager/Utils.js:373
+#: ../www/manager/Utils.js:374
 msgid "VNC connection to {0}"
 msgstr ""
 
@@ -556,7 +556,7 @@ msgstr ""
 msgid "Volume group"
 msgstr ""
 
-#: ../www/manager/Utils.js:549
+#: ../www/manager/Utils.js:550
 msgid "Yes"
 msgstr ""
 
