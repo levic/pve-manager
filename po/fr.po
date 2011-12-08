@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Dec  8 07:14:25 2011\n"
+"POT-Creation-Date: Thu Dec  8 08:36:37 2011\n"
 "PO-Revision-Date: 2011-11-22 09:15+0100\n"
 "Last-Translator: Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: French\n"
@@ -17,7 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../www/manager/dc/StorageView.js:114
+#: ../www/manager/storage/ContentView.js:87
+msgid "Abort"
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:107
 msgid "Add"
 msgstr ""
 
@@ -37,8 +41,9 @@ msgid ""
 "data."
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:70
-msgid "Are you sure you want to remove storage {0}?"
+#: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/AuthView.js:52
+#: ../www/manager/storage/ContentView.js:260
+msgid "Are you sure you want to remove entry {0}"
 msgstr ""
 
 #: ../www/manager/dc/Config.js:49
@@ -66,11 +71,15 @@ msgstr ""
 msgid "Cluster log"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:72 ../www/manager/qemu/CmdMenu.js:45
-#: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
-#: ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269
-#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370
-#: ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CmdMenu.js:45
+#: ../www/manager/dc/AuthView.js:100 ../www/manager/dc/AuthEdit.js:48
+msgid "Comment"
+msgstr ""
+
+#: ../www/manager/qemu/CmdMenu.js:45 ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252
+#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382
+#: ../www/manager/openvz/CmdMenu.js:45
 msgid "Confirm"
 msgstr ""
 
@@ -80,10 +89,10 @@ msgstr ""
 msgid "Connection error"
 msgstr ""
 
-#: ../www/manager/Utils.js:374 ../www/manager/qemu/Config.js:96
-#: ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297
-#: ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88
-#: ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/Workspace.js:111 ../www/manager/Utils.js:374
+#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
+#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
 msgid "Console"
 msgstr ""
 
@@ -91,13 +100,14 @@ msgstr ""
 msgid "Container {0} on node {1}"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:174 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/dc/StorageView.js:167 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/storage/ContentView.js:48
 #: ../www/manager/storage/Browser.js:30
 msgid "Content"
 msgstr ""
 
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
-#: ../www/manager/window/Edit.js:166
+#: ../www/manager/dc/AuthView.js:25 ../www/manager/Utils.js:376
+#: ../www/manager/Utils.js:386 ../www/manager/window/Edit.js:166
 msgid "Create"
 msgstr ""
 
@@ -125,11 +135,15 @@ msgstr ""
 msgid "Create iSCSI storage"
 msgstr ""
 
+#: ../www/manager/dc/AuthEdit.js:112
+msgid "Create realm"
+msgstr ""
+
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
 msgstr ""
 
-#: ../www/manager/Utils.js:553
+#: ../www/manager/dc/AuthEdit.js:54 ../www/manager/Utils.js:540
 msgid "Default"
 msgstr ""
 
@@ -185,7 +199,8 @@ msgstr ""
 msgid "Do you really want to suspend VM {0}?"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:54 ../www/manager/dc/OptionView.js:102
+#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/AuthView.js:35
+#: ../www/manager/dc/OptionView.js:102
 msgid "Edit"
 msgstr ""
 
@@ -213,7 +228,11 @@ msgstr ""
 msgid "Edit keyboard settings"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:200
+#: ../www/manager/dc/AuthEdit.js:114
+msgid "Edit realm {0}"
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:193
 #: ../www/manager/storage/IScsiEdit.js:135
 #: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
 #: ../www/manager/storage/NFSEdit.js:140
@@ -232,6 +251,10 @@ msgstr ""
 msgid "Enter your user name"
 msgstr ""
 
+#: ../www/manager/dc/AuthView.js:70 ../www/manager/storage/ContentView.js:73
+#: ../www/manager/storage/ContentView.js:128
+#: ../www/manager/storage/ContentView.js:137
+#: ../www/manager/storage/ContentView.js:275 ../www/manager/VNCConsole.js:177
 #: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:87
 #: ../www/manager/window/Edit.js:124
 msgid "Error"
@@ -255,7 +278,7 @@ msgid "Form fields may not be submitted with invalid values"
 msgstr ""
 
 #: ../www/manager/Utils.js:45 ../www/manager/Utils.js:50
-#: ../www/manager/Utils.js:55
+#: ../www/manager/Utils.js:55 ../www/manager/storage/ContentView.js:301
 msgid "Format"
 msgstr ""
 
@@ -313,6 +336,7 @@ msgid "Monitor"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:96
+#: ../www/manager/storage/ContentView.js:294
 msgid "Name"
 msgstr ""
 
@@ -320,7 +344,7 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-#: ../www/manager/Utils.js:552
+#: ../www/manager/Utils.js:538
 msgid "No"
 msgstr ""
 
@@ -371,6 +395,10 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
+#: ../www/manager/dc/ACLView.js:37
+msgid "Path"
+msgstr ""
+
 #: ../www/manager/dc/Config.js:39 ../www/manager/storage/Browser.js:34
 #: ../www/manager/qemu/Config.js:137 ../www/manager/openvz/Config.js:146
 msgid "Permissions"
@@ -381,8 +409,16 @@ msgstr ""
 msgid "Please wait..."
 msgstr ""
 
+#: ../www/manager/dc/ACLView.js:56
+msgid "Propagate"
+msgstr ""
+
 #: ../www/manager/window/LoginWindow.js:46
 msgid "Proxmox VE Login"
+msgstr ""
+
+#: ../www/manager/dc/AuthView.js:87 ../www/manager/dc/AuthEdit.js:26
+msgid "Realm"
 msgstr ""
 
 #: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
@@ -395,7 +431,8 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79
+#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/AuthView.js:49
+#: ../www/manager/storage/ContentView.js:256 ../www/manager/qemu/Config.js:79
 #: ../www/manager/openvz/Config.js:71
 msgid "Remove"
 msgstr ""
@@ -414,11 +451,16 @@ msgid "Restart"
 msgstr ""
 
 #: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
+#: ../www/manager/storage/ContentView.js:228
 msgid "Restore"
 msgstr ""
 
 #: ../www/manager/Utils.js:385 ../www/manager/VNCConsole.js:290
 msgid "Resume"
+msgstr ""
+
+#: ../www/manager/dc/ACLView.js:50
+msgid "Role"
 msgstr ""
 
 #: ../www/manager/dc/Config.js:44
@@ -430,8 +472,20 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
+#: ../www/manager/storage/ContentView.js:55
+msgid "Select File..."
+msgstr ""
+
 #: ../www/manager/storage/NFSEdit.js:95
 msgid "Server"
+msgstr ""
+
+#: ../www/manager/dc/AuthEdit.js:71
+msgid "Server Address"
+msgstr ""
+
+#: ../www/manager/dc/AuthEdit.js:85
+msgid "Server Port"
 msgstr ""
 
 #: ../www/manager/form/ViewSelector.js:11
@@ -450,7 +504,7 @@ msgstr ""
 msgid "Severity"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/LVMEdit.js:201
+#: ../www/manager/dc/StorageView.js:186 ../www/manager/storage/LVMEdit.js:201
 #: ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr ""
@@ -465,6 +519,10 @@ msgstr ""
 #: ../www/manager/VNCConsole.js:237 ../www/manager/VNCConsole.js:367
 #: ../www/manager/openvz/Config.js:51 ../www/manager/openvz/CmdMenu.js:41
 msgid "Shutdown"
+msgstr ""
+
+#: ../www/manager/storage/ContentView.js:306
+msgid "Size"
 msgstr ""
 
 #: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390
@@ -528,12 +586,26 @@ msgid "Time"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:33
-#: ../www/manager/dc/StorageView.js:167
+#: ../www/manager/dc/StorageView.js:160 ../www/manager/dc/AuthView.js:93
 msgid "Type"
+msgstr ""
+
+#: ../www/manager/Utils.js:539
+msgid "Unknown"
 msgstr ""
 
 #: ../www/manager/Utils.js:251
 msgid "Unknown error"
+msgstr ""
+
+#: ../www/manager/storage/ContentView.js:95
+#: ../www/manager/storage/ContentView.js:159
+#: ../www/manager/storage/ContentView.js:281
+msgid "Upload"
+msgstr ""
+
+#: ../www/manager/storage/ContentView.js:67
+msgid "Uploading file..."
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:146
@@ -544,6 +616,10 @@ msgstr ""
 msgid "Use LUNs directly"
 msgstr ""
 
+#: ../www/manager/dc/ACLView.js:43
+msgid "User"
+msgstr ""
+
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:65
@@ -552,6 +628,10 @@ msgstr ""
 
 #: ../www/manager/dc/Config.js:29
 msgid "Users"
+msgstr ""
+
+#: ../www/manager/Workspace.js:303
+msgid "Version"
 msgstr ""
 
 #: ../www/manager/node/Tasks.js:57
@@ -570,10 +650,18 @@ msgstr ""
 msgid "Volume group"
 msgstr ""
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:537
 msgid "Yes"
 msgstr ""
 
 #: ../www/manager/Workspace.js:219
 msgid "You are logged in as {0}"
+msgstr ""
+
+#: ../www/manager/Utils.js:542
+msgid "day"
+msgstr ""
+
+#: ../www/manager/Utils.js:541
+msgid "days"
 msgstr ""

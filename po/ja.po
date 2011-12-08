@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Dec  8 07:14:25 2011\n"
+"POT-Creation-Date: Thu Dec  8 08:36:37 2011\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -17,7 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Japanese\n"
 
-#: ../www/manager/dc/StorageView.js:114
+#: ../www/manager/storage/ContentView.js:87
+msgid "Abort"
+msgstr "中止"
+
+#: ../www/manager/dc/StorageView.js:107
 msgid "Add"
 msgstr "追加"
 
@@ -39,9 +43,11 @@ msgstr ""
 "本当に VM {0} を削除してもよろしいですか? 削除すると、VM データを復活させるこ"
 "とはできません。"
 
-#: ../www/manager/dc/StorageView.js:70
-msgid "Are you sure you want to remove storage {0}?"
-msgstr "本当にストレージ {0} を削除してもよろしいですか?"
+#: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/AuthView.js:52
+#: ../www/manager/storage/ContentView.js:260
+#, fuzzy
+msgid "Are you sure you want to remove entry {0}"
+msgstr "本当に {0} を削除してもよろしいですか?"
 
 #: ../www/manager/dc/Config.js:49
 msgid "Authentication"
@@ -68,11 +74,15 @@ msgstr "CPU 使用率"
 msgid "Cluster log"
 msgstr "クラスタログ"
 
-#: ../www/manager/dc/StorageView.js:72 ../www/manager/qemu/CmdMenu.js:45
-#: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
-#: ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269
-#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370
-#: ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CmdMenu.js:45
+#: ../www/manager/dc/AuthView.js:100 ../www/manager/dc/AuthEdit.js:48
+msgid "Comment"
+msgstr "コメント"
+
+#: ../www/manager/qemu/CmdMenu.js:45 ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252
+#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382
+#: ../www/manager/openvz/CmdMenu.js:45
 msgid "Confirm"
 msgstr "確認"
 
@@ -82,10 +92,10 @@ msgstr "確認"
 msgid "Connection error"
 msgstr "接続エラー"
 
-#: ../www/manager/Utils.js:374 ../www/manager/qemu/Config.js:96
-#: ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297
-#: ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88
-#: ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/Workspace.js:111 ../www/manager/Utils.js:374
+#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
+#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
 msgid "Console"
 msgstr "コンソール"
 
@@ -93,13 +103,14 @@ msgstr "コンソール"
 msgid "Container {0} on node {1}"
 msgstr "ノード {1} 上のコンテナ {0}"
 
-#: ../www/manager/dc/StorageView.js:174 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/dc/StorageView.js:167 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/storage/ContentView.js:48
 #: ../www/manager/storage/Browser.js:30
 msgid "Content"
 msgstr "内容"
 
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
-#: ../www/manager/window/Edit.js:166
+#: ../www/manager/dc/AuthView.js:25 ../www/manager/Utils.js:376
+#: ../www/manager/Utils.js:386 ../www/manager/window/Edit.js:166
 msgid "Create"
 msgstr "作成"
 
@@ -127,11 +138,16 @@ msgstr "ディレクトリストレージを作成"
 msgid "Create iSCSI storage"
 msgstr "iSCSI ストレージを作成"
 
+#: ../www/manager/dc/AuthEdit.js:112
+#, fuzzy
+msgid "Create realm"
+msgstr "ブリッジを作成"
+
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
 msgstr "データセンター"
 
-#: ../www/manager/Utils.js:553
+#: ../www/manager/dc/AuthEdit.js:54 ../www/manager/Utils.js:540
 msgid "Default"
 msgstr "デフォルト"
 
@@ -187,7 +203,8 @@ msgstr "本当に、VM {0} を停止しますか?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "本当に、VM {0} を一時停止しますか?"
 
-#: ../www/manager/dc/StorageView.js:54 ../www/manager/dc/OptionView.js:102
+#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/AuthView.js:35
+#: ../www/manager/dc/OptionView.js:102
 msgid "Edit"
 msgstr "編集"
 
@@ -215,7 +232,12 @@ msgstr "iSCSI ストレージ {0} を編集"
 msgid "Edit keyboard settings"
 msgstr "キーボード設定を編集"
 
-#: ../www/manager/dc/StorageView.js:200
+#: ../www/manager/dc/AuthEdit.js:114
+#, fuzzy
+msgid "Edit realm {0}"
+msgstr "ユーザー {0} を編集"
+
+#: ../www/manager/dc/StorageView.js:193
 #: ../www/manager/storage/IScsiEdit.js:135
 #: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
 #: ../www/manager/storage/NFSEdit.js:140
@@ -234,6 +256,10 @@ msgstr "パスワードを入力して下さい"
 msgid "Enter your user name"
 msgstr "ユーザー名を入力して下さい"
 
+#: ../www/manager/dc/AuthView.js:70 ../www/manager/storage/ContentView.js:73
+#: ../www/manager/storage/ContentView.js:128
+#: ../www/manager/storage/ContentView.js:137
+#: ../www/manager/storage/ContentView.js:275 ../www/manager/VNCConsole.js:177
 #: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:87
 #: ../www/manager/window/Edit.js:124
 msgid "Error"
@@ -257,7 +283,7 @@ msgid "Form fields may not be submitted with invalid values"
 msgstr "すべての欄が正しく入力されていないとフォームを送信することはできません"
 
 #: ../www/manager/Utils.js:45 ../www/manager/Utils.js:50
-#: ../www/manager/Utils.js:55
+#: ../www/manager/Utils.js:55 ../www/manager/storage/ContentView.js:301
 msgid "Format"
 msgstr "形式"
 
@@ -315,6 +341,7 @@ msgid "Monitor"
 msgstr "モニター"
 
 #: ../www/manager/data/ResourceStore.js:96
+#: ../www/manager/storage/ContentView.js:294
 msgid "Name"
 msgstr "名前"
 
@@ -322,7 +349,7 @@ msgstr "名前"
 msgid "Network"
 msgstr "ネットワーク"
 
-#: ../www/manager/Utils.js:552
+#: ../www/manager/Utils.js:538
 msgid "No"
 msgstr "いいえ"
 
@@ -373,6 +400,10 @@ msgstr ""
 msgid "Password"
 msgstr "パスワード"
 
+#: ../www/manager/dc/ACLView.js:37
+msgid "Path"
+msgstr "パス"
+
 #: ../www/manager/dc/Config.js:39 ../www/manager/storage/Browser.js:34
 #: ../www/manager/qemu/Config.js:137 ../www/manager/openvz/Config.js:146
 msgid "Permissions"
@@ -383,9 +414,17 @@ msgstr "アクセス権限"
 msgid "Please wait..."
 msgstr "しばらくお待ち下さい…"
 
+#: ../www/manager/dc/ACLView.js:56
+msgid "Propagate"
+msgstr "継承"
+
 #: ../www/manager/window/LoginWindow.js:46
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE ログイン"
+
+#: ../www/manager/dc/AuthView.js:87 ../www/manager/dc/AuthEdit.js:26
+msgid "Realm"
+msgstr "レルム"
 
 #: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
 #: ../www/manager/VNCConsole.js:437
@@ -397,7 +436,8 @@ msgstr "再表示"
 msgid "Reload"
 msgstr "再読込"
 
-#: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79
+#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/AuthView.js:49
+#: ../www/manager/storage/ContentView.js:256 ../www/manager/qemu/Config.js:79
 #: ../www/manager/openvz/Config.js:71
 msgid "Remove"
 msgstr "削除"
@@ -416,12 +456,17 @@ msgid "Restart"
 msgstr "再起動"
 
 #: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
+#: ../www/manager/storage/ContentView.js:228
 msgid "Restore"
 msgstr "リストア"
 
 #: ../www/manager/Utils.js:385 ../www/manager/VNCConsole.js:290
 msgid "Resume"
 msgstr "再開"
+
+#: ../www/manager/dc/ACLView.js:50
+msgid "Role"
+msgstr "ロール"
 
 #: ../www/manager/dc/Config.js:44
 msgid "Roles"
@@ -432,9 +477,21 @@ msgstr "ロール"
 msgid "Search"
 msgstr "検索"
 
+#: ../www/manager/storage/ContentView.js:55
+msgid "Select File..."
+msgstr "ファイルを選択…"
+
 #: ../www/manager/storage/NFSEdit.js:95
 msgid "Server"
 msgstr "サーバー"
+
+#: ../www/manager/dc/AuthEdit.js:71
+msgid "Server Address"
+msgstr "サーバーアドレス"
+
+#: ../www/manager/dc/AuthEdit.js:85
+msgid "Server Port"
+msgstr "サーバーポート"
 
 #: ../www/manager/form/ViewSelector.js:11
 msgid "Server View"
@@ -452,7 +509,7 @@ msgstr "サービス"
 msgid "Severity"
 msgstr "重要度"
 
-#: ../www/manager/dc/StorageView.js:193 ../www/manager/storage/LVMEdit.js:201
+#: ../www/manager/dc/StorageView.js:186 ../www/manager/storage/LVMEdit.js:201
 #: ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr "共有"
@@ -468,6 +525,10 @@ msgstr "シェル"
 #: ../www/manager/openvz/Config.js:51 ../www/manager/openvz/CmdMenu.js:41
 msgid "Shutdown"
 msgstr "シャットダウン"
+
+#: ../www/manager/storage/ContentView.js:306
+msgid "Size"
+msgstr "サイズ"
 
 #: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390
 #: ../www/manager/Utils.js:392 ../www/manager/qemu/Config.js:36
@@ -530,13 +591,28 @@ msgid "Time"
 msgstr "時刻"
 
 #: ../www/manager/data/ResourceStore.js:33
-#: ../www/manager/dc/StorageView.js:167
+#: ../www/manager/dc/StorageView.js:160 ../www/manager/dc/AuthView.js:93
 msgid "Type"
 msgstr "種別"
+
+#: ../www/manager/Utils.js:539
+#, fuzzy
+msgid "Unknown"
+msgstr "不明"
 
 #: ../www/manager/Utils.js:251
 msgid "Unknown error"
 msgstr "未知のエラー"
+
+#: ../www/manager/storage/ContentView.js:95
+#: ../www/manager/storage/ContentView.js:159
+#: ../www/manager/storage/ContentView.js:281
+msgid "Upload"
+msgstr "アップロード"
+
+#: ../www/manager/storage/ContentView.js:67
+msgid "Uploading file..."
+msgstr "ファイルをアップロード中…"
 
 #: ../www/manager/data/ResourceStore.js:146
 msgid "Uptime"
@@ -545,6 +621,11 @@ msgstr "稼働時間"
 #: ../www/manager/storage/IScsiEdit.js:141
 msgid "Use LUNs directly"
 msgstr "LUNs を直接使用する"
+
+#: ../www/manager/dc/ACLView.js:43
+#, fuzzy
+msgid "User"
+msgstr "ユーザー"
 
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
@@ -555,6 +636,10 @@ msgstr "ユーザー名"
 #: ../www/manager/dc/Config.js:29
 msgid "Users"
 msgstr "ユーザー"
+
+#: ../www/manager/Workspace.js:303
+msgid "Version"
+msgstr "バージョン"
 
 #: ../www/manager/node/Tasks.js:57
 msgid "View"
@@ -572,13 +657,21 @@ msgstr "仮想マシン"
 msgid "Volume group"
 msgstr "ボリュームグループ"
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:537
 msgid "Yes"
 msgstr "はい"
 
 #: ../www/manager/Workspace.js:219
 msgid "You are logged in as {0}"
 msgstr "{0} でログイン中"
+
+#: ../www/manager/Utils.js:542
+msgid "day"
+msgstr "日 +"
+
+#: ../www/manager/Utils.js:541
+msgid "days"
+msgstr "日 +"
 
 #~ msgid "\"now\" or \"2006-06-17T16:01:21\" or \"2006-06-17\""
 #~ msgstr "\"now\" または、\"2006-06-17T16:01:21\"、\"2006-06-17\""
@@ -600,9 +693,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "ACPI support"
 #~ msgstr "ACPI サポート"
-
-#~ msgid "Abort"
-#~ msgstr "中止"
 
 #~ msgid "Active"
 #~ msgstr "稼働中"
@@ -665,11 +755,11 @@ msgstr "{0} でログイン中"
 #~ "本当にイメージ {0} を削除してもよろしいですか? 削除すると、イメージデータ"
 #~ "を復活させることはできません。"
 
+#~ msgid "Are you sure you want to remove storage {0}?"
+#~ msgstr "本当にストレージ {0} を削除してもよろしいですか?"
+
 #~ msgid "Are you sure you want to remove this item"
 #~ msgstr "本当にこの項目を削除してもよろしいですか?"
-
-#~ msgid "Are you sure you want to remove: {0}?"
-#~ msgstr "本当に {0} を削除してもよろしいですか?"
 
 #~ msgid ""
 #~ "Are you sure you want to restore VM {0}? This will permanently erase "
@@ -756,9 +846,6 @@ msgstr "{0} でログイン中"
 #~ msgid "Cirrus Logic GD5446"
 #~ msgstr "Cirrus Logic GD5446"
 
-#~ msgid "Comment"
-#~ msgstr "コメント"
-
 #~ msgid "Compress"
 #~ msgstr "圧縮"
 
@@ -794,9 +881,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Create Bond"
 #~ msgstr "Bond を作成"
-
-#~ msgid "Create Bridge"
-#~ msgstr "ブリッジを作成"
 
 #~ msgid "Create Group"
 #~ msgstr "グループを作成"
@@ -951,9 +1035,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Edit Harddisk settings ({0})"
 #~ msgstr "ハードディスク({0})の設定を編集"
-
-#~ msgid "Edit User {0}"
-#~ msgstr "ユーザー {0} を編集"
 
 #~ msgid "Edit display settings"
 #~ msgstr "ディスプレイ設定を編集"
@@ -1367,9 +1448,6 @@ msgstr "{0} でログイン中"
 #~ msgid "Passowords does not match!"
 #~ msgstr "パスワードが一致しません!"
 
-#~ msgid "Path"
-#~ msgstr "パス"
-
 #~ msgid "Path/Target"
 #~ msgstr "パス/ターゲット"
 
@@ -1399,9 +1477,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Processors"
 #~ msgstr "プロセッサー"
-
-#~ msgid "Propagate"
-#~ msgstr "継承"
 
 #~ msgid "Proxmox Console"
 #~ msgstr "Proxmox コンソール"
@@ -1438,9 +1513,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Ready"
 #~ msgstr "完了"
-
-#~ msgid "Realm"
-#~ msgstr "レルム"
 
 #~ msgid "Realtec RTL8139"
 #~ msgstr "Realtec RTL8139"
@@ -1486,9 +1558,6 @@ msgstr "{0} でログイン中"
 #~ msgid "Revert changes"
 #~ msgstr "元に戻す"
 
-#~ msgid "Role"
-#~ msgstr "ロール"
-
 #~ msgid "Role name"
 #~ msgstr "ロール名"
 
@@ -1522,9 +1591,6 @@ msgstr "{0} でログイン中"
 #~ msgid "Second boot device"
 #~ msgstr "二番目にブートするデバイス"
 
-#~ msgid "Select File..."
-#~ msgstr "ファイルを選択…"
-
 #~ msgid "Selection"
 #~ msgstr "選択"
 
@@ -1536,12 +1602,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "SendKey"
 #~ msgstr "キーの送信"
-
-#~ msgid "Server Address"
-#~ msgstr "サーバーアドレス"
-
-#~ msgid "Server Port"
-#~ msgstr "サーバーポート"
 
 #~ msgid "Server Type"
 #~ msgstr "サーバー種別"
@@ -1561,9 +1621,6 @@ msgstr "{0} でログイン中"
 #, fuzzy
 #~ msgid "Shutdown {0}"
 #~ msgstr "VM {0} をシャットダウン"
-
-#~ msgid "Size"
-#~ msgstr "サイズ"
 
 #~ msgid "Slaves"
 #~ msgstr "スレーブ"
@@ -1728,14 +1785,8 @@ msgstr "{0} でログイン中"
 #~ msgid "Unused Disk"
 #~ msgstr "未使用のディスク"
 
-#~ msgid "Upload"
-#~ msgstr "アップロード"
-
 #~ msgid "Upload failed"
 #~ msgstr "アップロードできませんでした"
-
-#~ msgid "Uploading file..."
-#~ msgstr "ファイルをアップロード中…"
 
 #~ msgid "Usage"
 #~ msgstr "使用状況"
@@ -1800,9 +1851,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Value"
 #~ msgstr "値"
-
-#~ msgid "Version"
-#~ msgstr "バージョン"
 
 #~ msgid "VirtIO (paravirtualized)"
 #~ msgstr "VirtIO (準仮想化)"
@@ -1872,12 +1920,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "coreduo"
 #~ msgstr "Core Duo"
-
-#~ msgid "day"
-#~ msgstr "日 +"
-
-#~ msgid "days"
-#~ msgstr "日 +"
 
 #~ msgid "failcnt"
 #~ msgstr "割当失敗回数"
@@ -2013,9 +2055,6 @@ msgstr "{0} でログイン中"
 
 #~ msgid "unable to queue store without storeid"
 #~ msgstr "ストア ID がないためストアをキューに入れられません"
-
-#~ msgid "unknown"
-#~ msgstr "不明"
 
 #~ msgid "unknown vm type {0}"
 #~ msgstr "VM 種別 が不明: {0}"
