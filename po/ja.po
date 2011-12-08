@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Dec  7 09:14:58 2011\n"
-"PO-Revision-Date: 2011-12-06 19:55+0900\n"
+"POT-Creation-Date: Thu Dec  8 07:14:25 2011\n"
+"PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
 "Language: ja\n"
@@ -47,7 +47,7 @@ msgstr "本当にストレージ {0} を削除してもよろしいですか?"
 msgid "Authentication"
 msgstr "認証"
 
-#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:395
+#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:396
 #: ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
 msgid "Backup"
 msgstr "バックアップ"
@@ -82,9 +82,10 @@ msgstr "確認"
 msgid "Connection error"
 msgstr "接続エラー"
 
-#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
-#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
-#: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/Utils.js:374 ../www/manager/qemu/Config.js:96
+#: ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297
+#: ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88
+#: ../www/manager/openvz/CmdMenu.js:55
 msgid "Console"
 msgstr "コンソール"
 
@@ -97,6 +98,7 @@ msgstr "ノード {1} 上のコンテナ {0}"
 msgid "Content"
 msgstr "内容"
 
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
 #: ../www/manager/window/Edit.js:166
 msgid "Create"
 msgstr "作成"
@@ -125,16 +127,11 @@ msgstr "ディレクトリストレージを作成"
 msgid "Create iSCSI storage"
 msgstr "iSCSI ストレージを作成"
 
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
-#, fuzzy
-msgid "Create {0}"
-msgstr "CT {0} を作成"
-
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
 msgstr "データセンター"
 
-#: ../www/manager/Utils.js:552
+#: ../www/manager/Utils.js:553
 msgid "Default"
 msgstr "デフォルト"
 
@@ -144,9 +141,8 @@ msgid "Description"
 msgstr "説明"
 
 #: ../www/manager/Utils.js:378 ../www/manager/Utils.js:388
-#, fuzzy
-msgid "Destroy {0}"
-msgstr "CT {0} を破棄"
+msgid "Destroy"
+msgstr "を破棄"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
@@ -309,14 +305,10 @@ msgstr "メモリー使用状況"
 msgid "Message"
 msgstr "メッセージ"
 
+#: ../www/manager/Utils.js:379 ../www/manager/Utils.js:389
 #: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:59
 msgid "Migrate"
 msgstr "マイグレート"
-
-#: ../www/manager/Utils.js:379
-#, fuzzy
-msgid "Migrate {0}"
-msgstr "VM {0} をマイグレート"
 
 #: ../www/manager/qemu/Config.js:127
 msgid "Monitor"
@@ -330,7 +322,7 @@ msgstr "名前"
 msgid "Network"
 msgstr "ネットワーク"
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:552
 msgid "No"
 msgstr "いいえ"
 
@@ -400,14 +392,9 @@ msgstr "Proxmox VE ログイン"
 msgid "Refresh"
 msgstr "再表示"
 
-#: ../www/manager/VNCConsole.js:311 ../www/manager/VNCConsole.js:407
-#: ../www/manager/VNCConsole.js:444
+#: ../www/manager/Utils.js:395 ../www/manager/VNCConsole.js:311
+#: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
 msgid "Reload"
-msgstr "再読込"
-
-#: ../www/manager/Utils.js:394
-#, fuzzy
-msgid "Reload {0}"
 msgstr "再読込"
 
 #: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79
@@ -415,41 +402,26 @@ msgstr "再読込"
 msgid "Remove"
 msgstr "削除"
 
-#: ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:266
+#: ../www/manager/Utils.js:382 ../www/manager/qemu/Config.js:63
+#: ../www/manager/VNCConsole.js:266
 msgid "Reset"
 msgstr "リセット"
-
-#: ../www/manager/Utils.js:382
-#, fuzzy
-msgid "Reset {0}"
-msgstr "VM {0} をリセット"
 
 #: ../www/manager/openvz/Config.js:109
 msgid "Resources"
 msgstr "リソース"
 
-#: ../www/manager/node/Config.js:31
+#: ../www/manager/node/Config.js:31 ../www/manager/Utils.js:394
 msgid "Restart"
 msgstr "再起動"
 
-#: ../www/manager/Utils.js:393
-#, fuzzy
-msgid "Restart {0}"
-msgstr "再起動"
-
 #: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
-#, fuzzy
-msgid "Restore {0}"
-msgstr "CT {0} をリストア"
+msgid "Restore"
+msgstr "リストア"
 
-#: ../www/manager/VNCConsole.js:290
+#: ../www/manager/Utils.js:385 ../www/manager/VNCConsole.js:290
 msgid "Resume"
 msgstr "再開"
-
-#: ../www/manager/Utils.js:385
-#, fuzzy
-msgid "Resume {0}"
-msgstr "VM {0} を再開"
 
 #: ../www/manager/dc/Config.js:44
 msgid "Roles"
@@ -490,21 +462,18 @@ msgstr "共有"
 msgid "Shell"
 msgstr "シェル"
 
-#: ../www/manager/node/Config.js:39 ../www/manager/qemu/Config.js:71
-#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237
-#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:51
-#: ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:383
+#: ../www/manager/qemu/Config.js:71 ../www/manager/qemu/CmdMenu.js:41
+#: ../www/manager/VNCConsole.js:237 ../www/manager/VNCConsole.js:367
+#: ../www/manager/openvz/Config.js:51 ../www/manager/openvz/CmdMenu.js:41
 msgid "Shutdown"
 msgstr "シャットダウン"
 
-#: ../www/manager/Utils.js:383
-#, fuzzy
-msgid "Shutdown {0}"
-msgstr "VM {0} をシャットダウン"
-
-#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34
-#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361
-#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
+#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390
+#: ../www/manager/Utils.js:392 ../www/manager/qemu/Config.js:36
+#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
+#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
+#: ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
 msgstr "起動"
 
@@ -512,26 +481,16 @@ msgstr "起動"
 msgid "Start Time"
 msgstr "開始時刻"
 
-#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:389
-#: ../www/manager/Utils.js:391
-#, fuzzy
-msgid "Start {0}"
-msgstr "CT {0} を起動"
-
 #: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Tasks.js:97
 msgid "Status"
 msgstr "状態"
 
-#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249
-#: ../www/manager/VNCConsole.js:379 ../www/manager/openvz/Config.js:43
+#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:391
+#: ../www/manager/Utils.js:393 ../www/manager/qemu/Config.js:43
+#: ../www/manager/VNCConsole.js:249 ../www/manager/VNCConsole.js:379
+#: ../www/manager/openvz/Config.js:43
 msgid "Stop"
 msgstr "停止"
-
-#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:390
-#: ../www/manager/Utils.js:392
-#, fuzzy
-msgid "Stop {0}"
-msgstr "CT {0} を停止"
 
 #: ../www/manager/data/ResourceStore.js:160 ../www/manager/dc/Config.js:19
 msgid "Storage"
@@ -558,14 +517,9 @@ msgstr "正常終了"
 msgid "Summary"
 msgstr "サマリー"
 
-#: ../www/manager/VNCConsole.js:278
+#: ../www/manager/Utils.js:384 ../www/manager/VNCConsole.js:278
 msgid "Suspend"
 msgstr "一時停止"
-
-#: ../www/manager/Utils.js:384
-#, fuzzy
-msgid "Suspend {0}"
-msgstr "VM {0} を一時停止"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Tasks"
@@ -602,11 +556,6 @@ msgstr "ユーザー名"
 msgid "Users"
 msgstr "ユーザー"
 
-#: ../www/manager/Utils.js:374
-#, fuzzy
-msgid "VNC connection to {0}"
-msgstr "VM/CT {0} へ VNC 接続"
-
 #: ../www/manager/node/Tasks.js:57
 msgid "View"
 msgstr "表示"
@@ -623,7 +572,7 @@ msgstr "仮想マシン"
 msgid "Volume group"
 msgstr "ボリュームグループ"
 
-#: ../www/manager/Utils.js:550
+#: ../www/manager/Utils.js:551
 msgid "Yes"
 msgstr "はい"
 
@@ -863,6 +812,10 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Create new virtual machine"
 #~ msgstr "新規仮想マシンを作成"
+
+#, fuzzy
+#~ msgid "Create {0}"
+#~ msgstr "CT {0} を作成"
 
 #~ msgid "Croatia"
 #~ msgstr "クロアチア語"
@@ -1317,6 +1270,10 @@ msgstr "{0} でログイン中"
 #~ msgid "Microsoft Windows XP/2003"
 #~ msgstr "Microsoft Windows XP/2003"
 
+#, fuzzy
+#~ msgid "Migrate {0}"
+#~ msgstr "VM {0} をマイグレート"
+
 #~ msgid "Mode"
 #~ msgstr "モード"
 
@@ -1491,14 +1448,23 @@ msgstr "{0} でログイン中"
 #~ msgid "Reload service {0}"
 #~ msgstr "サービス {0} を再読込"
 
+#, fuzzy
+#~ msgid "Reload {0}"
+#~ msgstr "再読込"
+
+#, fuzzy
+#~ msgid "Reset {0}"
+#~ msgstr "VM {0} をリセット"
+
 #~ msgid "Ressource"
 #~ msgstr "リソース"
 
 #~ msgid "Restart service {0}"
 #~ msgstr "サービス {0} を再起動"
 
-#~ msgid "Restore"
-#~ msgstr "リストア"
+#, fuzzy
+#~ msgid "Restart {0}"
+#~ msgstr "再起動"
 
 #~ msgid "Restore CT"
 #~ msgstr "CT をリストア"
@@ -1508,6 +1474,14 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Restore VM {0}"
 #~ msgstr "VM {0} をリストア"
+
+#, fuzzy
+#~ msgid "Restore {0}"
+#~ msgstr "CT {0} をリストア"
+
+#, fuzzy
+#~ msgid "Resume {0}"
+#~ msgstr "VM {0} を再開"
 
 #~ msgid "Revert changes"
 #~ msgstr "元に戻す"
@@ -1584,6 +1558,10 @@ msgstr "{0} でログイン中"
 #~ msgid "Settings"
 #~ msgstr "設定"
 
+#, fuzzy
+#~ msgid "Shutdown {0}"
+#~ msgstr "VM {0} をシャットダウン"
+
 #~ msgid "Size"
 #~ msgstr "サイズ"
 
@@ -1620,6 +1598,10 @@ msgstr "{0} でログイン中"
 #~ msgid "Start time"
 #~ msgstr "開始時刻"
 
+#, fuzzy
+#~ msgid "Start {0}"
+#~ msgstr "CT {0} を起動"
+
 #~ msgid "State"
 #~ msgstr "状態"
 
@@ -1628,6 +1610,10 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Stop service {0}"
 #~ msgstr "サービス {0} を停止"
+
+#, fuzzy
+#~ msgid "Stop {0}"
+#~ msgstr "CT {0} を停止"
 
 #~ msgid "Storage ID"
 #~ msgstr "ストレージ ID"
@@ -1641,6 +1627,10 @@ msgstr "{0} でログイン中"
 
 #~ msgid "Sunday"
 #~ msgstr "日曜日"
+
+#, fuzzy
+#~ msgid "Suspend {0}"
+#~ msgstr "VM {0} を一時停止"
 
 #~ msgid "Swap"
 #~ msgstr "スワップ"
@@ -1794,6 +1784,10 @@ msgstr "{0} でログイン中"
 
 #~ msgid "VMware image format (vmdk)"
 #~ msgstr "VMware イメージ形式 (vmdk)"
+
+#, fuzzy
+#~ msgid "VNC connection to {0}"
+#~ msgstr "VM/CT {0} へ VNC 接続"
 
 #~ msgid "VNC shell"
 #~ msgstr "VNC シェル"

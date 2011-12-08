@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Dec  7 09:14:58 2011\n"
+"POT-Creation-Date: Thu Dec  8 07:14:25 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Authentication"
 msgstr ""
 
-#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:395 ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
+#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:396 ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
 msgid "Backup"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Connection error"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/Utils.js:374 ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
 msgid "Console"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Content"
 msgstr ""
 
-#: ../www/manager/window/Edit.js:166
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386 ../www/manager/window/Edit.js:166
 msgid "Create"
 msgstr ""
 
@@ -108,15 +108,11 @@ msgstr ""
 msgid "Create iSCSI storage"
 msgstr ""
 
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
-msgid "Create {0}"
-msgstr ""
-
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
 msgstr ""
 
-#: ../www/manager/Utils.js:552
+#: ../www/manager/Utils.js:553
 msgid "Default"
 msgstr ""
 
@@ -125,7 +121,7 @@ msgid "Description"
 msgstr ""
 
 #: ../www/manager/Utils.js:378 ../www/manager/Utils.js:388
-msgid "Destroy {0}"
+msgid "Destroy"
 msgstr ""
 
 #: ../www/manager/storage/DirEdit.js:38
@@ -280,12 +276,8 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:59
+#: ../www/manager/Utils.js:379 ../www/manager/Utils.js:389 ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:59
 msgid "Migrate"
-msgstr ""
-
-#: ../www/manager/Utils.js:379
-msgid "Migrate {0}"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:127
@@ -300,7 +292,7 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:552
 msgid "No"
 msgstr ""
 
@@ -360,48 +352,32 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:311 ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
+#: ../www/manager/Utils.js:395 ../www/manager/VNCConsole.js:311 ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
 msgid "Reload"
-msgstr ""
-
-#: ../www/manager/Utils.js:394
-msgid "Reload {0}"
 msgstr ""
 
 #: ../www/manager/dc/StorageView.js:60 ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
 msgid "Remove"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:266
+#: ../www/manager/Utils.js:382 ../www/manager/qemu/Config.js:63 ../www/manager/VNCConsole.js:266
 msgid "Reset"
-msgstr ""
-
-#: ../www/manager/Utils.js:382
-msgid "Reset {0}"
 msgstr ""
 
 #: ../www/manager/openvz/Config.js:109
 msgid "Resources"
 msgstr ""
 
-#: ../www/manager/node/Config.js:31
+#: ../www/manager/node/Config.js:31 ../www/manager/Utils.js:394
 msgid "Restart"
 msgstr ""
 
-#: ../www/manager/Utils.js:393
-msgid "Restart {0}"
-msgstr ""
-
 #: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
-msgid "Restore {0}"
+msgid "Restore"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:290
+#: ../www/manager/Utils.js:385 ../www/manager/VNCConsole.js:290
 msgid "Resume"
-msgstr ""
-
-#: ../www/manager/Utils.js:385
-msgid "Resume {0}"
 msgstr ""
 
 #: ../www/manager/dc/Config.js:44
@@ -440,15 +416,11 @@ msgstr ""
 msgid "Shell"
 msgstr ""
 
-#: ../www/manager/node/Config.js:39 ../www/manager/qemu/Config.js:71 ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237 ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:51 ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:383 ../www/manager/qemu/Config.js:71 ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237 ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:51 ../www/manager/openvz/CmdMenu.js:41
 msgid "Shutdown"
 msgstr ""
 
-#: ../www/manager/Utils.js:383
-msgid "Shutdown {0}"
-msgstr ""
-
-#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
+#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390 ../www/manager/Utils.js:392 ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
 msgstr ""
 
@@ -456,20 +428,12 @@ msgstr ""
 msgid "Start Time"
 msgstr ""
 
-#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:389 ../www/manager/Utils.js:391
-msgid "Start {0}"
-msgstr ""
-
 #: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Tasks.js:97
 msgid "Status"
 msgstr ""
 
-#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249 ../www/manager/VNCConsole.js:379 ../www/manager/openvz/Config.js:43
+#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:391 ../www/manager/Utils.js:393 ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249 ../www/manager/VNCConsole.js:379 ../www/manager/openvz/Config.js:43
 msgid "Stop"
-msgstr ""
-
-#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:390 ../www/manager/Utils.js:392
-msgid "Stop {0}"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:160 ../www/manager/dc/Config.js:19
@@ -496,12 +460,8 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:278
+#: ../www/manager/Utils.js:384 ../www/manager/VNCConsole.js:278
 msgid "Suspend"
-msgstr ""
-
-#: ../www/manager/Utils.js:384
-msgid "Suspend {0}"
 msgstr ""
 
 #: ../www/manager/panel/StatusPanel.js:36
@@ -536,10 +496,6 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: ../www/manager/Utils.js:374
-msgid "VNC connection to {0}"
-msgstr ""
-
 #: ../www/manager/node/Tasks.js:57
 msgid "View"
 msgstr ""
@@ -556,7 +512,7 @@ msgstr ""
 msgid "Volume group"
 msgstr ""
 
-#: ../www/manager/Utils.js:550
+#: ../www/manager/Utils.js:551
 msgid "Yes"
 msgstr ""
 
