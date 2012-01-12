@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 10:39:26 2012\n"
+"POT-Creation-Date: Thu Jan 12 11:38:05 2012\n"
 "PO-Revision-Date: 2011-11-22 09:15+0100\n"
 "Last-Translator: Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: French\n"
@@ -176,7 +176,7 @@ msgid "Default"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:61 ../www/manager/node/Tasks.js:136
-#: ../www/manager/dc/Tasks.js:91
+#: ../www/manager/node/ServiceView.js:137 ../www/manager/dc/Tasks.js:91
 msgid "Description"
 msgstr ""
 
@@ -227,10 +227,12 @@ msgstr ""
 msgid "Do you really want to suspend VM {0}?"
 msgstr ""
 
+#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
 #: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:66
 #: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:35
 #: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
 #: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:728
+#: ../www/manager/qemu/Options.js:228
 msgid "Edit"
 msgstr ""
 
@@ -242,6 +244,7 @@ msgid "Enable"
 msgstr ""
 
 #: ../www/manager/dc/UserView.js:124 ../www/manager/dc/UserEdit.js:48
+#: ../www/manager/qemu/Options.js:110 ../www/manager/qemu/Options.js:128
 msgid "Enabled"
 msgstr ""
 
@@ -408,10 +411,14 @@ msgstr ""
 msgid "Monitor"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:96 ../www/manager/dc/UserView.js:138
-#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/GroupEdit.js:28
-#: ../www/manager/dc/GroupView.js:88 ../www/manager/dc/Summary.js:30
-#: ../www/manager/dc/Summary.js:141 ../www/manager/storage/ContentView.js:294
+#: ../www/manager/data/ResourceStore.js:96
+#: ../www/manager/node/ServiceView.js:125 ../www/manager/dc/UserView.js:138
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:38
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:88
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/storage/ContentView.js:294 ../www/manager/qemu/Options.js:24
+#: ../www/manager/qemu/Options.js:27 ../www/manager/qemu/Options.js:32
+#: ../www/manager/qemu/StatusView.js:43 ../www/manager/openvz/StatusView.js:64
 msgid "Name"
 msgstr ""
 
@@ -437,6 +444,7 @@ msgstr ""
 #: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
 #: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:398
 #: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/window/TaskViewer.js:34
 msgid "Node"
 msgstr ""
 
@@ -448,6 +456,10 @@ msgstr ""
 #: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:71
 #: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
+msgstr ""
+
+#: ../www/manager/panel/NotesView.js:45
+msgid "Notes"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:48 ../www/manager/dc/Summary.js:42
@@ -470,6 +482,10 @@ msgstr ""
 
 #: ../www/manager/Utils.js:99 ../www/manager/Utils.js:110
 msgid "Other OS types"
+msgstr ""
+
+#: ../www/manager/window/TaskViewer.js:92
+msgid "Output"
 msgstr ""
 
 #: ../www/manager/dc/Summary.js:147
@@ -543,7 +559,8 @@ msgstr ""
 msgid "Resources"
 msgstr ""
 
-#: ../www/manager/node/Config.js:31 ../www/manager/Utils.js:395
+#: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
+#: ../www/manager/Utils.js:395
 msgid "Restart"
 msgstr ""
 
@@ -565,7 +582,7 @@ msgid "Revert changes"
 msgstr ""
 
 #: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:42
-#: ../www/manager/dc/ACLView.js:119 ../www/manager/dc/RoleView.js:38
+#: ../www/manager/dc/ACLView.js:119
 msgid "Role"
 msgstr ""
 
@@ -610,6 +627,10 @@ msgstr ""
 msgid "Server View"
 msgstr ""
 
+#: ../www/manager/node/TimeView.js:36
+msgid "Server time"
+msgstr ""
+
 #: ../www/manager/dc/Log.js:55
 msgid "Service"
 msgstr ""
@@ -648,28 +669,34 @@ msgstr ""
 msgid "Standalone node - no cluster defined"
 msgstr ""
 
-#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390
-#: ../www/manager/Utils.js:393 ../www/manager/qemu/Config.js:36
-#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
-#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
-#: ../www/manager/openvz/CmdMenu.js:34
+#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:380
+#: ../www/manager/Utils.js:390 ../www/manager/Utils.js:393
+#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361
+#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
 msgstr ""
 
 #: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
 #: ../www/manager/dc/Backup.js:416 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/window/TaskViewer.js:42
 msgid "Start Time"
 msgstr ""
 
-#: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Backup.js:89
-#: ../www/manager/dc/Tasks.js:97 ../www/manager/dc/Summary.js:153
+#: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:131
+#: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Summary.js:153 ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/window/TaskViewer.js:22
+#: ../www/manager/window/TaskViewer.js:83
+#: ../www/manager/openvz/StatusView.js:65
 msgid "Status"
 msgstr ""
 
-#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:391
-#: ../www/manager/Utils.js:394 ../www/manager/qemu/Config.js:43
-#: ../www/manager/VNCConsole.js:249 ../www/manager/VNCConsole.js:379
-#: ../www/manager/openvz/Config.js:43
+#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:381
+#: ../www/manager/Utils.js:391 ../www/manager/Utils.js:394
+#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:71
+#: ../www/manager/window/TaskViewer.js:77 ../www/manager/openvz/Config.js:43
 msgid "Stop"
 msgstr ""
 
@@ -712,6 +739,11 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
+#: ../www/manager/node/TimeEdit.js:15 ../www/manager/node/TimeEdit.js:23
+#: ../www/manager/node/TimeView.js:32
+msgid "Time zone"
+msgstr ""
+
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
 #: ../www/manager/dc/AuthView.js:93
@@ -737,6 +769,7 @@ msgid "Uploading file..."
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:146
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:73
 msgid "Uptime"
 msgstr ""
 
@@ -757,6 +790,7 @@ msgstr ""
 #: ../www/manager/dc/UserView.js:110 ../www/manager/dc/UserEdit.js:26
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:65
+#: ../www/manager/window/TaskViewer.js:30
 msgid "User name"
 msgstr ""
 

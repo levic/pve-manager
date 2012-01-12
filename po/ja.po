@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 10:39:26 2012\n"
+"POT-Creation-Date: Thu Jan 12 11:38:05 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -185,7 +185,7 @@ msgid "Default"
 msgstr "デフォルト"
 
 #: ../www/manager/data/ResourceStore.js:61 ../www/manager/node/Tasks.js:136
-#: ../www/manager/dc/Tasks.js:91
+#: ../www/manager/node/ServiceView.js:137 ../www/manager/dc/Tasks.js:91
 msgid "Description"
 msgstr "説明"
 
@@ -236,10 +236,12 @@ msgstr "本当に、VM {0} を停止しますか?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "本当に、VM {0} を一時停止しますか?"
 
+#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
 #: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:66
 #: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:35
 #: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
 #: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:728
+#: ../www/manager/qemu/Options.js:228
 msgid "Edit"
 msgstr "編集"
 
@@ -251,6 +253,7 @@ msgid "Enable"
 msgstr "有効"
 
 #: ../www/manager/dc/UserView.js:124 ../www/manager/dc/UserEdit.js:48
+#: ../www/manager/qemu/Options.js:110 ../www/manager/qemu/Options.js:128
 msgid "Enabled"
 msgstr "有効"
 
@@ -420,10 +423,14 @@ msgstr "モード"
 msgid "Monitor"
 msgstr "モニター"
 
-#: ../www/manager/data/ResourceStore.js:96 ../www/manager/dc/UserView.js:138
-#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/GroupEdit.js:28
-#: ../www/manager/dc/GroupView.js:88 ../www/manager/dc/Summary.js:30
-#: ../www/manager/dc/Summary.js:141 ../www/manager/storage/ContentView.js:294
+#: ../www/manager/data/ResourceStore.js:96
+#: ../www/manager/node/ServiceView.js:125 ../www/manager/dc/UserView.js:138
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:38
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:88
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/storage/ContentView.js:294 ../www/manager/qemu/Options.js:24
+#: ../www/manager/qemu/Options.js:27 ../www/manager/qemu/Options.js:32
+#: ../www/manager/qemu/StatusView.js:43 ../www/manager/openvz/StatusView.js:64
 msgid "Name"
 msgstr "名前"
 
@@ -449,6 +456,7 @@ msgstr "無制限"
 #: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
 #: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:398
 #: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/window/TaskViewer.js:34
 msgid "Node"
 msgstr "ノード"
 
@@ -461,6 +469,10 @@ msgstr "ノードリスト"
 #: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
 msgstr "ノード"
+
+#: ../www/manager/panel/NotesView.js:45
+msgid "Notes"
+msgstr "メモ"
 
 #: ../www/manager/data/ResourceStore.js:48 ../www/manager/dc/Summary.js:42
 msgid "Online"
@@ -484,6 +496,10 @@ msgstr "オプション"
 #: ../www/manager/Utils.js:99 ../www/manager/Utils.js:110
 msgid "Other OS types"
 msgstr ""
+
+#: ../www/manager/window/TaskViewer.js:92
+msgid "Output"
+msgstr "出力"
 
 #: ../www/manager/dc/Summary.js:147
 msgid "Owner"
@@ -557,7 +573,8 @@ msgstr "リセット"
 msgid "Resources"
 msgstr "リソース"
 
-#: ../www/manager/node/Config.js:31 ../www/manager/Utils.js:395
+#: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
+#: ../www/manager/Utils.js:395
 msgid "Restart"
 msgstr "再起動"
 
@@ -580,7 +597,7 @@ msgid "Revert changes"
 msgstr "元に戻す"
 
 #: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:42
-#: ../www/manager/dc/ACLView.js:119 ../www/manager/dc/RoleView.js:38
+#: ../www/manager/dc/ACLView.js:119
 msgid "Role"
 msgstr "ロール"
 
@@ -625,6 +642,10 @@ msgstr "サーバーポート"
 msgid "Server View"
 msgstr "サーバー表示"
 
+#: ../www/manager/node/TimeView.js:36
+msgid "Server time"
+msgstr "サーバーの時刻"
+
 #: ../www/manager/dc/Log.js:55
 msgid "Service"
 msgstr "サービス"
@@ -663,28 +684,34 @@ msgstr "サイズ"
 msgid "Standalone node - no cluster defined"
 msgstr ""
 
-#: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390
-#: ../www/manager/Utils.js:393 ../www/manager/qemu/Config.js:36
-#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
-#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
-#: ../www/manager/openvz/CmdMenu.js:34
+#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:380
+#: ../www/manager/Utils.js:390 ../www/manager/Utils.js:393
+#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361
+#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
 msgstr "起動"
 
 #: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
 #: ../www/manager/dc/Backup.js:416 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/window/TaskViewer.js:42
 msgid "Start Time"
 msgstr "開始時刻"
 
-#: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Backup.js:89
-#: ../www/manager/dc/Tasks.js:97 ../www/manager/dc/Summary.js:153
+#: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:131
+#: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Summary.js:153 ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/window/TaskViewer.js:22
+#: ../www/manager/window/TaskViewer.js:83
+#: ../www/manager/openvz/StatusView.js:65
 msgid "Status"
 msgstr "状態"
 
-#: ../www/manager/Utils.js:381 ../www/manager/Utils.js:391
-#: ../www/manager/Utils.js:394 ../www/manager/qemu/Config.js:43
-#: ../www/manager/VNCConsole.js:249 ../www/manager/VNCConsole.js:379
-#: ../www/manager/openvz/Config.js:43
+#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:381
+#: ../www/manager/Utils.js:391 ../www/manager/Utils.js:394
+#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:71
+#: ../www/manager/window/TaskViewer.js:77 ../www/manager/openvz/Config.js:43
 msgid "Stop"
 msgstr "停止"
 
@@ -727,6 +754,11 @@ msgstr "タスク"
 msgid "Time"
 msgstr "時刻"
 
+#: ../www/manager/node/TimeEdit.js:15 ../www/manager/node/TimeEdit.js:23
+#: ../www/manager/node/TimeView.js:32
+msgid "Time zone"
+msgstr "タイムゾーン"
+
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
 #: ../www/manager/dc/AuthView.js:93
@@ -753,6 +785,7 @@ msgid "Uploading file..."
 msgstr "ファイルをアップロード中…"
 
 #: ../www/manager/data/ResourceStore.js:146
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:73
 msgid "Uptime"
 msgstr "稼働時間"
 
@@ -775,6 +808,7 @@ msgstr "アクセス権限"
 #: ../www/manager/dc/UserView.js:110 ../www/manager/dc/UserEdit.js:26
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:65
+#: ../www/manager/window/TaskViewer.js:30
 msgid "User name"
 msgstr "ユーザー名"
 
@@ -1574,9 +1608,6 @@ msgstr "停止中"
 #~ msgid "Norwegian"
 #~ msgstr "ノルウェー語"
 
-#~ msgid "Notes"
-#~ msgstr "メモ"
-
 #~ msgid "OS Type"
 #~ msgstr "OS の種別"
 
@@ -1598,9 +1629,6 @@ msgstr "停止中"
 
 #~ msgid "Other"
 #~ msgstr "その他"
-
-#~ msgid "Output"
-#~ msgstr "出力"
 
 #~ msgid "PID"
 #~ msgstr "PID"
@@ -1757,9 +1785,6 @@ msgstr "停止中"
 #~ msgid "Server load"
 #~ msgstr "サーバー負荷"
 
-#~ msgid "Server time"
-#~ msgstr "サーバーの時刻"
-
 #~ msgid "Set time zone"
 #~ msgstr "タイムゾーンを設定"
 
@@ -1890,9 +1915,6 @@ msgstr "停止中"
 
 #~ msgid "Thursday"
 #~ msgstr "木曜日"
-
-#~ msgid "Time zone"
-#~ msgstr "タイムゾーン"
 
 #~ msgid "Timezone"
 #~ msgstr "タイムゾーン"
