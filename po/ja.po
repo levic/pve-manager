@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 11:38:05 2012\n"
+"POT-Creation-Date: Thu Jan 12 11:44:51 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -27,6 +27,7 @@ msgid "Activate"
 msgstr "稼働中"
 
 #: ../www/manager/form/BridgeSelector.js:50
+#: ../www/manager/storage/StatusView.js:25
 msgid "Active"
 msgstr "稼働中"
 
@@ -85,6 +86,10 @@ msgstr "本当にストレージ {0} を削除してもよろしいですか?"
 #: ../www/manager/dc/Config.js:54
 msgid "Authentication"
 msgstr "認証"
+
+#: ../www/manager/storage/StatusView.js:60
+msgid "Avail"
+msgstr "空き容量"
 
 #: ../www/manager/window/Wizard.js:73
 msgid "Back"
@@ -151,7 +156,9 @@ msgstr "コンソール"
 msgid "Container {0} on node {1}"
 msgstr "ノード {1} 上のコンテナ {0}"
 
-#: ../www/manager/dc/StorageView.js:153 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/dc/StorageView.js:153
+#: ../www/manager/storage/StatusView.js:30
+#: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:48
 #: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
 msgid "Content"
@@ -253,7 +260,8 @@ msgid "Enable"
 msgstr "有効"
 
 #: ../www/manager/dc/UserView.js:124 ../www/manager/dc/UserEdit.js:48
-#: ../www/manager/qemu/Options.js:110 ../www/manager/qemu/Options.js:128
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:110
+#: ../www/manager/qemu/Options.js:128
 msgid "Enabled"
 msgstr "有効"
 
@@ -658,8 +666,9 @@ msgstr "サービス"
 msgid "Severity"
 msgstr "重要度"
 
-#: ../www/manager/dc/StorageView.js:172 ../www/manager/storage/LVMEdit.js:201
-#: ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/dc/StorageView.js:172
+#: ../www/manager/storage/StatusView.js:40
+#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr "共有"
 
@@ -676,6 +685,7 @@ msgstr "シェル"
 msgid "Shutdown"
 msgstr "シャットダウン"
 
+#: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/storage/ContentView.js:306
 msgid "Size"
 msgstr "サイズ"
@@ -700,8 +710,8 @@ msgstr "開始時刻"
 
 #: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:131
 #: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
-#: ../www/manager/dc/Summary.js:153 ../www/manager/qemu/StatusView.js:44
-#: ../www/manager/window/TaskViewer.js:22
+#: ../www/manager/dc/Summary.js:153 ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:22
 #: ../www/manager/window/TaskViewer.js:83
 #: ../www/manager/openvz/StatusView.js:65
 msgid "Status"
@@ -761,7 +771,7 @@ msgstr "タイムゾーン"
 
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:93
+#: ../www/manager/dc/AuthView.js:93 ../www/manager/storage/StatusView.js:35
 msgid "Type"
 msgstr "種別"
 
@@ -792,6 +802,10 @@ msgstr "稼働時間"
 #: ../www/manager/storage/IScsiEdit.js:141
 msgid "Use LUNs directly"
 msgstr "LUNs を直接使用する"
+
+#: ../www/manager/storage/StatusView.js:50
+msgid "Used"
+msgstr "使用中"
 
 #: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:32
 #: ../www/manager/dc/ACLView.js:112 ../www/manager/dc/UserEdit.js:113
@@ -955,9 +969,6 @@ msgstr "停止中"
 
 #~ msgid "Autostart"
 #~ msgstr "自動的に開始"
-
-#~ msgid "Avail"
-#~ msgstr "空き容量"
 
 #~ msgid "Backup CT {0}"
 #~ msgstr "CT {0} をバックアップ"
@@ -1969,9 +1980,6 @@ msgstr "停止中"
 
 #~ msgid "Use physical CD/DVD Drive"
 #~ msgstr "CD/DVD 物理ドライブを使用する"
-
-#~ msgid "Used"
-#~ msgstr "使用中"
 
 #~ msgid "User Attribute Name"
 #~ msgstr "ユーザー属性名"

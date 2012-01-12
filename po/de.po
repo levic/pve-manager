@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 11:38:05 2012\n"
-"PO-Revision-Date: 2012-01-12 11:20+0100\n"
+"POT-Creation-Date: Thu Jan 12 11:44:51 2012\n"
+"PO-Revision-Date: 2012-01-12 11:42+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -26,6 +26,7 @@ msgid "Activate"
 msgstr "Aktivieren"
 
 #: ../www/manager/form/BridgeSelector.js:50
+#: ../www/manager/storage/StatusView.js:25
 msgid "Active"
 msgstr "Aktiv"
 
@@ -79,6 +80,10 @@ msgstr "Möchten Sie die Änderungen wirklich rückgängig machen?"
 #: ../www/manager/dc/Config.js:54
 msgid "Authentication"
 msgstr "Authentifikation"
+
+#: ../www/manager/storage/StatusView.js:60
+msgid "Avail"
+msgstr "Verfügbar"
 
 #: ../www/manager/window/Wizard.js:73
 msgid "Back"
@@ -144,7 +149,9 @@ msgstr "Konsole"
 msgid "Container {0} on node {1}"
 msgstr "Container {0} auf Knoten {1}"
 
-#: ../www/manager/dc/StorageView.js:153 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/dc/StorageView.js:153
+#: ../www/manager/storage/StatusView.js:30
+#: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:48
 #: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
 msgid "Content"
@@ -246,7 +253,8 @@ msgid "Enable"
 msgstr "Freigabe"
 
 #: ../www/manager/dc/UserView.js:124 ../www/manager/dc/UserEdit.js:48
-#: ../www/manager/qemu/Options.js:110 ../www/manager/qemu/Options.js:128
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:110
+#: ../www/manager/qemu/Options.js:128
 msgid "Enabled"
 msgstr "Freigegeben"
 
@@ -645,8 +653,9 @@ msgstr "Services"
 msgid "Severity"
 msgstr "Schwere"
 
-#: ../www/manager/dc/StorageView.js:172 ../www/manager/storage/LVMEdit.js:201
-#: ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/dc/StorageView.js:172
+#: ../www/manager/storage/StatusView.js:40
+#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr "Verteilt"
 
@@ -663,6 +672,7 @@ msgstr "Shell"
 msgid "Shutdown"
 msgstr "Herunterfahren"
 
+#: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/storage/ContentView.js:306
 msgid "Size"
 msgstr "Größe"
@@ -687,8 +697,8 @@ msgstr "Startzeit"
 
 #: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:131
 #: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
-#: ../www/manager/dc/Summary.js:153 ../www/manager/qemu/StatusView.js:44
-#: ../www/manager/window/TaskViewer.js:22
+#: ../www/manager/dc/Summary.js:153 ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:22
 #: ../www/manager/window/TaskViewer.js:83
 #: ../www/manager/openvz/StatusView.js:65
 msgid "Status"
@@ -748,7 +758,7 @@ msgstr "Zeitzone"
 
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:93
+#: ../www/manager/dc/AuthView.js:93 ../www/manager/storage/StatusView.js:35
 msgid "Type"
 msgstr "Typ"
 
@@ -778,6 +788,10 @@ msgstr "Betriebszeit"
 #: ../www/manager/storage/IScsiEdit.js:141
 msgid "Use LUNs directly"
 msgstr "LUNs direkt verwenden"
+
+#: ../www/manager/storage/StatusView.js:50
+msgid "Used"
+msgstr "Verwendet"
 
 #: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:32
 #: ../www/manager/dc/ACLView.js:112 ../www/manager/dc/UserEdit.js:113

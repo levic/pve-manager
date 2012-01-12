@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 11:38:05 2012\n"
+"POT-Creation-Date: Thu Jan 12 11:44:51 2012\n"
 "PO-Revision-Date: 2011-11-22 09:15+0100\n"
 "Last-Translator: Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: French\n"
@@ -26,6 +26,7 @@ msgid "Activate"
 msgstr ""
 
 #: ../www/manager/form/BridgeSelector.js:50
+#: ../www/manager/storage/StatusView.js:25
 msgid "Active"
 msgstr ""
 
@@ -76,6 +77,10 @@ msgstr ""
 
 #: ../www/manager/dc/Config.js:54
 msgid "Authentication"
+msgstr ""
+
+#: ../www/manager/storage/StatusView.js:60
+msgid "Avail"
 msgstr ""
 
 #: ../www/manager/window/Wizard.js:73
@@ -142,7 +147,9 @@ msgstr ""
 msgid "Container {0} on node {1}"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:153 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/dc/StorageView.js:153
+#: ../www/manager/storage/StatusView.js:30
+#: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:48
 #: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
 msgid "Content"
@@ -244,7 +251,8 @@ msgid "Enable"
 msgstr ""
 
 #: ../www/manager/dc/UserView.js:124 ../www/manager/dc/UserEdit.js:48
-#: ../www/manager/qemu/Options.js:110 ../www/manager/qemu/Options.js:128
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:110
+#: ../www/manager/qemu/Options.js:128
 msgid "Enabled"
 msgstr ""
 
@@ -643,8 +651,9 @@ msgstr ""
 msgid "Severity"
 msgstr ""
 
-#: ../www/manager/dc/StorageView.js:172 ../www/manager/storage/LVMEdit.js:201
-#: ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/dc/StorageView.js:172
+#: ../www/manager/storage/StatusView.js:40
+#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr ""
 
@@ -661,6 +670,7 @@ msgstr ""
 msgid "Shutdown"
 msgstr ""
 
+#: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/storage/ContentView.js:306
 msgid "Size"
 msgstr ""
@@ -685,8 +695,8 @@ msgstr ""
 
 #: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:131
 #: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
-#: ../www/manager/dc/Summary.js:153 ../www/manager/qemu/StatusView.js:44
-#: ../www/manager/window/TaskViewer.js:22
+#: ../www/manager/dc/Summary.js:153 ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:22
 #: ../www/manager/window/TaskViewer.js:83
 #: ../www/manager/openvz/StatusView.js:65
 msgid "Status"
@@ -746,7 +756,7 @@ msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:93
+#: ../www/manager/dc/AuthView.js:93 ../www/manager/storage/StatusView.js:35
 msgid "Type"
 msgstr ""
 
@@ -775,6 +785,10 @@ msgstr ""
 
 #: ../www/manager/storage/IScsiEdit.js:141
 msgid "Use LUNs directly"
+msgstr ""
+
+#: ../www/manager/storage/StatusView.js:50
+msgid "Used"
 msgstr ""
 
 #: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:32
