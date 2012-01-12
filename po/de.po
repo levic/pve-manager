@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Dec 12 08:04:16 2011\n"
-"PO-Revision-Date: 2011-12-12 08:04+0100\n"
+"POT-Creation-Date: Thu Jan 12 09:14:40 2012\n"
+"PO-Revision-Date: 2012-01-12 09:08+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -21,28 +21,38 @@ msgstr ""
 msgid "Abort"
 msgstr "Abbruch"
 
+#: ../www/manager/dc/HAConfig.js:124
+msgid "Activate"
+msgstr "Aktivieren"
+
 #: ../www/manager/form/BridgeSelector.js:50
 msgid "Active"
 msgstr "Aktiv"
 
-#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/Backup.js:387
+#: ../www/manager/dc/ACLView.js:187 ../www/manager/dc/StorageView.js:93
+#: ../www/manager/dc/Backup.js:386 ../www/manager/dc/HAConfig.js:166
+#: ../www/manager/Utils.js:715 ../www/manager/window/Edit.js:173
 msgid "Add"
 msgstr "Hinzufügen"
 
 #: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:117
-#: ../www/manager/dc/Backup.js:318 ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/dc/Backup.js:317 ../www/manager/storage/IScsiEdit.js:125
 #: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:72
-#: ../www/manager/storage/NFSEdit.js:130
+#: ../www/manager/storage/NFSEdit.js:133
 msgid "All"
 msgstr "Alle"
 
-#: ../www/manager/dc/Backup.js:319
+#: ../www/manager/dc/Backup.js:318
 msgid "All except {0}"
 msgstr "Alle außer {}"
 
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
 msgstr "Erlaubte Zeichen"
+
+#: ../www/manager/dc/HAConfig.js:127
+msgid "Are you sure you want to activate your changes"
+msgstr "Möchten Sie die Änderungen wiklich aktivieren?"
 
 #: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:72
 msgid ""
@@ -53,22 +63,34 @@ msgstr ""
 "Daten der VM."
 
 #: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/AuthView.js:52
-#: ../www/manager/dc/GroupView.js:32 ../www/manager/storage/ContentView.js:260
+#: ../www/manager/dc/GroupView.js:28 ../www/manager/storage/ContentView.js:260
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
 
-#: ../www/manager/dc/Backup.js:362
+#: ../www/manager/dc/ACLView.js:151 ../www/manager/dc/Backup.js:361
 msgid "Are you sure you want to remove this entry"
 msgstr "Möchten Sie diesen Eintrag wirklich entfernen?"
 
-#: ../www/manager/dc/Config.js:49
+#: ../www/manager/dc/HAConfig.js:148
+msgid "Are you sure you want to revert your changes"
+msgstr "Möchten Sie die Änderungen wirklich rückgängig machen?"
+
+#: ../www/manager/dc/Config.js:54
 msgid "Authentication"
 msgstr "Authentifikation"
 
-#: ../www/manager/dc/Config.js:24 ../www/manager/Utils.js:396
+#: ../www/manager/window/Wizard.js:73
+msgid "Back"
+msgstr "Back"
+
+#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:397
 #: ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:141
 msgid "Backup"
 msgstr "Backup"
+
+#: ../www/manager/dc/Backup.js:273
+msgid "Backup Job"
+msgstr "Backup-Job"
 
 #: ../www/manager/storage/LVMEdit.js:149
 msgid "Base storage"
@@ -86,8 +108,9 @@ msgstr "CPU-Auslastung"
 msgid "Cluster log"
 msgstr "Cluster log"
 
-#: ../www/manager/dc/GroupEdit.js:36 ../www/manager/dc/AuthView.js:100
-#: ../www/manager/dc/GroupView.js:79 ../www/manager/dc/AuthEdit.js:48
+#: ../www/manager/dc/UserView.js:172 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/UserEdit.js:75 ../www/manager/dc/AuthView.js:100
+#: ../www/manager/dc/GroupView.js:75 ../www/manager/dc/AuthEdit.js:48
 msgid "Comment"
 msgstr "Kommentar"
 
@@ -122,62 +145,34 @@ msgstr "Container {0} auf Knoten {1}"
 
 #: ../www/manager/dc/StorageView.js:153 ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:48
-#: ../www/manager/storage/NFSEdit.js:120 ../www/manager/storage/Browser.js:30
+#: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
 msgid "Content"
 msgstr "Inhalt"
 
-#: ../www/manager/dc/AuthView.js:25 ../www/manager/dc/GroupView.js:52
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
-#: ../www/manager/window/Edit.js:166
+#: ../www/manager/dc/UserView.js:93 ../www/manager/dc/AuthView.js:25
+#: ../www/manager/dc/GroupView.js:48 ../www/manager/Utils.js:376
+#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:717
 msgid "Create"
 msgstr "Erstellen"
-
-#: ../www/manager/dc/Backup.js:273
-msgid "Create Backup Job"
-msgstr "Erstelle Backup-Job"
 
 #: ../www/manager/Workspace.js:341
 msgid "Create CT"
 msgstr "Erstelle CT"
 
-#: ../www/manager/dc/GroupEdit.js:22
-msgid "Create Group"
-msgstr "Erstelle Gruppe"
-
-#: ../www/manager/storage/LVMEdit.js:233
-msgid "Create LVM storage"
-msgstr "Erstelle LVM-Speicher"
-
-#: ../www/manager/storage/NFSEdit.js:172
-msgid "Create NFS storage"
-msgstr "Erstelle NFS-Speicher"
-
 #: ../www/manager/Workspace.js:330
 msgid "Create VM"
 msgstr "Erstelle VM"
-
-#: ../www/manager/storage/DirEdit.js:107
-msgid "Create directory storage"
-msgstr "Erstelle Directory-Speicher"
-
-#: ../www/manager/storage/IScsiEdit.js:173
-msgid "Create iSCSI storage"
-msgstr "Erstelle iSCSI-Speicher"
-
-#: ../www/manager/dc/AuthEdit.js:112
-msgid "Create realm"
-msgstr "Erstelle Bereich"
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
 msgstr "Rechenzentrum"
 
-#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:411
+#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:410
 msgid "Day of week"
 msgstr "Wochentag"
 
 #: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:54
-#: ../www/manager/Utils.js:541
+#: ../www/manager/Utils.js:542
 msgid "Default"
 msgstr "Standardeinstellung"
 
@@ -233,53 +228,31 @@ msgstr "Möchten Sie VM {0} wirklich stoppen?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 
-#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/Backup.js:352
-#: ../www/manager/dc/AuthView.js:35 ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:71
+#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:35
+#: ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232
+#: ../www/manager/Utils.js:720
 msgid "Edit"
-msgstr "Bearbeiten"
-
-#: ../www/manager/dc/Backup.js:274
-msgid "Edit Backup Job"
-msgstr "Bearbeite Backup-Job"
-
-#: ../www/manager/dc/GroupEdit.js:23
-msgid "Edit Group {0}"
-msgstr "Bearbeite Gruppe {0}"
+msgstr "Bearbeite"
 
 #: ../www/manager/dc/OptionView.js:8
 msgid "Edit HTTP proxy settings"
 msgstr "Bearbeite HTTP-Proxy-Einstellungen"
 
-#: ../www/manager/storage/LVMEdit.js:235
-msgid "Edit LVM storage {0}"
-msgstr "Bearbeite LVM-Speicher {0}"
-
-#: ../www/manager/storage/NFSEdit.js:174
-msgid "Edit NFS storage {0}"
-msgstr "Bearbeite NFS-Speicher {0}"
-
-#: ../www/manager/storage/DirEdit.js:109
-msgid "Edit directory storage {0}"
-msgstr "Bearbeite Directory-Speicher {0}"
-
-#: ../www/manager/storage/IScsiEdit.js:175
-msgid "Edit iSCSI storage {0}"
-msgstr "Bearbeite iSCSI-Speicher {0}"
-
 #: ../www/manager/dc/OptionView.js:33
 msgid "Edit keyboard settings"
 msgstr "Bearbeite Tastatureinstellungen"
 
-#: ../www/manager/dc/AuthEdit.js:114
-msgid "Edit realm {0}"
-msgstr "Bearbeite Bereich {0}"
-
 #: ../www/manager/dc/StorageView.js:179
 #: ../www/manager/storage/IScsiEdit.js:135
 #: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
-#: ../www/manager/storage/NFSEdit.js:140
+#: ../www/manager/storage/NFSEdit.js:143
 msgid "Enable"
 msgstr "Freigabe"
+
+#: ../www/manager/dc/UserView.js:151 ../www/manager/dc/UserEdit.js:48
+msgid "Enabled"
+msgstr "Freigegeben"
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
@@ -293,16 +266,23 @@ msgstr "Bitte geben Sie Ihr Passwort ein"
 msgid "Enter your user name"
 msgstr "Bitte geben Sie Ihren Benutzernamen ein"
 
-#: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/Backup.js:372
-#: ../www/manager/dc/AuthView.js:70 ../www/manager/dc/GroupView.js:44
-#: ../www/manager/Utils.js:539 ../www/manager/storage/ContentView.js:73
+#: ../www/manager/dc/ACLView.js:175 ../www/manager/dc/StorageView.js:78
+#: ../www/manager/dc/Backup.js:371 ../www/manager/dc/AuthView.js:70
+#: ../www/manager/dc/GroupView.js:40 ../www/manager/dc/HAConfig.js:138
+#: ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181
+#: ../www/manager/dc/HAConfig.js:252 ../www/manager/Utils.js:540
+#: ../www/manager/storage/ContentView.js:73
 #: ../www/manager/storage/ContentView.js:128
 #: ../www/manager/storage/ContentView.js:137
 #: ../www/manager/storage/ContentView.js:275 ../www/manager/VNCConsole.js:177
-#: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:87
-#: ../www/manager/window/Edit.js:124
+#: ../www/manager/window/LoginWindow.js:17 ../www/manager/window/Edit.js:94
+#: ../www/manager/window/Edit.js:131
 msgid "Error"
 msgstr "Fehler"
+
+#: ../www/manager/dc/Summary.js:49
+msgid "Estranged"
+msgstr "Entfremdet"
 
 #: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
@@ -317,6 +297,22 @@ msgstr "Ohne die ausgewählten VMs"
 msgid "Existing volume groups"
 msgstr "Existierende Volume-Group"
 
+#: ../www/manager/dc/UserView.js:157 ../www/manager/dc/UserEdit.js:44
+msgid "Expire"
+msgstr "Expire"
+
+#: ../www/manager/dc/HAConfig.js:179
+msgid "Failover Domain"
+msgstr "Failover Domain"
+
+#: ../www/manager/window/Wizard.js:117
+msgid "Finish"
+msgstr "Abschließen"
+
+#: ../www/manager/dc/UserEdit.js:59
+msgid "First Name"
+msgstr "Vorname"
+
 #: ../www/manager/form/ViewSelector.js:15
 msgid "Folder View"
 msgstr "Ordner Ansicht"
@@ -330,9 +326,26 @@ msgstr "Formularfelder müssen gültige Werte haben"
 msgid "Format"
 msgstr "Format"
 
-#: ../www/manager/dc/Config.js:34
+#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:25
+#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:36
+msgid "Group"
+msgstr "Gruppe"
+
+#: ../www/manager/dc/ACLView.js:21 ../www/manager/dc/ACLView.js:191
+msgid "Group Permission"
+msgstr "Gruppenrechte"
+
+#: ../www/manager/dc/Config.js:39
 msgid "Groups"
 msgstr "Gruppen"
+
+#: ../www/manager/dc/Summary.js:232
+msgid "HA Service Status"
+msgstr "HA Services Status"
+
+#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
+msgid "HA managed VM/CT"
+msgstr "HA managed VM/CT"
 
 #: ../www/manager/qemu/Config.js:117
 msgid "Hardware"
@@ -353,6 +366,18 @@ msgstr "Tastatur-Layout"
 #: ../www/manager/window/LoginWindow.js:105
 msgid "Language"
 msgstr "Sprache"
+
+#: ../www/manager/dc/UserEdit.js:64
+msgid "Last Name"
+msgstr "Nachname"
+
+#: ../www/manager/dc/Summary.js:171
+msgid "Last owner"
+msgstr "Letzter Besitzer"
+
+#: ../www/manager/dc/Summary.js:165
+msgid "Last transition"
+msgstr "Last transition"
 
 #: ../www/manager/window/LoginWindow.js:121
 msgid "Login"
@@ -395,8 +420,10 @@ msgstr "Modus"
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../www/manager/data/ResourceStore.js:96 ../www/manager/dc/Backup.js:100
-#: ../www/manager/dc/GroupView.js:73 ../www/manager/storage/ContentView.js:294
+#: ../www/manager/data/ResourceStore.js:96 ../www/manager/dc/UserView.js:164
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/GroupView.js:69
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/storage/ContentView.js:294
 msgid "Name"
 msgstr "Name"
 
@@ -404,19 +431,23 @@ msgstr "Name"
 msgid "Network"
 msgstr "Netzwerk"
 
-#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:538
+#: ../www/manager/window/Wizard.js:93
+msgid "Next"
+msgstr "Next"
+
+#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:539
 msgid "No"
 msgstr "Nein"
 
 #: ../www/manager/storage/IScsiEdit.js:126
 #: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
-#: ../www/manager/storage/NFSEdit.js:131
+#: ../www/manager/storage/NFSEdit.js:134
 msgid "No restrictions"
 msgstr "Keine Einschränkung"
 
 #: ../www/manager/data/ResourceStore.js:153 ../www/manager/node/Config.js:60
 #: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
-#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:399
+#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:398
 #: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
 msgid "Node"
 msgstr "Knoten"
@@ -425,13 +456,13 @@ msgstr "Knoten"
 msgid "Node list"
 msgstr "Knotenliste"
 
-#: ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/dc/Summary.js:240 ../www/manager/storage/IScsiEdit.js:124
 #: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:71
-#: ../www/manager/storage/NFSEdit.js:129
+#: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
 msgstr "Knoten"
 
-#: ../www/manager/data/ResourceStore.js:48
+#: ../www/manager/data/ResourceStore.js:48 ../www/manager/dc/Summary.js:42
 msgid "Online"
 msgstr "Online"
 
@@ -440,10 +471,11 @@ msgid "Only Errors"
 msgstr "Nur Fehler"
 
 #: ../www/manager/tree/ResourceTree.js:25
-msgid "OpenVZ containers"
+#: ../www/manager/openvz/CreateWizard.js:62
+msgid "OpenVZ Container"
 msgstr "OpenVZ Container"
 
-#: ../www/manager/dc/Config.js:14 ../www/manager/qemu/Config.js:122
+#: ../www/manager/dc/Config.js:19 ../www/manager/qemu/Config.js:122
 #: ../www/manager/openvz/Config.js:124
 msgid "Options"
 msgstr "Optionen"
@@ -452,16 +484,24 @@ msgstr "Optionen"
 msgid "Other OS types"
 msgstr "Andere Bertiebssysteme"
 
+#: ../www/manager/dc/Summary.js:147
+msgid "Owner"
+msgstr "Besitzer"
+
 #: ../www/manager/window/LoginWindow.js:88
 msgid "Password"
 msgstr "Passwort"
 
-#: ../www/manager/dc/ACLView.js:37
+#: ../www/manager/dc/ACLView.js:16 ../www/manager/dc/ACLView.js:128
 msgid "Path"
 msgstr "Pfad"
 
-#: ../www/manager/dc/Config.js:39 ../www/manager/storage/Browser.js:34
-#: ../www/manager/qemu/Config.js:137 ../www/manager/openvz/Config.js:146
+#: ../www/manager/dc/HAConfig.js:266
+msgid "Pending changes"
+msgstr "Ausstehende Änderungen"
+
+#: ../www/manager/dc/Config.js:44 ../www/manager/storage/Browser.js:35
+#: ../www/manager/qemu/Config.js:138 ../www/manager/openvz/Config.js:147
 msgid "Permissions"
 msgstr "Rechte"
 
@@ -470,11 +510,11 @@ msgstr "Rechte"
 msgid "Please wait..."
 msgstr "Bitte warten..."
 
-#: ../www/manager/dc/RoleView.js:49
+#: ../www/manager/dc/RoleView.js:45
 msgid "Privileges"
 msgstr "Privilegien"
 
-#: ../www/manager/dc/ACLView.js:56
+#: ../www/manager/dc/ACLView.js:50 ../www/manager/dc/ACLView.js:134
 msgid "Propagate"
 msgstr "Propagieren"
 
@@ -482,7 +522,9 @@ msgstr "Propagieren"
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE Anmeldung"
 
+#: ../www/manager/dc/UserView.js:144 ../www/manager/dc/UserEdit.js:83
 #: ../www/manager/dc/AuthView.js:87 ../www/manager/dc/AuthEdit.js:26
+#: ../www/manager/dc/AuthEdit.js:112
 msgid "Realm"
 msgstr "Bereich"
 
@@ -491,15 +533,16 @@ msgstr "Bereich"
 msgid "Refresh"
 msgstr "Aktualisieren"
 
-#: ../www/manager/Utils.js:395 ../www/manager/VNCConsole.js:311
+#: ../www/manager/Utils.js:396 ../www/manager/VNCConsole.js:311
 #: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
 msgid "Reload"
 msgstr "Neu laden"
 
-#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/Backup.js:359
-#: ../www/manager/dc/AuthView.js:49 ../www/manager/dc/GroupView.js:28
-#: ../www/manager/storage/ContentView.js:256 ../www/manager/qemu/Config.js:79
-#: ../www/manager/openvz/Config.js:71
+#: ../www/manager/dc/ACLView.js:148 ../www/manager/dc/StorageView.js:62
+#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/Backup.js:358
+#: ../www/manager/dc/AuthView.js:49 ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:256
+#: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -512,9 +555,13 @@ msgstr "Reset"
 msgid "Resources"
 msgstr "Ressourcen"
 
-#: ../www/manager/node/Config.js:31 ../www/manager/Utils.js:394
+#: ../www/manager/node/Config.js:31 ../www/manager/Utils.js:395
 msgid "Restart"
 msgstr "Restart"
+
+#: ../www/manager/dc/Summary.js:159
+msgid "Restarts"
+msgstr "Restarts"
 
 #: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
 #: ../www/manager/storage/ContentView.js:228
@@ -525,11 +572,16 @@ msgstr "Zurückspielen"
 msgid "Resume"
 msgstr "Resume"
 
-#: ../www/manager/dc/ACLView.js:50 ../www/manager/dc/RoleView.js:42
+#: ../www/manager/dc/HAConfig.js:145
+msgid "Revert changes"
+msgstr "Änderungen zurücksetzen"
+
+#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:42
+#: ../www/manager/dc/ACLView.js:119 ../www/manager/dc/RoleView.js:38
 msgid "Role"
 msgstr "Rolle"
 
-#: ../www/manager/dc/Config.js:44
+#: ../www/manager/dc/Config.js:49
 msgid "Roles"
 msgstr "Rollen"
 
@@ -542,7 +594,7 @@ msgstr "Suche"
 msgid "Select File..."
 msgstr "Datei auswählen"
 
-#: ../www/manager/dc/Backup.js:429
+#: ../www/manager/dc/Backup.js:428
 msgid "Selection"
 msgstr "Auswahl"
 
@@ -554,11 +606,11 @@ msgstr "Auswahlmodus"
 msgid "Send email to"
 msgstr "Sende Mail an"
 
-#: ../www/manager/storage/NFSEdit.js:95
+#: ../www/manager/storage/NFSEdit.js:98
 msgid "Server"
 msgstr "Server"
 
-#: ../www/manager/dc/AuthEdit.js:71
+#: ../www/manager/dc/Summary.js:56 ../www/manager/dc/AuthEdit.js:71
 msgid "Server Address"
 msgstr "Server-Adresse"
 
@@ -574,7 +626,7 @@ msgstr "Server Ansicht"
 msgid "Service"
 msgstr "Service"
 
-#: ../www/manager/node/Config.js:71
+#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:62
 msgid "Services"
 msgstr "Services"
 
@@ -593,9 +645,10 @@ msgid "Shell"
 msgstr "Shell"
 
 #: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:383
-#: ../www/manager/qemu/Config.js:71 ../www/manager/qemu/CmdMenu.js:41
-#: ../www/manager/VNCConsole.js:237 ../www/manager/VNCConsole.js:367
-#: ../www/manager/openvz/Config.js:51 ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/Utils.js:392 ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:51
+#: ../www/manager/openvz/CmdMenu.js:41
 msgid "Shutdown"
 msgstr "Herunterfahren"
 
@@ -603,8 +656,12 @@ msgstr "Herunterfahren"
 msgid "Size"
 msgstr "Größe"
 
+#: ../www/manager/dc/Summary.js:127
+msgid "Standalone node - no cluster defined"
+msgstr "Standalone-Knoten - keine Cluster definiert"
+
 #: ../www/manager/Utils.js:380 ../www/manager/Utils.js:390
-#: ../www/manager/Utils.js:392 ../www/manager/qemu/Config.js:36
+#: ../www/manager/Utils.js:393 ../www/manager/qemu/Config.js:36
 #: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
 #: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
 #: ../www/manager/openvz/CmdMenu.js:34
@@ -612,24 +669,24 @@ msgid "Start"
 msgstr "Start"
 
 #: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
-#: ../www/manager/dc/Backup.js:417 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/dc/Backup.js:416 ../www/manager/dc/Tasks.js:61
 msgid "Start Time"
 msgstr "Startzeit"
 
 #: ../www/manager/node/Tasks.js:142 ../www/manager/dc/Backup.js:89
-#: ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Tasks.js:97 ../www/manager/dc/Summary.js:153
 msgid "Status"
 msgstr "Status"
 
 #: ../www/manager/Utils.js:381 ../www/manager/Utils.js:391
-#: ../www/manager/Utils.js:393 ../www/manager/qemu/Config.js:43
+#: ../www/manager/Utils.js:394 ../www/manager/qemu/Config.js:43
 #: ../www/manager/VNCConsole.js:249 ../www/manager/VNCConsole.js:379
 #: ../www/manager/openvz/Config.js:43
 msgid "Stop"
 msgstr "Stopp"
 
 #: ../www/manager/data/ResourceStore.js:160 ../www/manager/dc/Backup.js:57
-#: ../www/manager/dc/Backup.js:423 ../www/manager/dc/Config.js:19
+#: ../www/manager/dc/Backup.js:422 ../www/manager/dc/Config.js:24
 msgid "Storage"
 msgstr "Speicher"
 
@@ -649,8 +706,9 @@ msgstr "Speicher {0} auf Knoten {1}"
 msgid "Successful"
 msgstr "Erfolgreich"
 
-#: ../www/manager/node/Config.js:66 ../www/manager/storage/Browser.js:24
-#: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:104
+#: ../www/manager/node/Config.js:66 ../www/manager/dc/Config.js:13
+#: ../www/manager/storage/Browser.js:24 ../www/manager/qemu/Config.js:112
+#: ../www/manager/openvz/Config.js:104
 msgid "Summary"
 msgstr "Übersicht"
 
@@ -672,7 +730,7 @@ msgstr "Zeit"
 msgid "Type"
 msgstr "Typ"
 
-#: ../www/manager/Utils.js:540
+#: ../www/manager/Utils.js:541
 msgid "Unknown"
 msgstr "Unbekannt"
 
@@ -698,17 +756,23 @@ msgstr "Betriebszeit"
 msgid "Use LUNs directly"
 msgstr "LUNs direkt verwenden"
 
-#: ../www/manager/dc/ACLView.js:43
+#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:32
+#: ../www/manager/dc/ACLView.js:112 ../www/manager/dc/UserEdit.js:113
 msgid "User"
 msgstr "Benutzer"
 
+#: ../www/manager/dc/ACLView.js:28 ../www/manager/dc/ACLView.js:202
+msgid "User Permission"
+msgstr "Benutzerrechte"
+
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/UserView.js:137 ../www/manager/dc/UserEdit.js:26
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:65
 msgid "User name"
 msgstr "Benutzername"
 
-#: ../www/manager/dc/Config.js:29
+#: ../www/manager/dc/Config.js:34
 msgid "Users"
 msgstr "Benutzer"
 
@@ -720,19 +784,20 @@ msgstr "Version"
 msgid "View"
 msgstr "Anzeigen"
 
-#: ../www/manager/qemu/Config.js:105
-msgid "Virtual machine {0} on node {1}"
-msgstr "Virtuelle Maschine {0} auf Knoten {1}"
-
 #: ../www/manager/tree/ResourceTree.js:21
-msgid "Virtual machines"
-msgstr "Virtuelle Maschinen"
+#: ../www/manager/qemu/CreateWizard.js:43
+msgid "Virtual Machine"
+msgstr "Virtuelle Maschine"
+
+#: ../www/manager/qemu/Config.js:105
+msgid "Virtual Machine {0} on node {1}"
+msgstr "Virtuelle Maschine {0} auf Knoten {1}"
 
 #: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
 msgid "Volume group"
 msgstr "Volume-Group"
 
-#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:537
+#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:538
 msgid "Yes"
 msgstr "Ja"
 
@@ -740,18 +805,18 @@ msgstr "Ja"
 msgid "You are logged in as {0}"
 msgstr "Sie sind angemeldet als {0}"
 
-#: ../www/manager/Utils.js:543
+#: ../www/manager/Utils.js:544
 msgid "day"
 msgstr "Tag"
 
-#: ../www/manager/Utils.js:542
+#: ../www/manager/Utils.js:543
 msgid "days"
 msgstr "Tage"
 
-#: ../www/manager/Utils.js:544
+#: ../www/manager/Utils.js:545
 msgid "running"
 msgstr "läuft"
 
-#: ../www/manager/Utils.js:545
+#: ../www/manager/Utils.js:546
 msgid "stopped"
 msgstr "gestopped"
