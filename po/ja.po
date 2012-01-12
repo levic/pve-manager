@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 09:14:40 2012\n"
+"POT-Creation-Date: Thu Jan 12 10:03:47 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -242,14 +242,6 @@ msgstr "本当に、VM {0} を一時停止しますか?"
 msgid "Edit"
 msgstr "編集"
 
-#: ../www/manager/dc/OptionView.js:8
-msgid "Edit HTTP proxy settings"
-msgstr "HTTP プロキシ設定を編集"
-
-#: ../www/manager/dc/OptionView.js:33
-msgid "Edit keyboard settings"
-msgstr "キーボード設定を編集"
-
 #: ../www/manager/dc/StorageView.js:179
 #: ../www/manager/storage/IScsiEdit.js:135
 #: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
@@ -364,11 +356,8 @@ msgstr "ハードウェア"
 msgid "Include selected VMs"
 msgstr "選択した VM を含む"
 
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
 #: ../www/manager/dc/OptionView.js:63
-msgid "Keyboard"
-msgstr "キーボード"
-
-#: ../www/manager/dc/OptionView.js:38
 msgid "Keyboard Layout"
 msgstr "レイアウト"
 
@@ -1202,6 +1191,9 @@ msgstr "停止中"
 #~ msgid "Edit Group {0}"
 #~ msgstr "ユーザー {0} を編集"
 
+#~ msgid "Edit HTTP proxy settings"
+#~ msgstr "HTTP プロキシ設定を編集"
+
 #~ msgid "Edit Harddisk settings ({0})"
 #~ msgstr "ハードディスク({0})の設定を編集"
 
@@ -1219,6 +1211,9 @@ msgstr "停止中"
 
 #~ msgid "Edit iSCSI storage {0}"
 #~ msgstr "iSCSI ストレージ {0} を編集"
+
+#~ msgid "Edit keyboard settings"
+#~ msgstr "キーボード設定を編集"
 
 #~ msgid "Edit language settings"
 #~ msgstr "言語設定を編集"
@@ -1448,6 +1443,9 @@ msgstr "停止中"
 
 #~ msgid "Key"
 #~ msgstr "キー"
+
+#~ msgid "Keyboard"
+#~ msgstr "キーボード"
 
 #~ msgid "LDAP/LDAPs Server"
 #~ msgstr "LDAP サーバー"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 09:14:40 2012\n"
-"PO-Revision-Date: 2012-01-12 09:08+0100\n"
+"POT-Creation-Date: Thu Jan 12 10:03:47 2012\n"
+"PO-Revision-Date: 2012-01-12 10:04+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -235,14 +235,6 @@ msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 msgid "Edit"
 msgstr "Bearbeite"
 
-#: ../www/manager/dc/OptionView.js:8
-msgid "Edit HTTP proxy settings"
-msgstr "Bearbeite HTTP-Proxy-Einstellungen"
-
-#: ../www/manager/dc/OptionView.js:33
-msgid "Edit keyboard settings"
-msgstr "Bearbeite Tastatureinstellungen"
-
 #: ../www/manager/dc/StorageView.js:179
 #: ../www/manager/storage/IScsiEdit.js:135
 #: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
@@ -355,11 +347,8 @@ msgstr "Hardware"
 msgid "Include selected VMs"
 msgstr "Mit den ausgewählten VMs"
 
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
 #: ../www/manager/dc/OptionView.js:63
-msgid "Keyboard"
-msgstr "Tastatur"
-
-#: ../www/manager/dc/OptionView.js:38
 msgid "Keyboard Layout"
 msgstr "Tastatur-Layout"
 

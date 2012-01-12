@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 09:14:40 2012\n"
+"POT-Creation-Date: Thu Jan 12 10:03:47 2012\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -200,14 +200,6 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: ../www/manager/dc/OptionView.js:8
-msgid "Edit HTTP proxy settings"
-msgstr ""
-
-#: ../www/manager/dc/OptionView.js:33
-msgid "Edit keyboard settings"
-msgstr ""
-
 #: ../www/manager/dc/StorageView.js:179 ../www/manager/storage/IScsiEdit.js:135 ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57 ../www/manager/storage/NFSEdit.js:143
 msgid "Enable"
 msgstr ""
@@ -304,11 +296,7 @@ msgstr ""
 msgid "Include selected VMs"
 msgstr ""
 
-#: ../www/manager/dc/OptionView.js:63
-msgid "Keyboard"
-msgstr ""
-
-#: ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38 ../www/manager/dc/OptionView.js:63
 msgid "Keyboard Layout"
 msgstr ""
 
