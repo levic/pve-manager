@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 10:03:47 2012\n"
-"PO-Revision-Date: 2012-01-12 10:04+0100\n"
+"POT-Creation-Date: Thu Jan 12 10:39:26 2012\n"
+"PO-Revision-Date: 2012-01-12 10:39+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -31,7 +31,7 @@ msgstr "Aktiv"
 
 #: ../www/manager/dc/ACLView.js:187 ../www/manager/dc/StorageView.js:93
 #: ../www/manager/dc/Backup.js:386 ../www/manager/dc/HAConfig.js:166
-#: ../www/manager/Utils.js:715 ../www/manager/window/Edit.js:173
+#: ../www/manager/Utils.js:723 ../www/manager/window/Edit.js:173
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -62,8 +62,9 @@ msgstr ""
 "Sind Sie sicher dass Sie VM {0} entfernen wollen? Damit löschen Sie alle "
 "Daten der VM."
 
-#: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/AuthView.js:52
-#: ../www/manager/dc/GroupView.js:28 ../www/manager/storage/ContentView.js:260
+#: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/UserView.js:32
+#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:28
+#: ../www/manager/storage/ContentView.js:260
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
 
@@ -108,9 +109,9 @@ msgstr "CPU-Auslastung"
 msgid "Cluster log"
 msgstr "Cluster log"
 
-#: ../www/manager/dc/UserView.js:172 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/UserView.js:146 ../www/manager/dc/GroupEdit.js:35
 #: ../www/manager/dc/UserEdit.js:75 ../www/manager/dc/AuthView.js:100
-#: ../www/manager/dc/GroupView.js:75 ../www/manager/dc/AuthEdit.js:48
+#: ../www/manager/dc/GroupView.js:94 ../www/manager/dc/AuthEdit.js:48
 msgid "Comment"
 msgstr "Kommentar"
 
@@ -149,9 +150,9 @@ msgstr "Container {0} auf Knoten {1}"
 msgid "Content"
 msgstr "Inhalt"
 
-#: ../www/manager/dc/UserView.js:93 ../www/manager/dc/AuthView.js:25
-#: ../www/manager/dc/GroupView.js:48 ../www/manager/Utils.js:376
-#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:717
+#: ../www/manager/dc/UserView.js:74 ../www/manager/dc/AuthView.js:25
+#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:376
+#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:725
 msgid "Create"
 msgstr "Erstellen"
 
@@ -228,10 +229,10 @@ msgstr "Möchten Sie VM {0} wirklich stoppen?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 
-#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:71
+#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:66
 #: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:35
-#: ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232
-#: ../www/manager/Utils.js:720
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:728
 msgid "Edit"
 msgstr "Bearbeite"
 
@@ -242,7 +243,7 @@ msgstr "Bearbeite"
 msgid "Enable"
 msgstr "Freigabe"
 
-#: ../www/manager/dc/UserView.js:151 ../www/manager/dc/UserEdit.js:48
+#: ../www/manager/dc/UserView.js:124 ../www/manager/dc/UserEdit.js:48
 msgid "Enabled"
 msgstr "Freigegeben"
 
@@ -259,11 +260,11 @@ msgid "Enter your user name"
 msgstr "Bitte geben Sie Ihren Benutzernamen ein"
 
 #: ../www/manager/dc/ACLView.js:175 ../www/manager/dc/StorageView.js:78
-#: ../www/manager/dc/Backup.js:371 ../www/manager/dc/AuthView.js:70
-#: ../www/manager/dc/GroupView.js:40 ../www/manager/dc/HAConfig.js:138
-#: ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181
-#: ../www/manager/dc/HAConfig.js:252 ../www/manager/Utils.js:540
-#: ../www/manager/storage/ContentView.js:73
+#: ../www/manager/dc/UserView.js:46 ../www/manager/dc/Backup.js:371
+#: ../www/manager/dc/AuthView.js:70 ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
+#: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
+#: ../www/manager/Utils.js:540 ../www/manager/storage/ContentView.js:73
 #: ../www/manager/storage/ContentView.js:128
 #: ../www/manager/storage/ContentView.js:137
 #: ../www/manager/storage/ContentView.js:275 ../www/manager/VNCConsole.js:177
@@ -289,7 +290,7 @@ msgstr "Ohne die ausgewählten VMs"
 msgid "Existing volume groups"
 msgstr "Existierende Volume-Group"
 
-#: ../www/manager/dc/UserView.js:157 ../www/manager/dc/UserEdit.js:44
+#: ../www/manager/dc/UserView.js:131 ../www/manager/dc/UserEdit.js:44
 msgid "Expire"
 msgstr "Expire"
 
@@ -409,10 +410,10 @@ msgstr "Modus"
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../www/manager/data/ResourceStore.js:96 ../www/manager/dc/UserView.js:164
-#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/GroupView.js:69
-#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
-#: ../www/manager/storage/ContentView.js:294
+#: ../www/manager/data/ResourceStore.js:96 ../www/manager/dc/UserView.js:138
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/GroupEdit.js:28
+#: ../www/manager/dc/GroupView.js:88 ../www/manager/dc/Summary.js:30
+#: ../www/manager/dc/Summary.js:141 ../www/manager/storage/ContentView.js:294
 msgid "Name"
 msgstr "Name"
 
@@ -511,7 +512,7 @@ msgstr "Propagieren"
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE Anmeldung"
 
-#: ../www/manager/dc/UserView.js:144 ../www/manager/dc/UserEdit.js:83
+#: ../www/manager/dc/UserView.js:117 ../www/manager/dc/UserEdit.js:83
 #: ../www/manager/dc/AuthView.js:87 ../www/manager/dc/AuthEdit.js:26
 #: ../www/manager/dc/AuthEdit.js:112
 msgid "Realm"
@@ -528,7 +529,7 @@ msgid "Reload"
 msgstr "Neu laden"
 
 #: ../www/manager/dc/ACLView.js:148 ../www/manager/dc/StorageView.js:62
-#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/Backup.js:358
+#: ../www/manager/dc/UserView.js:25 ../www/manager/dc/Backup.js:358
 #: ../www/manager/dc/AuthView.js:49 ../www/manager/dc/GroupView.js:24
 #: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:256
 #: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
@@ -755,7 +756,7 @@ msgid "User Permission"
 msgstr "Benutzerrechte"
 
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
-#: ../www/manager/dc/UserView.js:137 ../www/manager/dc/UserEdit.js:26
+#: ../www/manager/dc/UserView.js:110 ../www/manager/dc/UserEdit.js:26
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:65
 msgid "User name"
@@ -801,6 +802,10 @@ msgstr "Tag"
 #: ../www/manager/Utils.js:543
 msgid "days"
 msgstr "Tage"
+
+#: ../www/manager/Utils.js:547
+msgid "never"
+msgstr "niemals"
 
 #: ../www/manager/Utils.js:545
 msgid "running"
