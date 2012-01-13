@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 11:44:51 2012\n"
-"PO-Revision-Date: 2012-01-12 11:42+0100\n"
+"POT-Creation-Date: Fri Jan 13 10:10:10 2012\n"
+"PO-Revision-Date: 2012-01-13 10:10+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -31,8 +31,9 @@ msgid "Active"
 msgstr "Aktiv"
 
 #: ../www/manager/dc/ACLView.js:187 ../www/manager/dc/StorageView.js:93
-#: ../www/manager/dc/Backup.js:386 ../www/manager/dc/HAConfig.js:166
-#: ../www/manager/Utils.js:723 ../www/manager/window/Edit.js:173
+#: ../www/manager/dc/Backup.js:386 ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:723
+#: ../www/manager/window/Edit.js:173
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -64,7 +65,7 @@ msgstr ""
 "Daten der VM."
 
 #: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/UserView.js:32
-#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:28
+#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
 #: ../www/manager/storage/ContentView.js:260
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
@@ -115,8 +116,8 @@ msgid "Cluster log"
 msgstr "Cluster log"
 
 #: ../www/manager/dc/UserView.js:146 ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/UserEdit.js:75 ../www/manager/dc/AuthView.js:100
-#: ../www/manager/dc/GroupView.js:94 ../www/manager/dc/AuthEdit.js:48
+#: ../www/manager/dc/UserEdit.js:75 ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/GroupView.js:94 ../www/manager/dc/AuthEdit.js:73
 msgid "Comment"
 msgstr "Kommentar"
 
@@ -157,9 +158,9 @@ msgstr "Container {0} auf Knoten {1}"
 msgid "Content"
 msgstr "Inhalt"
 
-#: ../www/manager/dc/UserView.js:74 ../www/manager/dc/AuthView.js:25
-#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:376
-#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:725
+#: ../www/manager/dc/UserView.js:74 ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#: ../www/manager/Utils.js:725
 msgid "Create"
 msgstr "Erstellen"
 
@@ -179,8 +180,8 @@ msgstr "Rechenzentrum"
 msgid "Day of week"
 msgstr "Wochentag"
 
-#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:54
-#: ../www/manager/Utils.js:542
+#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:78
+#: ../www/manager/dc/AuthEdit.js:101 ../www/manager/Utils.js:542
 msgid "Default"
 msgstr "Standardeinstellung"
 
@@ -238,7 +239,7 @@ msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 
 #: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
 #: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:66
-#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:35
+#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:42
 #: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
 #: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:728
 #: ../www/manager/qemu/Options.js:228
@@ -272,7 +273,7 @@ msgstr "Bitte geben Sie Ihren Benutzernamen ein"
 
 #: ../www/manager/dc/ACLView.js:175 ../www/manager/dc/StorageView.js:78
 #: ../www/manager/dc/UserView.js:46 ../www/manager/dc/Backup.js:371
-#: ../www/manager/dc/AuthView.js:70 ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
 #: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
 #: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
 #: ../www/manager/Utils.js:540 ../www/manager/storage/ContentView.js:73
@@ -308,6 +309,10 @@ msgstr "Expire"
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
 msgstr "Failover Domain"
+
+#: ../www/manager/dc/AuthEdit.js:92
+msgid "Fallback Server"
+msgstr "Fallback-Server"
 
 #: ../www/manager/window/Wizard.js:117
 msgid "Finish"
@@ -524,6 +529,10 @@ msgstr "Rechte"
 msgid "Please wait..."
 msgstr "Bitte warten..."
 
+#: ../www/manager/dc/AuthEdit.js:98
+msgid "Port"
+msgstr "Port"
+
 #: ../www/manager/dc/RoleView.js:45
 msgid "Privileges"
 msgstr "Privilegien"
@@ -537,8 +546,7 @@ msgid "Proxmox VE Login"
 msgstr "Proxmox VE Anmeldung"
 
 #: ../www/manager/dc/UserView.js:117 ../www/manager/dc/UserEdit.js:83
-#: ../www/manager/dc/AuthView.js:87 ../www/manager/dc/AuthEdit.js:26
-#: ../www/manager/dc/AuthEdit.js:112
+#: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:28
 msgid "Realm"
 msgstr "Bereich"
 
@@ -554,7 +562,7 @@ msgstr "Neu laden"
 
 #: ../www/manager/dc/ACLView.js:148 ../www/manager/dc/StorageView.js:62
 #: ../www/manager/dc/UserView.js:25 ../www/manager/dc/Backup.js:358
-#: ../www/manager/dc/AuthView.js:49 ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
 #: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:256
 #: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
 msgid "Remove"
@@ -621,17 +629,13 @@ msgstr "Auswahlmodus"
 msgid "Send email to"
 msgstr "Sende Mail an"
 
-#: ../www/manager/storage/NFSEdit.js:98
+#: ../www/manager/dc/AuthEdit.js:86 ../www/manager/storage/NFSEdit.js:98
 msgid "Server"
 msgstr "Server"
 
-#: ../www/manager/dc/Summary.js:56 ../www/manager/dc/AuthEdit.js:71
+#: ../www/manager/dc/Summary.js:56
 msgid "Server Address"
 msgstr "Server-Adresse"
-
-#: ../www/manager/dc/AuthEdit.js:85
-msgid "Server Port"
-msgstr "Server-Port"
 
 #: ../www/manager/form/ViewSelector.js:11
 msgid "Server View"
@@ -758,7 +762,7 @@ msgstr "Zeitzone"
 
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:93 ../www/manager/storage/StatusView.js:35
+#: ../www/manager/dc/AuthView.js:126 ../www/manager/storage/StatusView.js:35
 msgid "Type"
 msgstr "Typ"
 

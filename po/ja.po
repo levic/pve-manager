@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Thu Jan 12 11:44:51 2012\n"
+"POT-Creation-Date: Fri Jan 13 10:10:10 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -32,8 +32,9 @@ msgid "Active"
 msgstr "稼働中"
 
 #: ../www/manager/dc/ACLView.js:187 ../www/manager/dc/StorageView.js:93
-#: ../www/manager/dc/Backup.js:386 ../www/manager/dc/HAConfig.js:166
-#: ../www/manager/Utils.js:723 ../www/manager/window/Edit.js:173
+#: ../www/manager/dc/Backup.js:386 ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:723
+#: ../www/manager/window/Edit.js:173
 msgid "Add"
 msgstr "追加"
 
@@ -67,7 +68,7 @@ msgstr ""
 "とはできません。"
 
 #: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/UserView.js:32
-#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:28
+#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
 #: ../www/manager/storage/ContentView.js:260
 #, fuzzy
 msgid "Are you sure you want to remove entry {0}"
@@ -122,8 +123,8 @@ msgid "Cluster log"
 msgstr "クラスタログ"
 
 #: ../www/manager/dc/UserView.js:146 ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/UserEdit.js:75 ../www/manager/dc/AuthView.js:100
-#: ../www/manager/dc/GroupView.js:94 ../www/manager/dc/AuthEdit.js:48
+#: ../www/manager/dc/UserEdit.js:75 ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/GroupView.js:94 ../www/manager/dc/AuthEdit.js:73
 msgid "Comment"
 msgstr "コメント"
 
@@ -164,9 +165,9 @@ msgstr "ノード {1} 上のコンテナ {0}"
 msgid "Content"
 msgstr "内容"
 
-#: ../www/manager/dc/UserView.js:74 ../www/manager/dc/AuthView.js:25
-#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:376
-#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:725
+#: ../www/manager/dc/UserView.js:74 ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#: ../www/manager/Utils.js:725
 msgid "Create"
 msgstr "作成"
 
@@ -186,8 +187,8 @@ msgstr "データセンター"
 msgid "Day of week"
 msgstr "曜日"
 
-#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:54
-#: ../www/manager/Utils.js:542
+#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:78
+#: ../www/manager/dc/AuthEdit.js:101 ../www/manager/Utils.js:542
 msgid "Default"
 msgstr "デフォルト"
 
@@ -245,7 +246,7 @@ msgstr "本当に、VM {0} を一時停止しますか?"
 
 #: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
 #: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:66
-#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:35
+#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/AuthView.js:42
 #: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
 #: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:728
 #: ../www/manager/qemu/Options.js:228
@@ -279,7 +280,7 @@ msgstr "ユーザー名を入力して下さい"
 
 #: ../www/manager/dc/ACLView.js:175 ../www/manager/dc/StorageView.js:78
 #: ../www/manager/dc/UserView.js:46 ../www/manager/dc/Backup.js:371
-#: ../www/manager/dc/AuthView.js:70 ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
 #: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
 #: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
 #: ../www/manager/Utils.js:540 ../www/manager/storage/ContentView.js:73
@@ -315,6 +316,11 @@ msgstr "有効期限"
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
 msgstr ""
+
+#: ../www/manager/dc/AuthEdit.js:92
+#, fuzzy
+msgid "Fallback Server"
+msgstr "バックアップ"
 
 #: ../www/manager/window/Wizard.js:117
 msgid "Finish"
@@ -536,6 +542,11 @@ msgstr "アクセス権限"
 msgid "Please wait..."
 msgstr "しばらくお待ち下さい…"
 
+#: ../www/manager/dc/AuthEdit.js:98
+#, fuzzy
+msgid "Port"
+msgstr "ポータル"
+
 #: ../www/manager/dc/RoleView.js:45
 msgid "Privileges"
 msgstr "権限"
@@ -549,8 +560,7 @@ msgid "Proxmox VE Login"
 msgstr "Proxmox VE ログイン"
 
 #: ../www/manager/dc/UserView.js:117 ../www/manager/dc/UserEdit.js:83
-#: ../www/manager/dc/AuthView.js:87 ../www/manager/dc/AuthEdit.js:26
-#: ../www/manager/dc/AuthEdit.js:112
+#: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:28
 msgid "Realm"
 msgstr "レルム"
 
@@ -566,7 +576,7 @@ msgstr "再読込"
 
 #: ../www/manager/dc/ACLView.js:148 ../www/manager/dc/StorageView.js:62
 #: ../www/manager/dc/UserView.js:25 ../www/manager/dc/Backup.js:358
-#: ../www/manager/dc/AuthView.js:49 ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
 #: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:256
 #: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:71
 msgid "Remove"
@@ -634,17 +644,13 @@ msgstr "選択モード"
 msgid "Send email to"
 msgstr "メールの送信先"
 
-#: ../www/manager/storage/NFSEdit.js:98
+#: ../www/manager/dc/AuthEdit.js:86 ../www/manager/storage/NFSEdit.js:98
 msgid "Server"
 msgstr "サーバー"
 
-#: ../www/manager/dc/Summary.js:56 ../www/manager/dc/AuthEdit.js:71
+#: ../www/manager/dc/Summary.js:56
 msgid "Server Address"
 msgstr "サーバーアドレス"
-
-#: ../www/manager/dc/AuthEdit.js:85
-msgid "Server Port"
-msgstr "サーバーポート"
 
 #: ../www/manager/form/ViewSelector.js:11
 msgid "Server View"
@@ -771,7 +777,7 @@ msgstr "タイムゾーン"
 
 #: ../www/manager/data/ResourceStore.js:33
 #: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:93 ../www/manager/storage/StatusView.js:35
+#: ../www/manager/dc/AuthView.js:126 ../www/manager/storage/StatusView.js:35
 msgid "Type"
 msgstr "種別"
 
@@ -1659,9 +1665,6 @@ msgstr "停止中"
 #~ msgid "Polish"
 #~ msgstr "ポーランド語"
 
-#~ msgid "Portal"
-#~ msgstr "ポータル"
-
 #~ msgid "Ports/Slaves"
 #~ msgstr "ポート/スレーブ"
 
@@ -1789,6 +1792,9 @@ msgstr "停止中"
 
 #~ msgid "SendKey"
 #~ msgstr "キーの送信"
+
+#~ msgid "Server Port"
+#~ msgstr "サーバーポート"
 
 #~ msgid "Server Type"
 #~ msgstr "サーバー種別"
