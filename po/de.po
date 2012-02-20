@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Feb 10 08:34:30 2012\n"
-"PO-Revision-Date: 2012-01-13 10:10+0100\n"
+"POT-Creation-Date: Mon Feb 20 06:49:01 2012\n"
+"PO-Revision-Date: 2012-02-20 06:48+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -108,6 +108,12 @@ msgstr "Basis-Speicher"
 msgid "Base volume"
 msgstr "Basis-Volume"
 
+#: ../www/manager/qemu/BootOrderEdit.js:114
+#: ../www/manager/qemu/BootOrderEdit.js:122
+#: ../www/manager/qemu/BootOrderEdit.js:130
+msgid "Boot device"
+msgstr "Boot-Device"
+
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
 msgstr "CPU-Auslastung"
@@ -142,7 +148,7 @@ msgstr "Bestätigung"
 msgid "Connection error"
 msgstr "Verbindungsfehler"
 
-#: ../www/manager/Workspace.js:104 ../www/manager/Utils.js:374
+#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:374
 #: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
 #: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
 #: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
@@ -167,13 +173,22 @@ msgstr "Inhalt"
 msgid "Create"
 msgstr "Erstellen"
 
-#: ../www/manager/Workspace.js:335
+#: ../www/manager/Workspace.js:336
 msgid "Create CT"
 msgstr "Erstelle CT"
 
-#: ../www/manager/Workspace.js:324
+#: ../www/manager/Workspace.js:325
 msgid "Create VM"
 msgstr "Erstelle VM"
+
+#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+#: ../www/manager/openvz/CreateWizard.js:235
+#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53
+#: ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
+msgid "DNS server"
+msgstr "DNS Server"
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
@@ -390,9 +405,8 @@ msgid "Last transition"
 msgstr "Last transition"
 
 #: ../www/manager/Utils.js:755
-#, fuzzy
 msgid "Loading..."
-msgstr "Hochladen der Datei..."
+msgstr "Laden..."
 
 #: ../www/manager/window/LoginWindow.js:120
 msgid "Login"
@@ -402,7 +416,7 @@ msgstr "Anmelden"
 msgid "Login failed. Please try again"
 msgstr "Anmeldung fehlgeschlagen. Bitte versuchen Sie es noch einmal."
 
-#: ../www/manager/Workspace.js:310
+#: ../www/manager/Workspace.js:311
 msgid "Logout"
 msgstr "Logout"
 
@@ -412,7 +426,7 @@ msgstr "Max-Dateien"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
-msgstr ""
+msgstr "Mitglieder"
 
 #: ../www/manager/data/ResourceStore.js:125
 msgid "Memory size"
@@ -451,7 +465,8 @@ msgstr "Monitor"
 msgid "Name"
 msgstr "Name"
 
-#: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:114
+#: ../www/manager/node/Config.js:76 ../www/manager/qemu/BootOrderEdit.js:74
+#: ../www/manager/openvz/Config.js:114
 msgid "Network"
 msgstr "Netzwerk"
 
@@ -529,7 +544,7 @@ msgstr "Passwort"
 
 #: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:27
 msgid "Passwords does not match"
-msgstr ""
+msgstr "Passwörter stimmen nicht überein"
 
 #: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
 msgid "Path"
@@ -553,11 +568,11 @@ msgstr "Bitte warten..."
 #: ../www/manager/form/PoolSelector.js:22
 #: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
-msgstr ""
+msgstr "Pool"
 
 #: ../www/manager/dc/Config.js:44
 msgid "Pools"
-msgstr ""
+msgstr "Pools"
 
 #: ../www/manager/dc/AuthEdit.js:99
 msgid "Port"
@@ -607,9 +622,8 @@ msgstr "Reset"
 #: ../www/manager/pool/Config.js:14 ../www/manager/tree/ResourceTree.js:13
 #: ../www/manager/qemu/CreateWizard.js:76
 #: ../www/manager/openvz/CreateWizard.js:97
-#, fuzzy
 msgid "Resource Pool"
-msgstr "Ressourcen"
+msgstr "Ressource-Pool"
 
 #: ../www/manager/openvz/Config.js:109
 msgid "Resources"
@@ -860,11 +874,10 @@ msgid "Users"
 msgstr "Benutzer"
 
 #: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:34
-#, fuzzy
 msgid "Verify Password"
-msgstr "Passwort"
+msgstr "Passwort bestätigen"
 
-#: ../www/manager/Workspace.js:297
+#: ../www/manager/Workspace.js:298
 msgid "Version"
 msgstr "Version"
 
@@ -891,7 +904,7 @@ msgstr "Volume-Group"
 msgid "Yes"
 msgstr "Ja"
 
-#: ../www/manager/Workspace.js:212
+#: ../www/manager/Workspace.js:213
 msgid "You are logged in as {0}"
 msgstr "Sie sind angemeldet als {0}"
 

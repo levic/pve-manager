@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Feb 10 08:34:30 2012\n"
+"POT-Creation-Date: Mon Feb 20 06:49:01 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -115,6 +115,13 @@ msgstr "ベースストレージ"
 msgid "Base volume"
 msgstr "ベースボリューム"
 
+#: ../www/manager/qemu/BootOrderEdit.js:114
+#: ../www/manager/qemu/BootOrderEdit.js:122
+#: ../www/manager/qemu/BootOrderEdit.js:130
+#, fuzzy
+msgid "Boot device"
+msgstr "最初にブートするデバイス"
+
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
 msgstr "CPU 使用率"
@@ -149,7 +156,7 @@ msgstr "確認"
 msgid "Connection error"
 msgstr "接続エラー"
 
-#: ../www/manager/Workspace.js:104 ../www/manager/Utils.js:374
+#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:374
 #: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
 #: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
 #: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
@@ -174,13 +181,23 @@ msgstr "内容"
 msgid "Create"
 msgstr "作成"
 
-#: ../www/manager/Workspace.js:335
+#: ../www/manager/Workspace.js:336
 msgid "Create CT"
 msgstr "CT を作成"
 
-#: ../www/manager/Workspace.js:324
+#: ../www/manager/Workspace.js:325
 msgid "Create VM"
 msgstr "VM を作成"
+
+#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+#: ../www/manager/openvz/CreateWizard.js:235
+#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53
+#: ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
+#, fuzzy
+msgid "DNS server"
+msgstr "DNS サーバー"
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
@@ -413,7 +430,7 @@ msgstr "ログイン"
 msgid "Login failed. Please try again"
 msgstr "ログインできませんでした。やり直して下さい"
 
-#: ../www/manager/Workspace.js:310
+#: ../www/manager/Workspace.js:311
 msgid "Logout"
 msgstr "ログアウト"
 
@@ -462,7 +479,8 @@ msgstr "モニター"
 msgid "Name"
 msgstr "名前"
 
-#: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:114
+#: ../www/manager/node/Config.js:76 ../www/manager/qemu/BootOrderEdit.js:74
+#: ../www/manager/openvz/Config.js:114
 msgid "Network"
 msgstr "ネットワーク"
 
@@ -883,7 +901,7 @@ msgstr "ユーザー"
 msgid "Verify Password"
 msgstr "パスワード"
 
-#: ../www/manager/Workspace.js:297
+#: ../www/manager/Workspace.js:298
 msgid "Version"
 msgstr "バージョン"
 
@@ -912,7 +930,7 @@ msgstr "ボリュームグループ"
 msgid "Yes"
 msgstr "はい"
 
-#: ../www/manager/Workspace.js:212
+#: ../www/manager/Workspace.js:213
 msgid "You are logged in as {0}"
 msgstr "{0} でログイン中"
 
@@ -1220,9 +1238,6 @@ msgstr "停止中"
 #~ msgid "DNS server 2"
 #~ msgstr "DNS サーバー 2"
 
-#~ msgid "DNS servers"
-#~ msgstr "DNS サーバー"
-
 #~ msgid "Danish"
 #~ msgstr "デンマーク語"
 
@@ -1383,9 +1398,6 @@ msgstr "停止中"
 
 #~ msgid "First DNS server"
 #~ msgstr "プライマリ DNS サーバー"
-
-#~ msgid "First boot device"
-#~ msgstr "最初にブートするデバイス"
 
 #~ msgid "Floppy"
 #~ msgstr "フロッピー"

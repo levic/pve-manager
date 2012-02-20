@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Feb 10 08:34:30 2012\n"
+"POT-Creation-Date: Mon Feb 20 06:49:01 2012\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -92,6 +92,10 @@ msgstr ""
 msgid "Base volume"
 msgstr ""
 
+#: ../www/manager/qemu/BootOrderEdit.js:114 ../www/manager/qemu/BootOrderEdit.js:122 ../www/manager/qemu/BootOrderEdit.js:130
+msgid "Boot device"
+msgstr ""
+
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
 msgstr ""
@@ -116,7 +120,7 @@ msgstr ""
 msgid "Connection error"
 msgstr ""
 
-#: ../www/manager/Workspace.js:104 ../www/manager/Utils.js:374 ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:374 ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55 ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393 ../www/manager/openvz/Config.js:88 ../www/manager/openvz/CmdMenu.js:55
 msgid "Console"
 msgstr ""
 
@@ -132,12 +136,16 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: ../www/manager/Workspace.js:335
+#: ../www/manager/Workspace.js:336
 msgid "Create CT"
 msgstr ""
 
-#: ../www/manager/Workspace.js:324
+#: ../www/manager/Workspace.js:325
 msgid "Create VM"
+msgstr ""
+
+#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29 ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26 ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28 ../www/manager/openvz/CreateWizard.js:235 ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53 ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
+msgid "DNS server"
 msgstr ""
 
 #: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
@@ -336,7 +344,7 @@ msgstr ""
 msgid "Login failed. Please try again"
 msgstr ""
 
-#: ../www/manager/Workspace.js:310
+#: ../www/manager/Workspace.js:311
 msgid "Logout"
 msgstr ""
 
@@ -376,7 +384,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: ../www/manager/node/Config.js:76 ../www/manager/openvz/Config.js:114
+#: ../www/manager/node/Config.js:76 ../www/manager/qemu/BootOrderEdit.js:74 ../www/manager/openvz/Config.js:114
 msgid "Network"
 msgstr ""
 
@@ -716,7 +724,7 @@ msgstr ""
 msgid "Verify Password"
 msgstr ""
 
-#: ../www/manager/Workspace.js:297
+#: ../www/manager/Workspace.js:298
 msgid "Version"
 msgstr ""
 
@@ -740,7 +748,7 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: ../www/manager/Workspace.js:212
+#: ../www/manager/Workspace.js:213
 msgid "You are logged in as {0}"
 msgstr ""
 
