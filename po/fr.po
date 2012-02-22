@@ -370,7 +370,8 @@ msgstr "Etat du service HA"
 
 #: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
 msgid "HA managed VM/CT"
-éémsgstr "VM/CT gérée par HA"
+msgstr "VM/CT gérée par HA"
+
 #: ../www/manager/qemu/Config.js:117
 msgid "Hardware"
 msgstr "Matériel"
