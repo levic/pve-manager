@@ -46,6 +46,8 @@ if ($header =~ m|\\nContent-Type:\s+text/plain;\s+charset=(\S+)\\n|im) {
 
 foreach my $k (keys %$href) {
     my $po = $href->{$k};
+    next if $po->fuzzy(); # skip fuzzy entries
+
     my $qmsgid = decode($charset, $po->msgid);
     my $msgid = $po->dequote($qmsgid);
 
