@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Feb 22 07:45:45 2012\n"
-"PO-Revision-Date: 2012-02-22 07:29+0100\n"
+"POT-Creation-Date: Fri Feb 24 14:37:36 2012\n"
+"PO-Revision-Date: 2012-02-24 14:36+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -33,7 +33,8 @@ msgstr "Aktiv"
 #: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
 #: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/Backup.js:387
 #: ../www/manager/dc/AuthView.js:81 ../www/manager/dc/HAConfig.js:166
-#: ../www/manager/Utils.js:727 ../www/manager/window/Edit.js:173
+#: ../www/manager/Utils.js:727 ../www/manager/qemu/HardwareView.js:246
+#: ../www/manager/window/Edit.js:173
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -64,16 +65,22 @@ msgstr ""
 "Sind Sie sicher dass Sie VM {0} entfernen wollen? Damit löschen Sie alle "
 "Daten der VM."
 
+#: ../www/manager/grid/BackupView.js:120
 #: ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66
 #: ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28
 #: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
 #: ../www/manager/storage/ContentView.js:406
+#: ../www/manager/qemu/HardwareView.js:206
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
 
 #: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:360
 msgid "Are you sure you want to remove this entry"
 msgstr "Möchten Sie diesen Eintrag wirklich entfernen?"
+
+#: ../www/manager/window/Restore.js:101
+msgid "Are you sure you want to restore this VM?"
+msgstr "Möchten Sie diese VM wirklich zurückspielen?"
 
 #: ../www/manager/dc/HAConfig.js:148
 msgid "Are you sure you want to revert your changes"
@@ -92,13 +99,18 @@ msgid "Back"
 msgstr "Back"
 
 #: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:401
-#: ../www/manager/qemu/Config.js:132 ../www/manager/openvz/Config.js:150
+#: ../www/manager/qemu/Config.js:132 ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:90 ../www/manager/openvz/Config.js:150
 msgid "Backup"
 msgstr "Backup"
 
 #: ../www/manager/dc/Backup.js:272
 msgid "Backup Job"
 msgstr "Backup-Job"
+
+#: ../www/manager/grid/BackupView.js:81
+msgid "Backup now"
+msgstr "Backup starten"
 
 #: ../www/manager/storage/LVMEdit.js:149
 msgid "Base storage"
@@ -113,6 +125,17 @@ msgstr "Basis-Volume"
 #: ../www/manager/qemu/BootOrderEdit.js:130
 msgid "Boot device"
 msgstr "Boot-Device"
+
+#: ../www/manager/qemu/Options.js:64 ../www/manager/qemu/BootOrderEdit.js:184
+msgid "Boot order"
+msgstr "Boot-Reihenfolge"
+
+#: ../www/manager/qemu/HardwareView.js:100
+#: ../www/manager/qemu/HardwareView.js:110
+#: ../www/manager/qemu/HardwareView.js:120
+#: ../www/manager/qemu/HardwareView.js:262
+msgid "CD/DVD Drive"
+msgstr "CD/DVD Laufwerk"
 
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
@@ -130,7 +153,7 @@ msgstr "Cluster log"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: ../www/manager/dc/Backup.js:163
+#: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
 msgid "Compression"
 msgstr "Kompression"
 
@@ -169,7 +192,7 @@ msgstr "Inhalt"
 
 #: ../www/manager/Utils.js:399
 msgid "Copy data"
-msgstr ""
+msgstr "Daten kopieren"
 
 #: ../www/manager/dc/UserView.js:140 ../www/manager/dc/PoolView.js:68
 #: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:376
@@ -221,13 +244,22 @@ msgstr "Entfernen"
 msgid "Directory"
 msgstr "Verzeichnis"
 
-#: ../www/manager/data/ResourceStore.js:110
+#: ../www/manager/qemu/HDEdit.js:112 ../www/manager/qemu/HDEdit.js:126
+#: ../www/manager/qemu/HDEdit.js:172
+msgid "Disk image"
+msgstr "Disk-Image"
+
+#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:137
 msgid "Disk size"
 msgstr "Disk-Größe"
 
 #: ../www/manager/data/ResourceStore.js:103
 msgid "Disk usage"
 msgstr "Disk-Auslastung"
+
+#: ../www/manager/qemu/HardwareView.js:78 ../www/manager/qemu/DisplayEdit.js:8
+msgid "Display"
+msgstr "Anzeige"
 
 #: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
 msgid "Do not use any proxy"
@@ -262,7 +294,7 @@ msgstr "Möchten Sie VM {0} wirklich aussetzen (suspend)?"
 
 #: ../www/manager/Utils.js:400 ../www/manager/storage/ContentView.js:105
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
 #: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:119
@@ -270,6 +302,7 @@ msgstr ""
 #: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/GroupView.js:60
 #: ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232
 #: ../www/manager/Utils.js:732 ../www/manager/qemu/Options.js:228
+#: ../www/manager/qemu/HardwareView.js:188
 msgid "Edit"
 msgstr "Bearbeite"
 
@@ -358,10 +391,15 @@ msgstr "Ordner Ansicht"
 msgid "Form fields may not be submitted with invalid values"
 msgstr "Formularfelder müssen gültige Werte haben"
 
-#: ../www/manager/Utils.js:45 ../www/manager/Utils.js:50
-#: ../www/manager/Utils.js:55 ../www/manager/storage/ContentView.js:458
+#: ../www/manager/grid/BackupView.js:163 ../www/manager/Utils.js:45
+#: ../www/manager/Utils.js:50 ../www/manager/Utils.js:55
+#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:182
 msgid "Format"
 msgstr "Format"
+
+#: ../www/manager/qemu/DisplayEdit.js:14
+msgid "Graphic card"
+msgstr "Grafikkarte"
 
 #: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:26
 #: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:83
@@ -384,6 +422,14 @@ msgstr "HA Services Status"
 msgid "HA managed VM/CT"
 msgstr "HA managed VM/CT"
 
+#: ../www/manager/qemu/HDEdit.js:235 ../www/manager/qemu/HDEdit.js:237
+#: ../www/manager/qemu/HardwareView.js:99
+#: ../www/manager/qemu/HardwareView.js:109
+#: ../www/manager/qemu/HardwareView.js:119
+#: ../www/manager/qemu/HardwareView.js:250
+msgid "Hard Disk"
+msgstr "Laufwerk"
+
 #: ../www/manager/qemu/Config.js:117
 msgid "Hardware"
 msgstr "Hardware"
@@ -393,7 +439,9 @@ msgid "Include selected VMs"
 msgstr "Mit den ausgewählten VMs"
 
 #: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
-#: ../www/manager/dc/OptionView.js:63
+#: ../www/manager/dc/OptionView.js:63 ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/qemu/KeyboardEdit.js:13
+#: ../www/manager/qemu/HardwareView.js:70
 msgid "Keyboard Layout"
 msgstr "Tastatur-Layout"
 
@@ -437,6 +485,11 @@ msgstr "Max-Dateien"
 msgid "Members"
 msgstr "Mitglieder"
 
+#: ../www/manager/qemu/MemoryEdit.js:17 ../www/manager/qemu/MemoryEdit.js:38
+#: ../www/manager/qemu/HardwareView.js:40
+msgid "Memory"
+msgstr "RAM Speicher"
+
 #: ../www/manager/data/ResourceStore.js:125
 msgid "Memory size"
 msgstr "Speichergröße"
@@ -454,7 +507,7 @@ msgstr "Meldung"
 msgid "Migrate"
 msgstr "Migration"
 
-#: ../www/manager/dc/Backup.js:178
+#: ../www/manager/dc/Backup.js:178 ../www/manager/window/Backup.js:41
 msgid "Mode"
 msgstr "Modus"
 
@@ -464,10 +517,11 @@ msgstr "Monitor"
 
 #: ../www/manager/Utils.js:392
 msgid "Mount"
-msgstr ""
+msgstr "Mount"
 
 #: ../www/manager/data/ResourceStore.js:97
-#: ../www/manager/node/ServiceView.js:118 ../www/manager/dc/UserView.js:204
+#: ../www/manager/node/ServiceView.js:118
+#: ../www/manager/grid/BackupView.js:156 ../www/manager/dc/UserView.js:204
 #: ../www/manager/dc/PoolView.js:90 ../www/manager/dc/Backup.js:100
 #: ../www/manager/dc/RoleView.js:40 ../www/manager/dc/GroupEdit.js:28
 #: ../www/manager/dc/GroupView.js:90 ../www/manager/dc/Summary.js:30
@@ -483,6 +537,12 @@ msgstr "Name"
 msgid "Network"
 msgstr "Netzwerk"
 
+#: ../www/manager/qemu/HardwareView.js:129
+#: ../www/manager/qemu/HardwareView.js:274
+#: ../www/manager/qemu/NetworkEdit.js:163
+msgid "Network Device"
+msgstr "Netzwerkkarte"
+
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
 msgstr "Next"
@@ -490,6 +550,10 @@ msgstr "Next"
 #: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:543
 msgid "No"
 msgstr "Nein"
+
+#: ../www/manager/qemu/HDEdit.js:198
+msgid "No backup"
+msgstr "Kein Backup"
 
 #: ../www/manager/storage/IScsiEdit.js:126
 #: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
@@ -551,7 +615,7 @@ msgstr "Besitzer"
 
 #: ../www/manager/storage/ContentView.js:50
 msgid "Package"
-msgstr ""
+msgstr "Package"
 
 #: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
 #: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:44
@@ -599,6 +663,11 @@ msgstr "Port"
 msgid "Privileges"
 msgstr "Privilegien"
 
+#: ../www/manager/qemu/ProcessorEdit.js:71
+#: ../www/manager/qemu/HardwareView.js:49
+msgid "Processors"
+msgstr "Prozessoren"
+
 #: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
 msgstr "Propagieren"
@@ -622,12 +691,14 @@ msgstr "Aktualisieren"
 msgid "Reload"
 msgstr "Neu laden"
 
+#: ../www/manager/grid/BackupView.js:116
 #: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
 #: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
 #: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357
 #: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
 #: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402
-#: ../www/manager/qemu/Config.js:79 ../www/manager/openvz/Config.js:80
+#: ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202
+#: ../www/manager/openvz/Config.js:80
 msgid "Remove"
 msgstr "Entfernen"
 
@@ -655,8 +726,9 @@ msgstr "Restart"
 msgid "Restarts"
 msgstr "Restarts"
 
-#: ../www/manager/Utils.js:377 ../www/manager/Utils.js:387
-#: ../www/manager/storage/ContentView.js:374
+#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:377
+#: ../www/manager/Utils.js:387 ../www/manager/storage/ContentView.js:374
+#: ../www/manager/window/Restore.js:77
 msgid "Restore"
 msgstr "Zurückspielen"
 
@@ -745,10 +817,15 @@ msgstr "Shell"
 msgid "Shutdown"
 msgstr "Herunterfahren"
 
+#: ../www/manager/grid/BackupView.js:168
 #: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/storage/ContentView.js:463
 msgid "Size"
 msgstr "Größe"
+
+#: ../www/manager/window/Restore.js:41
+msgid "Source"
+msgstr "Quelle"
 
 #: ../www/manager/dc/Summary.js:127
 msgid "Standalone node - no cluster defined"
@@ -787,9 +864,12 @@ msgid "Stop"
 msgstr "Stopp"
 
 #: ../www/manager/data/ResourceStore.js:161
-#: ../www/manager/grid/PoolMembers.js:52 ../www/manager/grid/PoolMembers.js:61
+#: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/PoolMembers.js:61
 #: ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57
 #: ../www/manager/dc/Backup.js:423 ../www/manager/dc/Config.js:24
+#: ../www/manager/qemu/HDEdit.js:144 ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
 msgid "Storage"
 msgstr "Speicher"
 
@@ -824,12 +904,18 @@ msgid "Tasks"
 msgstr "Tasks"
 
 #: ../www/manager/storage/ContentView.js:133
-msgid "Template download"
-msgstr ""
-
 #: ../www/manager/storage/ContentView.js:427
 msgid "Templates"
-msgstr ""
+msgstr "Templates"
+
+#: ../www/manager/grid/BackupView.js:122
+#: ../www/manager/qemu/HardwareView.js:209
+msgid "This will permanently erase all image data."
+msgstr "Damit löschen Sie alle Daten."
+
+#: ../www/manager/window/Restore.js:102
+msgid "This will permanently erase current VM data."
+msgstr "Damit löschen Sie alle Daten der jetztigen VM."
 
 #: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
 msgid "Time"
@@ -857,7 +943,11 @@ msgstr "Unbekannter Fehler"
 
 #: ../www/manager/Utils.js:393 ../www/manager/openvz/Config.js:43
 msgid "Unmount"
-msgstr ""
+msgstr "Unmount"
+
+#: ../www/manager/qemu/HDEdit.js:233 ../www/manager/qemu/HardwareView.js:137
+msgid "Unused Disk"
+msgstr "Unused Disk"
 
 #: ../www/manager/storage/ContentView.js:239
 #: ../www/manager/storage/ContentView.js:303
@@ -946,9 +1036,21 @@ msgstr "Tag"
 msgid "days"
 msgstr "Tage"
 
+#: ../www/manager/form/CompressionSelector.js:10
+msgid "fast"
+msgstr "schnell"
+
+#: ../www/manager/form/CompressionSelector.js:11
+msgid "good"
+msgstr "gut"
+
 #: ../www/manager/Utils.js:551
 msgid "never"
 msgstr "niemals"
+
+#: ../www/manager/form/CompressionSelector.js:9
+msgid "none"
+msgstr "keine"
 
 #: ../www/manager/Utils.js:549
 msgid "running"
