@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Feb 24 14:37:36 2012\n"
+"POT-Creation-Date: Tue Feb 28 11:14:36 2012\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190 ../www/manager/dc/StorageView.js:93 ../www/manager/dc/Backup.js:387 ../www/manager/dc/AuthView.js:81 ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:727 ../www/manager/qemu/HardwareView.js:246 ../www/manager/window/Edit.js:173
+#: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190 ../www/manager/dc/StorageView.js:93 ../www/manager/dc/Backup.js:387 ../www/manager/dc/AuthView.js:81 ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:727 ../www/manager/qemu/HardwareView.js:246 ../www/manager/window/Edit.js:173 ../www/manager/openvz/Network.js:334
 msgid "Add"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid "Are you sure you want to remove VM {0}? This will permanently erase all VM data."
 msgstr ""
 
-#: ../www/manager/grid/BackupView.js:120 ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66 ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28 ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28 ../www/manager/storage/ContentView.js:406 ../www/manager/qemu/HardwareView.js:206
+#: ../www/manager/grid/BackupView.js:120 ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66 ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28 ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28 ../www/manager/storage/ContentView.js:406 ../www/manager/qemu/HardwareView.js:206 ../www/manager/openvz/Network.js:264
 msgid "Are you sure you want to remove entry {0}"
 msgstr ""
 
@@ -128,8 +128,12 @@ msgstr ""
 msgid "Compression"
 msgstr ""
 
-#: ../www/manager/qemu/CmdMenu.js:45 ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CmdMenu.js:45
+#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:45 ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CreateWizard.js:254 ../www/manager/openvz/CmdMenu.js:45
 msgid "Confirm"
+msgstr ""
+
+#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:34 ../www/manager/openvz/CreateWizard.js:123
+msgid "Confirm password"
 msgstr ""
 
 #: ../www/manager/Utils.js:277 ../www/manager/Utils.js:328 ../www/manager/Utils.js:330 ../www/manager/Utils.js:332 ../www/manager/Utils.js:334 ../www/manager/Utils.js:789
@@ -196,7 +200,7 @@ msgstr ""
 msgid "Disk image"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:137
+#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:137 ../www/manager/openvz/RessourceEdit.js:44 ../www/manager/openvz/RessourceView.js:45
 msgid "Disk size"
 msgstr ""
 
@@ -240,7 +244,7 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32 ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60 ../www/manager/dc/Backup.js:350 ../www/manager/dc/AuthView.js:42 ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:732 ../www/manager/qemu/Options.js:228 ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32 ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60 ../www/manager/dc/Backup.js:350 ../www/manager/dc/AuthView.js:42 ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:732 ../www/manager/qemu/Options.js:228 ../www/manager/qemu/HardwareView.js:188 ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100 ../www/manager/openvz/Network.js:318 ../www/manager/openvz/RessourceView.js:86
 msgid "Edit"
 msgstr ""
 
@@ -264,7 +268,7 @@ msgstr ""
 msgid "Enter your user name"
 msgstr ""
 
-#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176 ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99 ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:370 ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40 ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252 ../www/manager/Utils.js:544 ../www/manager/storage/ContentView.js:217 ../www/manager/storage/ContentView.js:272 ../www/manager/storage/ContentView.js:281 ../www/manager/storage/ContentView.js:421 ../www/manager/VNCConsole.js:177 ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:94 ../www/manager/window/Edit.js:131
+#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176 ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99 ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:370 ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40 ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252 ../www/manager/Utils.js:544 ../www/manager/storage/ContentView.js:217 ../www/manager/storage/ContentView.js:272 ../www/manager/storage/ContentView.js:281 ../www/manager/storage/ContentView.js:421 ../www/manager/qemu/CreateWizard.js:159 ../www/manager/VNCConsole.js:177 ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:94 ../www/manager/window/Edit.js:131 ../www/manager/openvz/CreateWizard.js:313 ../www/manager/openvz/Network.js:194 ../www/manager/openvz/Network.js:295
 msgid "Error"
 msgstr ""
 
@@ -316,6 +320,10 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
+#: ../www/manager/qemu/CreateWizard.js:43 ../www/manager/openvz/CreateWizard.js:62
+msgid "General"
+msgstr ""
+
 #: ../www/manager/qemu/DisplayEdit.js:14
 msgid "Graphic card"
 msgstr ""
@@ -340,12 +348,16 @@ msgstr ""
 msgid "HA managed VM/CT"
 msgstr ""
 
-#: ../www/manager/qemu/HDEdit.js:235 ../www/manager/qemu/HDEdit.js:237 ../www/manager/qemu/HardwareView.js:99 ../www/manager/qemu/HardwareView.js:109 ../www/manager/qemu/HardwareView.js:119 ../www/manager/qemu/HardwareView.js:250
+#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:235 ../www/manager/qemu/HDEdit.js:237 ../www/manager/qemu/HardwareView.js:99 ../www/manager/qemu/HardwareView.js:109 ../www/manager/qemu/HardwareView.js:119 ../www/manager/qemu/HardwareView.js:250
 msgid "Hard Disk"
 msgstr ""
 
 #: ../www/manager/qemu/Config.js:117
 msgid "Hardware"
+msgstr ""
+
+#: ../www/manager/openvz/CreateWizard.js:176 ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143 ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338 ../www/manager/openvz/Network.js:379
+msgid "IP address"
 msgstr ""
 
 #: ../www/manager/dc/Backup.js:29
@@ -396,7 +408,7 @@ msgstr ""
 msgid "Members"
 msgstr ""
 
-#: ../www/manager/qemu/MemoryEdit.js:17 ../www/manager/qemu/MemoryEdit.js:38 ../www/manager/qemu/HardwareView.js:40
+#: ../www/manager/qemu/CreateWizard.js:105 ../www/manager/qemu/MemoryEdit.js:19 ../www/manager/qemu/MemoryEdit.js:41 ../www/manager/qemu/HardwareView.js:40 ../www/manager/openvz/RessourceEdit.js:20 ../www/manager/openvz/RessourceView.js:23
 msgid "Memory"
 msgstr ""
 
@@ -428,15 +440,15 @@ msgstr ""
 msgid "Mount"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:97 ../www/manager/node/ServiceView.js:118 ../www/manager/grid/BackupView.js:156 ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90 ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40 ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90 ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141 ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451 ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27 ../www/manager/qemu/Options.js:32 ../www/manager/qemu/StatusView.js:43 ../www/manager/openvz/StatusView.js:64
+#: ../www/manager/data/ResourceStore.js:97 ../www/manager/node/ServiceView.js:118 ../www/manager/grid/BackupView.js:156 ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90 ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40 ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90 ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141 ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451 ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27 ../www/manager/qemu/Options.js:32 ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/CreateWizard.js:69 ../www/manager/openvz/StatusView.js:64 ../www/manager/openvz/Network.js:58
 msgid "Name"
 msgstr ""
 
-#: ../www/manager/node/Config.js:76 ../www/manager/qemu/BootOrderEdit.js:74 ../www/manager/openvz/Config.js:123
+#: ../www/manager/node/Config.js:76 ../www/manager/qemu/CreateWizard.js:34 ../www/manager/qemu/BootOrderEdit.js:74 ../www/manager/openvz/CreateWizard.js:153 ../www/manager/openvz/Config.js:123 ../www/manager/openvz/Network.js:161
 msgid "Network"
 msgstr ""
 
-#: ../www/manager/qemu/HardwareView.js:129 ../www/manager/qemu/HardwareView.js:274 ../www/manager/qemu/NetworkEdit.js:163
+#: ../www/manager/qemu/HardwareView.js:129 ../www/manager/qemu/HardwareView.js:274 ../www/manager/qemu/NetworkEdit.js:163 ../www/manager/openvz/Network.js:47 ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
 msgid "Network Device"
 msgstr ""
 
@@ -456,7 +468,7 @@ msgstr ""
 msgid "No restrictions"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85 ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:399 ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50 ../www/manager/window/TaskViewer.js:31
+#: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60 ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85 ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:399 ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50 ../www/manager/qemu/CreateWizard.js:48 ../www/manager/window/TaskViewer.js:31 ../www/manager/openvz/CreateWizard.js:67
 msgid "Node"
 msgstr ""
 
@@ -504,7 +516,7 @@ msgstr ""
 msgid "Package"
 msgstr ""
 
-#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38 ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:44 ../www/manager/window/LoginWindow.js:87
+#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38 ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:44 ../www/manager/window/LoginWindow.js:87 ../www/manager/openvz/CreateWizard.js:108
 msgid "Password"
 msgstr ""
 
@@ -544,7 +556,7 @@ msgstr ""
 msgid "Privileges"
 msgstr ""
 
-#: ../www/manager/qemu/ProcessorEdit.js:71 ../www/manager/qemu/HardwareView.js:49
+#: ../www/manager/qemu/ProcessorEdit.js:71 ../www/manager/qemu/HardwareView.js:49 ../www/manager/openvz/RessourceView.js:39
 msgid "Processors"
 msgstr ""
 
@@ -568,7 +580,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: ../www/manager/grid/BackupView.js:116 ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149 ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78 ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357 ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24 ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402 ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202 ../www/manager/openvz/Config.js:80
+#: ../www/manager/grid/BackupView.js:116 ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149 ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78 ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357 ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24 ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402 ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202 ../www/manager/openvz/Config.js:80 ../www/manager/openvz/Network.js:254
 msgid "Remove"
 msgstr ""
 
@@ -580,7 +592,7 @@ msgstr ""
 msgid "Resource Pool"
 msgstr ""
 
-#: ../www/manager/openvz/Config.js:118
+#: ../www/manager/openvz/CreateWizard.js:149 ../www/manager/openvz/RessourceEdit.js:71 ../www/manager/openvz/Config.js:118
 msgid "Resources"
 msgstr ""
 
@@ -656,6 +668,10 @@ msgstr ""
 msgid "Services"
 msgstr ""
 
+#: ../www/manager/qemu/CreateWizard.js:113 ../www/manager/openvz/CreateWizard.js:258
+msgid "Settings"
+msgstr ""
+
 #: ../www/manager/dc/Log.js:70
 msgid "Severity"
 msgstr ""
@@ -692,6 +708,10 @@ msgstr ""
 msgid "Start Time"
 msgstr ""
 
+#: ../www/manager/qemu/Options.js:38 ../www/manager/qemu/Options.js:43 ../www/manager/qemu/Options.js:50 ../www/manager/openvz/Options.js:22 ../www/manager/openvz/Options.js:27 ../www/manager/openvz/Options.js:33
+msgid "Start at boot"
+msgstr ""
+
 #: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:124 ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97 ../www/manager/dc/Summary.js:153 ../www/manager/storage/StatusView.js:67 ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:19 ../www/manager/window/TaskViewer.js:80 ../www/manager/openvz/StatusView.js:65
 msgid "Status"
 msgstr ""
@@ -700,7 +720,7 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:161 ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52 ../www/manager/grid/PoolMembers.js:61 ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57 ../www/manager/dc/Backup.js:423 ../www/manager/dc/Config.js:24 ../www/manager/qemu/HDEdit.js:144 ../www/manager/qemu/CDEdit.js:111 ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
+#: ../www/manager/data/ResourceStore.js:161 ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52 ../www/manager/grid/PoolMembers.js:61 ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57 ../www/manager/dc/Backup.js:423 ../www/manager/dc/Config.js:24 ../www/manager/qemu/HDEdit.js:144 ../www/manager/qemu/CDEdit.js:111 ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25 ../www/manager/openvz/Options.js:42 ../www/manager/openvz/CreateWizard.js:22 ../www/manager/openvz/CreateWizard.js:37
 msgid "Storage"
 msgstr ""
 
@@ -728,8 +748,16 @@ msgstr ""
 msgid "Suspend"
 msgstr ""
 
+#: ../www/manager/openvz/RessourceEdit.js:31 ../www/manager/openvz/RessourceView.js:31
+msgid "Swap"
+msgstr ""
+
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
+msgstr ""
+
+#: ../www/manager/openvz/Options.js:38 ../www/manager/openvz/CreateWizard.js:31 ../www/manager/openvz/CreateWizard.js:144
+msgid "Template"
 msgstr ""
 
 #: ../www/manager/storage/ContentView.js:133 ../www/manager/storage/ContentView.js:427
@@ -752,7 +780,7 @@ msgstr ""
 msgid "Time zone"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:32 ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105 ../www/manager/dc/AuthView.js:126 ../www/manager/storage/StatusView.js:35 ../www/manager/storage/ContentView.js:45
+#: ../www/manager/data/ResourceStore.js:32 ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105 ../www/manager/dc/AuthView.js:126 ../www/manager/storage/StatusView.js:35 ../www/manager/storage/ContentView.js:45 ../www/manager/openvz/Network.js:373
 msgid "Type"
 msgstr ""
 
@@ -806,10 +834,6 @@ msgstr ""
 
 #: ../www/manager/dc/Config.js:34
 msgid "Users"
-msgstr ""
-
-#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:34
-msgid "Verify Password"
 msgstr ""
 
 #: ../www/manager/Workspace.js:298 ../www/manager/storage/ContentView.js:55
