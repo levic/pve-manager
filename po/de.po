@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Feb 28 11:14:36 2012\n"
-"PO-Revision-Date: 2012-02-28 11:14+0100\n"
+"POT-Creation-Date: Wed Feb 29 12:33:40 2012\n"
+"PO-Revision-Date: 2012-02-29 12:33+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -26,6 +26,7 @@ msgid "Activate"
 msgstr "Aktivieren"
 
 #: ../www/manager/form/BridgeSelector.js:46
+#: ../www/manager/node/NetworkView.js:199
 #: ../www/manager/storage/StatusView.js:25
 msgid "Active"
 msgstr "Aktiv"
@@ -201,9 +202,10 @@ msgstr "Inhalt"
 msgid "Copy data"
 msgstr "Daten kopieren"
 
-#: ../www/manager/dc/UserView.js:140 ../www/manager/dc/PoolView.js:68
-#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:376
-#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:729
+#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/PoolView.js:68 ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#: ../www/manager/Utils.js:729
 msgid "Create"
 msgstr "Erstellen"
 
@@ -306,12 +308,12 @@ msgid "Download"
 msgstr "Herunterladen"
 
 #: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
-#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:119
-#: ../www/manager/dc/PoolView.js:60 ../www/manager/dc/Backup.js:350
-#: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/GroupView.js:60
-#: ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232
-#: ../www/manager/Utils.js:732 ../www/manager/qemu/Options.js:228
-#: ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
+#: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/Backup.js:350 ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:732
+#: ../www/manager/qemu/Options.js:228 ../www/manager/qemu/HardwareView.js:188
 #: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
 #: ../www/manager/openvz/Network.js:318
 #: ../www/manager/openvz/RessourceView.js:86
@@ -343,6 +345,8 @@ msgstr "Bitte geben Sie Ihr Kennwort ein"
 msgid "Enter your user name"
 msgstr "Bitte geben Sie Ihren Benutzernamen ein"
 
+#: ../www/manager/node/NetworkView.js:175
+#: ../www/manager/node/NetworkEdit.js:144
 #: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
 #: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
 #: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:370
@@ -453,6 +457,8 @@ msgstr "Laufwerk"
 msgid "Hardware"
 msgstr "Hardware"
 
+#: ../www/manager/node/NetworkView.js:223
+#: ../www/manager/node/NetworkEdit.js:86
 #: ../www/manager/openvz/CreateWizard.js:176
 #: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
 #: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
@@ -550,14 +556,16 @@ msgstr "Mount"
 
 #: ../www/manager/data/ResourceStore.js:97
 #: ../www/manager/node/ServiceView.js:118
-#: ../www/manager/grid/BackupView.js:156 ../www/manager/dc/UserView.js:204
-#: ../www/manager/dc/PoolView.js:90 ../www/manager/dc/Backup.js:100
-#: ../www/manager/dc/RoleView.js:40 ../www/manager/dc/GroupEdit.js:28
-#: ../www/manager/dc/GroupView.js:90 ../www/manager/dc/Summary.js:30
-#: ../www/manager/dc/Summary.js:141 ../www/manager/dc/PoolEdit.js:28
-#: ../www/manager/storage/ContentView.js:451 ../www/manager/qemu/Options.js:24
-#: ../www/manager/qemu/Options.js:27 ../www/manager/qemu/Options.js:32
-#: ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/CreateWizard.js:69
+#: ../www/manager/node/NetworkView.js:192
+#: ../www/manager/node/NetworkEdit.js:76 ../www/manager/grid/BackupView.js:156
+#: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
+#: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
+#: ../www/manager/qemu/Options.js:32 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/qemu/CreateWizard.js:69
 #: ../www/manager/openvz/StatusView.js:64 ../www/manager/openvz/Network.js:58
 msgid "Name"
 msgstr "Name"
@@ -587,6 +595,10 @@ msgstr "Nein"
 #: ../www/manager/qemu/HDEdit.js:198
 msgid "No backup"
 msgstr "Kein Backup"
+
+#: ../www/manager/node/NetworkView.js:255
+msgid "No changes"
+msgstr "Keine Änderungen"
 
 #: ../www/manager/storage/IScsiEdit.js:126
 #: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
@@ -667,7 +679,7 @@ msgstr "Kennwörter stimmen nicht überein"
 msgid "Path"
 msgstr "Pfad"
 
-#: ../www/manager/dc/HAConfig.js:266
+#: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
 msgid "Pending changes"
 msgstr "Ausstehende Änderungen"
 
@@ -676,6 +688,10 @@ msgstr "Ausstehende Änderungen"
 #: ../www/manager/openvz/Config.js:156
 msgid "Permissions"
 msgstr "Rechte"
+
+#: ../www/manager/node/NetworkView.js:250
+msgid "Please reboot to activate changes"
+msgstr "Um die Änderungen zu aktivieren müssen Sie den Rechner neu starten"
 
 #: ../www/manager/Utils.js:295 ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
@@ -728,7 +744,7 @@ msgstr "Aktualisieren"
 msgid "Reload"
 msgstr "Neu laden"
 
-#: ../www/manager/grid/BackupView.js:116
+#: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
 #: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
 #: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
 #: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357
@@ -775,7 +791,7 @@ msgstr "Zurückspielen"
 msgid "Resume"
 msgstr "Resume"
 
-#: ../www/manager/dc/HAConfig.js:145
+#: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
 msgid "Revert changes"
 msgstr "Änderungen zurücksetzen"
 
@@ -937,6 +953,11 @@ msgstr "Storage-Liste"
 #: ../www/manager/storage/Browser.js:19
 msgid "Storage {0} on node {1}"
 msgstr "Storage {0} auf Knoten {1}"
+
+#: ../www/manager/node/NetworkView.js:228
+#: ../www/manager/node/NetworkEdit.js:93
+msgid "Subnet mask"
+msgstr "Netzmaske"
 
 #: ../www/manager/Utils.js:248
 msgid "Successful"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Feb 28 11:14:36 2012\n"
+"POT-Creation-Date: Wed Feb 29 12:33:40 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -27,6 +27,7 @@ msgid "Activate"
 msgstr "稼働中"
 
 #: ../www/manager/form/BridgeSelector.js:46
+#: ../www/manager/node/NetworkView.js:199
 #: ../www/manager/storage/StatusView.js:25
 msgid "Active"
 msgstr "稼働中"
@@ -210,9 +211,10 @@ msgstr "内容"
 msgid "Copy data"
 msgstr ""
 
-#: ../www/manager/dc/UserView.js:140 ../www/manager/dc/PoolView.js:68
-#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:376
-#: ../www/manager/Utils.js:386 ../www/manager/Utils.js:729
+#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/PoolView.js:68 ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#: ../www/manager/Utils.js:729
 msgid "Create"
 msgstr "作成"
 
@@ -316,12 +318,12 @@ msgid "Download"
 msgstr ""
 
 #: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
-#: ../www/manager/dc/StorageView.js:55 ../www/manager/dc/UserView.js:119
-#: ../www/manager/dc/PoolView.js:60 ../www/manager/dc/Backup.js:350
-#: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/GroupView.js:60
-#: ../www/manager/dc/OptionView.js:103 ../www/manager/dc/HAConfig.js:232
-#: ../www/manager/Utils.js:732 ../www/manager/qemu/Options.js:228
-#: ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
+#: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/Backup.js:350 ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:732
+#: ../www/manager/qemu/Options.js:228 ../www/manager/qemu/HardwareView.js:188
 #: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
 #: ../www/manager/openvz/Network.js:318
 #: ../www/manager/openvz/RessourceView.js:86
@@ -353,6 +355,8 @@ msgstr "パスワードを入力して下さい"
 msgid "Enter your user name"
 msgstr "ユーザー名を入力して下さい"
 
+#: ../www/manager/node/NetworkView.js:175
+#: ../www/manager/node/NetworkEdit.js:144
 #: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
 #: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
 #: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:370
@@ -466,6 +470,8 @@ msgstr "ハードディスク"
 msgid "Hardware"
 msgstr "ハードウェア"
 
+#: ../www/manager/node/NetworkView.js:223
+#: ../www/manager/node/NetworkEdit.js:86
 #: ../www/manager/openvz/CreateWizard.js:176
 #: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
 #: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
@@ -565,14 +571,16 @@ msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:97
 #: ../www/manager/node/ServiceView.js:118
-#: ../www/manager/grid/BackupView.js:156 ../www/manager/dc/UserView.js:204
-#: ../www/manager/dc/PoolView.js:90 ../www/manager/dc/Backup.js:100
-#: ../www/manager/dc/RoleView.js:40 ../www/manager/dc/GroupEdit.js:28
-#: ../www/manager/dc/GroupView.js:90 ../www/manager/dc/Summary.js:30
-#: ../www/manager/dc/Summary.js:141 ../www/manager/dc/PoolEdit.js:28
-#: ../www/manager/storage/ContentView.js:451 ../www/manager/qemu/Options.js:24
-#: ../www/manager/qemu/Options.js:27 ../www/manager/qemu/Options.js:32
-#: ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/CreateWizard.js:69
+#: ../www/manager/node/NetworkView.js:192
+#: ../www/manager/node/NetworkEdit.js:76 ../www/manager/grid/BackupView.js:156
+#: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
+#: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
+#: ../www/manager/qemu/Options.js:32 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/qemu/CreateWizard.js:69
 #: ../www/manager/openvz/StatusView.js:64 ../www/manager/openvz/Network.js:58
 msgid "Name"
 msgstr "名前"
@@ -602,6 +610,11 @@ msgstr "いいえ"
 #: ../www/manager/qemu/HDEdit.js:198
 msgid "No backup"
 msgstr "バックアップなし"
+
+#: ../www/manager/node/NetworkView.js:255
+#, fuzzy
+msgid "No changes"
+msgstr "元に戻す"
 
 #: ../www/manager/storage/IScsiEdit.js:126
 #: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
@@ -684,7 +697,7 @@ msgstr "パスワードが一致しません!"
 msgid "Path"
 msgstr "パス"
 
-#: ../www/manager/dc/HAConfig.js:266
+#: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
 #, fuzzy
 msgid "Pending changes"
 msgstr "変更はありません"
@@ -694,6 +707,11 @@ msgstr "変更はありません"
 #: ../www/manager/openvz/Config.js:156
 msgid "Permissions"
 msgstr "アクセス権限"
+
+#: ../www/manager/node/NetworkView.js:250
+#, fuzzy
+msgid "Please reboot to activate changes"
+msgstr "保留中の変更 (変更はリブートすると有効になります)"
 
 #: ../www/manager/Utils.js:295 ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
@@ -747,7 +765,7 @@ msgstr "再表示"
 msgid "Reload"
 msgstr "再読込"
 
-#: ../www/manager/grid/BackupView.js:116
+#: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
 #: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
 #: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
 #: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357
@@ -796,7 +814,7 @@ msgstr "リストア"
 msgid "Resume"
 msgstr "再開"
 
-#: ../www/manager/dc/HAConfig.js:145
+#: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
 msgid "Revert changes"
 msgstr "元に戻す"
 
@@ -958,6 +976,11 @@ msgstr "ストレージリスト"
 #: ../www/manager/storage/Browser.js:19
 msgid "Storage {0} on node {1}"
 msgstr "ノード {1} 上のストレージ {0}"
+
+#: ../www/manager/node/NetworkView.js:228
+#: ../www/manager/node/NetworkEdit.js:93
+msgid "Subnet mask"
+msgstr "サブネットマスク"
 
 #: ../www/manager/Utils.js:248
 msgid "Successful"
@@ -1875,9 +1898,6 @@ msgstr "停止中"
 #~ msgid "Path/Target"
 #~ msgstr "パス/ターゲット"
 
-#~ msgid "Pending changes (please reboot to activate changes)"
-#~ msgstr "保留中の変更 (変更はリブートすると有効になります)"
-
 #~ msgid "Polish"
 #~ msgstr "ポーランド語"
 
@@ -2068,9 +2088,6 @@ msgstr "停止中"
 
 #~ msgid "Storage ID"
 #~ msgstr "ストレージ ID"
-
-#~ msgid "Subnet mask"
-#~ msgstr "サブネットマスク"
 
 #~ msgid "Subnet mask requires option 'IP address'"
 #~ msgstr ""
