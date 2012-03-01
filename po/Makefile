@@ -1,7 +1,5 @@
 include ../defines.mk
 
-# msginit -i messages.pot -l de
-
 LINGUAS=de fr ja
 
 all: $(patsubst %, pve-lang-%.js, $(LINGUAS))
@@ -10,6 +8,11 @@ all: $(patsubst %, pve-lang-%.js, $(LINGUAS))
 update-po:
 	./jsgettext.pl ../www/manager
 	for i in $(LINGUAS); do echo -n "$$i: ";msgmerge -s -v $$i.po messages.pot >$$i.po.tmp; mv $$i.po.tmp $$i.po; done
+
+# try to generate po files when someone add a new language
+.SECONDARY: # do not delete generated intermediate file
+%.po:
+	msginit -i messages.pot -l $*
 
 pve-lang-%.js: %.po
 	./po2js.pl $< >$@.tmp
