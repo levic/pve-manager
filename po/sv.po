@@ -1,0 +1,1912 @@
+# Swedish translations for pve-manager package.
+# Copyright (C) 2008 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 1.0\n"
+"Report-Msgid-Bugs-To: <support@proxmox.com>\n"
+"POT-Creation-Date: Wed Feb 29 12:33:40 2012\n"
+"PO-Revision-Date: 2012-03-08 17:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../www/manager/storage/ContentView.js:231
+msgid "Abort"
+msgstr ""
+
+#: ../www/manager/dc/HAConfig.js:124
+#, fuzzy
+msgid "Activate"
+msgstr "Aktiv"
+
+#: ../www/manager/form/BridgeSelector.js:46
+#: ../www/manager/node/NetworkView.js:199
+#: ../www/manager/storage/StatusView.js:25
+msgid "Active"
+msgstr "Aktiv"
+
+#: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
+#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/Backup.js:387
+#: ../www/manager/dc/AuthView.js:81 ../www/manager/dc/HAConfig.js:166
+#: ../www/manager/Utils.js:727 ../www/manager/qemu/HardwareView.js:246
+#: ../www/manager/window/Edit.js:173 ../www/manager/openvz/Network.js:334
+msgid "Add"
+msgstr ""
+
+#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:117
+#: ../www/manager/dc/Backup.js:316 ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:72
+#: ../www/manager/storage/NFSEdit.js:133
+msgid "All"
+msgstr ""
+
+#: ../www/manager/dc/Backup.js:317
+msgid "All except {0}"
+msgstr ""
+
+#: ../www/manager/Utils.js:60
+msgid "Allowed characters"
+msgstr ""
+
+#: ../www/manager/dc/HAConfig.js:127
+msgid "Are you sure you want to activate your changes"
+msgstr ""
+
+#: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:81
+#, fuzzy
+msgid ""
+"Are you sure you want to remove VM {0}? This will permanently erase all VM "
+"data."
+msgstr ""
+"Är du säker på att du vill ta bort VM %s? Det här raderar permanent alla "
+"data för denna VM."
+
+#: ../www/manager/grid/BackupView.js:120
+#: ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66
+#: ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28
+#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
+#: ../www/manager/storage/ContentView.js:406
+#: ../www/manager/qemu/HardwareView.js:206
+#: ../www/manager/openvz/Network.js:264
+#, fuzzy
+msgid "Are you sure you want to remove entry {0}"
+msgstr ""
+"Är du säker på att du vill ta bort VM %s? Det här raderar permanent alla "
+"data för denna VM."
+
+#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:360
+#, fuzzy
+msgid "Are you sure you want to remove this entry"
+msgstr ""
+"Är du säker på att du vill ta bort VM %s? Det här raderar permanent alla "
+"data för denna VM."
+
+#: ../www/manager/window/Restore.js:101
+#, fuzzy
+msgid "Are you sure you want to restore this VM?"
+msgstr "Vill du verkligen starta om servern?"
+
+#: ../www/manager/dc/HAConfig.js:148
+msgid "Are you sure you want to revert your changes"
+msgstr ""
+
+#: ../www/manager/dc/Config.js:59
+#, fuzzy
+msgid "Authentication"
+msgstr "OBS"
+
+#: ../www/manager/storage/StatusView.js:60
+msgid "Avail"
+msgstr ""
+
+#: ../www/manager/window/Wizard.js:70
+#, fuzzy
+msgid "Back"
+msgstr "Säkerhetskopiering"
+
+#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:401
+#: ../www/manager/qemu/Config.js:132 ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:90 ../www/manager/openvz/Config.js:150
+msgid "Backup"
+msgstr "Säkerhetskopiering"
+
+#: ../www/manager/dc/Backup.js:272
+#, fuzzy
+msgid "Backup Job"
+msgstr "Säkerhetskopieringsjobb"
+
+#: ../www/manager/grid/BackupView.js:81
+#, fuzzy
+msgid "Backup now"
+msgstr "Säkerhetskopieringsjobb"
+
+#: ../www/manager/storage/LVMEdit.js:149
+#, fuzzy
+msgid "Base storage"
+msgstr "Grundlagring"
+
+#: ../www/manager/storage/LVMEdit.js:142
+#, fuzzy
+msgid "Base volume"
+msgstr "Grundvolym"
+
+#: ../www/manager/qemu/BootOrderEdit.js:114
+#: ../www/manager/qemu/BootOrderEdit.js:122
+#: ../www/manager/qemu/BootOrderEdit.js:130
+#, fuzzy
+msgid "Boot device"
+msgstr "Primär boot-enhet"
+
+#: ../www/manager/qemu/Options.js:64 ../www/manager/qemu/BootOrderEdit.js:184
+msgid "Boot order"
+msgstr ""
+
+#: ../www/manager/qemu/HardwareView.js:100
+#: ../www/manager/qemu/HardwareView.js:110
+#: ../www/manager/qemu/HardwareView.js:120
+#: ../www/manager/qemu/HardwareView.js:262
+msgid "CD/DVD Drive"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:133
+msgid "CPU usage"
+msgstr ""
+
+#: ../www/manager/panel/StatusPanel.js:36
+#, fuzzy
+msgid "Cluster log"
+msgstr "Klusternod"
+
+#: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserView.js:212
+#: ../www/manager/dc/PoolView.js:96 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/UserEdit.js:122 ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/AuthEdit.js:74
+#: ../www/manager/dc/PoolEdit.js:35
+#, fuzzy
+msgid "Comment"
+msgstr "Kommando"
+
+#: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
+#, fuzzy
+msgid "Compression"
+msgstr "Komprimera filer"
+
+#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:45
+#: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
+#: ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269
+#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370
+#: ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CreateWizard.js:254
+#: ../www/manager/openvz/CmdMenu.js:45
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:34
+#: ../www/manager/openvz/CreateWizard.js:123
+#, fuzzy
+msgid "Confirm password"
+msgstr "Bekräfta lösenord"
+
+#: ../www/manager/Utils.js:277 ../www/manager/Utils.js:328
+#: ../www/manager/Utils.js:330 ../www/manager/Utils.js:332
+#: ../www/manager/Utils.js:334 ../www/manager/Utils.js:789
+msgid "Connection error"
+msgstr ""
+
+#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:374
+#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
+#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:97 ../www/manager/openvz/CmdMenu.js:55
+msgid "Console"
+msgstr "Konsol"
+
+#: ../www/manager/openvz/Config.js:106
+msgid "Container {0} on node {1}"
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:153
+#: ../www/manager/storage/StatusView.js:30
+#: ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/storage/ContentView.js:192
+#: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
+msgid "Content"
+msgstr "Innehåll"
+
+#: ../www/manager/Utils.js:399
+msgid "Copy data"
+msgstr ""
+
+#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/PoolView.js:68 ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
+#: ../www/manager/Utils.js:729
+msgid "Create"
+msgstr "Skapa"
+
+#: ../www/manager/Workspace.js:336
+#, fuzzy
+msgid "Create CT"
+msgstr "Skapa"
+
+#: ../www/manager/Workspace.js:325
+#, fuzzy
+msgid "Create VM"
+msgstr "Skapa"
+
+#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+#: ../www/manager/openvz/CreateWizard.js:235
+#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53
+#: ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
+#, fuzzy
+msgid "DNS server"
+msgstr "Server"
+
+#: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
+msgid "Datacenter"
+msgstr ""
+
+#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:411
+#, fuzzy
+msgid "Day of week"
+msgstr "Veckodag"
+
+#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:79
+#: ../www/manager/dc/AuthEdit.js:102 ../www/manager/Utils.js:546
+msgid "Default"
+msgstr ""
+
+#: ../www/manager/data/ResourceStore.js:60 ../www/manager/node/Tasks.js:136
+#: ../www/manager/node/ServiceView.js:130 ../www/manager/dc/Tasks.js:91
+#: ../www/manager/storage/ContentView.js:60
+msgid "Description"
+msgstr "Beskrivning"
+
+#: ../www/manager/Utils.js:378 ../www/manager/Utils.js:388
+msgid "Destroy"
+msgstr ""
+
+#: ../www/manager/storage/DirEdit.js:38
+msgid "Directory"
+msgstr "Mapp"
+
+#: ../www/manager/qemu/HDEdit.js:112 ../www/manager/qemu/HDEdit.js:126
+#: ../www/manager/qemu/HDEdit.js:172
+#, fuzzy
+msgid "Disk image"
+msgstr "Diskstorlek"
+
+#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:137
+#: ../www/manager/openvz/RessourceEdit.js:44
+#: ../www/manager/openvz/RessourceView.js:45
+msgid "Disk size"
+msgstr "Diskstorlek"
+
+#: ../www/manager/data/ResourceStore.js:103
+#, fuzzy
+msgid "Disk usage"
+msgstr "Diskutrymme"
+
+#: ../www/manager/qemu/HardwareView.js:78 ../www/manager/qemu/DisplayEdit.js:8
+msgid "Display"
+msgstr ""
+
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
+msgid "Do not use any proxy"
+msgstr ""
+
+#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:268
+#, fuzzy
+msgid "Do you really want to reset VM {0}?"
+msgstr "Vill du verkligen starta om servern?"
+
+#: ../www/manager/node/Config.js:32
+#, fuzzy
+msgid "Do you really want to restart node {0}?"
+msgstr "Vill du verkligen starta om servern?"
+
+#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:44
+#: ../www/manager/VNCConsole.js:239 ../www/manager/VNCConsole.js:369
+#: ../www/manager/openvz/Config.js:61 ../www/manager/openvz/CmdMenu.js:44
+#, fuzzy
+msgid "Do you really want to shutdown VM {0}?"
+msgstr "Vill du verkligen stänga av servern?"
+
+#: ../www/manager/node/Config.js:40
+#, fuzzy
+msgid "Do you really want to shutdown node {0}?"
+msgstr "Vill du verkligen stänga av servern?"
+
+#: ../www/manager/qemu/Config.js:44 ../www/manager/VNCConsole.js:251
+#: ../www/manager/VNCConsole.js:381 ../www/manager/openvz/Config.js:53
+#, fuzzy
+msgid "Do you really want to stop VM {0}?"
+msgstr "Vill du verkligen stänga av servern?"
+
+#: ../www/manager/VNCConsole.js:280
+#, fuzzy
+msgid "Do you really want to suspend VM {0}?"
+msgstr "Vill du verkligen stänga av servern?"
+
+#: ../www/manager/Utils.js:400 ../www/manager/storage/ContentView.js:105
+msgid "Download"
+msgstr "Ladda ner"
+
+#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
+#: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
+#: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/Backup.js:350 ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:732
+#: ../www/manager/qemu/Options.js:228 ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
+#: ../www/manager/openvz/Network.js:318
+#: ../www/manager/openvz/RessourceView.js:86
+msgid "Edit"
+msgstr "Redigera"
+
+#: ../www/manager/dc/StorageView.js:179
+#: ../www/manager/storage/IScsiEdit.js:135
+#: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/NFSEdit.js:143
+msgid "Enable"
+msgstr "Aktivera"
+
+#: ../www/manager/dc/UserView.js:190 ../www/manager/dc/UserEdit.js:95
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:110
+#: ../www/manager/qemu/Options.js:128
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
+#, fuzzy
+msgid "End Time"
+msgstr "Tid"
+
+#: ../www/manager/window/LoginWindow.js:89
+msgid "Enter your password"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:66
+msgid "Enter your user name"
+msgstr ""
+
+#: ../www/manager/node/NetworkView.js:175
+#: ../www/manager/node/NetworkEdit.js:144
+#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
+#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:370
+#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
+#: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
+#: ../www/manager/Utils.js:544 ../www/manager/storage/ContentView.js:217
+#: ../www/manager/storage/ContentView.js:272
+#: ../www/manager/storage/ContentView.js:281
+#: ../www/manager/storage/ContentView.js:421
+#: ../www/manager/qemu/CreateWizard.js:159 ../www/manager/VNCConsole.js:177
+#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:94
+#: ../www/manager/window/Edit.js:131 ../www/manager/openvz/CreateWizard.js:313
+#: ../www/manager/openvz/Network.js:194 ../www/manager/openvz/Network.js:295
+msgid "Error"
+msgstr "Fel"
+
+#: ../www/manager/dc/Summary.js:49
+msgid "Estranged"
+msgstr ""
+
+#: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
+#: ../www/manager/Utils.js:65
+msgid "Example"
+msgstr ""
+
+#: ../www/manager/dc/Backup.js:31
+#, fuzzy
+msgid "Exclude selected VMs"
+msgstr "Välj en VM"
+
+#: ../www/manager/storage/LVMEdit.js:40
+msgid "Existing volume groups"
+msgstr ""
+
+#: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:91
+msgid "Expire"
+msgstr ""
+
+#: ../www/manager/dc/HAConfig.js:179
+msgid "Failover Domain"
+msgstr ""
+
+#: ../www/manager/dc/AuthEdit.js:93
+msgid "Fallback Server"
+msgstr ""
+
+#: ../www/manager/window/Wizard.js:114
+msgid "Finish"
+msgstr ""
+
+#: ../www/manager/dc/UserEdit.js:106
+#, fuzzy
+msgid "First Name"
+msgstr "Primär DNS-server"
+
+#: ../www/manager/form/ViewSelector.js:14
+msgid "Folder View"
+msgstr ""
+
+#: ../www/manager/Utils.js:274
+msgid "Form fields may not be submitted with invalid values"
+msgstr ""
+
+#: ../www/manager/grid/BackupView.js:163 ../www/manager/Utils.js:45
+#: ../www/manager/Utils.js:50 ../www/manager/Utils.js:55
+#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:182
+#, fuzzy
+msgid "Format"
+msgstr "Imageformat"
+
+#: ../www/manager/qemu/CreateWizard.js:43
+#: ../www/manager/openvz/CreateWizard.js:62
+msgid "General"
+msgstr "Allmänt"
+
+#: ../www/manager/qemu/DisplayEdit.js:14
+msgid "Graphic card"
+msgstr ""
+
+#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:83
+msgid "Group"
+msgstr ""
+
+#: ../www/manager/dc/ACLView.js:22 ../www/manager/dc/ACLView.js:194
+msgid "Group Permission"
+msgstr ""
+
+#: ../www/manager/dc/Config.js:39
+msgid "Groups"
+msgstr ""
+
+#: ../www/manager/dc/Summary.js:232
+#, fuzzy
+msgid "HA Service Status"
+msgstr "Serverstatus"
+
+#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
+msgid "HA managed VM/CT"
+msgstr ""
+
+#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:235
+#: ../www/manager/qemu/HDEdit.js:237 ../www/manager/qemu/HardwareView.js:99
+#: ../www/manager/qemu/HardwareView.js:109
+#: ../www/manager/qemu/HardwareView.js:119
+#: ../www/manager/qemu/HardwareView.js:250
+#, fuzzy
+msgid "Hard Disk"
+msgstr "Hårddiskar"
+
+#: ../www/manager/qemu/Config.js:117
+msgid "Hardware"
+msgstr "Hårdvara"
+
+#: ../www/manager/node/NetworkView.js:223
+#: ../www/manager/node/NetworkEdit.js:86
+#: ../www/manager/openvz/CreateWizard.js:176
+#: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
+#: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
+#: ../www/manager/openvz/Network.js:379
+#, fuzzy
+msgid "IP address"
+msgstr "IP-adress"
+
+#: ../www/manager/dc/Backup.js:29
+#, fuzzy
+msgid "Include selected VMs"
+msgstr "Inkludera alla VMs"
+
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:63 ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/qemu/KeyboardEdit.js:13
+#: ../www/manager/qemu/HardwareView.js:70
+msgid "Keyboard Layout"
+msgstr "Tangentbordslayout"
+
+#: ../www/manager/window/LoginWindow.js:104
+msgid "Language"
+msgstr "Språk"
+
+#: ../www/manager/dc/UserEdit.js:111
+#, fuzzy
+msgid "Last Name"
+msgstr "Namn"
+
+#: ../www/manager/dc/Summary.js:171
+msgid "Last owner"
+msgstr ""
+
+#: ../www/manager/dc/Summary.js:165
+msgid "Last transition"
+msgstr ""
+
+#: ../www/manager/Utils.js:759
+msgid "Loading..."
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:120
+msgid "Login"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:17
+msgid "Login failed. Please try again"
+msgstr ""
+
+#: ../www/manager/Workspace.js:311
+msgid "Logout"
+msgstr "Logga ut"
+
+#: ../www/manager/dc/Backup.js:169
+msgid "Max files"
+msgstr ""
+
+#: ../www/manager/pool/Config.js:23
+msgid "Members"
+msgstr ""
+
+#: ../www/manager/qemu/CreateWizard.js:105
+#: ../www/manager/qemu/MemoryEdit.js:19 ../www/manager/qemu/MemoryEdit.js:41
+#: ../www/manager/qemu/HardwareView.js:40
+#: ../www/manager/openvz/RessourceEdit.js:20
+#: ../www/manager/openvz/RessourceView.js:23
+msgid "Memory"
+msgstr "Minne"
+
+#: ../www/manager/data/ResourceStore.js:125
+#, fuzzy
+msgid "Memory size"
+msgstr "Minne"
+
+#: ../www/manager/data/ResourceStore.js:118
+#, fuzzy
+msgid "Memory usage"
+msgstr "Minne"
+
+#: ../www/manager/dc/Log.js:76
+msgid "Message"
+msgstr ""
+
+#: ../www/manager/Utils.js:379 ../www/manager/Utils.js:389
+#: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:68
+msgid "Migrate"
+msgstr "Migrera"
+
+#: ../www/manager/dc/Backup.js:178 ../www/manager/window/Backup.js:41
+msgid "Mode"
+msgstr "Läge"
+
+#: ../www/manager/qemu/Config.js:127
+msgid "Monitor"
+msgstr "Övervaka"
+
+#: ../www/manager/Utils.js:392
+#, fuzzy
+msgid "Mount"
+msgstr "Avmontera"
+
+#: ../www/manager/data/ResourceStore.js:97
+#: ../www/manager/node/ServiceView.js:118
+#: ../www/manager/node/NetworkView.js:192
+#: ../www/manager/node/NetworkEdit.js:76 ../www/manager/grid/BackupView.js:156
+#: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
+#: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
+#: ../www/manager/qemu/Options.js:32 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/qemu/CreateWizard.js:69
+#: ../www/manager/openvz/StatusView.js:64 ../www/manager/openvz/Network.js:58
+msgid "Name"
+msgstr "Namn"
+
+#: ../www/manager/node/Config.js:76 ../www/manager/qemu/CreateWizard.js:34
+#: ../www/manager/qemu/BootOrderEdit.js:74
+#: ../www/manager/openvz/CreateWizard.js:153
+#: ../www/manager/openvz/Config.js:123 ../www/manager/openvz/Network.js:161
+msgid "Network"
+msgstr "Nätverk"
+
+#: ../www/manager/qemu/HardwareView.js:129
+#: ../www/manager/qemu/HardwareView.js:274
+#: ../www/manager/qemu/NetworkEdit.js:163 ../www/manager/openvz/Network.js:47
+#: ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
+#, fuzzy
+msgid "Network Device"
+msgstr "Nätverkstyp"
+
+#: ../www/manager/window/Wizard.js:90
+msgid "Next"
+msgstr ""
+
+#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:543
+msgid "No"
+msgstr "Ingen"
+
+#: ../www/manager/qemu/HDEdit.js:198
+#, fuzzy
+msgid "No backup"
+msgstr "Säkerhetskopiering"
+
+#: ../www/manager/node/NetworkView.js:255
+#, fuzzy
+msgid "No changes"
+msgstr "dölj ändringar"
+
+#: ../www/manager/storage/IScsiEdit.js:126
+#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
+#: ../www/manager/storage/NFSEdit.js:134
+#, fuzzy
+msgid "No restrictions"
+msgstr "Beskrivning"
+
+#: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
+#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:399
+#: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/qemu/CreateWizard.js:48
+#: ../www/manager/window/TaskViewer.js:31
+#: ../www/manager/openvz/CreateWizard.js:67
+msgid "Node"
+msgstr "Nod"
+
+#: ../www/manager/tree/ResourceTree.js:9
+#, fuzzy
+msgid "Node list"
+msgstr "Nod"
+
+#: ../www/manager/dc/Summary.js:240 ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:71
+#: ../www/manager/storage/NFSEdit.js:132
+#, fuzzy
+msgid "Nodes"
+msgstr "Nod"
+
+#: ../www/manager/panel/NotesView.js:45 ../www/manager/window/NotesEdit.js:8
+msgid "Notes"
+msgstr "Anteckningar"
+
+#: ../www/manager/data/ResourceStore.js:47 ../www/manager/dc/Summary.js:42
+msgid "Online"
+msgstr ""
+
+#: ../www/manager/node/Tasks.js:94
+#, fuzzy
+msgid "Only Errors"
+msgstr "Fel"
+
+#: ../www/manager/tree/ResourceTree.js:25
+#: ../www/manager/openvz/CreateWizard.js:58
+#, fuzzy
+msgid "OpenVZ Container"
+msgstr "OpenVZ-containrar"
+
+#: ../www/manager/dc/Config.js:19 ../www/manager/qemu/Config.js:122
+#: ../www/manager/openvz/Config.js:133
+msgid "Options"
+msgstr "Alternativ"
+
+#: ../www/manager/Utils.js:99 ../www/manager/Utils.js:110
+msgid "Other OS types"
+msgstr ""
+
+#: ../www/manager/window/TaskViewer.js:89
+msgid "Output"
+msgstr ""
+
+#: ../www/manager/dc/Summary.js:147
+msgid "Owner"
+msgstr ""
+
+#: ../www/manager/storage/ContentView.js:50
+#, fuzzy
+msgid "Package"
+msgstr "Paketnamn"
+
+#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
+#: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:44
+#: ../www/manager/window/LoginWindow.js:87
+#: ../www/manager/openvz/CreateWizard.js:108
+msgid "Password"
+msgstr "Lösenord"
+
+#: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:27
+msgid "Passwords does not match"
+msgstr "Lösenorden matchar inte"
+
+#: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
+msgid "Path"
+msgstr ""
+
+#: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
+#, fuzzy
+msgid "Pending changes"
+msgstr "dölj ändringar"
+
+#: ../www/manager/pool/Config.js:30 ../www/manager/dc/Config.js:49
+#: ../www/manager/storage/Browser.js:35 ../www/manager/qemu/Config.js:138
+#: ../www/manager/openvz/Config.js:156
+#, fuzzy
+msgid "Permissions"
+msgstr "Version"
+
+#: ../www/manager/node/NetworkView.js:250
+#, fuzzy
+msgid "Please reboot to activate changes"
+msgstr "<a href='%s'>Starta om</a> för att aktivera ändringarna."
+
+#: ../www/manager/Utils.js:295 ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/window/LoginWindow.js:112
+msgid "Please wait..."
+msgstr ""
+
+#: ../www/manager/form/PoolSelector.js:22
+#: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
+msgid "Pool"
+msgstr ""
+
+#: ../www/manager/dc/Config.js:44
+msgid "Pools"
+msgstr ""
+
+#: ../www/manager/dc/AuthEdit.js:99
+#, fuzzy
+msgid "Port"
+msgstr "Portal"
+
+#: ../www/manager/dc/RoleView.js:47
+msgid "Privileges"
+msgstr ""
+
+#: ../www/manager/qemu/ProcessorEdit.js:71
+#: ../www/manager/qemu/HardwareView.js:49
+#: ../www/manager/openvz/RessourceView.js:39
+msgid "Processors"
+msgstr ""
+
+#: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
+msgid "Propagate"
+msgstr ""
+
+#: ../www/manager/window/LoginWindow.js:45
+msgid "Proxmox VE Login"
+msgstr ""
+
+#: ../www/manager/dc/UserView.js:183 ../www/manager/dc/UserEdit.js:130
+#: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:29
+msgid "Realm"
+msgstr ""
+
+#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
+#: ../www/manager/VNCConsole.js:437
+msgid "Refresh"
+msgstr ""
+
+#: ../www/manager/Utils.js:398 ../www/manager/VNCConsole.js:311
+#: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
+#, fuzzy
+msgid "Reload"
+msgstr "ladda upp"
+
+#: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
+#: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357
+#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402
+#: ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202
+#: ../www/manager/openvz/Config.js:80 ../www/manager/openvz/Network.js:254
+msgid "Remove"
+msgstr "Ta bort"
+
+#: ../www/manager/Utils.js:382 ../www/manager/qemu/Config.js:63
+#: ../www/manager/VNCConsole.js:266
+msgid "Reset"
+msgstr "Återställ"
+
+#: ../www/manager/pool/Config.js:14 ../www/manager/tree/ResourceTree.js:13
+#: ../www/manager/qemu/CreateWizard.js:76
+#: ../www/manager/openvz/CreateWizard.js:97
+#, fuzzy
+msgid "Resource Pool"
+msgstr "Resurs"
+
+#: ../www/manager/openvz/CreateWizard.js:149
+#: ../www/manager/openvz/RessourceEdit.js:71
+#: ../www/manager/openvz/Config.js:118
+#, fuzzy
+msgid "Resources"
+msgstr "Resurs"
+
+#: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
+#: ../www/manager/Utils.js:397
+msgid "Restart"
+msgstr "Starta om"
+
+#: ../www/manager/dc/Summary.js:159
+#, fuzzy
+msgid "Restarts"
+msgstr "Starta om"
+
+#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:377
+#: ../www/manager/Utils.js:387 ../www/manager/storage/ContentView.js:374
+#: ../www/manager/window/Restore.js:77
+#, fuzzy
+msgid "Restore"
+msgstr "Starta om"
+
+#: ../www/manager/Utils.js:385 ../www/manager/VNCConsole.js:290
+msgid "Resume"
+msgstr ""
+
+#: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
+#, fuzzy
+msgid "Revert changes"
+msgstr "visa ändringar"
+
+#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:43
+#: ../www/manager/dc/ACLView.js:120
+msgid "Role"
+msgstr "Roll"
+
+#: ../www/manager/dc/Config.js:54
+#, fuzzy
+msgid "Roles"
+msgstr "Roll"
+
+#: ../www/manager/grid/ResourceGrid.js:167
+#: ../www/manager/grid/ResourceGrid.js:174
+#, fuzzy
+msgid "Search"
+msgstr "sök"
+
+#: ../www/manager/storage/ContentView.js:199
+#, fuzzy
+msgid "Select File..."
+msgstr "Markering"
+
+#: ../www/manager/dc/Backup.js:429
+msgid "Selection"
+msgstr "Markering"
+
+#: ../www/manager/dc/Backup.js:33
+#, fuzzy
+msgid "Selection mode"
+msgstr "Markering"
+
+#: ../www/manager/dc/Backup.js:158
+msgid "Send email to"
+msgstr "Skicka e-post till"
+
+#: ../www/manager/dc/AuthEdit.js:87 ../www/manager/storage/NFSEdit.js:98
+msgid "Server"
+msgstr "Server"
+
+#: ../www/manager/dc/Summary.js:56
+#, fuzzy
+msgid "Server Address"
+msgstr "IP-adress"
+
+#: ../www/manager/form/ViewSelector.js:10
+#, fuzzy
+msgid "Server View"
+msgstr "Server"
+
+#: ../www/manager/node/TimeView.js:36
+#, fuzzy
+msgid "Server time"
+msgstr "Server"
+
+#: ../www/manager/dc/Log.js:55
+msgid "Service"
+msgstr "Tjänst"
+
+#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:62
+msgid "Services"
+msgstr "Tjänster"
+
+#: ../www/manager/qemu/CreateWizard.js:113
+#: ../www/manager/openvz/CreateWizard.js:258
+#, fuzzy
+msgid "Settings"
+msgstr "DNS-inställningar"
+
+#: ../www/manager/dc/Log.js:70
+msgid "Severity"
+msgstr ""
+
+#: ../www/manager/dc/StorageView.js:172
+#: ../www/manager/storage/StatusView.js:40
+#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
+msgid "Shared"
+msgstr "Delad"
+
+#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:375
+#: ../www/manager/VNCConsole.js:448
+msgid "Shell"
+msgstr ""
+
+#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:383
+#: ../www/manager/Utils.js:394 ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:60
+#: ../www/manager/openvz/CmdMenu.js:41
+msgid "Shutdown"
+msgstr "Stäng av"
+
+#: ../www/manager/grid/BackupView.js:168
+#: ../www/manager/storage/StatusView.js:45
+#: ../www/manager/storage/ContentView.js:463
+msgid "Size"
+msgstr "Storlek"
+
+#: ../www/manager/window/Restore.js:41
+#, fuzzy
+msgid "Source"
+msgstr "Resurs"
+
+#: ../www/manager/dc/Summary.js:127
+msgid "Standalone node - no cluster defined"
+msgstr ""
+
+#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:380
+#: ../www/manager/Utils.js:390 ../www/manager/Utils.js:395
+#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361
+#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
+msgid "Start"
+msgstr "Starta"
+
+#: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
+#: ../www/manager/dc/Backup.js:417 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/window/TaskViewer.js:39
+#, fuzzy
+msgid "Start Time"
+msgstr "Starttid"
+
+#: ../www/manager/qemu/Options.js:38 ../www/manager/qemu/Options.js:43
+#: ../www/manager/qemu/Options.js:50 ../www/manager/openvz/Options.js:22
+#: ../www/manager/openvz/Options.js:27 ../www/manager/openvz/Options.js:33
+msgid "Start at boot"
+msgstr "Starta vid boot"
+
+#: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Tasks.js:142
+#: ../www/manager/node/ServiceView.js:124 ../www/manager/dc/Backup.js:89
+#: ../www/manager/dc/Tasks.js:97 ../www/manager/dc/Summary.js:153
+#: ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:19
+#: ../www/manager/window/TaskViewer.js:80
+#: ../www/manager/openvz/StatusView.js:65
+msgid "Status"
+msgstr "Status"
+
+#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:381
+#: ../www/manager/Utils.js:391 ../www/manager/Utils.js:396
+#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:68
+#: ../www/manager/window/TaskViewer.js:74 ../www/manager/openvz/Config.js:52
+msgid "Stop"
+msgstr "Stoppa"
+
+#: ../www/manager/data/ResourceStore.js:161
+#: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/PoolMembers.js:61
+#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57
+#: ../www/manager/dc/Backup.js:423 ../www/manager/dc/Config.js:24
+#: ../www/manager/qemu/HDEdit.js:144 ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
+#: ../www/manager/openvz/Options.js:42
+#: ../www/manager/openvz/CreateWizard.js:22
+#: ../www/manager/openvz/CreateWizard.js:37
+msgid "Storage"
+msgstr "Lagring"
+
+#: ../www/manager/form/ViewSelector.js:18
+#, fuzzy
+msgid "Storage View"
+msgstr "Lagringslista"
+
+#: ../www/manager/tree/ResourceTree.js:17
+#, fuzzy
+msgid "Storage list"
+msgstr "Lagringslista"
+
+#: ../www/manager/storage/Browser.js:19
+msgid "Storage {0} on node {1}"
+msgstr ""
+
+#: ../www/manager/node/NetworkView.js:228
+#: ../www/manager/node/NetworkEdit.js:93
+#, fuzzy
+msgid "Subnet mask"
+msgstr "Nätmask"
+
+#: ../www/manager/Utils.js:248
+#, fuzzy
+msgid "Successful"
+msgstr "uppladdningen lyckades"
+
+#: ../www/manager/pool/Config.js:18 ../www/manager/node/Config.js:66
+#: ../www/manager/dc/Config.js:13 ../www/manager/storage/Browser.js:24
+#: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:113
+msgid "Summary"
+msgstr ""
+
+#: ../www/manager/Utils.js:384 ../www/manager/VNCConsole.js:278
+msgid "Suspend"
+msgstr ""
+
+#: ../www/manager/openvz/RessourceEdit.js:31
+#: ../www/manager/openvz/RessourceView.js:31
+msgid "Swap"
+msgstr "Swap"
+
+#: ../www/manager/panel/StatusPanel.js:31
+msgid "Tasks"
+msgstr "Uppgifter"
+
+#: ../www/manager/openvz/Options.js:38
+#: ../www/manager/openvz/CreateWizard.js:31
+#: ../www/manager/openvz/CreateWizard.js:144
+msgid "Template"
+msgstr "Mall"
+
+#: ../www/manager/storage/ContentView.js:133
+#: ../www/manager/storage/ContentView.js:427
+#, fuzzy
+msgid "Templates"
+msgstr "Mall"
+
+#: ../www/manager/grid/BackupView.js:122
+#: ../www/manager/qemu/HardwareView.js:209
+#, fuzzy
+msgid "This will permanently erase all image data."
+msgstr ""
+"Är du säker på att du vill ta bort VM %s? Det här raderar permanent alla "
+"data för denna VM."
+
+#: ../www/manager/window/Restore.js:102
+#, fuzzy
+msgid "This will permanently erase current VM data."
+msgstr ""
+"Är du säker på att du vill ta bort VM %s? Det här raderar permanent alla "
+"data för denna VM."
+
+#: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
+msgid "Time"
+msgstr "Tid"
+
+#: ../www/manager/node/TimeEdit.js:14 ../www/manager/node/TimeEdit.js:22
+#: ../www/manager/node/TimeView.js:32
+#, fuzzy
+msgid "Time zone"
+msgstr "Tidszon"
+
+#: ../www/manager/data/ResourceStore.js:32
+#: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
+#: ../www/manager/dc/AuthView.js:126 ../www/manager/storage/StatusView.js:35
+#: ../www/manager/storage/ContentView.js:45
+#: ../www/manager/openvz/Network.js:373
+msgid "Type"
+msgstr "Typ"
+
+#: ../www/manager/Utils.js:545
+#, fuzzy
+msgid "Unknown"
+msgstr "okänd"
+
+#: ../www/manager/Utils.js:251
+#, fuzzy
+msgid "Unknown error"
+msgstr "okänd"
+
+#: ../www/manager/Utils.js:393 ../www/manager/openvz/Config.js:43
+msgid "Unmount"
+msgstr "Avmontera"
+
+#: ../www/manager/qemu/HDEdit.js:233 ../www/manager/qemu/HardwareView.js:137
+#, fuzzy
+msgid "Unused Disk"
+msgstr "Oanvända disk-images"
+
+#: ../www/manager/storage/ContentView.js:239
+#: ../www/manager/storage/ContentView.js:303
+#: ../www/manager/storage/ContentView.js:438
+#, fuzzy
+msgid "Upload"
+msgstr "ladda upp"
+
+#: ../www/manager/storage/ContentView.js:211
+#, fuzzy
+msgid "Uploading file..."
+msgstr "Ladda upp fil"
+
+#: ../www/manager/data/ResourceStore.js:147
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:73
+msgid "Uptime"
+msgstr "Upptid"
+
+#: ../www/manager/storage/IScsiEdit.js:141
+msgid "Use LUNs directly"
+msgstr "Använd LUNar direkt"
+
+#: ../www/manager/storage/StatusView.js:50
+#, fuzzy
+msgid "Used"
+msgstr "Använt (GB)"
+
+#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:33
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/UserEdit.js:166
+msgid "User"
+msgstr "Användare"
+
+#: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
+#, fuzzy
+msgid "User Permission"
+msgstr "Filteruttryck"
+
+#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/UserView.js:176 ../www/manager/dc/UserEdit.js:72
+#: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
+#: ../www/manager/window/LoginWindow.js:64
+#: ../www/manager/window/TaskViewer.js:27
+#, fuzzy
+msgid "User name"
+msgstr "Användarnamn"
+
+#: ../www/manager/dc/Config.js:34
+#, fuzzy
+msgid "Users"
+msgstr "Användare"
+
+#: ../www/manager/Workspace.js:298 ../www/manager/storage/ContentView.js:55
+msgid "Version"
+msgstr "Version"
+
+#: ../www/manager/node/Tasks.js:57
+msgid "View"
+msgstr ""
+
+#: ../www/manager/tree/ResourceTree.js:21
+#: ../www/manager/grid/PoolMembers.js:18
+#: ../www/manager/grid/PoolMembers.js:148
+#: ../www/manager/qemu/CreateWizard.js:39
+#, fuzzy
+msgid "Virtual Machine"
+msgstr "Virtuella maskiner"
+
+#: ../www/manager/qemu/Config.js:105
+#, fuzzy
+msgid "Virtual Machine {0} on node {1}"
+msgstr "Loggar för virtuella maskiner"
+
+#: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
+#, fuzzy
+msgid "Volume group"
+msgstr "Volymgruppsnamn"
+
+#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:542
+msgid "Yes"
+msgstr "Ja"
+
+#: ../www/manager/Workspace.js:213
+#, fuzzy
+msgid "You are logged in as {0}"
+msgstr "Du är inloggad som \"%s\""
+
+#: ../www/manager/Utils.js:548
+msgid "day"
+msgstr "dag"
+
+#: ../www/manager/Utils.js:547
+msgid "days"
+msgstr "dagar"
+
+#: ../www/manager/form/CompressionSelector.js:10
+msgid "fast"
+msgstr ""
+
+#: ../www/manager/form/CompressionSelector.js:11
+msgid "good"
+msgstr ""
+
+#: ../www/manager/Utils.js:551
+msgid "never"
+msgstr ""
+
+#: ../www/manager/form/CompressionSelector.js:9
+msgid "none"
+msgstr ""
+
+#: ../www/manager/Utils.js:549
+msgid "running"
+msgstr ""
+
+#: ../www/manager/Utils.js:550
+msgid "stopped"
+msgstr ""
+
+#~ msgid "<b>Welcome</b> to the Proxmox Virtual Environment!"
+#~ msgstr "<b>Välkommen</b> till Proxmox Virtual Environment!"
+
+#~ msgid "Add Directory"
+#~ msgstr "Lägg till mapp"
+
+#~ msgid "Add ISCSI Target"
+#~ msgstr "Lägg till ISCSI-mål"
+
+#~ msgid "Add LVM Group"
+#~ msgstr "Lägg till LVM-grupp"
+
+#~ msgid "Add NFS Share"
+#~ msgstr "Lägg till NFS-utdelning"
+
+#~ msgid "Add a CD-ROM drive"
+#~ msgstr "Lägg till en CD-ROM-enhet"
+
+#~ msgid "Add a hard disk"
+#~ msgstr "Lägg till en hårddisk"
+
+#~ msgid "Add a network card"
+#~ msgstr "Lägg till ett nätverkskort"
+
+#~ msgid "Add an ethernet device"
+#~ msgstr "Lägg till en ethernetenhet"
+
+#~ msgid "Admin"
+#~ msgstr "Admin"
+
+#~ msgid "Administration"
+#~ msgstr "Administration"
+
+#~ msgid "Administrator EMail"
+#~ msgstr "Administratörens e-post"
+
+#~ msgid "Administrator Options"
+#~ msgstr "Administratörsalternativ"
+
+#~ msgid ""
+#~ "Allowable bridge names: <tt>vmbr</tt><i>n</i>, where 0 &#x2264; <i>n</i> "
+#~ "&#x2264; 4094"
+#~ msgstr ""
+#~ "Tillåtna bryggnamn: <tt>vmbr</tt><i>n</i>, där 0 &#x2264; <i>n</i> "
+#~ "&#x2264; 4094"
+
+#~ msgid "Appliance Templates"
+#~ msgstr "Tillämpningsmallar"
+
+#~ msgid "Arch."
+#~ msgstr "Ark."
+
+#~ msgid "Autostart"
+#~ msgstr "Autostart"
+
+#~ msgid "Bond name"
+#~ msgstr "Förbindelsenamn"
+
+#~ msgid "Boot/Init"
+#~ msgstr "Boot/Init"
+
+#~ msgid "Bridge"
+#~ msgstr "Brygga"
+
+#~ msgid "Bridge Ports"
+#~ msgstr "Bryggade portar"
+
+#~ msgid "Bridge name"
+#~ msgstr "Bryggnamn"
+
+#~ msgid "Bridged Ethernet (veth)"
+#~ msgstr "Bryggad ethernet (veth)"
+
+#~ msgid "Bridged Ethernet Devices"
+#~ msgstr "Bryggade ethernetenheter"
+
+#~ msgid "Browse"
+#~ msgstr "Bläddra"
+
+#~ msgid "Bus"
+#~ msgstr "Buss"
+
+#~ msgid "CD-ROM drives"
+#~ msgstr "CD-ROM-enheter"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CID"
+#~ msgstr "CID"
+
+#~ msgid "CPU"
+#~ msgstr "CPU"
+
+#~ msgid "CPU Sockets"
+#~ msgstr "CPU-platser"
+
+#~ msgid "CPU Units"
+#~ msgstr "CPU-enheter"
+
+#~ msgid "CPU Utilization"
+#~ msgstr "CPU-belastning"
+
+#~ msgid "CPUs"
+#~ msgstr "CPUer"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Capacity (GB)"
+#~ msgstr "Kapacitet (GB)"
+
+#~ msgid "Certificates"
+#~ msgstr "Certifikat"
+
+#~ msgid "Certified Appliances"
+#~ msgstr "Certifierade tillämpningsmallar"
+
+#~ msgid "Change CD-ROM"
+#~ msgstr "Byt CD-ROM"
+
+#~ msgid "Cluster"
+#~ msgstr "Kluster"
+
+#~ msgid "Cluster Nodes"
+#~ msgstr "Klusternoder"
+
+#~ msgid "Configuration"
+#~ msgstr "Konfiguration"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigurera"
+
+#~ msgid "Configure bond '%s'"
+#~ msgstr "Konfigurera förbindelse \"%s\""
+
+#~ msgid "Configure bridge '%s'"
+#~ msgstr "Konfigurera brygga \"%s\""
+
+#~ msgid "Configure network interface '%s'"
+#~ msgstr "Konfigurera nätversgränssnitt \"%s\""
+
+#~ msgid "Content of Storage '%s'"
+#~ msgstr "Innehåll på lagring \"%s\""
+
+#~ msgid "Cores/Socket"
+#~ msgstr "Kärnor/plats"
+
+#~ msgid "Create a new virtual disk"
+#~ msgstr "Skapa ny virtuell disk"
+
+#~ msgid "Create bonding device"
+#~ msgstr "Skapa förbindelse-enhet"
+
+#~ msgid "Create bridge device"
+#~ msgstr "Skapa bryggenhet"
+
+#~ msgid "Create new job"
+#~ msgstr "Skapa ny uppgift"
+
+#~ msgid "Current"
+#~ msgstr "Aktuell"
+
+#~ msgid "DNS Domain"
+#~ msgstr "DNS-domän"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Define migration task"
+#~ msgstr "Definiera migrationsuppgift"
+
+#~ msgid "Delay (minutes)"
+#~ msgstr "Fördröjning (minuter)"
+
+#~ msgid "Delete"
+#~ msgstr "Ta bort"
+
+#~ msgid "Delete from disk"
+#~ msgstr "Ta bort från disk"
+
+#~ msgid "Destination"
+#~ msgstr "Mål"
+
+#~ msgid "Destination directory '%s' does not exist"
+#~ msgstr "Målmappen \"%s\" existerar inte"
+
+#~ msgid "Device"
+#~ msgstr "Enhet"
+
+#~ msgid "Disable"
+#~ msgstr "Avaktivera"
+
+#~ msgid "Discard all changes"
+#~ msgstr "Förkasta alla ändringar"
+
+#~ msgid "Disk"
+#~ msgstr "Disk"
+
+#~ msgid "Disk Storage"
+#~ msgstr "Disklagring"
+
+#~ msgid "Disk type"
+#~ msgstr "Disktyp"
+
+#~ msgid "Domain"
+#~ msgstr "Domän"
+
+#~ msgid "Download server <a href='%s'>certficate</a>."
+#~ msgstr "Ladda ner <a href='%s'>servercertifikat</a>."
+
+#~ msgid "Edit Directory"
+#~ msgstr "Redigera mapp"
+
+#~ msgid "Edit ISCSI Target"
+#~ msgstr "Redigera ISCSI-mål"
+
+#~ msgid "Edit LVM Group"
+#~ msgstr "Redigera LVM-grupp"
+
+#~ msgid "Edit NFS Share"
+#~ msgstr "Redigera NFS-utdelning"
+
+#~ msgid "Edit backup job"
+#~ msgstr "Redigera säkerhetskopieringsjobb"
+
+#~ msgid "Enable User Quotas"
+#~ msgstr "Aktivera användarkvoter"
+
+#~ msgid "Ethernet devices"
+#~ msgstr "Ethernetenheter"
+
+#~ msgid "Existing Disks"
+#~ msgstr "Existerande diskar"
+
+#~ msgid "Export"
+#~ msgstr "Exportera"
+
+#~ msgid "Field '%s' contains invalid characters"
+#~ msgstr "Fältet \"%s\" innehåller ogiltiga tecken"
+
+#~ msgid "Field '%s' does not look like a valid IP address"
+#~ msgstr "Fältet \"%s\" verkar inte vara en giltig IP-adress"
+
+#~ msgid "Field '%s' does not look like a valid ISCSI portal"
+#~ msgstr "Fältet \"%s\" verkar inte vara en giltig ISCSI-portal"
+
+#~ msgid "Field '%s' does not look like a valid email address"
+#~ msgstr "Fältet \"%s\" verkar inte vara en giltig e-postadress"
+
+#~ msgid "Field '%s' does not look like a valid server address"
+#~ msgstr "Fältet \"%s\" verkar inte vara en giltig serveradress"
+
+#~ msgid ""
+#~ "Field '%s' does not look like no valid MAC address (required format: XX:"
+#~ "XX:XX:XX:XX:XX)"
+#~ msgstr ""
+#~ "Fältet \"%s\" verkar inte vara en giltig MAC-adress (krävt format: XX:XX:"
+#~ "XX:XX:XX:XX)"
+
+#~ msgid "Field '%s' is above maximum ($value > $max)"
+#~ msgstr "Fältet \"%s\" är över maxgränsen ($value > $max)"
+
+#~ msgid "Field '%s' is below minimum ($value < $min)"
+#~ msgstr "Fältet \"%s\" är över mingränsen ($value < $min)"
+
+#~ msgid "Field '%s' is no valid html color (required format: #XXXXXX)"
+#~ msgstr "Fältet \"%s\" är inte en giltig html-färg (krävt format: #XXXXXX)"
+
+#~ msgid "Field '%s' must not be empty"
+#~ msgstr "Field '%s' får inte vara tomt"
+
+#~ msgid "Field '%s' must not contain special characters"
+#~ msgstr "Field '%s' får inte innehålla specialtecken"
+
+#~ msgid "Field '%s' must not contain white spaces"
+#~ msgstr "Field '%s' får inte innehålla mellanrum"
+
+#~ msgid "File name"
+#~ msgstr "Filnamn"
+
+#~ msgid "Finished Maintainance Tasks"
+#~ msgstr "Slutförda underhållsuppgifter"
+
+#~ msgid "For more information please visit our homepage at"
+#~ msgstr "För mer information, besök vår hemsida på"
+
+#~ msgid "Found no exports"
+#~ msgstr "Hitta inga exports"
+
+#~ msgid "Found no unused targets"
+#~ msgstr "Hittade inga lediga mål"
+
+#~ msgid "Freeze CPU at startup"
+#~ msgstr "Frys CPU vid uppstart"
+
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Grace period (seconds)"
+#~ msgstr "Uppskovstid (sekunder)"
+
+#~ msgid "Guest Type"
+#~ msgstr "Gästtyp"
+
+#~ msgid "HD Space root"
+#~ msgstr "Hårddiskutrumme root"
+
+#~ msgid "HTTP Proxy"
+#~ msgstr "HTTP-proxy"
+
+#~ msgid "Hardware device list for VM %s"
+#~ msgstr "Hårdvarulista för VM %s"
+
+#~ msgid "Home"
+#~ msgstr "Hem"
+
+#~ msgid "Hostname"
+#~ msgstr "Värdnamn"
+
+#~ msgid "Hosts"
+#~ msgstr "Värdar"
+
+#~ msgid "IO Delays"
+#~ msgstr "IO-fördröjningar"
+
+#~ msgid "ISCSI Device"
+#~ msgstr "ISCSI-enhet"
+
+#~ msgid "ISCSI Devive"
+#~ msgstr "ISCSI-enhet"
+
+#~ msgid "ISCSI LUN list"
+#~ msgstr "ISCSI LUN-lista"
+
+#~ msgid "ISO Image"
+#~ msgstr "ISO-imagefil"
+
+#~ msgid "ISO Images"
+#~ msgstr "ISO-imagefiler"
+
+#~ msgid "ISO Storage"
+#~ msgstr "ISO-lagring"
+
+#~ msgid "Installation Media"
+#~ msgstr "Installationsmedia"
+
+#~ msgid "Interface"
+#~ msgstr "Gränssnitt"
+
+#~ msgid "Interface configuration"
+#~ msgstr "Gränssnittskonfiguration"
+
+#~ msgid "Invalid IP address '%s'"
+#~ msgstr "Ogiltig IP-adress \"%s\""
+
+#~ msgid "JavaScript is active: ok."
+#~ msgstr "JavaScript är aktivt: ok."
+
+#~ msgid ""
+#~ "JavaScript is not available. Please activate it in your browser "
+#~ "configuration."
+#~ msgstr ""
+#~ "JavaScript är inte tillgängligt. Aktivera det i din "
+#~ "webbläsarkonfiguration."
+
+#~ msgid ""
+#~ "KVM module not loaded. Maybe you need to enable Intel VT / AMD-V support "
+#~ "in the BIOS."
+#~ msgstr ""
+#~ "KVM-modulen är inte startad. Du kanske måste aktiverastöd för Intel VT / "
+#~ "AMD-V i BIOS."
+
+#~ msgid "Kernel Version"
+#~ msgstr "Kernelversion"
+
+#~ msgid "Last succesfull sync"
+#~ msgstr "Senast lyckade synkning"
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid "Local"
+#~ msgstr "Lokal"
+
+#~ msgid "Logs"
+#~ msgstr "Loggar"
+
+#~ msgid "MAC Address"
+#~ msgstr "MAC-adress"
+
+#~ msgid "MAC address"
+#~ msgstr "MAC-adress"
+
+#~ msgid "Master"
+#~ msgstr "Huvud"
+
+#~ msgid "Maximum"
+#~ msgstr "Maximalt"
+
+#~ msgid "Maximum user/group IDs"
+#~ msgstr "Max antal användare/grupp-IDn"
+
+#~ msgid "Media"
+#~ msgstr "Media"
+
+#~ msgid "Memory needs to be at least $min MB"
+#~ msgstr "Det krävst minst $min MB minne"
+
+#~ msgid "Memory needs to be less than $max MB"
+#~ msgstr "Det får som mest vara $max MB minne"
+
+#~ msgid "Memory/Swap"
+#~ msgstr "Minne/Swap"
+
+#~ msgid "Model"
+#~ msgstr "Modell"
+
+#~ msgid "Mon Tue Wed Thu Fri Sat Sun"
+#~ msgstr "Mån Tis Ons Tor Fre Lör Sön"
+
+#~ msgid "NTP Server settings"
+#~ msgstr "Inställningar för NTP-server"
+
+#~ msgid "Network Addresses (venet)"
+#~ msgstr "Nätverksadress (venet)"
+
+#~ msgid "Network Card"
+#~ msgstr "Nätverkskort"
+
+#~ msgid "Network configuration changed."
+#~ msgstr "Nätverkskonfigurationen har ändrats."
+
+#~ msgid "No such Storage ID '$storeid'"
+#~ msgstr "Lagrings-ID \"$storeid\" finns inte"
+
+#~ msgid "Node has no VMs"
+#~ msgstr "Noden har inga VMs"
+
+#~ msgid "Nothing to view"
+#~ msgstr "Inget att visa"
+
+#~ msgid "OS"
+#~ msgstr "OS"
+
+#~ msgid "Online migration"
+#~ msgstr "Onlinemigrering"
+
+#~ msgid "Only one cluster node defined - no migration possible."
+#~ msgstr "Endast en klusternod definierad - ingen migrering är möjlig"
+
+#~ msgid "Open VNC console"
+#~ msgstr "Öppna VNC-konsol"
+
+#~ msgid "OpenVZ Templates"
+#~ msgstr "OpenVZ-mallar"
+
+#~ msgid "Password is too short"
+#~ msgstr "Lösenordet är för kort"
+
+#~ msgid "Physical Memory"
+#~ msgstr "Fysiskt minne"
+
+#~ msgid "Please select a device"
+#~ msgstr "Välj en enhet"
+
+#~ msgid "Please select a target node"
+#~ msgstr "Välj en målnod"
+
+#~ msgid "Please select at least one day"
+#~ msgstr "Välj minst en dag"
+
+#~ msgid "Please specify at least one DNS server."
+#~ msgstr "Specificera minst en DNS-server"
+
+#~ msgid ""
+#~ "Please use Microsoft Internet Explorer (> 6.0) or Firefox (> 1.5) for "
+#~ "full functionality."
+#~ msgstr ""
+#~ "Använd Microsoft Internet Explorer (> 6.0) eller Firefox (> 1.5) för full "
+#~ "funktionalitet."
+
+#~ msgid "Ports/Slaves"
+#~ msgstr "Portar/Slavar"
+
+#~ msgid "Real Time Clock"
+#~ msgstr "Hårdvaruklocka"
+
+#~ msgid "Realtime Logfile Query (last 100 lines)"
+#~ msgstr "Loggfil i realtid (senaste 100 raderna)"
+
+#~ msgid "Restart Server"
+#~ msgstr "Starta om server"
+
+#~ msgid "Running Maintainance Tasks"
+#~ msgstr "Pågående underhållsuppgifter"
+
+#~ msgid "Second DNS Server"
+#~ msgstr "Sekundär DNS-server"
+
+#~ msgid "Second boot device"
+#~ msgstr "Sekundär boot-enhet"
+
+#~ msgid "Section"
+#~ msgstr "Sektion"
+
+#~ msgid "Server Administration"
+#~ msgstr "Serveradministration"
+
+#~ msgid ""
+#~ "Server restart in progress. Please try to <a href='/'>reconnect</a> after "
+#~ "the restart."
+#~ msgstr ""
+#~ "Servern håller på att starta om. Försöka att <a href='/'>återansluta</a> "
+#~ "efter omstarten."
+
+#~ msgid "Server shutdown in progress."
+#~ msgstr "Servern håller på att stängas av."
+
+#~ msgid "Shutdown Server"
+#~ msgstr "Stäng av server"
+
+#~ msgid "Size (GB)"
+#~ msgstr "Storlek (GB)"
+
+#~ msgid "Slaves"
+#~ msgstr "Slavar"
+
+#~ msgid "Source Node"
+#~ msgstr "Källnod"
+
+#~ msgid "Start date"
+#~ msgstr "Startdatum"
+
+#~ msgid "State"
+#~ msgstr "Läge"
+
+#~ msgid "Storage '$storeid' is disabled"
+#~ msgstr "Lagringsplatsen \"$storeid\" är inaktiverad"
+
+#~ msgid "Storage '%s'"
+#~ msgstr "Lagring \"%s\""
+
+#~ msgid "Storage Name"
+#~ msgstr "Lagringsnamn"
+
+#~ msgid "Swap Space"
+#~ msgstr "Swap-utrymme"
+
+#~ msgid "Swap needs to be less than $max MB"
+#~ msgstr "Swap-utrymmet måste vara mindre än $max MB"
+
+#~ msgid "Sync Status"
+#~ msgstr "Synkroniseringsstatus"
+
+#~ msgid "Synchronized Nodes"
+#~ msgstr "Synkroniserade noder"
+
+#~ msgid "Syslog"
+#~ msgstr "Systemlogg"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "System Configuration"
+#~ msgstr "Systemkonfiguration"
+
+#~ msgid "System Status for node '%s'"
+#~ msgstr "Systemstatus för nod \"%s\""
+
+#~ msgid "Target"
+#~ msgstr "Mål"
+
+#~ msgid "Target Node"
+#~ msgstr "Målnod"
+
+#~ msgid "Third DNS Server"
+#~ msgstr "Tredje DNS-server"
+
+#~ msgid "Third boot device"
+#~ msgstr "Tredje boot-enhet"
+
+#~ msgid ""
+#~ "This CPU does not support KVM virtual machines (no Intel VT / AMD-V "
+#~ "support)."
+#~ msgstr ""
+#~ "Denna CPU stödjer inte virtuella KVM-maskiner (inget stöd för Intel VT / "
+#~ "AMD-V)."
+
+#~ msgid "This host does not have OpenVZ in the kernel."
+#~ msgstr "Den här värden har inte OpenVZ i kärnan."
+
+#~ msgid "This information is only available on the master node."
+#~ msgstr "Den här informationen finns bara tillgänglig på huvudnoden."
+
+#~ msgid "To manny CPUs (Cores * Sockets > $maxcpus)"
+#~ msgstr "För många CPUer (Kärnor * Platser > $maxcpus)"
+
+#~ msgid "Use an existing virtual disk"
+#~ msgstr "Använd en existerande virtuell disk"
+
+#~ msgid "VM Manager"
+#~ msgstr "VM-hanterare"
+
+#~ msgid "VM Type"
+#~ msgstr "VM-typ"
+
+#~ msgid "VMID"
+#~ msgstr "VMID"
+
+#~ msgid "VZDump Backups"
+#~ msgstr "VZDump-säkerhetskopior"
+
+#~ msgid "Video Graphics Adapter"
+#~ msgstr "Grafikkort"
+
+#~ msgid "Virtual Disks"
+#~ msgstr "Virtuella diskar"
+
+#~ msgid "Virtual Machine Configuration"
+#~ msgstr "Konfiguration av virtuell maskin"
+
+#~ msgid "Virtual Network (venet)"
+#~ msgstr "Virtuellt nätverk (venet)"
+
+#~ msgid "Volume ID"
+#~ msgstr "Volym-ID"
+
+#~ msgid ""
+#~ "You could not be logged on. Make sure your user name and password are "
+#~ "correct, and then try again."
+#~ msgstr ""
+#~ "Du loggades inte in. Kontrollera att du angivit rätt användarnamn och "
+#~ "lösenord, försök sedan igen."
+
+#~ msgid "You could not be logged on. Ticket is no longer valid."
+#~ msgstr "Du loggades inte in. Din biljett är inte längre giltig."
+
+#~ msgid "You do not have write access."
+#~ msgstr "Du har inte skrivrättigheter."
+
+#~ msgid "create"
+#~ msgstr "skapa"
+
+#~ msgid "invalid format for start date"
+#~ msgstr "ogiltigt format för startdatum"
+
+#~ msgid "invalid proxy syntax (http://server:port)"
+#~ msgstr "ogiltig proxysyntax (http://server:port)"
+
+#~ msgid "missing '.iso' extension"
+#~ msgstr "filändelsen \".iso\" saknas"
+
+#~ msgid "name '%s' does not conform to template naming scheme"
+#~ msgstr "namnet \"%s\" följer inte namngivningsschemat för mallar"
+
+#~ msgid "no %s devices available"
+#~ msgstr "inga %s enheter tillgängliga"
+
+#~ msgid "no backup jobs defined"
+#~ msgstr "inga säkerhetskopieringsjobb definierade"
+
+#~ msgid "no backup storage defined - please create a backup storage first"
+#~ msgstr "ingen lagringsplats för säkerhetskopior definierad - skapa en först"
+
+#~ msgid "no entries"
+#~ msgstr "inga uppslag"
+
+#~ msgid "save"
+#~ msgstr "spara"
