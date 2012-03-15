@@ -1,6 +1,6 @@
 include ../defines.mk
 
-LINGUAS=de fr ja es sv
+LINGUAS=de fr ja es sv zh_CN
 
 all: $(patsubst %, pve-lang-%.js, $(LINGUAS))
 
