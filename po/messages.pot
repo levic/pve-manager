@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 20011 Proxmox Server Solutions GmbH
+# Copyright (C) 2012 Proxmox Server Solutions GmbH
 # This file is distributed under the same license as the pve-manager package.
 # Proxmox Support Team <support@proxmox.com>, 2011.
 #
