@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Feb 29 12:33:40 2012\n"
+"POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -33,21 +33,22 @@ msgid "Active"
 msgstr "稼働中"
 
 #: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
-#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/Backup.js:387
-#: ../www/manager/dc/AuthView.js:81 ../www/manager/dc/HAConfig.js:166
-#: ../www/manager/Utils.js:727 ../www/manager/qemu/HardwareView.js:246
-#: ../www/manager/window/Edit.js:173 ../www/manager/openvz/Network.js:334
+#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/Backup.js:378 ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:750
+#: ../www/manager/qemu/HardwareView.js:246 ../www/manager/window/Edit.js:173
+#: ../www/manager/openvz/Network.js:334
 msgid "Add"
 msgstr "追加"
 
 #: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:117
-#: ../www/manager/dc/Backup.js:316 ../www/manager/storage/IScsiEdit.js:125
-#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:72
+#: ../www/manager/dc/Backup.js:307 ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:81
 #: ../www/manager/storage/NFSEdit.js:133
 msgid "All"
 msgstr "すべて"
 
-#: ../www/manager/dc/Backup.js:317
+#: ../www/manager/dc/Backup.js:308
 #, fuzzy
 msgid "All except {0}"
 msgstr "{0} を除くすべて"
@@ -80,12 +81,12 @@ msgstr ""
 msgid "Are you sure you want to remove entry {0}"
 msgstr "本当に {0} を削除してもよろしいですか?"
 
-#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:360
+#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:351
 #, fuzzy
 msgid "Are you sure you want to remove this entry"
 msgstr "本当にこの項目を削除してもよろしいですか?"
 
-#: ../www/manager/window/Restore.js:101
+#: ../www/manager/window/Restore.js:102
 #, fuzzy
 msgid "Are you sure you want to restore this VM?"
 msgstr "本当にこの項目を削除してもよろしいですか?"
@@ -107,13 +108,13 @@ msgstr "空き容量"
 msgid "Back"
 msgstr "戻る"
 
-#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:401
+#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:420
 #: ../www/manager/qemu/Config.js:132 ../www/manager/window/Backup.js:57
-#: ../www/manager/window/Backup.js:90 ../www/manager/openvz/Config.js:150
+#: ../www/manager/window/Backup.js:91 ../www/manager/openvz/Config.js:150
 msgid "Backup"
 msgstr "バックアップ"
 
-#: ../www/manager/dc/Backup.js:272
+#: ../www/manager/dc/Backup.js:263
 #, fuzzy
 msgid "Backup Job"
 msgstr "バックアップジョブを作成"
@@ -130,6 +131,10 @@ msgstr "ベースストレージ"
 msgid "Base volume"
 msgstr "ベースボリューム"
 
+#: ../www/manager/Utils.js:105
+msgid "Basic"
+msgstr ""
+
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
 #: ../www/manager/qemu/BootOrderEdit.js:130
@@ -137,7 +142,7 @@ msgstr "ベースボリューム"
 msgid "Boot device"
 msgstr "最初にブートするデバイス"
 
-#: ../www/manager/qemu/Options.js:64 ../www/manager/qemu/BootOrderEdit.js:184
+#: ../www/manager/qemu/Options.js:65 ../www/manager/qemu/BootOrderEdit.js:184
 msgid "Boot order"
 msgstr "ブート順"
 
@@ -152,46 +157,56 @@ msgstr "CD/DVD ドライブ"
 msgid "CPU usage"
 msgstr "CPU 使用率"
 
+#: ../www/manager/node/Subscription.js:44
+msgid "Check"
+msgstr ""
+
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
 msgstr "クラスタログ"
 
 #: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserView.js:212
 #: ../www/manager/dc/PoolView.js:96 ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/UserEdit.js:122 ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/UserEdit.js:125 ../www/manager/dc/AuthView.js:133
 #: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/AuthEdit.js:74
 #: ../www/manager/dc/PoolEdit.js:35
 msgid "Comment"
+msgstr "コメント"
+
+#: ../www/manager/Utils.js:104
+#, fuzzy
+msgid "Community"
 msgstr "コメント"
 
 #: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
 msgid "Compression"
 msgstr "圧縮"
 
-#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:45
-#: ../www/manager/button/Button.js:40 ../www/manager/VNCConsole.js:240
-#: ../www/manager/VNCConsole.js:252 ../www/manager/VNCConsole.js:269
-#: ../www/manager/VNCConsole.js:281 ../www/manager/VNCConsole.js:370
-#: ../www/manager/VNCConsole.js:382 ../www/manager/openvz/CreateWizard.js:254
-#: ../www/manager/openvz/CmdMenu.js:45
+#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:71 ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252
+#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382
+#: ../www/manager/openvz/CreateWizard.js:254
+#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:71
 msgid "Confirm"
 msgstr "確認"
 
-#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:34
+#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:36
 #: ../www/manager/openvz/CreateWizard.js:123
 msgid "Confirm password"
 msgstr "パスワードの確認"
 
-#: ../www/manager/Utils.js:277 ../www/manager/Utils.js:328
-#: ../www/manager/Utils.js:330 ../www/manager/Utils.js:332
-#: ../www/manager/Utils.js:334 ../www/manager/Utils.js:789
+#: ../www/manager/Utils.js:292 ../www/manager/Utils.js:343
+#: ../www/manager/Utils.js:345 ../www/manager/Utils.js:347
+#: ../www/manager/Utils.js:349 ../www/manager/Utils.js:812
 msgid "Connection error"
 msgstr "接続エラー"
 
-#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:374
-#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:55
+#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:389
+#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:81
 #: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
-#: ../www/manager/openvz/Config.js:97 ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/openvz/Config.js:97 ../www/manager/openvz/CmdMenu.js:81
 msgid "Console"
 msgstr "コンソール"
 
@@ -207,22 +222,21 @@ msgstr "ノード {1} 上のコンテナ {0}"
 msgid "Content"
 msgstr "内容"
 
-#: ../www/manager/Utils.js:399
+#: ../www/manager/Utils.js:417
 msgid "Copy data"
 msgstr ""
 
-#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/UserView.js:140
-#: ../www/manager/dc/PoolView.js:68 ../www/manager/dc/GroupView.js:68
-#: ../www/manager/Utils.js:376 ../www/manager/Utils.js:386
-#: ../www/manager/Utils.js:729
+#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/PoolView.js:68
+#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:391
+#: ../www/manager/Utils.js:401 ../www/manager/Utils.js:752
 msgid "Create"
 msgstr "作成"
 
-#: ../www/manager/Workspace.js:336
+#: ../www/manager/Workspace.js:341
 msgid "Create CT"
 msgstr "CT を作成"
 
-#: ../www/manager/Workspace.js:325
+#: ../www/manager/Workspace.js:330
 msgid "Create VM"
 msgstr "VM を作成"
 
@@ -240,12 +254,12 @@ msgstr "DNS サーバー"
 msgid "Datacenter"
 msgstr "データセンター"
 
-#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:411
+#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:402
 msgid "Day of week"
 msgstr "曜日"
 
 #: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:79
-#: ../www/manager/dc/AuthEdit.js:102 ../www/manager/Utils.js:546
+#: ../www/manager/dc/AuthEdit.js:102 ../www/manager/Utils.js:565
 msgid "Default"
 msgstr "デフォルト"
 
@@ -255,7 +269,7 @@ msgstr "デフォルト"
 msgid "Description"
 msgstr "説明"
 
-#: ../www/manager/Utils.js:378 ../www/manager/Utils.js:388
+#: ../www/manager/Utils.js:393 ../www/manager/Utils.js:403
 msgid "Destroy"
 msgstr "を破棄"
 
@@ -263,12 +277,12 @@ msgstr "を破棄"
 msgid "Directory"
 msgstr "ディレクトリ"
 
-#: ../www/manager/qemu/HDEdit.js:112 ../www/manager/qemu/HDEdit.js:126
-#: ../www/manager/qemu/HDEdit.js:172
+#: ../www/manager/qemu/HDEdit.js:114 ../www/manager/qemu/HDEdit.js:135
+#: ../www/manager/qemu/HDEdit.js:193
 msgid "Disk image"
 msgstr "ディスクイメージ"
 
-#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:137
+#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:146
 #: ../www/manager/openvz/RessourceEdit.js:44
 #: ../www/manager/openvz/RessourceView.js:45
 msgid "Disk size"
@@ -294,9 +308,9 @@ msgstr "本当に、VM {0} をリセットしますか?"
 msgid "Do you really want to restart node {0}?"
 msgstr "本当に、ノード {0} を再起動しますか?"
 
-#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:44
+#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:56
 #: ../www/manager/VNCConsole.js:239 ../www/manager/VNCConsole.js:369
-#: ../www/manager/openvz/Config.js:61 ../www/manager/openvz/CmdMenu.js:44
+#: ../www/manager/openvz/Config.js:61 ../www/manager/openvz/CmdMenu.js:56
 msgid "Do you really want to shutdown VM {0}?"
 msgstr "本当に、VM {0} をシャットダウンしますか?"
 
@@ -304,8 +318,9 @@ msgstr "本当に、VM {0} をシャットダウンしますか?"
 msgid "Do you really want to shutdown node {0}?"
 msgstr "本当に、ノード {0} をシャットダウンしますか?"
 
-#: ../www/manager/qemu/Config.js:44 ../www/manager/VNCConsole.js:251
-#: ../www/manager/VNCConsole.js:381 ../www/manager/openvz/Config.js:53
+#: ../www/manager/qemu/Config.js:44 ../www/manager/qemu/CmdMenu.js:70
+#: ../www/manager/VNCConsole.js:251 ../www/manager/VNCConsole.js:381
+#: ../www/manager/openvz/Config.js:53 ../www/manager/openvz/CmdMenu.js:70
 msgid "Do you really want to stop VM {0}?"
 msgstr "本当に、VM {0} を停止しますか?"
 
@@ -313,17 +328,17 @@ msgstr "本当に、VM {0} を停止しますか?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "本当に、VM {0} を一時停止しますか?"
 
-#: ../www/manager/Utils.js:400 ../www/manager/storage/ContentView.js:105
+#: ../www/manager/Utils.js:419 ../www/manager/storage/ContentView.js:105
 msgid "Download"
 msgstr ""
 
 #: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
 #: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
 #: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
-#: ../www/manager/dc/Backup.js:350 ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/Backup.js:341 ../www/manager/dc/AuthView.js:42
 #: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
-#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:732
-#: ../www/manager/qemu/Options.js:228 ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:755
+#: ../www/manager/qemu/Options.js:229 ../www/manager/qemu/HardwareView.js:188
 #: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
 #: ../www/manager/openvz/Network.js:318
 #: ../www/manager/openvz/RessourceView.js:86
@@ -337,9 +352,9 @@ msgstr "編集"
 msgid "Enable"
 msgstr "有効"
 
-#: ../www/manager/dc/UserView.js:190 ../www/manager/dc/UserEdit.js:95
-#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:110
-#: ../www/manager/qemu/Options.js:128
+#: ../www/manager/dc/UserView.js:190 ../www/manager/dc/UserEdit.js:97
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:111
+#: ../www/manager/qemu/Options.js:129
 msgid "Enabled"
 msgstr "有効"
 
@@ -355,15 +370,19 @@ msgstr "パスワードを入力して下さい"
 msgid "Enter your user name"
 msgstr "ユーザー名を入力して下さい"
 
+#: ../www/manager/Utils.js:418
+msgid "Erase data"
+msgstr ""
+
 #: ../www/manager/node/NetworkView.js:175
-#: ../www/manager/node/NetworkEdit.js:144
+#: ../www/manager/node/NetworkEdit.js:146
 #: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
 #: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
-#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:370
+#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:361
 #: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
 #: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
 #: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
-#: ../www/manager/Utils.js:544 ../www/manager/storage/ContentView.js:217
+#: ../www/manager/Utils.js:563 ../www/manager/storage/ContentView.js:217
 #: ../www/manager/storage/ContentView.js:272
 #: ../www/manager/storage/ContentView.js:281
 #: ../www/manager/storage/ContentView.js:421
@@ -374,7 +393,7 @@ msgstr "ユーザー名を入力して下さい"
 msgid "Error"
 msgstr "エラー"
 
-#: ../www/manager/dc/Summary.js:49
+#: ../www/manager/dc/Summary.js:56
 msgid "Estranged"
 msgstr ""
 
@@ -391,7 +410,7 @@ msgstr "選択した VM を除外"
 msgid "Existing volume groups"
 msgstr "既存のボリュームグループ"
 
-#: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:91
+#: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:93
 msgid "Expire"
 msgstr "有効期限"
 
@@ -408,7 +427,7 @@ msgstr "バックアップ"
 msgid "Finish"
 msgstr "完了"
 
-#: ../www/manager/dc/UserEdit.js:106
+#: ../www/manager/dc/UserEdit.js:109
 msgid "First Name"
 msgstr "名"
 
@@ -416,13 +435,13 @@ msgstr "名"
 msgid "Folder View"
 msgstr "フォルダ表示"
 
-#: ../www/manager/Utils.js:274
+#: ../www/manager/Utils.js:289
 msgid "Form fields may not be submitted with invalid values"
 msgstr "すべての欄が正しく入力されていないとフォームを送信することはできません"
 
 #: ../www/manager/grid/BackupView.js:163 ../www/manager/Utils.js:45
 #: ../www/manager/Utils.js:50 ../www/manager/Utils.js:55
-#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:182
+#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:126
 msgid "Format"
 msgstr "形式"
 
@@ -436,7 +455,7 @@ msgid "Graphic card"
 msgstr "グラフィックカード"
 
 #: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:26
-#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:83
+#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:85
 msgid "Group"
 msgstr "グループ"
 
@@ -449,7 +468,7 @@ msgstr "アクセス権限"
 msgid "Groups"
 msgstr "グループ"
 
-#: ../www/manager/dc/Summary.js:232
+#: ../www/manager/dc/Summary.js:239
 #, fuzzy
 msgid "HA Service Status"
 msgstr "サービス"
@@ -458,8 +477,8 @@ msgstr "サービス"
 msgid "HA managed VM/CT"
 msgstr ""
 
-#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:235
-#: ../www/manager/qemu/HDEdit.js:237 ../www/manager/qemu/HardwareView.js:99
+#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:246
+#: ../www/manager/qemu/HDEdit.js:248 ../www/manager/qemu/HardwareView.js:99
 #: ../www/manager/qemu/HardwareView.js:109
 #: ../www/manager/qemu/HardwareView.js:119
 #: ../www/manager/qemu/HardwareView.js:250
@@ -471,7 +490,7 @@ msgid "Hardware"
 msgstr "ハードウェア"
 
 #: ../www/manager/node/NetworkView.js:223
-#: ../www/manager/node/NetworkEdit.js:86
+#: ../www/manager/node/NetworkEdit.js:88
 #: ../www/manager/openvz/CreateWizard.js:176
 #: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
 #: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
@@ -494,20 +513,20 @@ msgstr "レイアウト"
 msgid "Language"
 msgstr "言語"
 
-#: ../www/manager/dc/UserEdit.js:111
+#: ../www/manager/dc/UserEdit.js:114
 msgid "Last Name"
 msgstr "姓"
 
-#: ../www/manager/dc/Summary.js:171
+#: ../www/manager/dc/Summary.js:178
 #, fuzzy
 msgid "Last owner"
 msgstr "姓"
 
-#: ../www/manager/dc/Summary.js:165
+#: ../www/manager/dc/Summary.js:172
 msgid "Last transition"
 msgstr ""
 
-#: ../www/manager/Utils.js:759
+#: ../www/manager/Utils.js:782
 #, fuzzy
 msgid "Loading..."
 msgstr "ファイルをアップロード中…"
@@ -520,13 +539,14 @@ msgstr "ログイン"
 msgid "Login failed. Please try again"
 msgstr "ログインできませんでした。やり直して下さい"
 
-#: ../www/manager/Workspace.js:311
+#: ../www/manager/Workspace.js:316
 msgid "Logout"
 msgstr "ログアウト"
 
-#: ../www/manager/dc/Backup.js:169
-msgid "Max files"
-msgstr "最大ファイル数"
+#: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:147
+#, fuzzy
+msgid "Max Backups"
+msgstr "バックアップ"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
@@ -552,12 +572,14 @@ msgstr "メモリー使用状況"
 msgid "Message"
 msgstr "メッセージ"
 
-#: ../www/manager/Utils.js:379 ../www/manager/Utils.js:389
-#: ../www/manager/qemu/Config.js:51 ../www/manager/openvz/Config.js:68
+#: ../www/manager/Utils.js:394 ../www/manager/Utils.js:404
+#: ../www/manager/Utils.js:410 ../www/manager/qemu/Config.js:51
+#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/openvz/Config.js:68
+#: ../www/manager/openvz/CmdMenu.js:41
 msgid "Migrate"
 msgstr "マイグレート"
 
-#: ../www/manager/dc/Backup.js:178 ../www/manager/window/Backup.js:41
+#: ../www/manager/dc/Backup.js:169 ../www/manager/window/Backup.js:41
 msgid "Mode"
 msgstr "モード"
 
@@ -565,23 +587,23 @@ msgstr "モード"
 msgid "Monitor"
 msgstr "モニター"
 
-#: ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:407
 msgid "Mount"
 msgstr ""
 
 #: ../www/manager/data/ResourceStore.js:97
 #: ../www/manager/node/ServiceView.js:118
 #: ../www/manager/node/NetworkView.js:192
-#: ../www/manager/node/NetworkEdit.js:76 ../www/manager/grid/BackupView.js:156
+#: ../www/manager/node/NetworkEdit.js:78 ../www/manager/grid/BackupView.js:156
 #: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
 #: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
 #: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
-#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:141
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148
 #: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
 #: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
-#: ../www/manager/qemu/Options.js:32 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/qemu/Options.js:33 ../www/manager/qemu/StatusView.js:43
 #: ../www/manager/qemu/CreateWizard.js:69
-#: ../www/manager/openvz/StatusView.js:64 ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/StatusView.js:58 ../www/manager/openvz/Network.js:58
 msgid "Name"
 msgstr "名前"
 
@@ -592,9 +614,10 @@ msgstr "名前"
 msgid "Network"
 msgstr "ネットワーク"
 
+#: ../www/manager/node/NetworkEdit.js:28
 #: ../www/manager/qemu/HardwareView.js:129
 #: ../www/manager/qemu/HardwareView.js:274
-#: ../www/manager/qemu/NetworkEdit.js:163 ../www/manager/openvz/Network.js:47
+#: ../www/manager/qemu/NetworkEdit.js:176 ../www/manager/openvz/Network.js:47
 #: ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
 msgid "Network Device"
 msgstr "ネットワークデバイス"
@@ -603,28 +626,29 @@ msgstr "ネットワークデバイス"
 msgid "Next"
 msgstr "次へ"
 
-#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:543
+#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:562
 msgid "No"
 msgstr "いいえ"
 
-#: ../www/manager/qemu/HDEdit.js:198
+#: ../www/manager/qemu/HDEdit.js:209
 msgid "No backup"
 msgstr "バックアップなし"
 
+#: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
 #, fuzzy
 msgid "No changes"
 msgstr "元に戻す"
 
 #: ../www/manager/storage/IScsiEdit.js:126
-#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:73
+#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:82
 #: ../www/manager/storage/NFSEdit.js:134
 msgid "No restrictions"
 msgstr "無制限"
 
 #: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60
 #: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
-#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:399
+#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:390
 #: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
 #: ../www/manager/qemu/CreateWizard.js:48
 #: ../www/manager/window/TaskViewer.js:31
@@ -636,8 +660,8 @@ msgstr "ノード"
 msgid "Node list"
 msgstr "ノードリスト"
 
-#: ../www/manager/dc/Summary.js:240 ../www/manager/storage/IScsiEdit.js:124
-#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:71
+#: ../www/manager/dc/Summary.js:247 ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:80
 #: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
 msgstr "ノード"
@@ -665,7 +689,7 @@ msgstr "OpenVZ コンテナ"
 msgid "Options"
 msgstr "オプション"
 
-#: ../www/manager/Utils.js:99 ../www/manager/Utils.js:110
+#: ../www/manager/Utils.js:111 ../www/manager/Utils.js:122
 msgid "Other OS types"
 msgstr ""
 
@@ -673,7 +697,7 @@ msgstr ""
 msgid "Output"
 msgstr "出力"
 
-#: ../www/manager/dc/Summary.js:147
+#: ../www/manager/dc/Summary.js:154
 msgid "Owner"
 msgstr ""
 
@@ -682,13 +706,13 @@ msgid "Package"
 msgstr ""
 
 #: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
-#: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:44
+#: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:46
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/openvz/CreateWizard.js:108
 msgid "Password"
 msgstr "パスワード"
 
-#: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:27
+#: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:29
 #, fuzzy
 msgid "Passwords does not match"
 msgstr "パスワードが一致しません!"
@@ -713,7 +737,7 @@ msgstr "アクセス権限"
 msgid "Please reboot to activate changes"
 msgstr "保留中の変更 (変更はリブートすると有効になります)"
 
-#: ../www/manager/Utils.js:295 ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/Utils.js:310 ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
 msgid "Please wait..."
 msgstr "しばらくお待ち下さい…"
@@ -731,6 +755,10 @@ msgstr ""
 #, fuzzy
 msgid "Port"
 msgstr "ポータル"
+
+#: ../www/manager/Utils.js:107
+msgid "Premium"
+msgstr ""
 
 #: ../www/manager/dc/RoleView.js:47
 msgid "Privileges"
@@ -750,7 +778,7 @@ msgstr "継承"
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE ログイン"
 
-#: ../www/manager/dc/UserView.js:183 ../www/manager/dc/UserEdit.js:130
+#: ../www/manager/dc/UserView.js:183 ../www/manager/dc/UserEdit.js:133
 #: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:29
 msgid "Realm"
 msgstr "レルム"
@@ -760,7 +788,7 @@ msgstr "レルム"
 msgid "Refresh"
 msgstr "再表示"
 
-#: ../www/manager/Utils.js:398 ../www/manager/VNCConsole.js:311
+#: ../www/manager/Utils.js:416 ../www/manager/VNCConsole.js:311
 #: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
 msgid "Reload"
 msgstr "再読込"
@@ -768,7 +796,7 @@ msgstr "再読込"
 #: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
 #: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
 #: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
-#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:357
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:348
 #: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
 #: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402
 #: ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202
@@ -776,7 +804,7 @@ msgstr "再読込"
 msgid "Remove"
 msgstr "削除"
 
-#: ../www/manager/Utils.js:382 ../www/manager/qemu/Config.js:63
+#: ../www/manager/Utils.js:397 ../www/manager/qemu/Config.js:63
 #: ../www/manager/VNCConsole.js:266
 msgid "Reset"
 msgstr "リセット"
@@ -795,22 +823,22 @@ msgid "Resources"
 msgstr "リソース"
 
 #: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
-#: ../www/manager/Utils.js:397
+#: ../www/manager/Utils.js:415
 msgid "Restart"
 msgstr "再起動"
 
-#: ../www/manager/dc/Summary.js:159
+#: ../www/manager/dc/Summary.js:166
 #, fuzzy
 msgid "Restarts"
 msgstr "再起動"
 
-#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:377
-#: ../www/manager/Utils.js:387 ../www/manager/storage/ContentView.js:374
-#: ../www/manager/window/Restore.js:77
+#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:402 ../www/manager/storage/ContentView.js:374
+#: ../www/manager/window/Restore.js:78
 msgid "Restore"
 msgstr "リストア"
 
-#: ../www/manager/Utils.js:385 ../www/manager/VNCConsole.js:290
+#: ../www/manager/Utils.js:400 ../www/manager/VNCConsole.js:290
 msgid "Resume"
 msgstr "再開"
 
@@ -836,7 +864,7 @@ msgstr "検索"
 msgid "Select File..."
 msgstr "ファイルを選択…"
 
-#: ../www/manager/dc/Backup.js:429
+#: ../www/manager/dc/Backup.js:420
 msgid "Selection"
 msgstr "選択"
 
@@ -852,7 +880,7 @@ msgstr "メールの送信先"
 msgid "Server"
 msgstr "サーバー"
 
-#: ../www/manager/dc/Summary.js:56
+#: ../www/manager/dc/Summary.js:63
 msgid "Server Address"
 msgstr "サーバーアドレス"
 
@@ -868,7 +896,7 @@ msgstr "サーバーの時刻"
 msgid "Service"
 msgstr "サービス"
 
-#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:62
+#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:69
 msgid "Services"
 msgstr "サービス"
 
@@ -887,16 +915,16 @@ msgstr "重要度"
 msgid "Shared"
 msgstr "共有"
 
-#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:375
+#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:390
 #: ../www/manager/VNCConsole.js:448
 msgid "Shell"
 msgstr "シェル"
 
-#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:383
-#: ../www/manager/Utils.js:394 ../www/manager/qemu/Config.js:71
-#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/VNCConsole.js:237
+#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:398
+#: ../www/manager/Utils.js:409 ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:237
 #: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:60
-#: ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/openvz/CmdMenu.js:53
 msgid "Shutdown"
 msgstr "シャットダウン"
 
@@ -910,45 +938,53 @@ msgstr "サイズ"
 msgid "Source"
 msgstr "リストアデータ"
 
-#: ../www/manager/dc/Summary.js:127
+#: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
 msgstr ""
 
-#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:380
-#: ../www/manager/Utils.js:390 ../www/manager/Utils.js:395
-#: ../www/manager/qemu/Config.js:36 ../www/manager/qemu/CmdMenu.js:34
-#: ../www/manager/VNCConsole.js:231 ../www/manager/VNCConsole.js:361
-#: ../www/manager/openvz/Config.js:36 ../www/manager/openvz/CmdMenu.js:34
+#: ../www/manager/Utils.js:106
+#, fuzzy
+msgid "Standard"
+msgstr "標準 VGA"
+
+#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:395
+#: ../www/manager/Utils.js:405 ../www/manager/Utils.js:411
+#: ../www/manager/Utils.js:413 ../www/manager/qemu/Config.js:36
+#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
+#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
+#: ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
 msgstr "起動"
 
 #: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
-#: ../www/manager/dc/Backup.js:417 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/dc/Backup.js:408 ../www/manager/dc/Tasks.js:61
 #: ../www/manager/window/TaskViewer.js:39
 msgid "Start Time"
 msgstr "開始時刻"
 
-#: ../www/manager/qemu/Options.js:38 ../www/manager/qemu/Options.js:43
-#: ../www/manager/qemu/Options.js:50 ../www/manager/openvz/Options.js:22
+#: ../www/manager/qemu/Options.js:39 ../www/manager/qemu/Options.js:44
+#: ../www/manager/qemu/Options.js:51 ../www/manager/openvz/Options.js:22
 #: ../www/manager/openvz/Options.js:27 ../www/manager/openvz/Options.js:33
 msgid "Start at boot"
 msgstr "ブート時に起動"
 
-#: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Tasks.js:142
-#: ../www/manager/node/ServiceView.js:124 ../www/manager/dc/Backup.js:89
-#: ../www/manager/dc/Tasks.js:97 ../www/manager/dc/Summary.js:153
-#: ../www/manager/storage/StatusView.js:67
+#: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Subscription.js:28
+#: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:124
+#: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Summary.js:160 ../www/manager/storage/StatusView.js:67
 #: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:19
 #: ../www/manager/window/TaskViewer.js:80
-#: ../www/manager/openvz/StatusView.js:65
+#: ../www/manager/openvz/StatusView.js:59
 msgid "Status"
 msgstr "状態"
 
-#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:381
-#: ../www/manager/Utils.js:391 ../www/manager/Utils.js:396
-#: ../www/manager/qemu/Config.js:43 ../www/manager/VNCConsole.js:249
+#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:396
+#: ../www/manager/Utils.js:406 ../www/manager/Utils.js:412
+#: ../www/manager/Utils.js:414 ../www/manager/qemu/Config.js:43
+#: ../www/manager/qemu/CmdMenu.js:67 ../www/manager/VNCConsole.js:249
 #: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:68
 #: ../www/manager/window/TaskViewer.js:74 ../www/manager/openvz/Config.js:52
+#: ../www/manager/openvz/CmdMenu.js:67
 msgid "Stop"
 msgstr "停止"
 
@@ -956,8 +992,8 @@ msgstr "停止"
 #: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
 #: ../www/manager/grid/PoolMembers.js:61
 #: ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57
-#: ../www/manager/dc/Backup.js:423 ../www/manager/dc/Config.js:24
-#: ../www/manager/qemu/HDEdit.js:144 ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/dc/Backup.js:414 ../www/manager/dc/Config.js:24
+#: ../www/manager/qemu/HDEdit.js:153 ../www/manager/qemu/CDEdit.js:111
 #: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
 #: ../www/manager/openvz/Options.js:42
 #: ../www/manager/openvz/CreateWizard.js:22
@@ -978,11 +1014,16 @@ msgid "Storage {0} on node {1}"
 msgstr "ノード {1} 上のストレージ {0}"
 
 #: ../www/manager/node/NetworkView.js:228
-#: ../www/manager/node/NetworkEdit.js:93
+#: ../www/manager/node/NetworkEdit.js:95
 msgid "Subnet mask"
 msgstr "サブネットマスク"
 
-#: ../www/manager/Utils.js:248
+#: ../www/manager/node/Subscription.js:25
+#, fuzzy
+msgid "Subscription Key"
+msgstr "説明"
+
+#: ../www/manager/Utils.js:263
 msgid "Successful"
 msgstr "正常終了"
 
@@ -992,7 +1033,12 @@ msgstr "正常終了"
 msgid "Summary"
 msgstr "サマリー"
 
-#: ../www/manager/Utils.js:384 ../www/manager/VNCConsole.js:278
+#: ../www/manager/dc/Config.js:68 ../www/manager/dc/Summary.js:49
+#, fuzzy
+msgid "Support"
+msgstr "ACPI サポート"
+
+#: ../www/manager/Utils.js:399 ../www/manager/VNCConsole.js:278
 msgid "Suspend"
 msgstr "一時停止"
 
@@ -1017,6 +1063,10 @@ msgstr "テンプレート"
 msgid "Templates"
 msgstr "テンプレート"
 
+#: ../www/manager/Utils.js:70
+msgid "This is not a valid DNS name"
+msgstr ""
+
 #: ../www/manager/grid/BackupView.js:122
 #: ../www/manager/qemu/HardwareView.js:209
 #, fuzzy
@@ -1025,7 +1075,7 @@ msgstr ""
 "本当にイメージ {0} を削除してもよろしいですか? 削除すると、イメージデータを復"
 "活させることはできません。"
 
-#: ../www/manager/window/Restore.js:102
+#: ../www/manager/window/Restore.js:103
 #, fuzzy
 msgid "This will permanently erase current VM data."
 msgstr ""
@@ -1042,27 +1092,28 @@ msgid "Time zone"
 msgstr "タイムゾーン"
 
 #: ../www/manager/data/ResourceStore.js:32
-#: ../www/manager/dc/StorageView.js:146 ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:126 ../www/manager/storage/StatusView.js:35
+#: ../www/manager/node/Subscription.js:22 ../www/manager/dc/StorageView.js:146
+#: ../www/manager/dc/Backup.js:105 ../www/manager/dc/AuthView.js:126
+#: ../www/manager/storage/StatusView.js:35
 #: ../www/manager/storage/ContentView.js:45
 #: ../www/manager/openvz/Network.js:373
 msgid "Type"
 msgstr "種別"
 
-#: ../www/manager/Utils.js:545
+#: ../www/manager/Utils.js:564
 #, fuzzy
 msgid "Unknown"
 msgstr "不明"
 
-#: ../www/manager/Utils.js:251
+#: ../www/manager/Utils.js:266
 msgid "Unknown error"
 msgstr "未知のエラー"
 
-#: ../www/manager/Utils.js:393 ../www/manager/openvz/Config.js:43
+#: ../www/manager/Utils.js:408 ../www/manager/openvz/Config.js:43
 msgid "Unmount"
 msgstr ""
 
-#: ../www/manager/qemu/HDEdit.js:233 ../www/manager/qemu/HardwareView.js:137
+#: ../www/manager/qemu/HDEdit.js:244 ../www/manager/qemu/HardwareView.js:137
 msgid "Unused Disk"
 msgstr "未使用のディスク"
 
@@ -1072,12 +1123,17 @@ msgstr "未使用のディスク"
 msgid "Upload"
 msgstr "アップロード"
 
+#: ../www/manager/node/Subscription.js:41
+#, fuzzy
+msgid "Upload Subscription Key"
+msgstr "アップロード"
+
 #: ../www/manager/storage/ContentView.js:211
 msgid "Uploading file..."
 msgstr "ファイルをアップロード中…"
 
 #: ../www/manager/data/ResourceStore.js:147
-#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:73
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:67
 msgid "Uptime"
 msgstr "稼働時間"
 
@@ -1090,7 +1146,7 @@ msgid "Used"
 msgstr "使用中"
 
 #: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:33
-#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/UserEdit.js:166
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/UserEdit.js:169
 #, fuzzy
 msgid "User"
 msgstr "ユーザー"
@@ -1101,7 +1157,7 @@ msgid "User Permission"
 msgstr "アクセス権限"
 
 #: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
-#: ../www/manager/dc/UserView.js:176 ../www/manager/dc/UserEdit.js:72
+#: ../www/manager/dc/UserView.js:176 ../www/manager/dc/UserEdit.js:74
 #: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:64
 #: ../www/manager/window/TaskViewer.js:27
@@ -1112,7 +1168,7 @@ msgstr "ユーザー名"
 msgid "Users"
 msgstr "ユーザー"
 
-#: ../www/manager/Workspace.js:298 ../www/manager/storage/ContentView.js:55
+#: ../www/manager/Workspace.js:303 ../www/manager/storage/ContentView.js:55
 msgid "Version"
 msgstr "バージョン"
 
@@ -1137,19 +1193,19 @@ msgstr "ノード {1} 上の仮想マシン {0}"
 msgid "Volume group"
 msgstr "ボリュームグループ"
 
-#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:542
+#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:561
 msgid "Yes"
 msgstr "はい"
 
-#: ../www/manager/Workspace.js:213
+#: ../www/manager/Workspace.js:218
 msgid "You are logged in as {0}"
 msgstr "{0} でログイン中"
 
-#: ../www/manager/Utils.js:548
+#: ../www/manager/Utils.js:567
 msgid "day"
 msgstr "日 +"
 
-#: ../www/manager/Utils.js:547
+#: ../www/manager/Utils.js:566
 msgid "days"
 msgstr "日 +"
 
@@ -1161,7 +1217,7 @@ msgstr ""
 msgid "good"
 msgstr ""
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:570
 msgid "never"
 msgstr "無期限"
 
@@ -1169,11 +1225,11 @@ msgstr "無期限"
 msgid "none"
 msgstr ""
 
-#: ../www/manager/Utils.js:549
+#: ../www/manager/Utils.js:568
 msgid "running"
 msgstr "稼働中"
 
-#: ../www/manager/Utils.js:550
+#: ../www/manager/Utils.js:569
 msgid "stopped"
 msgstr "停止中"
 
@@ -1194,9 +1250,6 @@ msgstr "停止中"
 
 #~ msgid "802.3ad"
 #~ msgstr "802.3ad"
-
-#~ msgid "ACPI support"
-#~ msgstr "ACPI サポート"
 
 #~ msgid "Active Directory Server"
 #~ msgstr "Active Directory サーバー"
@@ -1265,9 +1318,6 @@ msgstr "停止中"
 #~ msgid "Backup VM {0}"
 #~ msgstr "VM {0} をバックアップ"
 
-#~ msgid "Backups"
-#~ msgstr "バックアップ"
-
 #~ msgid "Base Domain Name"
 #~ msgstr "ベースドメイン名"
 
@@ -1318,10 +1368,6 @@ msgstr "停止中"
 
 #~ msgid "Cirrus Logic GD5446"
 #~ msgstr "Cirrus Logic GD5446"
-
-#, fuzzy
-#~ msgid "Commit"
-#~ msgstr "コメント"
 
 #~ msgid "Compress"
 #~ msgstr "圧縮"
@@ -1797,6 +1843,9 @@ msgstr "停止中"
 #~ msgid "Macedonian"
 #~ msgstr "マケドニア語"
 
+#~ msgid "Max files"
+#~ msgstr "最大ファイル数"
+
 #~ msgid "Memory (MB)"
 #~ msgstr "メモリー (MB)"
 
@@ -2056,9 +2105,6 @@ msgstr "停止中"
 
 #~ msgid "Spanish"
 #~ msgstr "スペイン語"
-
-#~ msgid "Standard VGA"
-#~ msgstr "標準 VGA"
 
 #~ msgid "Start VM {0}"
 #~ msgstr "VM {0} を起動"

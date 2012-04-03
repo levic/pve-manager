@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Wed Feb 29 12:33:40 2012\n"
+"POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
 "PO-Revision-Date: 2012-03-15 17:27+0830\n"
 "Last-Translator: 黄学武 <1833net@163.com>\n"
 "Language-Team: Chinese (simplified)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: CHINA\n"
 
@@ -32,30 +32,23 @@ msgstr "运行中"
 msgid "Active"
 msgstr "运行中"
 
-#: ../www/manager/grid/PoolMembers.js:144
-#: ../www/manager/dc/ACLView.js:190
-#: ../www/manager/dc/StorageView.js:93
-#: ../www/manager/dc/Backup.js:387
-#: ../www/manager/dc/AuthView.js:81
-#: ../www/manager/dc/HAConfig.js:166
-#: ../www/manager/Utils.js:727
-#: ../www/manager/qemu/HardwareView.js:246
-#: ../www/manager/window/Edit.js:173
+#: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
+#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/Backup.js:378 ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:750
+#: ../www/manager/qemu/HardwareView.js:246 ../www/manager/window/Edit.js:173
 #: ../www/manager/openvz/Network.js:334
 msgid "Add"
 msgstr "添加"
 
-#: ../www/manager/dc/Backup.js:30
-#: ../www/manager/dc/Backup.js:117
-#: ../www/manager/dc/Backup.js:316
-#: ../www/manager/storage/IScsiEdit.js:125
-#: ../www/manager/storage/LVMEdit.js:185
-#: ../www/manager/storage/DirEdit.js:72
+#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:117
+#: ../www/manager/dc/Backup.js:307 ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:81
 #: ../www/manager/storage/NFSEdit.js:133
 msgid "All"
 msgstr "所有"
 
-#: ../www/manager/dc/Backup.js:317
+#: ../www/manager/dc/Backup.js:308
 msgid "All except {0}"
 msgstr "｛0｝以外的所有"
 
@@ -67,30 +60,27 @@ msgstr "不允许使用的字符"
 msgid "Are you sure you want to activate your changes"
 msgstr "你确定要激活您所做的更改吗？"
 
-#: ../www/manager/qemu/Config.js:80
-#: ../www/manager/openvz/Config.js:81
-msgid "Are you sure you want to remove VM {0}? This will permanently erase all VM data."
+#: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:81
+msgid ""
+"Are you sure you want to remove VM {0}? This will permanently erase all VM "
+"data."
 msgstr "你确定你要删除VM{0}？这将永久删除VM的所有数据。"
 
 #: ../www/manager/grid/BackupView.js:120
-#: ../www/manager/grid/PoolMembers.js:111
-#: ../www/manager/dc/StorageView.js:66
-#: ../www/manager/dc/UserView.js:85
-#: ../www/manager/dc/PoolView.js:28
-#: ../www/manager/dc/AuthView.js:56
-#: ../www/manager/dc/GroupView.js:28
+#: ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66
+#: ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28
+#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
 #: ../www/manager/storage/ContentView.js:406
 #: ../www/manager/qemu/HardwareView.js:206
 #: ../www/manager/openvz/Network.js:264
 msgid "Are you sure you want to remove entry {0}"
 msgstr "你确定你要删除该项{0}吗？"
 
-#: ../www/manager/dc/ACLView.js:152
-#: ../www/manager/dc/Backup.js:360
+#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:351
 msgid "Are you sure you want to remove this entry"
 msgstr "你确定你要删除此项？"
 
-#: ../www/manager/window/Restore.js:101
+#: ../www/manager/window/Restore.js:102
 msgid "Are you sure you want to restore this VM?"
 msgstr "你确定你要恢复这个VM吗？"
 
@@ -110,16 +100,13 @@ msgstr "可用"
 msgid "Back"
 msgstr "返回"
 
-#: ../www/manager/dc/Config.js:29
-#: ../www/manager/Utils.js:401
-#: ../www/manager/qemu/Config.js:132
-#: ../www/manager/window/Backup.js:57
-#: ../www/manager/window/Backup.js:90
-#: ../www/manager/openvz/Config.js:150
+#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:420
+#: ../www/manager/qemu/Config.js:132 ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:91 ../www/manager/openvz/Config.js:150
 msgid "Backup"
 msgstr "备份"
 
-#: ../www/manager/dc/Backup.js:272
+#: ../www/manager/dc/Backup.js:263
 msgid "Backup Job"
 msgstr "备份计划"
 
@@ -135,14 +122,17 @@ msgstr "基本存储"
 msgid "Base volume"
 msgstr "基本卷"
 
+#: ../www/manager/Utils.js:105
+msgid "Basic"
+msgstr ""
+
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
 #: ../www/manager/qemu/BootOrderEdit.js:130
 msgid "Boot device"
 msgstr "引导设备"
 
-#: ../www/manager/qemu/Options.js:64
-#: ../www/manager/qemu/BootOrderEdit.js:184
+#: ../www/manager/qemu/Options.js:65 ../www/manager/qemu/BootOrderEdit.js:184
 msgid "Boot order"
 msgstr "引导顺序"
 
@@ -157,64 +147,56 @@ msgstr "CD/DVD 驱动器"
 msgid "CPU usage"
 msgstr "CPU使用率"
 
+#: ../www/manager/node/Subscription.js:44
+msgid "Check"
+msgstr ""
+
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
 msgstr "集群日志"
 
-#: ../www/manager/pool/StatusView.js:15
-#: ../www/manager/dc/UserView.js:212
-#: ../www/manager/dc/PoolView.js:96
-#: ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/UserEdit.js:122
-#: ../www/manager/dc/AuthView.js:133
-#: ../www/manager/dc/GroupView.js:96
-#: ../www/manager/dc/AuthEdit.js:74
+#: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserView.js:212
+#: ../www/manager/dc/PoolView.js:96 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/UserEdit.js:125 ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/AuthEdit.js:74
 #: ../www/manager/dc/PoolEdit.js:35
 msgid "Comment"
 msgstr "备注"
 
-#: ../www/manager/dc/Backup.js:163
-#: ../www/manager/window/Backup.js:49
+#: ../www/manager/Utils.js:104
+#, fuzzy
+msgid "Community"
+msgstr "备注"
+
+#: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
 msgid "Compression"
 msgstr "压缩"
 
-#: ../www/manager/qemu/CreateWizard.js:109
-#: ../www/manager/qemu/CmdMenu.js:45
-#: ../www/manager/button/Button.js:40
-#: ../www/manager/VNCConsole.js:240
-#: ../www/manager/VNCConsole.js:252
-#: ../www/manager/VNCConsole.js:269
-#: ../www/manager/VNCConsole.js:281
-#: ../www/manager/VNCConsole.js:370
-#: ../www/manager/VNCConsole.js:382
+#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:71 ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252
+#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382
 #: ../www/manager/openvz/CreateWizard.js:254
-#: ../www/manager/openvz/CmdMenu.js:45
+#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:71
 msgid "Confirm"
 msgstr "确认"
 
-#: ../www/manager/dc/UserView.js:23
-#: ../www/manager/dc/UserEdit.js:34
+#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:36
 #: ../www/manager/openvz/CreateWizard.js:123
 msgid "Confirm password"
 msgstr "确认密码"
 
-#: ../www/manager/Utils.js:277
-#: ../www/manager/Utils.js:328
-#: ../www/manager/Utils.js:330
-#: ../www/manager/Utils.js:332
-#: ../www/manager/Utils.js:334
-#: ../www/manager/Utils.js:789
+#: ../www/manager/Utils.js:292 ../www/manager/Utils.js:343
+#: ../www/manager/Utils.js:345 ../www/manager/Utils.js:347
+#: ../www/manager/Utils.js:349 ../www/manager/Utils.js:812
 msgid "Connection error"
 msgstr "连接错误"
 
-#: ../www/manager/Workspace.js:105
-#: ../www/manager/Utils.js:374
-#: ../www/manager/qemu/Config.js:96
-#: ../www/manager/qemu/CmdMenu.js:55
-#: ../www/manager/VNCConsole.js:297
-#: ../www/manager/VNCConsole.js:393
-#: ../www/manager/openvz/Config.js:97
-#: ../www/manager/openvz/CmdMenu.js:55
+#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:389
+#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:81
+#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:97 ../www/manager/openvz/CmdMenu.js:81
 msgid "Console"
 msgstr "控制台"
 
@@ -226,74 +208,57 @@ msgstr "节点 {1} 上的容器 {0}"
 #: ../www/manager/storage/StatusView.js:30
 #: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:192
-#: ../www/manager/storage/NFSEdit.js:123
-#: ../www/manager/storage/Browser.js:30
+#: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
 msgid "Content"
 msgstr "内容"
 
-#: ../www/manager/Utils.js:399
+#: ../www/manager/Utils.js:417
 msgid "Copy data"
 msgstr "拷贝数据"
 
-#: ../www/manager/node/NetworkView.js:121
-#: ../www/manager/dc/UserView.js:140
-#: ../www/manager/dc/PoolView.js:68
-#: ../www/manager/dc/GroupView.js:68
-#: ../www/manager/Utils.js:376
-#: ../www/manager/Utils.js:386
-#: ../www/manager/Utils.js:729
+#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/PoolView.js:68
+#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:391
+#: ../www/manager/Utils.js:401 ../www/manager/Utils.js:752
 msgid "Create"
 msgstr "创建"
 
-#: ../www/manager/Workspace.js:336
+#: ../www/manager/Workspace.js:341
 msgid "Create CT"
 msgstr "创建CT"
 
-#: ../www/manager/Workspace.js:325
+#: ../www/manager/Workspace.js:330
 msgid "Create VM"
 msgstr "创建VM"
 
-#: ../www/manager/node/DNSEdit.js:22
-#: ../www/manager/node/DNSEdit.js:29
-#: ../www/manager/node/DNSEdit.js:36
-#: ../www/manager/node/DNSView.js:26
-#: ../www/manager/node/DNSView.js:27
-#: ../www/manager/node/DNSView.js:28
+#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
 #: ../www/manager/openvz/CreateWizard.js:235
-#: ../www/manager/openvz/CreateWizard.js:244
-#: ../www/manager/openvz/DNS.js:53
-#: ../www/manager/openvz/DNS.js:57
-#: ../www/manager/openvz/DNS.js:61
+#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53
+#: ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
 msgid "DNS server"
 msgstr "DNS服务器"
 
-#: ../www/manager/tree/ResourceTree.js:185
-#: ../www/manager/dc/Config.js:9
+#: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
 msgid "Datacenter"
 msgstr "数据中心"
 
-#: ../www/manager/dc/Backup.js:139
-#: ../www/manager/dc/Backup.js:411
+#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:402
 msgid "Day of week"
 msgstr "星期几"
 
-#: ../www/manager/form/Boolean.js:10
-#: ../www/manager/dc/AuthEdit.js:79
-#: ../www/manager/dc/AuthEdit.js:102
-#: ../www/manager/Utils.js:546
+#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:79
+#: ../www/manager/dc/AuthEdit.js:102 ../www/manager/Utils.js:565
 msgid "Default"
 msgstr "默认"
 
-#: ../www/manager/data/ResourceStore.js:60
-#: ../www/manager/node/Tasks.js:136
-#: ../www/manager/node/ServiceView.js:130
-#: ../www/manager/dc/Tasks.js:91
+#: ../www/manager/data/ResourceStore.js:60 ../www/manager/node/Tasks.js:136
+#: ../www/manager/node/ServiceView.js:130 ../www/manager/dc/Tasks.js:91
 #: ../www/manager/storage/ContentView.js:60
 msgid "Description"
 msgstr "说明"
 
-#: ../www/manager/Utils.js:378
-#: ../www/manager/Utils.js:388
+#: ../www/manager/Utils.js:393 ../www/manager/Utils.js:403
 msgid "Destroy"
 msgstr "销毁"
 
@@ -301,14 +266,12 @@ msgstr "销毁"
 msgid "Directory"
 msgstr "目录"
 
-#: ../www/manager/qemu/HDEdit.js:112
-#: ../www/manager/qemu/HDEdit.js:126
-#: ../www/manager/qemu/HDEdit.js:172
+#: ../www/manager/qemu/HDEdit.js:114 ../www/manager/qemu/HDEdit.js:135
+#: ../www/manager/qemu/HDEdit.js:193
 msgid "Disk image"
 msgstr "磁盘映像"
 
-#: ../www/manager/data/ResourceStore.js:110
-#: ../www/manager/qemu/HDEdit.js:137
+#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:146
 #: ../www/manager/openvz/RessourceEdit.js:44
 #: ../www/manager/openvz/RessourceView.js:45
 msgid "Disk size"
@@ -318,18 +281,15 @@ msgstr "磁盘大小"
 msgid "Disk usage"
 msgstr "磁盘使用率"
 
-#: ../www/manager/qemu/HardwareView.js:78
-#: ../www/manager/qemu/DisplayEdit.js:8
+#: ../www/manager/qemu/HardwareView.js:78 ../www/manager/qemu/DisplayEdit.js:8
 msgid "Display"
 msgstr "显示"
 
-#: ../www/manager/dc/OptionView.js:13
-#: ../www/manager/dc/OptionView.js:52
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
 msgid "Do not use any proxy"
 msgstr "不使用任何代理"
 
-#: ../www/manager/qemu/Config.js:64
-#: ../www/manager/VNCConsole.js:268
+#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:268
 msgid "Do you really want to reset VM {0}?"
 msgstr "你真的要重置 VM {0}?"
 
@@ -337,12 +297,9 @@ msgstr "你真的要重置 VM {0}?"
 msgid "Do you really want to restart node {0}?"
 msgstr "你真的要重启节点 {0}?"
 
-#: ../www/manager/qemu/Config.js:72
-#: ../www/manager/qemu/CmdMenu.js:44
-#: ../www/manager/VNCConsole.js:239
-#: ../www/manager/VNCConsole.js:369
-#: ../www/manager/openvz/Config.js:61
-#: ../www/manager/openvz/CmdMenu.js:44
+#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:56
+#: ../www/manager/VNCConsole.js:239 ../www/manager/VNCConsole.js:369
+#: ../www/manager/openvz/Config.js:61 ../www/manager/openvz/CmdMenu.js:56
 msgid "Do you really want to shutdown VM {0}?"
 msgstr "你真的要关闭 VM {0}?"
 
@@ -350,10 +307,9 @@ msgstr "你真的要关闭 VM {0}?"
 msgid "Do you really want to shutdown node {0}?"
 msgstr "你真的要关闭节点 {0}?"
 
-#: ../www/manager/qemu/Config.js:44
-#: ../www/manager/VNCConsole.js:251
-#: ../www/manager/VNCConsole.js:381
-#: ../www/manager/openvz/Config.js:53
+#: ../www/manager/qemu/Config.js:44 ../www/manager/qemu/CmdMenu.js:70
+#: ../www/manager/VNCConsole.js:251 ../www/manager/VNCConsole.js:381
+#: ../www/manager/openvz/Config.js:53 ../www/manager/openvz/CmdMenu.js:70
 msgid "Do you really want to stop VM {0}?"
 msgstr "你真的要停止 VM {0}?"
 
@@ -361,27 +317,18 @@ msgstr "你真的要停止 VM {0}?"
 msgid "Do you really want to suspend VM {0}?"
 msgstr "你真的要挂起 VM {0}?"
 
-#: ../www/manager/Utils.js:400
-#: ../www/manager/storage/ContentView.js:105
+#: ../www/manager/Utils.js:419 ../www/manager/storage/ContentView.js:105
 msgid "Download"
 msgstr "下载"
 
-#: ../www/manager/node/TimeView.js:43
-#: ../www/manager/node/DNSView.js:32
-#: ../www/manager/node/NetworkView.js:66
-#: ../www/manager/dc/StorageView.js:55
-#: ../www/manager/dc/UserView.js:119
-#: ../www/manager/dc/PoolView.js:60
-#: ../www/manager/dc/Backup.js:350
-#: ../www/manager/dc/AuthView.js:42
-#: ../www/manager/dc/GroupView.js:60
-#: ../www/manager/dc/OptionView.js:103
-#: ../www/manager/dc/HAConfig.js:232
-#: ../www/manager/Utils.js:732
-#: ../www/manager/qemu/Options.js:228
-#: ../www/manager/qemu/HardwareView.js:188
-#: ../www/manager/openvz/Options.js:131
-#: ../www/manager/openvz/DNS.js:100
+#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
+#: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
+#: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/Backup.js:341 ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:755
+#: ../www/manager/qemu/Options.js:229 ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
 #: ../www/manager/openvz/Network.js:318
 #: ../www/manager/openvz/RessourceView.js:86
 msgid "Edit"
@@ -389,22 +336,18 @@ msgstr "编辑"
 
 #: ../www/manager/dc/StorageView.js:179
 #: ../www/manager/storage/IScsiEdit.js:135
-#: ../www/manager/storage/LVMEdit.js:195
-#: ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
 #: ../www/manager/storage/NFSEdit.js:143
 msgid "Enable"
 msgstr "启用"
 
-#: ../www/manager/dc/UserView.js:190
-#: ../www/manager/dc/UserEdit.js:95
-#: ../www/manager/storage/StatusView.js:20
-#: ../www/manager/qemu/Options.js:110
-#: ../www/manager/qemu/Options.js:128
+#: ../www/manager/dc/UserView.js:190 ../www/manager/dc/UserEdit.js:97
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:111
+#: ../www/manager/qemu/Options.js:129
 msgid "Enabled"
 msgstr "生效"
 
-#: ../www/manager/node/Tasks.js:118
-#: ../www/manager/dc/Tasks.js:69
+#: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
 msgstr "结束时间"
 
@@ -416,42 +359,34 @@ msgstr "请输入您的密码"
 msgid "Enter your user name"
 msgstr "请输入您的用户名"
 
+#: ../www/manager/Utils.js:418
+msgid "Erase data"
+msgstr ""
+
 #: ../www/manager/node/NetworkView.js:175
-#: ../www/manager/node/NetworkEdit.js:144
-#: ../www/manager/grid/PoolMembers.js:133
-#: ../www/manager/dc/ACLView.js:176
-#: ../www/manager/dc/StorageView.js:78
-#: ../www/manager/dc/UserView.js:99
-#: ../www/manager/dc/PoolView.js:40
-#: ../www/manager/dc/Backup.js:370
-#: ../www/manager/dc/AuthView.js:73
-#: ../www/manager/dc/GroupView.js:40
-#: ../www/manager/dc/HAConfig.js:138
-#: ../www/manager/dc/HAConfig.js:159
-#: ../www/manager/dc/HAConfig.js:181
-#: ../www/manager/dc/HAConfig.js:252
-#: ../www/manager/Utils.js:544
-#: ../www/manager/storage/ContentView.js:217
+#: ../www/manager/node/NetworkEdit.js:146
+#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
+#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:361
+#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
+#: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
+#: ../www/manager/Utils.js:563 ../www/manager/storage/ContentView.js:217
 #: ../www/manager/storage/ContentView.js:272
 #: ../www/manager/storage/ContentView.js:281
 #: ../www/manager/storage/ContentView.js:421
-#: ../www/manager/qemu/CreateWizard.js:159
-#: ../www/manager/VNCConsole.js:177
-#: ../www/manager/window/LoginWindow.js:16
-#: ../www/manager/window/Edit.js:94
-#: ../www/manager/window/Edit.js:131
-#: ../www/manager/openvz/CreateWizard.js:313
-#: ../www/manager/openvz/Network.js:194
-#: ../www/manager/openvz/Network.js:295
+#: ../www/manager/qemu/CreateWizard.js:159 ../www/manager/VNCConsole.js:177
+#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:94
+#: ../www/manager/window/Edit.js:131 ../www/manager/openvz/CreateWizard.js:313
+#: ../www/manager/openvz/Network.js:194 ../www/manager/openvz/Network.js:295
 msgid "Error"
 msgstr "错误"
 
-#: ../www/manager/dc/Summary.js:49
+#: ../www/manager/dc/Summary.js:56
 msgid "Estranged"
 msgstr "分离"
 
-#: ../www/manager/Utils.js:33
-#: ../www/manager/Utils.js:40
+#: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
 msgid "Example"
 msgstr "示例"
@@ -464,8 +399,7 @@ msgstr "不包括选择的VMs"
 msgid "Existing volume groups"
 msgstr "现有的卷组"
 
-#: ../www/manager/dc/UserView.js:197
-#: ../www/manager/dc/UserEdit.js:91
+#: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:93
 msgid "Expire"
 msgstr "有效期"
 
@@ -481,7 +415,7 @@ msgstr "后备服务器"
 msgid "Finish"
 msgstr "完成"
 
-#: ../www/manager/dc/UserEdit.js:106
+#: ../www/manager/dc/UserEdit.js:109
 msgid "First Name"
 msgstr "名"
 
@@ -489,16 +423,13 @@ msgstr "名"
 msgid "Folder View"
 msgstr "文件夹视图"
 
-#: ../www/manager/Utils.js:274
+#: ../www/manager/Utils.js:289
 msgid "Form fields may not be submitted with invalid values"
 msgstr "不能提交表单字段可能无效值"
 
-#: ../www/manager/grid/BackupView.js:163
-#: ../www/manager/Utils.js:45
-#: ../www/manager/Utils.js:50
-#: ../www/manager/Utils.js:55
-#: ../www/manager/storage/ContentView.js:458
-#: ../www/manager/qemu/HDEdit.js:182
+#: ../www/manager/grid/BackupView.js:163 ../www/manager/Utils.js:45
+#: ../www/manager/Utils.js:50 ../www/manager/Utils.js:55
+#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:126
 msgid "Format"
 msgstr "格式"
 
@@ -511,15 +442,12 @@ msgstr "一般"
 msgid "Graphic card"
 msgstr "显卡"
 
-#: ../www/manager/form/GroupSelector.js:22
-#: ../www/manager/dc/ACLView.js:26
-#: ../www/manager/dc/GroupEdit.js:22
-#: ../www/manager/dc/UserEdit.js:83
+#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:85
 msgid "Group"
 msgstr "组"
 
-#: ../www/manager/dc/ACLView.js:22
-#: ../www/manager/dc/ACLView.js:194
+#: ../www/manager/dc/ACLView.js:22 ../www/manager/dc/ACLView.js:194
 msgid "Group Permission"
 msgstr "用户组权限"
 
@@ -527,19 +455,16 @@ msgstr "用户组权限"
 msgid "Groups"
 msgstr "群组"
 
-#: ../www/manager/dc/Summary.js:232
+#: ../www/manager/dc/Summary.js:239
 msgid "HA Service Status"
 msgstr "HA服务状态"
 
-#: ../www/manager/dc/HAConfig.js:21
-#: ../www/manager/dc/HAConfig.js:171
+#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
 msgid "HA managed VM/CT"
 msgstr "HA 托管 VM/CT"
 
-#: ../www/manager/qemu/CreateWizard.js:28
-#: ../www/manager/qemu/HDEdit.js:235
-#: ../www/manager/qemu/HDEdit.js:237
-#: ../www/manager/qemu/HardwareView.js:99
+#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:246
+#: ../www/manager/qemu/HDEdit.js:248 ../www/manager/qemu/HardwareView.js:99
 #: ../www/manager/qemu/HardwareView.js:109
 #: ../www/manager/qemu/HardwareView.js:119
 #: ../www/manager/qemu/HardwareView.js:250
@@ -551,12 +476,10 @@ msgid "Hardware"
 msgstr "硬件"
 
 #: ../www/manager/node/NetworkView.js:223
-#: ../www/manager/node/NetworkEdit.js:86
+#: ../www/manager/node/NetworkEdit.js:88
 #: ../www/manager/openvz/CreateWizard.js:176
-#: ../www/manager/openvz/Network.js:137
-#: ../www/manager/openvz/Network.js:143
-#: ../www/manager/openvz/Network.js:160
-#: ../www/manager/openvz/Network.js:338
+#: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
+#: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
 #: ../www/manager/openvz/Network.js:379
 msgid "IP address"
 msgstr "IP地址"
@@ -565,10 +488,8 @@ msgstr "IP地址"
 msgid "Include selected VMs"
 msgstr "包括选取的VMs"
 
-#: ../www/manager/dc/OptionView.js:33
-#: ../www/manager/dc/OptionView.js:38
-#: ../www/manager/dc/OptionView.js:63
-#: ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:63 ../www/manager/qemu/KeyboardEdit.js:8
 #: ../www/manager/qemu/KeyboardEdit.js:13
 #: ../www/manager/qemu/HardwareView.js:70
 msgid "Keyboard Layout"
@@ -578,19 +499,19 @@ msgstr "键盘布局"
 msgid "Language"
 msgstr "语言"
 
-#: ../www/manager/dc/UserEdit.js:111
+#: ../www/manager/dc/UserEdit.js:114
 msgid "Last Name"
 msgstr "姓"
 
-#: ../www/manager/dc/Summary.js:171
+#: ../www/manager/dc/Summary.js:178
 msgid "Last owner"
 msgstr "原所有者"
 
-#: ../www/manager/dc/Summary.js:165
+#: ../www/manager/dc/Summary.js:172
 msgid "Last transition"
 msgstr "最近转变"
 
-#: ../www/manager/Utils.js:759
+#: ../www/manager/Utils.js:782
 msgid "Loading..."
 msgstr "载入中..."
 
@@ -602,21 +523,21 @@ msgstr "登陆"
 msgid "Login failed. Please try again"
 msgstr "登陆失败，请重新登陆。"
 
-#: ../www/manager/Workspace.js:311
+#: ../www/manager/Workspace.js:316
 msgid "Logout"
 msgstr "注销"
 
-#: ../www/manager/dc/Backup.js:169
-msgid "Max files"
-msgstr "文件数"
+#: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:147
+#, fuzzy
+msgid "Max Backups"
+msgstr "备份"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
 msgstr "成员"
 
 #: ../www/manager/qemu/CreateWizard.js:105
-#: ../www/manager/qemu/MemoryEdit.js:19
-#: ../www/manager/qemu/MemoryEdit.js:41
+#: ../www/manager/qemu/MemoryEdit.js:19 ../www/manager/qemu/MemoryEdit.js:41
 #: ../www/manager/qemu/HardwareView.js:40
 #: ../www/manager/openvz/RessourceEdit.js:20
 #: ../www/manager/openvz/RessourceView.js:23
@@ -635,15 +556,14 @@ msgstr "内存使用率"
 msgid "Message"
 msgstr "消息"
 
-#: ../www/manager/Utils.js:379
-#: ../www/manager/Utils.js:389
-#: ../www/manager/qemu/Config.js:51
-#: ../www/manager/openvz/Config.js:68
+#: ../www/manager/Utils.js:394 ../www/manager/Utils.js:404
+#: ../www/manager/Utils.js:410 ../www/manager/qemu/Config.js:51
+#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/openvz/Config.js:68
+#: ../www/manager/openvz/CmdMenu.js:41
 msgid "Migrate"
 msgstr "迁移"
 
-#: ../www/manager/dc/Backup.js:178
-#: ../www/manager/window/Backup.js:41
+#: ../www/manager/dc/Backup.js:169 ../www/manager/window/Backup.js:41
 msgid "Mode"
 msgstr "模式"
 
@@ -651,50 +571,38 @@ msgstr "模式"
 msgid "Monitor"
 msgstr "监视器"
 
-#: ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:407
 msgid "Mount"
 msgstr "载入"
 
 #: ../www/manager/data/ResourceStore.js:97
 #: ../www/manager/node/ServiceView.js:118
 #: ../www/manager/node/NetworkView.js:192
-#: ../www/manager/node/NetworkEdit.js:76
-#: ../www/manager/grid/BackupView.js:156
-#: ../www/manager/dc/UserView.js:204
-#: ../www/manager/dc/PoolView.js:90
-#: ../www/manager/dc/Backup.js:100
-#: ../www/manager/dc/RoleView.js:40
-#: ../www/manager/dc/GroupEdit.js:28
-#: ../www/manager/dc/GroupView.js:90
-#: ../www/manager/dc/Summary.js:30
-#: ../www/manager/dc/Summary.js:141
-#: ../www/manager/dc/PoolEdit.js:28
-#: ../www/manager/storage/ContentView.js:451
-#: ../www/manager/qemu/Options.js:24
-#: ../www/manager/qemu/Options.js:27
-#: ../www/manager/qemu/Options.js:32
-#: ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/node/NetworkEdit.js:78 ../www/manager/grid/BackupView.js:156
+#: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
+#: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
+#: ../www/manager/qemu/Options.js:33 ../www/manager/qemu/StatusView.js:43
 #: ../www/manager/qemu/CreateWizard.js:69
-#: ../www/manager/openvz/StatusView.js:64
-#: ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/StatusView.js:58 ../www/manager/openvz/Network.js:58
 msgid "Name"
 msgstr "名称"
 
-#: ../www/manager/node/Config.js:76
-#: ../www/manager/qemu/CreateWizard.js:34
+#: ../www/manager/node/Config.js:76 ../www/manager/qemu/CreateWizard.js:34
 #: ../www/manager/qemu/BootOrderEdit.js:74
 #: ../www/manager/openvz/CreateWizard.js:153
-#: ../www/manager/openvz/Config.js:123
-#: ../www/manager/openvz/Network.js:161
+#: ../www/manager/openvz/Config.js:123 ../www/manager/openvz/Network.js:161
 msgid "Network"
 msgstr "网络"
 
+#: ../www/manager/node/NetworkEdit.js:28
 #: ../www/manager/qemu/HardwareView.js:129
 #: ../www/manager/qemu/HardwareView.js:274
-#: ../www/manager/qemu/NetworkEdit.js:163
-#: ../www/manager/openvz/Network.js:47
-#: ../www/manager/openvz/Network.js:162
-#: ../www/manager/openvz/Network.js:351
+#: ../www/manager/qemu/NetworkEdit.js:176 ../www/manager/openvz/Network.js:47
+#: ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
 msgid "Network Device"
 msgstr "网卡"
 
@@ -702,34 +610,29 @@ msgstr "网卡"
 msgid "Next"
 msgstr "下一步"
 
-#: ../www/manager/form/Boolean.js:12
-#: ../www/manager/Utils.js:543
+#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:562
 msgid "No"
 msgstr "否"
 
-#: ../www/manager/qemu/HDEdit.js:198
+#: ../www/manager/qemu/HDEdit.js:209
 msgid "No backup"
 msgstr "不备份"
 
+#: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
 msgid "No changes"
 msgstr "无更改"
 
 #: ../www/manager/storage/IScsiEdit.js:126
-#: ../www/manager/storage/LVMEdit.js:186
-#: ../www/manager/storage/DirEdit.js:73
+#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:82
 #: ../www/manager/storage/NFSEdit.js:134
 msgid "No restrictions"
 msgstr "无限制"
 
-#: ../www/manager/data/ResourceStore.js:154
-#: ../www/manager/node/Config.js:60
-#: ../www/manager/node/Tasks.js:126
-#: ../www/manager/dc/Backup.js:85
-#: ../www/manager/dc/Backup.js:113
-#: ../www/manager/dc/Backup.js:399
-#: ../www/manager/dc/Tasks.js:81
-#: ../www/manager/dc/Log.js:50
+#: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
+#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:390
+#: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
 #: ../www/manager/qemu/CreateWizard.js:48
 #: ../www/manager/window/TaskViewer.js:31
 #: ../www/manager/openvz/CreateWizard.js:67
@@ -740,21 +643,17 @@ msgstr "节点"
 msgid "Node list"
 msgstr "节点列表"
 
-#: ../www/manager/dc/Summary.js:240
-#: ../www/manager/storage/IScsiEdit.js:124
-#: ../www/manager/storage/LVMEdit.js:184
-#: ../www/manager/storage/DirEdit.js:71
+#: ../www/manager/dc/Summary.js:247 ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:80
 #: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
 msgstr "节点"
 
-#: ../www/manager/panel/NotesView.js:45
-#: ../www/manager/window/NotesEdit.js:8
+#: ../www/manager/panel/NotesView.js:45 ../www/manager/window/NotesEdit.js:8
 msgid "Notes"
 msgstr "备注"
 
-#: ../www/manager/data/ResourceStore.js:47
-#: ../www/manager/dc/Summary.js:42
+#: ../www/manager/data/ResourceStore.js:47 ../www/manager/dc/Summary.js:42
 msgid "Online"
 msgstr "在线"
 
@@ -767,14 +666,12 @@ msgstr "仅错误"
 msgid "OpenVZ Container"
 msgstr "OpenVZ 的容器"
 
-#: ../www/manager/dc/Config.js:19
-#: ../www/manager/qemu/Config.js:122
+#: ../www/manager/dc/Config.js:19 ../www/manager/qemu/Config.js:122
 #: ../www/manager/openvz/Config.js:133
 msgid "Options"
 msgstr "选项"
 
-#: ../www/manager/Utils.js:99
-#: ../www/manager/Utils.js:110
+#: ../www/manager/Utils.js:111 ../www/manager/Utils.js:122
 msgid "Other OS types"
 msgstr "其他OS类型"
 
@@ -782,7 +679,7 @@ msgstr "其他OS类型"
 msgid "Output"
 msgstr "输出"
 
-#: ../www/manager/dc/Summary.js:147
+#: ../www/manager/dc/Summary.js:154
 msgid "Owner"
 msgstr "所有者"
 
@@ -790,34 +687,27 @@ msgstr "所有者"
 msgid "Package"
 msgstr "软件包"
 
-#: ../www/manager/dc/UserView.js:31
-#: ../www/manager/dc/UserView.js:38
-#: ../www/manager/dc/UserView.js:126
-#: ../www/manager/dc/UserEdit.js:44
+#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
+#: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:46
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/openvz/CreateWizard.js:108
 msgid "Password"
 msgstr "密码"
 
-#: ../www/manager/dc/UserView.js:16
-#: ../www/manager/dc/UserEdit.js:27
+#: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:29
 msgid "Passwords does not match"
 msgstr "密码不匹配"
 
-#: ../www/manager/dc/ACLView.js:17
-#: ../www/manager/dc/ACLView.js:129
+#: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
 msgid "Path"
 msgstr "路径"
 
-#: ../www/manager/node/NetworkView.js:249
-#: ../www/manager/dc/HAConfig.js:266
+#: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
 msgid "Pending changes"
 msgstr "更改已挂起"
 
-#: ../www/manager/pool/Config.js:30
-#: ../www/manager/dc/Config.js:49
-#: ../www/manager/storage/Browser.js:35
-#: ../www/manager/qemu/Config.js:138
+#: ../www/manager/pool/Config.js:30 ../www/manager/dc/Config.js:49
+#: ../www/manager/storage/Browser.js:35 ../www/manager/qemu/Config.js:138
 #: ../www/manager/openvz/Config.js:156
 msgid "Permissions"
 msgstr "权限"
@@ -826,15 +716,13 @@ msgstr "权限"
 msgid "Please reboot to activate changes"
 msgstr "请重新启动以激活您的设置"
 
-#: ../www/manager/Utils.js:295
-#: ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/Utils.js:310 ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
 msgid "Please wait..."
 msgstr "请稍候..."
 
 #: ../www/manager/form/PoolSelector.js:22
-#: ../www/manager/data/ResourceStore.js:168
-#: ../www/manager/dc/PoolEdit.js:22
+#: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
 msgstr "Pool"
 
@@ -846,6 +734,10 @@ msgstr "Pools"
 msgid "Port"
 msgstr "端口"
 
+#: ../www/manager/Utils.js:107
+msgid "Premium"
+msgstr ""
+
 #: ../www/manager/dc/RoleView.js:47
 msgid "Privileges"
 msgstr "特权"
@@ -856,8 +748,7 @@ msgstr "特权"
 msgid "Processors"
 msgstr "处理器"
 
-#: ../www/manager/dc/ACLView.js:51
-#: ../www/manager/dc/ACLView.js:135
+#: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
 msgstr "继承"
 
@@ -865,53 +756,38 @@ msgstr "继承"
 msgid "Proxmox VE Login"
 msgstr "Proxmox VE  登陆"
 
-#: ../www/manager/dc/UserView.js:183
-#: ../www/manager/dc/UserEdit.js:130
-#: ../www/manager/dc/AuthView.js:120
-#: ../www/manager/dc/AuthEdit.js:29
+#: ../www/manager/dc/UserView.js:183 ../www/manager/dc/UserEdit.js:133
+#: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:29
 msgid "Realm"
 msgstr "所属"
 
-#: ../www/manager/VNCConsole.js:304
-#: ../www/manager/VNCConsole.js:400
+#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
 #: ../www/manager/VNCConsole.js:437
 msgid "Refresh"
 msgstr "刷新"
 
-#: ../www/manager/Utils.js:398
-#: ../www/manager/VNCConsole.js:311
-#: ../www/manager/VNCConsole.js:407
-#: ../www/manager/VNCConsole.js:444
+#: ../www/manager/Utils.js:416 ../www/manager/VNCConsole.js:311
+#: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
 msgid "Reload"
 msgstr "重载"
 
-#: ../www/manager/node/NetworkView.js:72
-#: ../www/manager/grid/BackupView.js:116
-#: ../www/manager/grid/PoolMembers.js:107
-#: ../www/manager/dc/ACLView.js:149
-#: ../www/manager/dc/StorageView.js:62
-#: ../www/manager/dc/UserView.js:78
-#: ../www/manager/dc/PoolView.js:24
-#: ../www/manager/dc/Backup.js:357
-#: ../www/manager/dc/AuthView.js:52
-#: ../www/manager/dc/GroupView.js:24
-#: ../www/manager/dc/HAConfig.js:238
-#: ../www/manager/storage/ContentView.js:402
-#: ../www/manager/qemu/Config.js:79
-#: ../www/manager/qemu/HardwareView.js:202
-#: ../www/manager/openvz/Config.js:80
-#: ../www/manager/openvz/Network.js:254
+#: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
+#: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:348
+#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402
+#: ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202
+#: ../www/manager/openvz/Config.js:80 ../www/manager/openvz/Network.js:254
 msgid "Remove"
 msgstr "删除"
 
-#: ../www/manager/Utils.js:382
-#: ../www/manager/qemu/Config.js:63
+#: ../www/manager/Utils.js:397 ../www/manager/qemu/Config.js:63
 #: ../www/manager/VNCConsole.js:266
 msgid "Reset"
 msgstr "重置"
 
-#: ../www/manager/pool/Config.js:14
-#: ../www/manager/tree/ResourceTree.js:13
+#: ../www/manager/pool/Config.js:14 ../www/manager/tree/ResourceTree.js:13
 #: ../www/manager/qemu/CreateWizard.js:76
 #: ../www/manager/openvz/CreateWizard.js:97
 msgid "Resource Pool"
@@ -923,36 +799,30 @@ msgstr "资源池"
 msgid "Resources"
 msgstr "资源"
 
-#: ../www/manager/node/Config.js:31
-#: ../www/manager/node/ServiceView.js:65
-#: ../www/manager/Utils.js:397
+#: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
+#: ../www/manager/Utils.js:415
 msgid "Restart"
 msgstr "重启"
 
-#: ../www/manager/dc/Summary.js:159
+#: ../www/manager/dc/Summary.js:166
 msgid "Restarts"
 msgstr "重启"
 
-#: ../www/manager/grid/BackupView.js:94
-#: ../www/manager/Utils.js:377
-#: ../www/manager/Utils.js:387
-#: ../www/manager/storage/ContentView.js:374
-#: ../www/manager/window/Restore.js:77
+#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:402 ../www/manager/storage/ContentView.js:374
+#: ../www/manager/window/Restore.js:78
 msgid "Restore"
 msgstr "恢复"
 
-#: ../www/manager/Utils.js:385
-#: ../www/manager/VNCConsole.js:290
+#: ../www/manager/Utils.js:400 ../www/manager/VNCConsole.js:290
 msgid "Resume"
 msgstr "恢复"
 
-#: ../www/manager/node/NetworkView.js:165
-#: ../www/manager/dc/HAConfig.js:145
+#: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
 msgid "Revert changes"
 msgstr "还原更改"
 
-#: ../www/manager/form/RoleSelector.js:21
-#: ../www/manager/dc/ACLView.js:43
+#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:43
 #: ../www/manager/dc/ACLView.js:120
 msgid "Role"
 msgstr "角色"
@@ -970,7 +840,7 @@ msgstr "搜索"
 msgid "Select File..."
 msgstr "选择文件"
 
-#: ../www/manager/dc/Backup.js:429
+#: ../www/manager/dc/Backup.js:420
 msgid "Selection"
 msgstr "选择"
 
@@ -982,12 +852,11 @@ msgstr "选择模式"
 msgid "Send email to"
 msgstr "发送邮件至"
 
-#: ../www/manager/dc/AuthEdit.js:87
-#: ../www/manager/storage/NFSEdit.js:98
+#: ../www/manager/dc/AuthEdit.js:87 ../www/manager/storage/NFSEdit.js:98
 msgid "Server"
 msgstr "服务器"
 
-#: ../www/manager/dc/Summary.js:56
+#: ../www/manager/dc/Summary.js:63
 msgid "Server Address"
 msgstr "服务器地址"
 
@@ -1003,8 +872,7 @@ msgstr "服务器时间"
 msgid "Service"
 msgstr "服务"
 
-#: ../www/manager/node/Config.js:71
-#: ../www/manager/dc/Summary.js:62
+#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:69
 msgid "Services"
 msgstr "服务"
 
@@ -1019,26 +887,20 @@ msgstr "严重度"
 
 #: ../www/manager/dc/StorageView.js:172
 #: ../www/manager/storage/StatusView.js:40
-#: ../www/manager/storage/LVMEdit.js:201
-#: ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
 msgstr "共享"
 
-#: ../www/manager/node/Config.js:47
-#: ../www/manager/Utils.js:375
+#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:390
 #: ../www/manager/VNCConsole.js:448
 msgid "Shell"
 msgstr "Shell"
 
-#: ../www/manager/node/Config.js:39
-#: ../www/manager/Utils.js:383
-#: ../www/manager/Utils.js:394
-#: ../www/manager/qemu/Config.js:71
-#: ../www/manager/qemu/CmdMenu.js:41
-#: ../www/manager/VNCConsole.js:237
-#: ../www/manager/VNCConsole.js:367
-#: ../www/manager/openvz/Config.js:60
-#: ../www/manager/openvz/CmdMenu.js:41
+#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:398
+#: ../www/manager/Utils.js:409 ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:60
+#: ../www/manager/openvz/CmdMenu.js:53
 msgid "Shutdown"
 msgstr "关机"
 
@@ -1052,79 +914,62 @@ msgstr "大小"
 msgid "Source"
 msgstr "恢复数据"
 
-#: ../www/manager/dc/Summary.js:127
+#: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
 msgstr "独立节点-没有定义集群"
 
-#: ../www/manager/node/ServiceView.js:49
-#: ../www/manager/Utils.js:380
-#: ../www/manager/Utils.js:390
-#: ../www/manager/Utils.js:395
-#: ../www/manager/qemu/Config.js:36
-#: ../www/manager/qemu/CmdMenu.js:34
-#: ../www/manager/VNCConsole.js:231
-#: ../www/manager/VNCConsole.js:361
-#: ../www/manager/openvz/Config.js:36
+#: ../www/manager/Utils.js:106
+msgid "Standard"
+msgstr ""
+
+#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:395
+#: ../www/manager/Utils.js:405 ../www/manager/Utils.js:411
+#: ../www/manager/Utils.js:413 ../www/manager/qemu/Config.js:36
+#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
+#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
 #: ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
 msgstr "启动"
 
-#: ../www/manager/node/Tasks.js:110
-#: ../www/manager/dc/Backup.js:146
-#: ../www/manager/dc/Backup.js:417
-#: ../www/manager/dc/Tasks.js:61
+#: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
+#: ../www/manager/dc/Backup.js:408 ../www/manager/dc/Tasks.js:61
 #: ../www/manager/window/TaskViewer.js:39
 msgid "Start Time"
 msgstr "开始时间"
 
-#: ../www/manager/qemu/Options.js:38
-#: ../www/manager/qemu/Options.js:43
-#: ../www/manager/qemu/Options.js:50
-#: ../www/manager/openvz/Options.js:22
-#: ../www/manager/openvz/Options.js:27
-#: ../www/manager/openvz/Options.js:33
+#: ../www/manager/qemu/Options.js:39 ../www/manager/qemu/Options.js:44
+#: ../www/manager/qemu/Options.js:51 ../www/manager/openvz/Options.js:22
+#: ../www/manager/openvz/Options.js:27 ../www/manager/openvz/Options.js:33
 msgid "Start at boot"
 msgstr "开机自启动"
 
-#: ../www/manager/pool/StatusView.js:21
-#: ../www/manager/node/Tasks.js:142
-#: ../www/manager/node/ServiceView.js:124
-#: ../www/manager/dc/Backup.js:89
-#: ../www/manager/dc/Tasks.js:97
-#: ../www/manager/dc/Summary.js:153
-#: ../www/manager/storage/StatusView.js:67
-#: ../www/manager/qemu/StatusView.js:44
-#: ../www/manager/window/TaskViewer.js:19
+#: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Subscription.js:28
+#: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:124
+#: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Summary.js:160 ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:19
 #: ../www/manager/window/TaskViewer.js:80
-#: ../www/manager/openvz/StatusView.js:65
+#: ../www/manager/openvz/StatusView.js:59
 msgid "Status"
 msgstr "状态"
 
-#: ../www/manager/node/ServiceView.js:57
-#: ../www/manager/Utils.js:381
-#: ../www/manager/Utils.js:391
-#: ../www/manager/Utils.js:396
-#: ../www/manager/qemu/Config.js:43
-#: ../www/manager/VNCConsole.js:249
-#: ../www/manager/VNCConsole.js:379
-#: ../www/manager/window/TaskViewer.js:68
-#: ../www/manager/window/TaskViewer.js:74
-#: ../www/manager/openvz/Config.js:52
+#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:396
+#: ../www/manager/Utils.js:406 ../www/manager/Utils.js:412
+#: ../www/manager/Utils.js:414 ../www/manager/qemu/Config.js:43
+#: ../www/manager/qemu/CmdMenu.js:67 ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:68
+#: ../www/manager/window/TaskViewer.js:74 ../www/manager/openvz/Config.js:52
+#: ../www/manager/openvz/CmdMenu.js:67
 msgid "Stop"
 msgstr "停止"
 
 #: ../www/manager/data/ResourceStore.js:161
-#: ../www/manager/grid/BackupView.js:67
-#: ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
 #: ../www/manager/grid/PoolMembers.js:61
-#: ../www/manager/grid/PoolMembers.js:157
-#: ../www/manager/dc/Backup.js:57
-#: ../www/manager/dc/Backup.js:423
-#: ../www/manager/dc/Config.js:24
-#: ../www/manager/qemu/HDEdit.js:144
-#: ../www/manager/qemu/CDEdit.js:111
-#: ../www/manager/window/Restore.js:25
-#: ../www/manager/window/Backup.js:25
+#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57
+#: ../www/manager/dc/Backup.js:414 ../www/manager/dc/Config.js:24
+#: ../www/manager/qemu/HDEdit.js:153 ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
 #: ../www/manager/openvz/Options.js:42
 #: ../www/manager/openvz/CreateWizard.js:22
 #: ../www/manager/openvz/CreateWizard.js:37
@@ -1144,25 +989,30 @@ msgid "Storage {0} on node {1}"
 msgstr "存储 {0} 在节点 {1} 上"
 
 #: ../www/manager/node/NetworkView.js:228
-#: ../www/manager/node/NetworkEdit.js:93
+#: ../www/manager/node/NetworkEdit.js:95
 msgid "Subnet mask"
 msgstr "子网掩码"
 
-#: ../www/manager/Utils.js:248
+#: ../www/manager/node/Subscription.js:25
+#, fuzzy
+msgid "Subscription Key"
+msgstr "说明"
+
+#: ../www/manager/Utils.js:263
 msgid "Successful"
 msgstr "成功"
 
-#: ../www/manager/pool/Config.js:18
-#: ../www/manager/node/Config.js:66
-#: ../www/manager/dc/Config.js:13
-#: ../www/manager/storage/Browser.js:24
-#: ../www/manager/qemu/Config.js:112
-#: ../www/manager/openvz/Config.js:113
+#: ../www/manager/pool/Config.js:18 ../www/manager/node/Config.js:66
+#: ../www/manager/dc/Config.js:13 ../www/manager/storage/Browser.js:24
+#: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:113
 msgid "Summary"
 msgstr "概要"
 
-#: ../www/manager/Utils.js:384
-#: ../www/manager/VNCConsole.js:278
+#: ../www/manager/dc/Config.js:68 ../www/manager/dc/Summary.js:49
+msgid "Support"
+msgstr ""
+
+#: ../www/manager/Utils.js:399 ../www/manager/VNCConsole.js:278
 msgid "Suspend"
 msgstr "挂起"
 
@@ -1186,51 +1036,50 @@ msgstr "模板"
 msgid "Templates"
 msgstr "模板"
 
+#: ../www/manager/Utils.js:70
+msgid "This is not a valid DNS name"
+msgstr ""
+
 #: ../www/manager/grid/BackupView.js:122
 #: ../www/manager/qemu/HardwareView.js:209
 msgid "This will permanently erase all image data."
 msgstr "确定删除该数据将无法恢复。"
 
-#: ../www/manager/window/Restore.js:102
+#: ../www/manager/window/Restore.js:103
 msgid "This will permanently erase current VM data."
 msgstr "这将永久删除当前VM数据。"
 
-#: ../www/manager/node/Config.js:86
-#: ../www/manager/dc/Log.js:42
+#: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
 msgid "Time"
 msgstr "时间"
 
-#: ../www/manager/node/TimeEdit.js:14
-#: ../www/manager/node/TimeEdit.js:22
+#: ../www/manager/node/TimeEdit.js:14 ../www/manager/node/TimeEdit.js:22
 #: ../www/manager/node/TimeView.js:32
 msgid "Time zone"
 msgstr "时区"
 
 #: ../www/manager/data/ResourceStore.js:32
-#: ../www/manager/dc/StorageView.js:146
-#: ../www/manager/dc/Backup.js:105
-#: ../www/manager/dc/AuthView.js:126
+#: ../www/manager/node/Subscription.js:22 ../www/manager/dc/StorageView.js:146
+#: ../www/manager/dc/Backup.js:105 ../www/manager/dc/AuthView.js:126
 #: ../www/manager/storage/StatusView.js:35
 #: ../www/manager/storage/ContentView.js:45
 #: ../www/manager/openvz/Network.js:373
 msgid "Type"
 msgstr "类别"
 
-#: ../www/manager/Utils.js:545
+#: ../www/manager/Utils.js:564
 msgid "Unknown"
 msgstr "未知"
 
-#: ../www/manager/Utils.js:251
+#: ../www/manager/Utils.js:266
 msgid "Unknown error"
 msgstr "未知错误"
 
-#: ../www/manager/Utils.js:393
-#: ../www/manager/openvz/Config.js:43
+#: ../www/manager/Utils.js:408 ../www/manager/openvz/Config.js:43
 msgid "Unmount"
 msgstr "卸载"
 
-#: ../www/manager/qemu/HDEdit.js:233
-#: ../www/manager/qemu/HardwareView.js:137
+#: ../www/manager/qemu/HDEdit.js:244 ../www/manager/qemu/HardwareView.js:137
 msgid "Unused Disk"
 msgstr "未使用的磁盘"
 
@@ -1240,13 +1089,17 @@ msgstr "未使用的磁盘"
 msgid "Upload"
 msgstr "上传"
 
+#: ../www/manager/node/Subscription.js:41
+#, fuzzy
+msgid "Upload Subscription Key"
+msgstr "上传"
+
 #: ../www/manager/storage/ContentView.js:211
 msgid "Uploading file..."
 msgstr "上传文件中..."
 
 #: ../www/manager/data/ResourceStore.js:147
-#: ../www/manager/qemu/StatusView.js:49
-#: ../www/manager/openvz/StatusView.js:73
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:67
 msgid "Uptime"
 msgstr "运行时间"
 
@@ -1258,24 +1111,18 @@ msgstr "直接使用的LUNs"
 msgid "Used"
 msgstr "已用"
 
-#: ../www/manager/form/UserSelector.js:28
-#: ../www/manager/dc/ACLView.js:33
-#: ../www/manager/dc/ACLView.js:113
-#: ../www/manager/dc/UserEdit.js:166
+#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:33
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/UserEdit.js:169
 msgid "User"
 msgstr "用户"
 
-#: ../www/manager/dc/ACLView.js:29
-#: ../www/manager/dc/ACLView.js:205
+#: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
 msgid "User Permission"
 msgstr "用户权限"
 
-#: ../www/manager/node/Tasks.js:82
-#: ../www/manager/node/Tasks.js:131
-#: ../www/manager/dc/UserView.js:176
-#: ../www/manager/dc/UserEdit.js:72
-#: ../www/manager/dc/Tasks.js:86
-#: ../www/manager/dc/Log.js:65
+#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/UserView.js:176 ../www/manager/dc/UserEdit.js:74
+#: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:64
 #: ../www/manager/window/TaskViewer.js:27
 msgid "User name"
@@ -1285,8 +1132,7 @@ msgstr "用户名"
 msgid "Users"
 msgstr "用户"
 
-#: ../www/manager/Workspace.js:298
-#: ../www/manager/storage/ContentView.js:55
+#: ../www/manager/Workspace.js:303 ../www/manager/storage/ContentView.js:55
 msgid "Version"
 msgstr "版本"
 
@@ -1305,25 +1151,23 @@ msgstr "虚拟机"
 msgid "Virtual Machine {0} on node {1}"
 msgstr "虚拟机 {0} 在节点 {1} 上"
 
-#: ../www/manager/storage/LVMEdit.js:125
-#: ../www/manager/storage/LVMEdit.js:132
+#: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
 msgid "Volume group"
 msgstr "卷组"
 
-#: ../www/manager/form/Boolean.js:11
-#: ../www/manager/Utils.js:542
+#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:561
 msgid "Yes"
 msgstr "是"
 
-#: ../www/manager/Workspace.js:213
+#: ../www/manager/Workspace.js:218
 msgid "You are logged in as {0}"
 msgstr "您的登录名是{0} "
 
-#: ../www/manager/Utils.js:548
+#: ../www/manager/Utils.js:567
 msgid "day"
 msgstr "天"
 
-#: ../www/manager/Utils.js:547
+#: ../www/manager/Utils.js:566
 msgid "days"
 msgstr "天"
 
@@ -1335,7 +1179,7 @@ msgstr "快速"
 msgid "good"
 msgstr "很好"
 
-#: ../www/manager/Utils.js:551
+#: ../www/manager/Utils.js:570
 msgid "never"
 msgstr "永远"
 
@@ -1343,11 +1187,13 @@ msgstr "永远"
 msgid "none"
 msgstr "无"
 
-#: ../www/manager/Utils.js:549
+#: ../www/manager/Utils.js:568
 msgid "running"
 msgstr "运行中"
 
-#: ../www/manager/Utils.js:550
+#: ../www/manager/Utils.js:569
 msgid "stopped"
 msgstr "停止中"
 
+#~ msgid "Max files"
+#~ msgstr "文件数"
