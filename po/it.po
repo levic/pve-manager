@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
-"PO-Revision-Date: 2012-04-13 13:56+0100\n"
+"PO-Revision-Date: 2012-04-16 10:39+0100\n"
 "Last-Translator: Diaolin Giuliano Natali <diaolin@diaolin.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -401,7 +401,7 @@ msgstr "Gruppi di volume esistenti"
 
 #: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:93
 msgid "Expire"
-msgstr "Scade"
+msgstr "Scadenza"
 
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
@@ -541,7 +541,7 @@ msgstr "Membri"
 #: ../www/manager/openvz/RessourceEdit.js:20
 #: ../www/manager/openvz/RessourceView.js:23
 msgid "Memory"
-msgstr "memoria"
+msgstr "Memoria"
 
 #: ../www/manager/data/ResourceStore.js:125
 msgid "Memory size"
@@ -640,7 +640,7 @@ msgstr "Nodo"
 
 #: ../www/manager/tree/ResourceTree.js:9
 msgid "Node list"
-msgstr "Lista nodi"
+msgstr "Lista Nodi"
 
 #: ../www/manager/dc/Summary.js:247 ../www/manager/storage/IScsiEdit.js:124
 #: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:80
@@ -691,7 +691,7 @@ msgstr "Pacchetto"
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/openvz/CreateWizard.js:108
 msgid "Password"
-msgstr "Pasword"
+msgstr "Password"
 
 #: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:29
 msgid "Passwords does not match"
@@ -699,7 +699,7 @@ msgstr "Le password non corrispondono"
 
 #: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
 msgid "Path"
-msgstr "Path"
+msgstr "Percorso"
 
 #: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
 msgid "Pending changes"
@@ -718,16 +718,16 @@ msgstr "Prego riavviare per applicare le modifiche"
 #: ../www/manager/Utils.js:310 ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
 msgid "Please wait..."
-msgstr "Preco attendere..."
+msgstr "Attendere prego..."
 
 #: ../www/manager/form/PoolSelector.js:22
 #: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
-msgstr "Pool"
+msgstr "Risorsa"
 
 #: ../www/manager/dc/Config.js:44
 msgid "Pools"
-msgstr "Pools"
+msgstr "Risorse"
 
 #: ../www/manager/dc/AuthEdit.js:99
 msgid "Port"
@@ -790,7 +790,7 @@ msgstr "Resetta"
 #: ../www/manager/qemu/CreateWizard.js:76
 #: ../www/manager/openvz/CreateWizard.js:97
 msgid "Resource Pool"
-msgstr "Pool di risorse"
+msgstr "Gruppo Risorse"
 
 #: ../www/manager/openvz/CreateWizard.js:149
 #: ../www/manager/openvz/RessourceEdit.js:71
@@ -977,11 +977,11 @@ msgstr "Storage"
 
 #: ../www/manager/form/ViewSelector.js:18
 msgid "Storage View"
-msgstr "Vista storage"
+msgstr "Vista Storage"
 
 #: ../www/manager/tree/ResourceTree.js:17
 msgid "Storage list"
-msgstr "Lista storage"
+msgstr "Lista Storage"
 
 #: ../www/manager/storage/Browser.js:19
 msgid "Storage {0} on node {1}"
