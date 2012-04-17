@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
-"PO-Revision-Date: 2012-04-16 10:39+0100\n"
+"PO-Revision-Date: 2012-04-17 08:27+0100\n"
 "Last-Translator: Diaolin Giuliano Natali <diaolin@diaolin.com>\n"
-"Language-Team: Italian\n"
+"Language-Team: Italian <diaolin@diaolin.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
 
 #: ../www/manager/storage/ContentView.js:231
 msgid "Abort"
@@ -49,7 +51,7 @@ msgstr "Tutti"
 
 #: ../www/manager/dc/Backup.js:308
 msgid "All except {0}"
-msgstr "Tutto escluso {0}"
+msgstr "Tutto ad esclusione di {0}"
 
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
@@ -95,7 +97,7 @@ msgstr "Autenticazione"
 
 #: ../www/manager/storage/StatusView.js:60
 msgid "Avail"
-msgstr "Disponiile"
+msgstr "Disponibile"
 
 #: ../www/manager/window/Wizard.js:70
 msgid "Back"
@@ -146,11 +148,11 @@ msgstr "CD/DVD "
 
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
-msgstr "CPU (utilizzo)"
+msgstr "Utilizzo CPU"
 
 #: ../www/manager/node/Subscription.js:44
 msgid "Check"
-msgstr "Controlla"
+msgstr "Verifica"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
@@ -166,7 +168,7 @@ msgstr "Commento"
 
 #: ../www/manager/Utils.js:104
 msgid "Community"
-msgstr "Comunita'"
+msgstr "Comunità"
 
 #: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
 msgid "Compression"
@@ -260,7 +262,7 @@ msgstr "Descrizione"
 
 #: ../www/manager/Utils.js:393 ../www/manager/Utils.js:403
 msgid "Destroy"
-msgstr "Distruggi"
+msgstr "Distruggi/Elimina"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
@@ -349,7 +351,7 @@ msgstr "Abilitato"
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
-msgstr "Tempo di fine"
+msgstr "Ora di fine"
 
 #: ../www/manager/window/LoginWindow.js:89
 msgid "Enter your password"
@@ -384,7 +386,7 @@ msgstr "Errore"
 
 #: ../www/manager/dc/Summary.js:56
 msgid "Estranged"
-msgstr "Datacenter"
+msgstr "Disconnesso"
 
 #: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
@@ -409,7 +411,7 @@ msgstr "Dominio alternativo"
 
 #: ../www/manager/dc/AuthEdit.js:93
 msgid "Fallback Server"
-msgstr "Server di fallback"
+msgstr "Server alternativo"
 
 #: ../www/manager/window/Wizard.js:114
 msgid "Finish"
@@ -513,7 +515,7 @@ msgstr "Ultima transazione"
 
 #: ../www/manager/Utils.js:782
 msgid "Loading..."
-msgstr "Loading..."
+msgstr "Sto caricando..."
 
 #: ../www/manager/window/LoginWindow.js:120
 msgid "Login"
@@ -603,7 +605,7 @@ msgstr "Rete"
 #: ../www/manager/qemu/NetworkEdit.js:176 ../www/manager/openvz/Network.js:47
 #: ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
 msgid "Network Device"
-msgstr "Device di rete"
+msgstr "Scheda di rete"
 
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
@@ -723,11 +725,11 @@ msgstr "Attendere prego..."
 #: ../www/manager/form/PoolSelector.js:22
 #: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
-msgstr "Risorsa"
+msgstr "Insieme"
 
 #: ../www/manager/dc/Config.js:44
 msgid "Pools"
-msgstr "Risorse"
+msgstr "Insiemi"
 
 #: ../www/manager/dc/AuthEdit.js:99
 msgid "Port"
@@ -790,7 +792,7 @@ msgstr "Resetta"
 #: ../www/manager/qemu/CreateWizard.js:76
 #: ../www/manager/openvz/CreateWizard.js:97
 msgid "Resource Pool"
-msgstr "Gruppo Risorse"
+msgstr "Insieme di Risorse"
 
 #: ../www/manager/openvz/CreateWizard.js:149
 #: ../www/manager/openvz/RessourceEdit.js:71
@@ -805,7 +807,7 @@ msgstr "Restart"
 
 #: ../www/manager/dc/Summary.js:166
 msgid "Restarts"
-msgstr "RIparte"
+msgstr "Restarts"
 
 #: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:392
 #: ../www/manager/Utils.js:402 ../www/manager/storage/ContentView.js:374
@@ -815,7 +817,7 @@ msgstr "Ripristina"
 
 #: ../www/manager/Utils.js:400 ../www/manager/VNCConsole.js:290
 msgid "Resume"
-msgstr "Resume"
+msgstr "Riattiva"
 
 #: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
 msgid "Revert changes"
@@ -845,7 +847,7 @@ msgstr "Selezione"
 
 #: ../www/manager/dc/Backup.js:33
 msgid "Selection mode"
-msgstr "Modalita' selezione"
+msgstr "Modo selezione"
 
 #: ../www/manager/dc/Backup.js:158
 msgid "Send email to"
@@ -882,7 +884,7 @@ msgstr "Impostazioni"
 
 #: ../www/manager/dc/Log.js:70
 msgid "Severity"
-msgstr "Gravita'"
+msgstr "Gravità"
 
 #: ../www/manager/dc/StorageView.js:172
 #: ../www/manager/storage/StatusView.js:40
@@ -915,7 +917,7 @@ msgstr "Sorgente"
 
 #: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
-msgstr "Modalita' standalone"
+msgstr "Modalità standalone"
 
 #: ../www/manager/Utils.js:106
 msgid "Standard"
@@ -928,13 +930,13 @@ msgstr "Standard"
 #: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
 #: ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
-msgstr "Inizio"
+msgstr "Start"
 
 #: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
 #: ../www/manager/dc/Backup.js:408 ../www/manager/dc/Tasks.js:61
 #: ../www/manager/window/TaskViewer.js:39
 msgid "Start Time"
-msgstr "Ora di inizio"
+msgstr "Ora di startup"
 
 #: ../www/manager/qemu/Options.js:39 ../www/manager/qemu/Options.js:44
 #: ../www/manager/qemu/Options.js:51 ../www/manager/openvz/Options.js:22
@@ -960,7 +962,7 @@ msgstr "Stato"
 #: ../www/manager/window/TaskViewer.js:74 ../www/manager/openvz/Config.js:52
 #: ../www/manager/openvz/CmdMenu.js:67
 msgid "Stop"
-msgstr "Stop"
+msgstr "Stop (toglie corrente)"
 
 #: ../www/manager/data/ResourceStore.js:161
 #: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
@@ -998,7 +1000,7 @@ msgstr "Subscription Key"
 
 #: ../www/manager/Utils.js:263
 msgid "Successful"
-msgstr "Successful"
+msgstr "Ok"
 
 #: ../www/manager/pool/Config.js:18 ../www/manager/node/Config.js:66
 #: ../www/manager/dc/Config.js:13 ../www/manager/storage/Browser.js:24
@@ -1032,11 +1034,11 @@ msgstr "Template"
 #: ../www/manager/storage/ContentView.js:133
 #: ../www/manager/storage/ContentView.js:427
 msgid "Templates"
-msgstr "Template"
+msgstr "Templates"
 
 #: ../www/manager/Utils.js:70
 msgid "This is not a valid DNS name"
-msgstr "Non e' un nome DNS corretto."
+msgstr "Non è un nome DNS corretto."
 
 #: ../www/manager/grid/BackupView.js:122
 #: ../www/manager/qemu/HardwareView.js:209
@@ -1142,11 +1144,11 @@ msgstr "Vista"
 #: ../www/manager/grid/PoolMembers.js:148
 #: ../www/manager/qemu/CreateWizard.js:39
 msgid "Virtual Machine"
-msgstr "Virtual Machine"
+msgstr "Macchina Virtuale"
 
 #: ../www/manager/qemu/Config.js:105
 msgid "Virtual Machine {0} on node {1}"
-msgstr "Virtual Machine {0} su nodo {1}"
+msgstr "Macchina Virtuale {0} su nodo {1}"
 
 #: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
 msgid "Volume group"
