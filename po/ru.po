@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
-"PO-Revision-Date: 2012-04-03 12:00+0200\n"
+"PO-Revision-Date: 2012-05-12 12:00+0200\n"
 "Last-Translator: Agafonov Alexey <supme@ngs.ru>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -29,7 +29,7 @@ msgstr "Активировать"
 #: ../www/manager/node/NetworkView.js:199
 #: ../www/manager/storage/StatusView.js:25
 msgid "Active"
-msgstr "Активна"
+msgstr "Активно"
 
 #: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
 #: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/UserView.js:140
@@ -94,7 +94,7 @@ msgstr "Идентификация"
 
 #: ../www/manager/storage/StatusView.js:60
 msgid "Avail"
-msgstr "Свободен"
+msgstr "Свободно"
 
 #: ../www/manager/window/Wizard.js:70
 msgid "Back"
@@ -344,7 +344,7 @@ msgstr "Включить"
 #: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:111
 #: ../www/manager/qemu/Options.js:129
 msgid "Enabled"
-msgstr "Включено"
+msgstr "Включен"
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
@@ -614,7 +614,7 @@ msgstr "Нет"
 
 #: ../www/manager/qemu/HDEdit.js:209
 msgid "No backup"
-msgstr "Нет резерв. копий"
+msgstr Нет резерв. копий""
 
 #: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
@@ -1181,7 +1181,7 @@ msgstr "никогда"
 
 #: ../www/manager/form/CompressionSelector.js:9
 msgid "none"
-msgstr "ничто"
+msgstr "нет"
 
 #: ../www/manager/Utils.js:568
 msgid "running"
