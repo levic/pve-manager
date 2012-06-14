@@ -8,1183 +8,1401 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
-"PO-Revision-Date: 2012-06-13 17:38+0200\n"
-"Last-Translator: root <support@proxmox.com>\n"
+"PO-Revision-Date: 2012-06-13 19:28+0100\n"
+"Last-Translator: Laura Mora i Aubert <blackhold@marsupi.org>\n"
 "Language-Team: Catalan\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 
 #: ../www/manager/storage/ContentView.js:231
 msgid "Abort"
-msgstr ""
+msgstr "Interromp"
 
 #: ../www/manager/dc/HAConfig.js:124
 msgid "Activate"
-msgstr ""
+msgstr "Activa"
 
 #: ../www/manager/form/BridgeSelector.js:46
 #: ../www/manager/node/NetworkView.js:199
 #: ../www/manager/storage/StatusView.js:25
 msgid "Active"
-msgstr ""
+msgstr "Activa"
 
-#: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
-#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/UserView.js:140
-#: ../www/manager/dc/Backup.js:378 ../www/manager/dc/AuthView.js:81
-#: ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:750
-#: ../www/manager/qemu/HardwareView.js:246 ../www/manager/window/Edit.js:173
+#: ../www/manager/grid/PoolMembers.js:144
+#: ../www/manager/dc/ACLView.js:190
+#: ../www/manager/dc/StorageView.js:93
+#: ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/Backup.js:378
+#: ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/HAConfig.js:166
+#: ../www/manager/Utils.js:750
+#: ../www/manager/qemu/HardwareView.js:246
+#: ../www/manager/window/Edit.js:173
 #: ../www/manager/openvz/Network.js:334
 msgid "Add"
-msgstr ""
+msgstr "Afegeix"
 
-#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:117
-#: ../www/manager/dc/Backup.js:307 ../www/manager/storage/IScsiEdit.js:125
-#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:81
+#: ../www/manager/dc/Backup.js:30
+#: ../www/manager/dc/Backup.js:117
+#: ../www/manager/dc/Backup.js:307
+#: ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185
+#: ../www/manager/storage/DirEdit.js:81
 #: ../www/manager/storage/NFSEdit.js:133
 msgid "All"
-msgstr ""
+msgstr "Totes"
 
 #: ../www/manager/dc/Backup.js:308
 msgid "All except {0}"
-msgstr ""
+msgstr "Totes excepte {0}"
 
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
-msgstr ""
+msgstr "Caràcters permesos"
 
 #: ../www/manager/dc/HAConfig.js:127
 msgid "Are you sure you want to activate your changes"
-msgstr ""
+msgstr "Realment vols activar els canvis"
 
-#: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:81
-msgid ""
-"Are you sure you want to remove VM {0}? This will permanently erase all VM "
-"data."
-msgstr ""
+#: ../www/manager/qemu/Config.js:80
+#: ../www/manager/openvz/Config.js:81
+msgid "Are you sure you want to remove VM {0}? This will permanently erase all VM data."
+msgstr "Realment vols eliminar la VM {0}? Això esborrarà de forma permanent totes les dades de la VM."
 
 #: ../www/manager/grid/BackupView.js:120
-#: ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66
-#: ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28
-#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
+#: ../www/manager/grid/PoolMembers.js:111
+#: ../www/manager/dc/StorageView.js:66
+#: ../www/manager/dc/UserView.js:85
+#: ../www/manager/dc/PoolView.js:28
+#: ../www/manager/dc/AuthView.js:56
+#: ../www/manager/dc/GroupView.js:28
 #: ../www/manager/storage/ContentView.js:406
 #: ../www/manager/qemu/HardwareView.js:206
 #: ../www/manager/openvz/Network.js:264
 msgid "Are you sure you want to remove entry {0}"
-msgstr ""
+msgstr "Realment vols eliminar l'entrada {0}"
 
-#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:351
+#: ../www/manager/dc/ACLView.js:152
+#: ../www/manager/dc/Backup.js:351
 msgid "Are you sure you want to remove this entry"
-msgstr ""
+msgstr "Realment vols eliminar aquesta entrada"
 
 #: ../www/manager/window/Restore.js:102
 msgid "Are you sure you want to restore this VM?"
-msgstr ""
+msgstr "Realment vols restaurar aquesta VM?"
 
 #: ../www/manager/dc/HAConfig.js:148
 msgid "Are you sure you want to revert your changes"
-msgstr ""
+msgstr "Realment vols desfer els canvis"
 
 #: ../www/manager/dc/Config.js:59
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticació"
 
 #: ../www/manager/storage/StatusView.js:60
 msgid "Avail"
-msgstr ""
+msgstr "Disp."
 
 #: ../www/manager/window/Wizard.js:70
 msgid "Back"
-msgstr ""
+msgstr "Enrere"
 
-#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:420
-#: ../www/manager/qemu/Config.js:132 ../www/manager/window/Backup.js:57
-#: ../www/manager/window/Backup.js:91 ../www/manager/openvz/Config.js:150
+#: ../www/manager/dc/Config.js:29
+#: ../www/manager/Utils.js:420
+#: ../www/manager/qemu/Config.js:132
+#: ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:91
+#: ../www/manager/openvz/Config.js:150
 msgid "Backup"
-msgstr ""
+msgstr "Còpia de seguretat"
 
 #: ../www/manager/dc/Backup.js:263
 msgid "Backup Job"
-msgstr ""
+msgstr "Còpia de seguretat"
 
 #: ../www/manager/grid/BackupView.js:81
 msgid "Backup now"
-msgstr ""
+msgstr "Fés una còpia de seguretat"
 
 #: ../www/manager/storage/LVMEdit.js:149
 msgid "Base storage"
-msgstr ""
+msgstr "Emmagatzematge"
 
 #: ../www/manager/storage/LVMEdit.js:142
 msgid "Base volume"
-msgstr ""
+msgstr "Volums"
 
 #: ../www/manager/Utils.js:105
 msgid "Basic"
-msgstr ""
+msgstr "Bàsic"
 
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
 #: ../www/manager/qemu/BootOrderEdit.js:130
 msgid "Boot device"
-msgstr ""
+msgstr "Dipositiu d'arrencada"
 
-#: ../www/manager/qemu/Options.js:65 ../www/manager/qemu/BootOrderEdit.js:184
+#: ../www/manager/qemu/Options.js:65
+#: ../www/manager/qemu/BootOrderEdit.js:184
 msgid "Boot order"
-msgstr ""
+msgstr "Ordre d'arrencada"
 
 #: ../www/manager/qemu/HardwareView.js:100
 #: ../www/manager/qemu/HardwareView.js:110
 #: ../www/manager/qemu/HardwareView.js:120
 #: ../www/manager/qemu/HardwareView.js:262
 msgid "CD/DVD Drive"
-msgstr ""
+msgstr "Unitat CD/DVD"
 
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
-msgstr ""
+msgstr "Ús de CPU"
 
 #: ../www/manager/node/Subscription.js:44
 msgid "Check"
-msgstr ""
+msgstr "Comprova"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
-msgstr ""
+msgstr "Log del Clúster"
 
-#: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserView.js:212
-#: ../www/manager/dc/PoolView.js:96 ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/UserEdit.js:125 ../www/manager/dc/AuthView.js:133
-#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/AuthEdit.js:74
+#: ../www/manager/pool/StatusView.js:15
+#: ../www/manager/dc/UserView.js:212
+#: ../www/manager/dc/PoolView.js:96
+#: ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/UserEdit.js:125
+#: ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/GroupView.js:96
+#: ../www/manager/dc/AuthEdit.js:74
 #: ../www/manager/dc/PoolEdit.js:35
 msgid "Comment"
-msgstr ""
+msgstr "Comentari"
 
 #: ../www/manager/Utils.js:104
 msgid "Community"
-msgstr ""
+msgstr "Comunitat"
 
-#: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
+#: ../www/manager/dc/Backup.js:163
+#: ../www/manager/window/Backup.js:49
 msgid "Compression"
-msgstr ""
+msgstr "Compressió"
 
-#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:57
-#: ../www/manager/qemu/CmdMenu.js:71 ../www/manager/button/Button.js:40
-#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252
-#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
-#: ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382
+#: ../www/manager/qemu/CreateWizard.js:109
+#: ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:71
+#: ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240
+#: ../www/manager/VNCConsole.js:252
+#: ../www/manager/VNCConsole.js:269
+#: ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:370
+#: ../www/manager/VNCConsole.js:382
 #: ../www/manager/openvz/CreateWizard.js:254
-#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:71
+#: ../www/manager/openvz/CmdMenu.js:57
+#: ../www/manager/openvz/CmdMenu.js:71
 msgid "Confirm"
-msgstr ""
+msgstr "Confirma"
 
-#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:36
+#: ../www/manager/dc/UserView.js:23
+#: ../www/manager/dc/UserEdit.js:36
 #: ../www/manager/openvz/CreateWizard.js:123
 msgid "Confirm password"
-msgstr ""
+msgstr "Torna a escriure la contrasenya"
 
-#: ../www/manager/Utils.js:292 ../www/manager/Utils.js:343
-#: ../www/manager/Utils.js:345 ../www/manager/Utils.js:347
-#: ../www/manager/Utils.js:349 ../www/manager/Utils.js:812
+#: ../www/manager/Utils.js:292
+#: ../www/manager/Utils.js:343
+#: ../www/manager/Utils.js:345
+#: ../www/manager/Utils.js:347
+#: ../www/manager/Utils.js:349
+#: ../www/manager/Utils.js:812
 msgid "Connection error"
-msgstr ""
+msgstr "Error de connexió"
 
-#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:389
-#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:81
-#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
-#: ../www/manager/openvz/Config.js:97 ../www/manager/openvz/CmdMenu.js:81
+#: ../www/manager/Workspace.js:105
+#: ../www/manager/Utils.js:389
+#: ../www/manager/qemu/Config.js:96
+#: ../www/manager/qemu/CmdMenu.js:81
+#: ../www/manager/VNCConsole.js:297
+#: ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:97
+#: ../www/manager/openvz/CmdMenu.js:81
 msgid "Console"
-msgstr ""
+msgstr "Consola"
 
 #: ../www/manager/openvz/Config.js:106
 msgid "Container {0} on node {1}"
-msgstr ""
+msgstr "Contenidor {0} al node {1}"
 
 #: ../www/manager/dc/StorageView.js:153
 #: ../www/manager/storage/StatusView.js:30
 #: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:192
-#: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
+#: ../www/manager/storage/NFSEdit.js:123
+#: ../www/manager/storage/Browser.js:30
 msgid "Content"
-msgstr ""
+msgstr "Contingut"
 
 #: ../www/manager/Utils.js:417
 msgid "Copy data"
-msgstr ""
+msgstr "Còpia dades"
 
-#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/PoolView.js:68
-#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:391
-#: ../www/manager/Utils.js:401 ../www/manager/Utils.js:752
+#: ../www/manager/node/NetworkView.js:121
+#: ../www/manager/dc/PoolView.js:68
+#: ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:391
+#: ../www/manager/Utils.js:401
+#: ../www/manager/Utils.js:752
 msgid "Create"
-msgstr ""
+msgstr "Crea"
 
 #: ../www/manager/Workspace.js:341
 msgid "Create CT"
-msgstr ""
+msgstr "Crea CT"
 
 #: ../www/manager/Workspace.js:330
 msgid "Create VM"
-msgstr ""
+msgstr "Crea VM"
 
-#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
-#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
-#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+#: ../www/manager/node/DNSEdit.js:22
+#: ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36
+#: ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27
+#: ../www/manager/node/DNSView.js:28
 #: ../www/manager/openvz/CreateWizard.js:235
-#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53
-#: ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
+#: ../www/manager/openvz/CreateWizard.js:244
+#: ../www/manager/openvz/DNS.js:53
+#: ../www/manager/openvz/DNS.js:57
+#: ../www/manager/openvz/DNS.js:61
 msgid "DNS server"
-msgstr ""
+msgstr "Servidor de DNS"
 
-#: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
+#: ../www/manager/tree/ResourceTree.js:185
+#: ../www/manager/dc/Config.js:9
 msgid "Datacenter"
-msgstr ""
+msgstr "Centre de Dades"
 
-#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:402
+#: ../www/manager/dc/Backup.js:139
+#: ../www/manager/dc/Backup.js:402
 msgid "Day of week"
-msgstr ""
+msgstr "Dia de la setmana"
 
-#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:79
-#: ../www/manager/dc/AuthEdit.js:102 ../www/manager/Utils.js:565
+#: ../www/manager/form/Boolean.js:10
+#: ../www/manager/dc/AuthEdit.js:79
+#: ../www/manager/dc/AuthEdit.js:102
+#: ../www/manager/Utils.js:565
 msgid "Default"
-msgstr ""
+msgstr "Per defecte"
 
-#: ../www/manager/data/ResourceStore.js:60 ../www/manager/node/Tasks.js:136
-#: ../www/manager/node/ServiceView.js:130 ../www/manager/dc/Tasks.js:91
+#: ../www/manager/data/ResourceStore.js:60
+#: ../www/manager/node/Tasks.js:136
+#: ../www/manager/node/ServiceView.js:130
+#: ../www/manager/dc/Tasks.js:91
 #: ../www/manager/storage/ContentView.js:60
 msgid "Description"
-msgstr ""
+msgstr "Descripció"
 
-#: ../www/manager/Utils.js:393 ../www/manager/Utils.js:403
+#: ../www/manager/Utils.js:393
+#: ../www/manager/Utils.js:403
 msgid "Destroy"
-msgstr ""
+msgstr "Destrueix"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
-msgstr ""
+msgstr "Directori"
 
-#: ../www/manager/qemu/HDEdit.js:114 ../www/manager/qemu/HDEdit.js:135
+#: ../www/manager/qemu/HDEdit.js:114
+#: ../www/manager/qemu/HDEdit.js:135
 #: ../www/manager/qemu/HDEdit.js:193
 msgid "Disk image"
-msgstr ""
+msgstr "Imatge de Disc"
 
-#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:146
+#: ../www/manager/data/ResourceStore.js:110
+#: ../www/manager/qemu/HDEdit.js:146
 #: ../www/manager/openvz/RessourceEdit.js:44
 #: ../www/manager/openvz/RessourceView.js:45
 msgid "Disk size"
-msgstr ""
+msgstr "Espai de Disc"
 
 #: ../www/manager/data/ResourceStore.js:103
 msgid "Disk usage"
-msgstr ""
+msgstr "Utilització de Disc"
 
-#: ../www/manager/qemu/HardwareView.js:78 ../www/manager/qemu/DisplayEdit.js:8
+#: ../www/manager/qemu/HardwareView.js:78
+#: ../www/manager/qemu/DisplayEdit.js:8
 msgid "Display"
-msgstr ""
+msgstr "Vista"
 
-#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
+#: ../www/manager/dc/OptionView.js:13
+#: ../www/manager/dc/OptionView.js:52
 msgid "Do not use any proxy"
-msgstr ""
+msgstr "No utilitzis cap proxy"
 
-#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:268
+#: ../www/manager/qemu/Config.js:64
+#: ../www/manager/VNCConsole.js:268
 msgid "Do you really want to reset VM {0}?"
-msgstr ""
+msgstr "Realment vols reinicialitzar la VM {0}?"
 
 #: ../www/manager/node/Config.js:32
 msgid "Do you really want to restart node {0}?"
-msgstr ""
+msgstr "Realment vols reiniciar la VM {0}?"
 
-#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:56
-#: ../www/manager/VNCConsole.js:239 ../www/manager/VNCConsole.js:369
-#: ../www/manager/openvz/Config.js:61 ../www/manager/openvz/CmdMenu.js:56
+#: ../www/manager/qemu/Config.js:72
+#: ../www/manager/qemu/CmdMenu.js:56
+#: ../www/manager/VNCConsole.js:239
+#: ../www/manager/VNCConsole.js:369
+#: ../www/manager/openvz/Config.js:61
+#: ../www/manager/openvz/CmdMenu.js:56
 msgid "Do you really want to shutdown VM {0}?"
-msgstr ""
+msgstr "Realment vols apagar la VM {0}?"
 
 #: ../www/manager/node/Config.js:40
 msgid "Do you really want to shutdown node {0}?"
-msgstr ""
+msgstr "Realment vols apagar el node {0}?"
 
-#: ../www/manager/qemu/Config.js:44 ../www/manager/qemu/CmdMenu.js:70
-#: ../www/manager/VNCConsole.js:251 ../www/manager/VNCConsole.js:381
-#: ../www/manager/openvz/Config.js:53 ../www/manager/openvz/CmdMenu.js:70
+#: ../www/manager/qemu/Config.js:44
+#: ../www/manager/qemu/CmdMenu.js:70
+#: ../www/manager/VNCConsole.js:251
+#: ../www/manager/VNCConsole.js:381
+#: ../www/manager/openvz/Config.js:53
+#: ../www/manager/openvz/CmdMenu.js:70
 msgid "Do you really want to stop VM {0}?"
-msgstr ""
+msgstr "Realment vols parar la VM {0}?"
 
 #: ../www/manager/VNCConsole.js:280
 msgid "Do you really want to suspend VM {0}?"
-msgstr ""
+msgstr "Realment vols suspendre la VM {0}?"
 
-#: ../www/manager/Utils.js:419 ../www/manager/storage/ContentView.js:105
+#: ../www/manager/Utils.js:419
+#: ../www/manager/storage/ContentView.js:105
 msgid "Download"
-msgstr ""
+msgstr "Descarrega"
 
-#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
-#: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
-#: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
-#: ../www/manager/dc/Backup.js:341 ../www/manager/dc/AuthView.js:42
-#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
-#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:755
-#: ../www/manager/qemu/Options.js:229 ../www/manager/qemu/HardwareView.js:188
-#: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
+#: ../www/manager/node/TimeView.js:43
+#: ../www/manager/node/DNSView.js:32
+#: ../www/manager/node/NetworkView.js:66
+#: ../www/manager/dc/StorageView.js:55
+#: ../www/manager/dc/UserView.js:119
+#: ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/Backup.js:341
+#: ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/GroupView.js:60
+#: ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232
+#: ../www/manager/Utils.js:755
+#: ../www/manager/qemu/Options.js:229
+#: ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/openvz/Options.js:131
+#: ../www/manager/openvz/DNS.js:100
 #: ../www/manager/openvz/Network.js:318
 #: ../www/manager/openvz/RessourceView.js:86
 msgid "Edit"
-msgstr ""
+msgstr "Modifica"
 
 #: ../www/manager/dc/StorageView.js:179
 #: ../www/manager/storage/IScsiEdit.js:135
-#: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/LVMEdit.js:195
+#: ../www/manager/storage/DirEdit.js:57
 #: ../www/manager/storage/NFSEdit.js:143
 msgid "Enable"
-msgstr ""
+msgstr "Activa"
 
-#: ../www/manager/dc/UserView.js:190 ../www/manager/dc/UserEdit.js:97
-#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:111
+#: ../www/manager/dc/UserView.js:190
+#: ../www/manager/dc/UserEdit.js:97
+#: ../www/manager/storage/StatusView.js:20
+#: ../www/manager/qemu/Options.js:111
 #: ../www/manager/qemu/Options.js:129
 msgid "Enabled"
-msgstr ""
+msgstr "Actives"
 
-#: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
+#: ../www/manager/node/Tasks.js:118
+#: ../www/manager/dc/Tasks.js:69
 msgid "End Time"
-msgstr ""
+msgstr "Temps de finalització"
 
 #: ../www/manager/window/LoginWindow.js:89
 msgid "Enter your password"
-msgstr ""
+msgstr "Introdueix la teva contrasenya"
 
 #: ../www/manager/window/LoginWindow.js:66
 msgid "Enter your user name"
-msgstr ""
+msgstr "Introdueix el teu nom d'usuari"
 
 #: ../www/manager/Utils.js:418
 msgid "Erase data"
-msgstr ""
+msgstr "Esborra dades"
 
 #: ../www/manager/node/NetworkView.js:175
 #: ../www/manager/node/NetworkEdit.js:146
-#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
-#: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
-#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:361
-#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
-#: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
-#: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
-#: ../www/manager/Utils.js:563 ../www/manager/storage/ContentView.js:217
+#: ../www/manager/grid/PoolMembers.js:133
+#: ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/StorageView.js:78
+#: ../www/manager/dc/UserView.js:99
+#: ../www/manager/dc/PoolView.js:40
+#: ../www/manager/dc/Backup.js:361
+#: ../www/manager/dc/AuthView.js:73
+#: ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/HAConfig.js:138
+#: ../www/manager/dc/HAConfig.js:159
+#: ../www/manager/dc/HAConfig.js:181
+#: ../www/manager/dc/HAConfig.js:252
+#: ../www/manager/Utils.js:563
+#: ../www/manager/storage/ContentView.js:217
 #: ../www/manager/storage/ContentView.js:272
 #: ../www/manager/storage/ContentView.js:281
 #: ../www/manager/storage/ContentView.js:421
-#: ../www/manager/qemu/CreateWizard.js:159 ../www/manager/VNCConsole.js:177
-#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:94
-#: ../www/manager/window/Edit.js:131 ../www/manager/openvz/CreateWizard.js:313
-#: ../www/manager/openvz/Network.js:194 ../www/manager/openvz/Network.js:295
+#: ../www/manager/qemu/CreateWizard.js:159
+#: ../www/manager/VNCConsole.js:177
+#: ../www/manager/window/LoginWindow.js:16
+#: ../www/manager/window/Edit.js:94
+#: ../www/manager/window/Edit.js:131
+#: ../www/manager/openvz/CreateWizard.js:313
+#: ../www/manager/openvz/Network.js:194
+#: ../www/manager/openvz/Network.js:295
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: ../www/manager/dc/Summary.js:56
 msgid "Estranged"
-msgstr ""
+msgstr "Desvinculada"
 
-#: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
+#: ../www/manager/Utils.js:33
+#: ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../www/manager/dc/Backup.js:31
 msgid "Exclude selected VMs"
-msgstr ""
+msgstr "Exclou les VMs seleccionades"
 
 #: ../www/manager/storage/LVMEdit.js:40
 msgid "Existing volume groups"
-msgstr ""
+msgstr "Volume groups existents"
 
-#: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:93
+#: ../www/manager/dc/UserView.js:197
+#: ../www/manager/dc/UserEdit.js:93
 msgid "Expire"
-msgstr ""
+msgstr "Venciment"
 
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
-msgstr ""
+msgstr "Domini de Failover"
 
 #: ../www/manager/dc/AuthEdit.js:93
 msgid "Fallback Server"
-msgstr ""
+msgstr "Servidor alternatiu"
 
 #: ../www/manager/window/Wizard.js:114
 msgid "Finish"
-msgstr ""
+msgstr "Acaba"
 
 #: ../www/manager/dc/UserEdit.js:109
 msgid "First Name"
-msgstr ""
+msgstr "Nom"
 
 #: ../www/manager/form/ViewSelector.js:14
 msgid "Folder View"
-msgstr ""
+msgstr "Vista de Carpetes"
 
 #: ../www/manager/Utils.js:289
 msgid "Form fields may not be submitted with invalid values"
-msgstr ""
+msgstr "Els camps de formulari no s'han d'enviar amb valors invàlids"
 
-#: ../www/manager/grid/BackupView.js:163 ../www/manager/Utils.js:45
-#: ../www/manager/Utils.js:50 ../www/manager/Utils.js:55
-#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:126
+#: ../www/manager/grid/BackupView.js:163
+#: ../www/manager/Utils.js:45
+#: ../www/manager/Utils.js:50
+#: ../www/manager/Utils.js:55
+#: ../www/manager/storage/ContentView.js:458
+#: ../www/manager/qemu/HDEdit.js:126
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: ../www/manager/qemu/CreateWizard.js:43
 #: ../www/manager/openvz/CreateWizard.js:62
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../www/manager/qemu/DisplayEdit.js:14
 msgid "Graphic card"
-msgstr ""
+msgstr "Tarja gràfica"
 
-#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:26
-#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:85
+#: ../www/manager/form/GroupSelector.js:22
+#: ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/GroupEdit.js:22
+#: ../www/manager/dc/UserEdit.js:85
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
-#: ../www/manager/dc/ACLView.js:22 ../www/manager/dc/ACLView.js:194
+#: ../www/manager/dc/ACLView.js:22
+#: ../www/manager/dc/ACLView.js:194
 msgid "Group Permission"
-msgstr ""
+msgstr "Permisos de Grup"
 
 #: ../www/manager/dc/Config.js:39
 msgid "Groups"
-msgstr ""
+msgstr "Grups"
 
 #: ../www/manager/dc/Summary.js:239
 msgid "HA Service Status"
-msgstr ""
+msgstr "Estat del servei d'Alta Disponibilitat"
 
-#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
+#: ../www/manager/dc/HAConfig.js:21
+#: ../www/manager/dc/HAConfig.js:171
 msgid "HA managed VM/CT"
-msgstr ""
+msgstr "Gestió de VM/CT d'Alta Disponibilitat"
 
-#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:246
-#: ../www/manager/qemu/HDEdit.js:248 ../www/manager/qemu/HardwareView.js:99
+#: ../www/manager/qemu/CreateWizard.js:28
+#: ../www/manager/qemu/HDEdit.js:246
+#: ../www/manager/qemu/HDEdit.js:248
+#: ../www/manager/qemu/HardwareView.js:99
 #: ../www/manager/qemu/HardwareView.js:109
 #: ../www/manager/qemu/HardwareView.js:119
 #: ../www/manager/qemu/HardwareView.js:250
 msgid "Hard Disk"
-msgstr ""
+msgstr "Disc dur"
 
 #: ../www/manager/qemu/Config.js:117
 msgid "Hardware"
-msgstr ""
+msgstr "Maquinari"
 
 #: ../www/manager/node/NetworkView.js:223
 #: ../www/manager/node/NetworkEdit.js:88
 #: ../www/manager/openvz/CreateWizard.js:176
-#: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
-#: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
+#: ../www/manager/openvz/Network.js:137
+#: ../www/manager/openvz/Network.js:143
+#: ../www/manager/openvz/Network.js:160
+#: ../www/manager/openvz/Network.js:338
 #: ../www/manager/openvz/Network.js:379
 msgid "IP address"
-msgstr ""
+msgstr "Direcció IP"
 
 #: ../www/manager/dc/Backup.js:29
 msgid "Include selected VMs"
-msgstr ""
+msgstr "Inclou les VM escollides"
 
-#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
-#: ../www/manager/dc/OptionView.js:63 ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/dc/OptionView.js:33
+#: ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:63
+#: ../www/manager/qemu/KeyboardEdit.js:8
 #: ../www/manager/qemu/KeyboardEdit.js:13
 #: ../www/manager/qemu/HardwareView.js:70
 msgid "Keyboard Layout"
-msgstr ""
+msgstr "Disposició del teclat"
 
 #: ../www/manager/window/LoginWindow.js:104
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: ../www/manager/dc/UserEdit.js:114
 msgid "Last Name"
-msgstr ""
+msgstr "Darrer Nom"
 
 #: ../www/manager/dc/Summary.js:178
 msgid "Last owner"
-msgstr ""
+msgstr "Darrer Propietari"
 
 #: ../www/manager/dc/Summary.js:172
 msgid "Last transition"
-msgstr ""
+msgstr "Darrera transició"
 
 #: ../www/manager/Utils.js:782
 msgid "Loading..."
-msgstr ""
+msgstr "Carregant..."
 
 #: ../www/manager/window/LoginWindow.js:120
 msgid "Login"
-msgstr ""
+msgstr "Inici de Sessió"
 
 #: ../www/manager/window/LoginWindow.js:17
 msgid "Login failed. Please try again"
-msgstr ""
+msgstr "Inici de Sessió fallit. Siusplau, torna-ho a provar"
 
 #: ../www/manager/Workspace.js:316
 msgid "Logout"
-msgstr ""
+msgstr "Surt"
 
-#: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:147
+#: ../www/manager/storage/DirEdit.js:67
+#: ../www/manager/storage/NFSEdit.js:147
 msgid "Max Backups"
-msgstr ""
+msgstr "Max de Còpies de Seguretat"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
-msgstr ""
+msgstr "Membres"
 
 #: ../www/manager/qemu/CreateWizard.js:105
-#: ../www/manager/qemu/MemoryEdit.js:19 ../www/manager/qemu/MemoryEdit.js:41
+#: ../www/manager/qemu/MemoryEdit.js:19
+#: ../www/manager/qemu/MemoryEdit.js:41
 #: ../www/manager/qemu/HardwareView.js:40
 #: ../www/manager/openvz/RessourceEdit.js:20
 #: ../www/manager/openvz/RessourceView.js:23
 msgid "Memory"
-msgstr ""
+msgstr "Memòria"
 
 #: ../www/manager/data/ResourceStore.js:125
 msgid "Memory size"
-msgstr ""
+msgstr "Mida de la memòria"
 
 #: ../www/manager/data/ResourceStore.js:118
 msgid "Memory usage"
-msgstr ""
+msgstr "Ús de la memòria"
 
 #: ../www/manager/dc/Log.js:76
 msgid "Message"
-msgstr ""
+msgstr "Missatge"
 
-#: ../www/manager/Utils.js:394 ../www/manager/Utils.js:404
-#: ../www/manager/Utils.js:410 ../www/manager/qemu/Config.js:51
-#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/openvz/Config.js:68
+#: ../www/manager/Utils.js:394
+#: ../www/manager/Utils.js:404
+#: ../www/manager/Utils.js:410
+#: ../www/manager/qemu/Config.js:51
+#: ../www/manager/qemu/CmdMenu.js:41
+#: ../www/manager/openvz/Config.js:68
 #: ../www/manager/openvz/CmdMenu.js:41
 msgid "Migrate"
-msgstr ""
+msgstr "Migra"
 
-#: ../www/manager/dc/Backup.js:169 ../www/manager/window/Backup.js:41
+#: ../www/manager/dc/Backup.js:169
+#: ../www/manager/window/Backup.js:41
 msgid "Mode"
-msgstr ""
+msgstr "Mode"
 
 #: ../www/manager/qemu/Config.js:127
 msgid "Monitor"
-msgstr ""
+msgstr "Monitor"
 
 #: ../www/manager/Utils.js:407
 msgid "Mount"
-msgstr ""
+msgstr "Munta"
 
 #: ../www/manager/data/ResourceStore.js:97
 #: ../www/manager/node/ServiceView.js:118
 #: ../www/manager/node/NetworkView.js:192
-#: ../www/manager/node/NetworkEdit.js:78 ../www/manager/grid/BackupView.js:156
-#: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
-#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
-#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
-#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148
-#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
-#: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
-#: ../www/manager/qemu/Options.js:33 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/node/NetworkEdit.js:78
+#: ../www/manager/grid/BackupView.js:156
+#: ../www/manager/dc/UserView.js:204
+#: ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/Backup.js:100
+#: ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/GroupEdit.js:28
+#: ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/Summary.js:30
+#: ../www/manager/dc/Summary.js:148
+#: ../www/manager/dc/PoolEdit.js:28
+#: ../www/manager/storage/ContentView.js:451
+#: ../www/manager/qemu/Options.js:24
+#: ../www/manager/qemu/Options.js:27
+#: ../www/manager/qemu/Options.js:33
+#: ../www/manager/qemu/StatusView.js:43
 #: ../www/manager/qemu/CreateWizard.js:69
-#: ../www/manager/openvz/StatusView.js:58 ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/StatusView.js:58
+#: ../www/manager/openvz/Network.js:58
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
-#: ../www/manager/node/Config.js:76 ../www/manager/qemu/CreateWizard.js:34
+#: ../www/manager/node/Config.js:76
+#: ../www/manager/qemu/CreateWizard.js:34
 #: ../www/manager/qemu/BootOrderEdit.js:74
 #: ../www/manager/openvz/CreateWizard.js:153
-#: ../www/manager/openvz/Config.js:123 ../www/manager/openvz/Network.js:161
+#: ../www/manager/openvz/Config.js:123
+#: ../www/manager/openvz/Network.js:161
 msgid "Network"
-msgstr ""
+msgstr "Xarxa"
 
 #: ../www/manager/node/NetworkEdit.js:28
 #: ../www/manager/qemu/HardwareView.js:129
 #: ../www/manager/qemu/HardwareView.js:274
-#: ../www/manager/qemu/NetworkEdit.js:176 ../www/manager/openvz/Network.js:47
-#: ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
+#: ../www/manager/qemu/NetworkEdit.js:176
+#: ../www/manager/openvz/Network.js:47
+#: ../www/manager/openvz/Network.js:162
+#: ../www/manager/openvz/Network.js:351
 msgid "Network Device"
-msgstr ""
+msgstr "Dispositiu de Xarxa"
 
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
-msgstr ""
+msgstr "Següent"
 
-#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:562
+#: ../www/manager/form/Boolean.js:12
+#: ../www/manager/Utils.js:562
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: ../www/manager/qemu/HDEdit.js:209
 msgid "No backup"
-msgstr ""
+msgstr "Sense Backup"
 
 #: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
 msgid "No changes"
-msgstr ""
+msgstr "Sense canvis"
 
 #: ../www/manager/storage/IScsiEdit.js:126
-#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:82
+#: ../www/manager/storage/LVMEdit.js:186
+#: ../www/manager/storage/DirEdit.js:82
 #: ../www/manager/storage/NFSEdit.js:134
 msgid "No restrictions"
-msgstr ""
+msgstr "Sense restriccions"
 
-#: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60
-#: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
-#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:390
-#: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/data/ResourceStore.js:154
+#: ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:126
+#: ../www/manager/dc/Backup.js:85
+#: ../www/manager/dc/Backup.js:113
+#: ../www/manager/dc/Backup.js:390
+#: ../www/manager/dc/Tasks.js:81
+#: ../www/manager/dc/Log.js:50
 #: ../www/manager/qemu/CreateWizard.js:48
 #: ../www/manager/window/TaskViewer.js:31
 #: ../www/manager/openvz/CreateWizard.js:67
 msgid "Node"
-msgstr ""
+msgstr "Node"
 
 #: ../www/manager/tree/ResourceTree.js:9
 msgid "Node list"
-msgstr ""
+msgstr "llistat de nodes"
 
-#: ../www/manager/dc/Summary.js:247 ../www/manager/storage/IScsiEdit.js:124
-#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:80
+#: ../www/manager/dc/Summary.js:247
+#: ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184
+#: ../www/manager/storage/DirEdit.js:80
 #: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
-msgstr ""
+msgstr "Nodes"
 
-#: ../www/manager/panel/NotesView.js:45 ../www/manager/window/NotesEdit.js:8
+#: ../www/manager/panel/NotesView.js:45
+#: ../www/manager/window/NotesEdit.js:8
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
-#: ../www/manager/data/ResourceStore.js:47 ../www/manager/dc/Summary.js:42
+#: ../www/manager/data/ResourceStore.js:47
+#: ../www/manager/dc/Summary.js:42
 msgid "Online"
-msgstr ""
+msgstr "En línia"
 
 #: ../www/manager/node/Tasks.js:94
 msgid "Only Errors"
-msgstr ""
+msgstr "Només Errors"
 
 #: ../www/manager/tree/ResourceTree.js:25
 #: ../www/manager/openvz/CreateWizard.js:58
 msgid "OpenVZ Container"
-msgstr ""
+msgstr "Contenidor OpenVZ"
 
-#: ../www/manager/dc/Config.js:19 ../www/manager/qemu/Config.js:122
+#: ../www/manager/dc/Config.js:19
+#: ../www/manager/qemu/Config.js:122
 #: ../www/manager/openvz/Config.js:133
 msgid "Options"
-msgstr ""
+msgstr "Opcions"
 
-#: ../www/manager/Utils.js:111 ../www/manager/Utils.js:122
+#: ../www/manager/Utils.js:111
+#: ../www/manager/Utils.js:122
 msgid "Other OS types"
-msgstr ""
+msgstr "Altres tipus de SO"
 
 #: ../www/manager/window/TaskViewer.js:89
 msgid "Output"
-msgstr ""
+msgstr "Sortida"
 
 #: ../www/manager/dc/Summary.js:154
 msgid "Owner"
-msgstr ""
+msgstr "Propietari"
 
 #: ../www/manager/storage/ContentView.js:50
 msgid "Package"
-msgstr ""
+msgstr "Paquet"
 
-#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
-#: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:46
+#: ../www/manager/dc/UserView.js:31
+#: ../www/manager/dc/UserView.js:38
+#: ../www/manager/dc/UserView.js:126
+#: ../www/manager/dc/UserEdit.js:46
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/openvz/CreateWizard.js:108
 msgid "Password"
-msgstr ""
+msgstr "Contrasenya"
 
-#: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:29
+#: ../www/manager/dc/UserView.js:16
+#: ../www/manager/dc/UserEdit.js:29
 msgid "Passwords does not match"
-msgstr ""
+msgstr "Les contrasenyes no concorden"
 
-#: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
+#: ../www/manager/dc/ACLView.js:17
+#: ../www/manager/dc/ACLView.js:129
 msgid "Path"
-msgstr ""
+msgstr "Camí"
 
-#: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
+#: ../www/manager/node/NetworkView.js:249
+#: ../www/manager/dc/HAConfig.js:266
 msgid "Pending changes"
-msgstr ""
+msgstr "Canvis pendents"
 
-#: ../www/manager/pool/Config.js:30 ../www/manager/dc/Config.js:49
-#: ../www/manager/storage/Browser.js:35 ../www/manager/qemu/Config.js:138
+#: ../www/manager/pool/Config.js:30
+#: ../www/manager/dc/Config.js:49
+#: ../www/manager/storage/Browser.js:35
+#: ../www/manager/qemu/Config.js:138
 #: ../www/manager/openvz/Config.js:156
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: ../www/manager/node/NetworkView.js:250
 msgid "Please reboot to activate changes"
-msgstr ""
+msgstr "Siusplau, reinicia per a activar els canvis"
 
-#: ../www/manager/Utils.js:310 ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/Utils.js:310
+#: ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
 msgid "Please wait..."
-msgstr ""
+msgstr "Siusplau, espera..."
 
 #: ../www/manager/form/PoolSelector.js:22
-#: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
+#: ../www/manager/data/ResourceStore.js:168
+#: ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
-msgstr ""
+msgstr "Banc"
 
 #: ../www/manager/dc/Config.js:44
 msgid "Pools"
-msgstr ""
+msgstr "Bancs"
 
 #: ../www/manager/dc/AuthEdit.js:99
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: ../www/manager/Utils.js:107
 msgid "Premium"
-msgstr ""
+msgstr "Premium"
 
 #: ../www/manager/dc/RoleView.js:47
 msgid "Privileges"
-msgstr ""
+msgstr "Privilegis"
 
 #: ../www/manager/qemu/ProcessorEdit.js:71
 #: ../www/manager/qemu/HardwareView.js:49
 #: ../www/manager/openvz/RessourceView.js:39
 msgid "Processors"
-msgstr ""
+msgstr "Processadors"
 
-#: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
+#: ../www/manager/dc/ACLView.js:51
+#: ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
-msgstr ""
+msgstr "Difon"
 
 #: ../www/manager/window/LoginWindow.js:45
 msgid "Proxmox VE Login"
-msgstr ""
+msgstr "Inici de Sessió de Proxmox VE"
 
-#: ../www/manager/dc/UserView.js:183 ../www/manager/dc/UserEdit.js:133
-#: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:29
+#: ../www/manager/dc/UserView.js:183
+#: ../www/manager/dc/UserEdit.js:133
+#: ../www/manager/dc/AuthView.js:120
+#: ../www/manager/dc/AuthEdit.js:29
 msgid "Realm"
-msgstr ""
+msgstr "Realm"
 
-#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
+#: ../www/manager/VNCConsole.js:304
+#: ../www/manager/VNCConsole.js:400
 #: ../www/manager/VNCConsole.js:437
 msgid "Refresh"
-msgstr ""
+msgstr "Actualitza"
 
-#: ../www/manager/Utils.js:416 ../www/manager/VNCConsole.js:311
-#: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
+#: ../www/manager/Utils.js:416
+#: ../www/manager/VNCConsole.js:311
+#: ../www/manager/VNCConsole.js:407
+#: ../www/manager/VNCConsole.js:444
 msgid "Reload"
-msgstr ""
+msgstr "Recarrega"
 
-#: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
-#: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
-#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
-#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:348
-#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
-#: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402
-#: ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202
-#: ../www/manager/openvz/Config.js:80 ../www/manager/openvz/Network.js:254
+#: ../www/manager/node/NetworkView.js:72
+#: ../www/manager/grid/BackupView.js:116
+#: ../www/manager/grid/PoolMembers.js:107
+#: ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/StorageView.js:62
+#: ../www/manager/dc/UserView.js:78
+#: ../www/manager/dc/PoolView.js:24
+#: ../www/manager/dc/Backup.js:348
+#: ../www/manager/dc/AuthView.js:52
+#: ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/HAConfig.js:238
+#: ../www/manager/storage/ContentView.js:402
+#: ../www/manager/qemu/Config.js:79
+#: ../www/manager/qemu/HardwareView.js:202
+#: ../www/manager/openvz/Config.js:80
+#: ../www/manager/openvz/Network.js:254
 msgid "Remove"
-msgstr ""
+msgstr "Elimina"
 
-#: ../www/manager/Utils.js:397 ../www/manager/qemu/Config.js:63
+#: ../www/manager/Utils.js:397
+#: ../www/manager/qemu/Config.js:63
 #: ../www/manager/VNCConsole.js:266
 msgid "Reset"
-msgstr ""
+msgstr "Reinicialitza"
 
-#: ../www/manager/pool/Config.js:14 ../www/manager/tree/ResourceTree.js:13
+#: ../www/manager/pool/Config.js:14
+#: ../www/manager/tree/ResourceTree.js:13
 #: ../www/manager/qemu/CreateWizard.js:76
 #: ../www/manager/openvz/CreateWizard.js:97
 msgid "Resource Pool"
-msgstr ""
+msgstr "Banc de Recursos"
 
 #: ../www/manager/openvz/CreateWizard.js:149
 #: ../www/manager/openvz/RessourceEdit.js:71
 #: ../www/manager/openvz/Config.js:118
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
-#: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
+#: ../www/manager/node/Config.js:31
+#: ../www/manager/node/ServiceView.js:65
 #: ../www/manager/Utils.js:415
 msgid "Restart"
-msgstr ""
+msgstr "Reinicia"
 
 #: ../www/manager/dc/Summary.js:166
 msgid "Restarts"
-msgstr ""
+msgstr "Reinicis"
 
-#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:392
-#: ../www/manager/Utils.js:402 ../www/manager/storage/ContentView.js:374
+#: ../www/manager/grid/BackupView.js:94
+#: ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:402
+#: ../www/manager/storage/ContentView.js:374
 #: ../www/manager/window/Restore.js:78
 msgid "Restore"
-msgstr ""
+msgstr "Restaura"
 
-#: ../www/manager/Utils.js:400 ../www/manager/VNCConsole.js:290
+#: ../www/manager/Utils.js:400
+#: ../www/manager/VNCConsole.js:290
 msgid "Resume"
-msgstr ""
+msgstr "Reprèn"
 
-#: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
+#: ../www/manager/node/NetworkView.js:165
+#: ../www/manager/dc/HAConfig.js:145
 msgid "Revert changes"
-msgstr ""
+msgstr "Desfés els canvis"
 
-#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:43
+#: ../www/manager/form/RoleSelector.js:21
+#: ../www/manager/dc/ACLView.js:43
 #: ../www/manager/dc/ACLView.js:120
 msgid "Role"
-msgstr ""
+msgstr "Rol"
 
 #: ../www/manager/dc/Config.js:54
 msgid "Roles"
-msgstr ""
+msgstr "Rols"
 
 #: ../www/manager/grid/ResourceGrid.js:167
 #: ../www/manager/grid/ResourceGrid.js:174
 msgid "Search"
-msgstr ""
+msgstr "Cerca"
 
 #: ../www/manager/storage/ContentView.js:199
 msgid "Select File..."
-msgstr ""
+msgstr "Escull un fitxer..."
 
 #: ../www/manager/dc/Backup.js:420
 msgid "Selection"
-msgstr ""
+msgstr "Selecció"
 
 #: ../www/manager/dc/Backup.js:33
 msgid "Selection mode"
-msgstr ""
+msgstr "Mode de selecció"
 
 #: ../www/manager/dc/Backup.js:158
 msgid "Send email to"
-msgstr ""
+msgstr "Envia correu a"
 
-#: ../www/manager/dc/AuthEdit.js:87 ../www/manager/storage/NFSEdit.js:98
+#: ../www/manager/dc/AuthEdit.js:87
+#: ../www/manager/storage/NFSEdit.js:98
 msgid "Server"
-msgstr ""
+msgstr "Servidor"
 
 #: ../www/manager/dc/Summary.js:63
 msgid "Server Address"
-msgstr ""
+msgstr "Direcció del Servidor"
 
 #: ../www/manager/form/ViewSelector.js:10
 msgid "Server View"
-msgstr ""
+msgstr "Vista de Servidor"
 
 #: ../www/manager/node/TimeView.js:36
 msgid "Server time"
-msgstr ""
+msgstr "Hora del Servidor"
 
 #: ../www/manager/dc/Log.js:55
 msgid "Service"
-msgstr ""
+msgstr "Servei"
 
-#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:69
+#: ../www/manager/node/Config.js:71
+#: ../www/manager/dc/Summary.js:69
 msgid "Services"
-msgstr ""
+msgstr "Serveis"
 
 #: ../www/manager/qemu/CreateWizard.js:113
 #: ../www/manager/openvz/CreateWizard.js:258
 msgid "Settings"
-msgstr ""
+msgstr "Configuració"
 
 #: ../www/manager/dc/Log.js:70
 msgid "Severity"
-msgstr ""
+msgstr "Importància"
 
 #: ../www/manager/dc/StorageView.js:172
 #: ../www/manager/storage/StatusView.js:40
-#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/storage/LVMEdit.js:201
+#: ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
-msgstr ""
+msgstr "Compartit"
 
-#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:390
+#: ../www/manager/node/Config.js:47
+#: ../www/manager/Utils.js:390
 #: ../www/manager/VNCConsole.js:448
 msgid "Shell"
-msgstr ""
+msgstr "Intèrpret d'ordres"
 
-#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:398
-#: ../www/manager/Utils.js:409 ../www/manager/qemu/Config.js:71
-#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:237
-#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:60
+#: ../www/manager/node/Config.js:39
+#: ../www/manager/Utils.js:398
+#: ../www/manager/Utils.js:409
+#: ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:53
+#: ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:367
+#: ../www/manager/openvz/Config.js:60
 #: ../www/manager/openvz/CmdMenu.js:53
 msgid "Shutdown"
-msgstr ""
+msgstr "Apaga"
 
 #: ../www/manager/grid/BackupView.js:168
 #: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/storage/ContentView.js:463
 msgid "Size"
-msgstr ""
+msgstr "Mida"
 
 #: ../www/manager/window/Restore.js:41
 msgid "Source"
-msgstr ""
+msgstr "Font"
 
 #: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
-msgstr ""
+msgstr "Node individual - sense clúster"
 
 #: ../www/manager/Utils.js:106
 msgid "Standard"
-msgstr ""
+msgstr "Estàndard"
 
-#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:395
-#: ../www/manager/Utils.js:405 ../www/manager/Utils.js:411
-#: ../www/manager/Utils.js:413 ../www/manager/qemu/Config.js:36
-#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
-#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
+#: ../www/manager/node/ServiceView.js:49
+#: ../www/manager/Utils.js:395
+#: ../www/manager/Utils.js:405
+#: ../www/manager/Utils.js:411
+#: ../www/manager/Utils.js:413
+#: ../www/manager/qemu/Config.js:36
+#: ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/VNCConsole.js:231
+#: ../www/manager/VNCConsole.js:361
+#: ../www/manager/openvz/Config.js:36
 #: ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
-msgstr ""
+msgstr "Inicia"
 
-#: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
-#: ../www/manager/dc/Backup.js:408 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/node/Tasks.js:110
+#: ../www/manager/dc/Backup.js:146
+#: ../www/manager/dc/Backup.js:408
+#: ../www/manager/dc/Tasks.js:61
 #: ../www/manager/window/TaskViewer.js:39
 msgid "Start Time"
-msgstr ""
+msgstr "Hora d'inici"
 
-#: ../www/manager/qemu/Options.js:39 ../www/manager/qemu/Options.js:44
-#: ../www/manager/qemu/Options.js:51 ../www/manager/openvz/Options.js:22
-#: ../www/manager/openvz/Options.js:27 ../www/manager/openvz/Options.js:33
+#: ../www/manager/qemu/Options.js:39
+#: ../www/manager/qemu/Options.js:44
+#: ../www/manager/qemu/Options.js:51
+#: ../www/manager/openvz/Options.js:22
+#: ../www/manager/openvz/Options.js:27
+#: ../www/manager/openvz/Options.js:33
 msgid "Start at boot"
-msgstr ""
+msgstr "Inicia al arrancar"
 
-#: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Subscription.js:28
-#: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:124
-#: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
-#: ../www/manager/dc/Summary.js:160 ../www/manager/storage/StatusView.js:67
-#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:19
+#: ../www/manager/pool/StatusView.js:21
+#: ../www/manager/node/Subscription.js:28
+#: ../www/manager/node/Tasks.js:142
+#: ../www/manager/node/ServiceView.js:124
+#: ../www/manager/dc/Backup.js:89
+#: ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Summary.js:160
+#: ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/window/TaskViewer.js:19
 #: ../www/manager/window/TaskViewer.js:80
 #: ../www/manager/openvz/StatusView.js:59
 msgid "Status"
-msgstr ""
+msgstr "Estat"
 
-#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:396
-#: ../www/manager/Utils.js:406 ../www/manager/Utils.js:412
-#: ../www/manager/Utils.js:414 ../www/manager/qemu/Config.js:43
-#: ../www/manager/qemu/CmdMenu.js:67 ../www/manager/VNCConsole.js:249
-#: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:68
-#: ../www/manager/window/TaskViewer.js:74 ../www/manager/openvz/Config.js:52
+#: ../www/manager/node/ServiceView.js:57
+#: ../www/manager/Utils.js:396
+#: ../www/manager/Utils.js:406
+#: ../www/manager/Utils.js:412
+#: ../www/manager/Utils.js:414
+#: ../www/manager/qemu/Config.js:43
+#: ../www/manager/qemu/CmdMenu.js:67
+#: ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379
+#: ../www/manager/window/TaskViewer.js:68
+#: ../www/manager/window/TaskViewer.js:74
+#: ../www/manager/openvz/Config.js:52
 #: ../www/manager/openvz/CmdMenu.js:67
 msgid "Stop"
-msgstr ""
+msgstr "Atura"
 
 #: ../www/manager/data/ResourceStore.js:161
-#: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/BackupView.js:67
+#: ../www/manager/grid/PoolMembers.js:52
 #: ../www/manager/grid/PoolMembers.js:61
-#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57
-#: ../www/manager/dc/Backup.js:414 ../www/manager/dc/Config.js:24
-#: ../www/manager/qemu/HDEdit.js:153 ../www/manager/qemu/CDEdit.js:111
-#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
+#: ../www/manager/grid/PoolMembers.js:157
+#: ../www/manager/dc/Backup.js:57
+#: ../www/manager/dc/Backup.js:414
+#: ../www/manager/dc/Config.js:24
+#: ../www/manager/qemu/HDEdit.js:153
+#: ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/window/Restore.js:25
+#: ../www/manager/window/Backup.js:25
 #: ../www/manager/openvz/Options.js:42
 #: ../www/manager/openvz/CreateWizard.js:22
 #: ../www/manager/openvz/CreateWizard.js:37
 msgid "Storage"
-msgstr ""
+msgstr "Emmagatzematge"
 
 #: ../www/manager/form/ViewSelector.js:18
 msgid "Storage View"
-msgstr ""
+msgstr "Vista de l'emmagatzematge"
 
 #: ../www/manager/tree/ResourceTree.js:17
 msgid "Storage list"
-msgstr ""
+msgstr "Llistat d'emmagatzematge"
 
 #: ../www/manager/storage/Browser.js:19
 msgid "Storage {0} on node {1}"
-msgstr ""
+msgstr "Emmagatzematge {0} al node {1}"
 
 #: ../www/manager/node/NetworkView.js:228
 #: ../www/manager/node/NetworkEdit.js:95
 msgid "Subnet mask"
-msgstr ""
+msgstr "Màscara de subxarxa"
 
 #: ../www/manager/node/Subscription.js:25
 msgid "Subscription Key"
-msgstr ""
+msgstr "Clau de Subscripció"
 
 #: ../www/manager/Utils.js:263
 msgid "Successful"
-msgstr ""
+msgstr "Correcte"
 
-#: ../www/manager/pool/Config.js:18 ../www/manager/node/Config.js:66
-#: ../www/manager/dc/Config.js:13 ../www/manager/storage/Browser.js:24
-#: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:113
+#: ../www/manager/pool/Config.js:18
+#: ../www/manager/node/Config.js:66
+#: ../www/manager/dc/Config.js:13
+#: ../www/manager/storage/Browser.js:24
+#: ../www/manager/qemu/Config.js:112
+#: ../www/manager/openvz/Config.js:113
 msgid "Summary"
-msgstr ""
+msgstr "Resum"
 
-#: ../www/manager/dc/Config.js:68 ../www/manager/dc/Summary.js:49
+#: ../www/manager/dc/Config.js:68
+#: ../www/manager/dc/Summary.js:49
 msgid "Support"
-msgstr ""
+msgstr "Suport"
 
-#: ../www/manager/Utils.js:399 ../www/manager/VNCConsole.js:278
+#: ../www/manager/Utils.js:399
+#: ../www/manager/VNCConsole.js:278
 msgid "Suspend"
-msgstr ""
+msgstr "Suspèn"
 
 #: ../www/manager/openvz/RessourceEdit.js:31
 #: ../www/manager/openvz/RessourceView.js:31
 msgid "Swap"
-msgstr ""
+msgstr "Intercanvi"
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
-msgstr ""
+msgstr "Tasques"
 
 #: ../www/manager/openvz/Options.js:38
 #: ../www/manager/openvz/CreateWizard.js:31
 #: ../www/manager/openvz/CreateWizard.js:144
 msgid "Template"
-msgstr ""
+msgstr "Plantilla"
 
 #: ../www/manager/storage/ContentView.js:133
 #: ../www/manager/storage/ContentView.js:427
 msgid "Templates"
-msgstr ""
+msgstr "Plantilles"
 
 #: ../www/manager/Utils.js:70
 msgid "This is not a valid DNS name"
-msgstr ""
+msgstr "Aquest DNS no és vàlid"
 
 #: ../www/manager/grid/BackupView.js:122
 #: ../www/manager/qemu/HardwareView.js:209
 msgid "This will permanently erase all image data."
-msgstr ""
+msgstr "Això esborrarà de forma permanent totes les dades de la imatge."
 
 #: ../www/manager/window/Restore.js:103
 msgid "This will permanently erase current VM data."
-msgstr ""
+msgstr "Això esborrarà de forma permanent totes les dades de l'actual VM."
 
-#: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
+#: ../www/manager/node/Config.js:86
+#: ../www/manager/dc/Log.js:42
 msgid "Time"
-msgstr ""
+msgstr "Hora"
 
-#: ../www/manager/node/TimeEdit.js:14 ../www/manager/node/TimeEdit.js:22
+#: ../www/manager/node/TimeEdit.js:14
+#: ../www/manager/node/TimeEdit.js:22
 #: ../www/manager/node/TimeView.js:32
 msgid "Time zone"
-msgstr ""
+msgstr "Fus Horari"
 
 #: ../www/manager/data/ResourceStore.js:32
-#: ../www/manager/node/Subscription.js:22 ../www/manager/dc/StorageView.js:146
-#: ../www/manager/dc/Backup.js:105 ../www/manager/dc/AuthView.js:126
+#: ../www/manager/node/Subscription.js:22
+#: ../www/manager/dc/StorageView.js:146
+#: ../www/manager/dc/Backup.js:105
+#: ../www/manager/dc/AuthView.js:126
 #: ../www/manager/storage/StatusView.js:35
 #: ../www/manager/storage/ContentView.js:45
 #: ../www/manager/openvz/Network.js:373
 msgid "Type"
-msgstr ""
+msgstr "Tipus"
 
 #: ../www/manager/Utils.js:564
 msgid "Unknown"
-msgstr ""
+msgstr "Desconegut"
 
 #: ../www/manager/Utils.js:266
 msgid "Unknown error"
-msgstr ""
+msgstr "Error Desconegut"
 
-#: ../www/manager/Utils.js:408 ../www/manager/openvz/Config.js:43
+#: ../www/manager/Utils.js:408
+#: ../www/manager/openvz/Config.js:43
 msgid "Unmount"
-msgstr ""
+msgstr "Desmunta"
 
-#: ../www/manager/qemu/HDEdit.js:244 ../www/manager/qemu/HardwareView.js:137
+#: ../www/manager/qemu/HDEdit.js:244
+#: ../www/manager/qemu/HardwareView.js:137
 msgid "Unused Disk"
-msgstr ""
+msgstr "Disc sense ús"
 
 #: ../www/manager/storage/ContentView.js:239
 #: ../www/manager/storage/ContentView.js:303
 #: ../www/manager/storage/ContentView.js:438
 msgid "Upload"
-msgstr ""
+msgstr "Carrega"
 
 #: ../www/manager/node/Subscription.js:41
 msgid "Upload Subscription Key"
-msgstr ""
+msgstr "Puja una clau de subscripció"
 
 #: ../www/manager/storage/ContentView.js:211
 msgid "Uploading file..."
-msgstr ""
+msgstr "Carregant el fitxer..."
 
 #: ../www/manager/data/ResourceStore.js:147
-#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:49
+#: ../www/manager/openvz/StatusView.js:67
 msgid "Uptime"
-msgstr ""
+msgstr "Uptime"
 
 #: ../www/manager/storage/IScsiEdit.js:141
 msgid "Use LUNs directly"
-msgstr ""
+msgstr "Fes servir directament LUNs"
 
 #: ../www/manager/storage/StatusView.js:50
 msgid "Used"
-msgstr ""
+msgstr "Utilitzat"
 
-#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:33
-#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/UserEdit.js:169
+#: ../www/manager/form/UserSelector.js:28
+#: ../www/manager/dc/ACLView.js:33
+#: ../www/manager/dc/ACLView.js:113
+#: ../www/manager/dc/UserEdit.js:169
 msgid "User"
-msgstr ""
+msgstr "Usuari"
 
-#: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
+#: ../www/manager/dc/ACLView.js:29
+#: ../www/manager/dc/ACLView.js:205
 msgid "User Permission"
-msgstr ""
+msgstr "Permisos d'usuari"
 
-#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
-#: ../www/manager/dc/UserView.js:176 ../www/manager/dc/UserEdit.js:74
-#: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
+#: ../www/manager/node/Tasks.js:82
+#: ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/UserView.js:176
+#: ../www/manager/dc/UserEdit.js:74
+#: ../www/manager/dc/Tasks.js:86
+#: ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:64
 #: ../www/manager/window/TaskViewer.js:27
 msgid "User name"
-msgstr ""
+msgstr "Nom d'usuari"
 
 #: ../www/manager/dc/Config.js:34
 msgid "Users"
-msgstr ""
+msgstr "Usuaris"
 
-#: ../www/manager/Workspace.js:303 ../www/manager/storage/ContentView.js:55
+#: ../www/manager/Workspace.js:303
+#: ../www/manager/storage/ContentView.js:55
 msgid "Version"
-msgstr ""
+msgstr "Versió"
 
 #: ../www/manager/node/Tasks.js:57
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #: ../www/manager/tree/ResourceTree.js:21
 #: ../www/manager/grid/PoolMembers.js:18
 #: ../www/manager/grid/PoolMembers.js:148
 #: ../www/manager/qemu/CreateWizard.js:39
 msgid "Virtual Machine"
-msgstr ""
+msgstr "Màquina Virtual"
 
 #: ../www/manager/qemu/Config.js:105
 msgid "Virtual Machine {0} on node {1}"
-msgstr ""
+msgstr "Màquina Virtual {0} al node {1}"
 
-#: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
+#: ../www/manager/storage/LVMEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:132
 msgid "Volume group"
-msgstr ""
+msgstr "Volume group"
 
-#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:561
+#: ../www/manager/form/Boolean.js:11
+#: ../www/manager/Utils.js:561
 msgid "Yes"
-msgstr ""
+msgstr "Si"
 
 #: ../www/manager/Workspace.js:218
 msgid "You are logged in as {0}"
-msgstr ""
+msgstr "Estàs identificat com {0}"
 
 #: ../www/manager/Utils.js:567
 msgid "day"
-msgstr ""
+msgstr "dia"
 
 #: ../www/manager/Utils.js:566
 msgid "days"
-msgstr ""
+msgstr "dies"
 
 #: ../www/manager/form/CompressionSelector.js:10
 msgid "fast"
-msgstr ""
+msgstr "ràpid"
 
 #: ../www/manager/form/CompressionSelector.js:11
 msgid "good"
-msgstr ""
+msgstr "bé"
 
 #: ../www/manager/Utils.js:570
 msgid "never"
-msgstr ""
+msgstr "mai"
 
 #: ../www/manager/form/CompressionSelector.js:9
 msgid "none"
-msgstr ""
+msgstr "cap"
 
 #: ../www/manager/Utils.js:568
 msgid "running"
-msgstr ""
+msgstr "encesa"
 
 #: ../www/manager/Utils.js:569
 msgid "stopped"
-msgstr ""
+msgstr "aturada"
+
