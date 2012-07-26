@@ -2,7 +2,7 @@
 # Copyright (C) 2012 Proxmox Server Solutions GmbH
 # This file is distributed under the same license as the pve-manager package.
 # Proxmox Support Team <support@proxmox.com>, 2012.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2012-05-29 07:28+0200\n"
 "Last-Translator: Michael Svendsen <michael.svendsen@nordicmind.com>\n"
 "Language-Team: Danish\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../www/manager/storage/ContentView.js:231
@@ -63,7 +63,9 @@ msgstr "Er du sikker på at du vil aktivere dine ændringer"
 msgid ""
 "Are you sure you want to remove VM {0}? This will permanently erase all VM "
 "data."
-msgstr "Er du sikker på at du vil fjerne VM {0}? Dette vil slette alle VM data permanent."
+msgstr ""
+"Er du sikker på at du vil fjerne VM {0}? Dette vil slette alle VM data "
+"permanent."
 
 #: ../www/manager/grid/BackupView.js:120
 #: ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66
@@ -115,11 +117,11 @@ msgstr "Backup nu"
 
 #: ../www/manager/storage/LVMEdit.js:149
 msgid "Base storage"
-msgstr Base storage
+msgstr "Storage"
 
 #: ../www/manager/storage/LVMEdit.js:142
 msgid "Base volume"
-msgstr "Base volume"
+msgstr "Volume"
 
 #: ../www/manager/Utils.js:105
 msgid "Basic"
@@ -200,7 +202,7 @@ msgstr "Konsol"
 
 #: ../www/manager/openvz/Config.js:106
 msgid "Container {0} on node {1}"
-msgstr "Container {0] på node {1}"
+msgstr "Container {0} på node {1}"
 
 #: ../www/manager/dc/StorageView.js:153
 #: ../www/manager/storage/StatusView.js:30
@@ -343,7 +345,7 @@ msgstr "Aktivér"
 #: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:111
 #: ../www/manager/qemu/Options.js:129
 msgid "Enabled"
-msgstr "Aktiveret"
+msgstr "Aktivéret"
 
 #: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
 msgid "End Time"
@@ -562,7 +564,7 @@ msgstr "Migrér"
 
 #: ../www/manager/dc/Backup.js:169 ../www/manager/window/Backup.js:41
 msgid "Mode"
-msgstr "Tilstand"
+msgstr "Metode"
 
 #: ../www/manager/qemu/Config.js:127
 msgid "Monitor"
@@ -638,7 +640,7 @@ msgstr "Node"
 
 #: ../www/manager/tree/ResourceTree.js:9
 msgid "Node list"
-msgstr "Node-liste"
+msgstr "Nodeliste"
 
 #: ../www/manager/dc/Summary.js:247 ../www/manager/storage/IScsiEdit.js:124
 #: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:80
@@ -747,7 +749,7 @@ msgstr "Processorer"
 
 #: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
-msgstr "Spred"
+msgstr "Rekursiv"
 
 #: ../www/manager/window/LoginWindow.js:45
 msgid "Proxmox VE Login"
@@ -803,13 +805,13 @@ msgstr "Genstart"
 
 #: ../www/manager/dc/Summary.js:166
 msgid "Restarts"
-msgstr "Genstarts"
+msgstr "Genstarter"
 
 #: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:392
 #: ../www/manager/Utils.js:402 ../www/manager/storage/ContentView.js:374
 #: ../www/manager/window/Restore.js:78
 msgid "Restore"
-msgstr "Gendanne"
+msgstr "Gendan"
 
 #: ../www/manager/Utils.js:400 ../www/manager/VNCConsole.js:290
 msgid "Resume"
@@ -843,7 +845,7 @@ msgstr "Valg"
 
 #: ../www/manager/dc/Backup.js:33
 msgid "Selection mode"
-msgstr "Valgtilstand"
+msgstr "Valg"
 
 #: ../www/manager/dc/Backup.js:158
 msgid "Send email to"
@@ -975,11 +977,11 @@ msgstr "Storage"
 
 #: ../www/manager/form/ViewSelector.js:18
 msgid "Storage View"
-msgstr "storage-oversigt"
+msgstr "Storageoversigt"
 
 #: ../www/manager/tree/ResourceTree.js:17
 msgid "Storage list"
-msgstr "Storage-liste"
+msgstr "Storageliste"
 
 #: ../www/manager/storage/Browser.js:19
 msgid "Storage {0} on node {1}"
@@ -1002,7 +1004,7 @@ msgstr "Vellykket"
 #: ../www/manager/dc/Config.js:13 ../www/manager/storage/Browser.js:24
 #: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:113
 msgid "Summary"
-msgstr "Sammendrag"
+msgstr "Oversigt"
 
 #: ../www/manager/dc/Config.js:68 ../www/manager/dc/Summary.js:49
 msgid "Support"
@@ -1015,7 +1017,7 @@ msgstr "Pause"
 #: ../www/manager/openvz/RessourceEdit.js:31
 #: ../www/manager/openvz/RessourceView.js:31
 msgid "Swap"
-msgstr "Skift"
+msgstr "Swap"
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
@@ -1148,7 +1150,7 @@ msgstr "Virtuel Maskine {0} på node {1}"
 
 #: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
 msgid "Volume group"
-msgstr "Volume gruppe"
+msgstr "Volume-gruppe"
 
 #: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:561
 msgid "Yes"
