@@ -8,89 +8,99 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
-"PO-Revision-Date: 2012-08-28 11:34+0200\n"
-"Last-Translator: root <support@proxmox.com>\n"
+"PO-Revision-Date: 2012-08-28 16:16+0100\n"
+"Last-Translator: dejan <dean.borstnar@gmail.com>\n"
 "Language-Team: Slovenian\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 #: ../www/manager/storage/ContentView.js:231
 msgid "Abort"
-msgstr ""
+msgstr "Prekini"
 
 #: ../www/manager/dc/HAConfig.js:124
 msgid "Activate"
-msgstr ""
+msgstr "Aktiviraj"
 
 #: ../www/manager/form/BridgeSelector.js:46
 #: ../www/manager/node/NetworkView.js:199
 #: ../www/manager/storage/StatusView.js:25
 msgid "Active"
-msgstr ""
+msgstr "Aktiven"
 
-#: ../www/manager/grid/PoolMembers.js:144 ../www/manager/dc/ACLView.js:190
-#: ../www/manager/dc/StorageView.js:93 ../www/manager/dc/UserView.js:140
-#: ../www/manager/dc/Backup.js:378 ../www/manager/dc/AuthView.js:81
-#: ../www/manager/dc/HAConfig.js:166 ../www/manager/Utils.js:750
-#: ../www/manager/qemu/HardwareView.js:246 ../www/manager/window/Edit.js:173
+#: ../www/manager/grid/PoolMembers.js:144
+#: ../www/manager/dc/ACLView.js:190
+#: ../www/manager/dc/StorageView.js:93
+#: ../www/manager/dc/UserView.js:140
+#: ../www/manager/dc/Backup.js:378
+#: ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/HAConfig.js:166
+#: ../www/manager/Utils.js:750
+#: ../www/manager/qemu/HardwareView.js:246
+#: ../www/manager/window/Edit.js:173
 #: ../www/manager/openvz/Network.js:334
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
-#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:117
-#: ../www/manager/dc/Backup.js:307 ../www/manager/storage/IScsiEdit.js:125
-#: ../www/manager/storage/LVMEdit.js:185 ../www/manager/storage/DirEdit.js:81
+#: ../www/manager/dc/Backup.js:30
+#: ../www/manager/dc/Backup.js:117
+#: ../www/manager/dc/Backup.js:307
+#: ../www/manager/storage/IScsiEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:185
+#: ../www/manager/storage/DirEdit.js:81
 #: ../www/manager/storage/NFSEdit.js:133
 msgid "All"
-msgstr ""
+msgstr "Vsi"
 
 #: ../www/manager/dc/Backup.js:308
 msgid "All except {0}"
-msgstr ""
+msgstr "Dovoli vse razen {0}"
 
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
-msgstr ""
+msgstr "Dovoljeni znaki"
 
 #: ../www/manager/dc/HAConfig.js:127
 msgid "Are you sure you want to activate your changes"
-msgstr ""
+msgstr "Uveljavi spremembe?"
 
-#: ../www/manager/qemu/Config.js:80 ../www/manager/openvz/Config.js:81
-msgid ""
-"Are you sure you want to remove VM {0}? This will permanently erase all VM "
-"data."
-msgstr ""
+#: ../www/manager/qemu/Config.js:80
+#: ../www/manager/openvz/Config.js:81
+msgid "Are you sure you want to remove VM {0}? This will permanently erase all VM data."
+msgstr "Izbriši VM {0}? Vsi podatki za ta VM bodo izbrisani."
 
 #: ../www/manager/grid/BackupView.js:120
-#: ../www/manager/grid/PoolMembers.js:111 ../www/manager/dc/StorageView.js:66
-#: ../www/manager/dc/UserView.js:85 ../www/manager/dc/PoolView.js:28
-#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/GroupView.js:28
+#: ../www/manager/grid/PoolMembers.js:111
+#: ../www/manager/dc/StorageView.js:66
+#: ../www/manager/dc/UserView.js:85
+#: ../www/manager/dc/PoolView.js:28
+#: ../www/manager/dc/AuthView.js:56
+#: ../www/manager/dc/GroupView.js:28
 #: ../www/manager/storage/ContentView.js:406
 #: ../www/manager/qemu/HardwareView.js:206
 #: ../www/manager/openvz/Network.js:264
 msgid "Are you sure you want to remove entry {0}"
-msgstr ""
+msgstr "Izbriši {0} vnos?"
 
-#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:351
+#: ../www/manager/dc/ACLView.js:152
+#: ../www/manager/dc/Backup.js:351
 msgid "Are you sure you want to remove this entry"
-msgstr ""
+msgstr "Izbriši izbran vnos?"
 
 #: ../www/manager/window/Restore.js:102
 msgid "Are you sure you want to restore this VM?"
-msgstr ""
+msgstr "Obnovi VM iz izbrane varnostne kopije?"
 
 #: ../www/manager/dc/HAConfig.js:148
 msgid "Are you sure you want to revert your changes"
-msgstr ""
+msgstr "Povrni na stanje pred spremembami?"
 
 #: ../www/manager/dc/Config.js:59
 msgid "Authentication"
-msgstr ""
+msgstr "Overjanje"
 
 #: ../www/manager/storage/StatusView.js:60
 msgid "Avail"
@@ -98,25 +108,28 @@ msgstr ""
 
 #: ../www/manager/window/Wizard.js:70
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
-#: ../www/manager/dc/Config.js:29 ../www/manager/Utils.js:420
-#: ../www/manager/qemu/Config.js:132 ../www/manager/window/Backup.js:57
-#: ../www/manager/window/Backup.js:91 ../www/manager/openvz/Config.js:150
+#: ../www/manager/dc/Config.js:29
+#: ../www/manager/Utils.js:420
+#: ../www/manager/qemu/Config.js:132
+#: ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:91
+#: ../www/manager/openvz/Config.js:150
 msgid "Backup"
-msgstr ""
+msgstr "Varnostne kopije"
 
 #: ../www/manager/dc/Backup.js:263
 msgid "Backup Job"
-msgstr ""
+msgstr "Varnostna opravila"
 
 #: ../www/manager/grid/BackupView.js:81
 msgid "Backup now"
-msgstr ""
+msgstr "Izdelaj var. kopijo"
 
 #: ../www/manager/storage/LVMEdit.js:149
 msgid "Base storage"
-msgstr ""
+msgstr "Osnovna shramba"
 
 #: ../www/manager/storage/LVMEdit.js:142
 msgid "Base volume"
@@ -124,80 +137,100 @@ msgstr ""
 
 #: ../www/manager/Utils.js:105
 msgid "Basic"
-msgstr ""
+msgstr "Osnovno"
 
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
 #: ../www/manager/qemu/BootOrderEdit.js:130
 msgid "Boot device"
-msgstr ""
+msgstr "Zagonski disk"
 
-#: ../www/manager/qemu/Options.js:65 ../www/manager/qemu/BootOrderEdit.js:184
+#: ../www/manager/qemu/Options.js:65
+#: ../www/manager/qemu/BootOrderEdit.js:184
 msgid "Boot order"
-msgstr ""
+msgstr "Vrstni red zagona"
 
 #: ../www/manager/qemu/HardwareView.js:100
 #: ../www/manager/qemu/HardwareView.js:110
 #: ../www/manager/qemu/HardwareView.js:120
 #: ../www/manager/qemu/HardwareView.js:262
 msgid "CD/DVD Drive"
-msgstr ""
+msgstr "CD/DVD naprava"
 
 #: ../www/manager/data/ResourceStore.js:133
 msgid "CPU usage"
-msgstr ""
+msgstr "CPU poraba"
 
 #: ../www/manager/node/Subscription.js:44
 msgid "Check"
-msgstr ""
+msgstr "Preveri ključ"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
 msgstr ""
 
-#: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserView.js:212
-#: ../www/manager/dc/PoolView.js:96 ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/UserEdit.js:125 ../www/manager/dc/AuthView.js:133
-#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/AuthEdit.js:74
+#: ../www/manager/pool/StatusView.js:15
+#: ../www/manager/dc/UserView.js:212
+#: ../www/manager/dc/PoolView.js:96
+#: ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/UserEdit.js:125
+#: ../www/manager/dc/AuthView.js:133
+#: ../www/manager/dc/GroupView.js:96
+#: ../www/manager/dc/AuthEdit.js:74
 #: ../www/manager/dc/PoolEdit.js:35
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: ../www/manager/Utils.js:104
 msgid "Community"
-msgstr ""
+msgstr "Skupnost"
 
-#: ../www/manager/dc/Backup.js:163 ../www/manager/window/Backup.js:49
+#: ../www/manager/dc/Backup.js:163
+#: ../www/manager/window/Backup.js:49
 msgid "Compression"
-msgstr ""
+msgstr "Kompresija"
 
-#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/qemu/CmdMenu.js:57
-#: ../www/manager/qemu/CmdMenu.js:71 ../www/manager/button/Button.js:40
-#: ../www/manager/VNCConsole.js:240 ../www/manager/VNCConsole.js:252
-#: ../www/manager/VNCConsole.js:269 ../www/manager/VNCConsole.js:281
-#: ../www/manager/VNCConsole.js:370 ../www/manager/VNCConsole.js:382
+#: ../www/manager/qemu/CreateWizard.js:109
+#: ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:71
+#: ../www/manager/button/Button.js:40
+#: ../www/manager/VNCConsole.js:240
+#: ../www/manager/VNCConsole.js:252
+#: ../www/manager/VNCConsole.js:269
+#: ../www/manager/VNCConsole.js:281
+#: ../www/manager/VNCConsole.js:370
+#: ../www/manager/VNCConsole.js:382
 #: ../www/manager/openvz/CreateWizard.js:254
-#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:71
+#: ../www/manager/openvz/CmdMenu.js:57
+#: ../www/manager/openvz/CmdMenu.js:71
 msgid "Confirm"
-msgstr ""
+msgstr "Potrdi"
 
-#: ../www/manager/dc/UserView.js:23 ../www/manager/dc/UserEdit.js:36
+#: ../www/manager/dc/UserView.js:23
+#: ../www/manager/dc/UserEdit.js:36
 #: ../www/manager/openvz/CreateWizard.js:123
 msgid "Confirm password"
-msgstr ""
+msgstr "Potrdi geslo"
 
-#: ../www/manager/Utils.js:292 ../www/manager/Utils.js:343
-#: ../www/manager/Utils.js:345 ../www/manager/Utils.js:347
-#: ../www/manager/Utils.js:349 ../www/manager/Utils.js:812
+#: ../www/manager/Utils.js:292
+#: ../www/manager/Utils.js:343
+#: ../www/manager/Utils.js:345
+#: ../www/manager/Utils.js:347
+#: ../www/manager/Utils.js:349
+#: ../www/manager/Utils.js:812
 msgid "Connection error"
-msgstr ""
+msgstr "Napaka pri povezavi"
 
-#: ../www/manager/Workspace.js:105 ../www/manager/Utils.js:389
-#: ../www/manager/qemu/Config.js:96 ../www/manager/qemu/CmdMenu.js:81
-#: ../www/manager/VNCConsole.js:297 ../www/manager/VNCConsole.js:393
-#: ../www/manager/openvz/Config.js:97 ../www/manager/openvz/CmdMenu.js:81
+#: ../www/manager/Workspace.js:105
+#: ../www/manager/Utils.js:389
+#: ../www/manager/qemu/Config.js:96
+#: ../www/manager/qemu/CmdMenu.js:81
+#: ../www/manager/VNCConsole.js:297
+#: ../www/manager/VNCConsole.js:393
+#: ../www/manager/openvz/Config.js:97
+#: ../www/manager/openvz/CmdMenu.js:81
 msgid "Console"
-msgstr ""
+msgstr "Konzola"
 
 #: ../www/manager/openvz/Config.js:106
 msgid "Container {0} on node {1}"
@@ -207,204 +240,257 @@ msgstr ""
 #: ../www/manager/storage/StatusView.js:30
 #: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:192
-#: ../www/manager/storage/NFSEdit.js:123 ../www/manager/storage/Browser.js:30
+#: ../www/manager/storage/NFSEdit.js:123
+#: ../www/manager/storage/Browser.js:30
 msgid "Content"
-msgstr ""
+msgstr "Vsebina"
 
 #: ../www/manager/Utils.js:417
 msgid "Copy data"
-msgstr ""
+msgstr "Kopiraj podatke"
 
-#: ../www/manager/node/NetworkView.js:121 ../www/manager/dc/PoolView.js:68
-#: ../www/manager/dc/GroupView.js:68 ../www/manager/Utils.js:391
-#: ../www/manager/Utils.js:401 ../www/manager/Utils.js:752
+#: ../www/manager/node/NetworkView.js:121
+#: ../www/manager/dc/PoolView.js:68
+#: ../www/manager/dc/GroupView.js:68
+#: ../www/manager/Utils.js:391
+#: ../www/manager/Utils.js:401
+#: ../www/manager/Utils.js:752
 msgid "Create"
-msgstr ""
+msgstr "Ustvari"
 
 #: ../www/manager/Workspace.js:341
 msgid "Create CT"
-msgstr ""
+msgstr "Ustvari CT"
 
 #: ../www/manager/Workspace.js:330
 msgid "Create VM"
-msgstr ""
+msgstr "Ustvari VM"
 
-#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
-#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
-#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+#: ../www/manager/node/DNSEdit.js:22
+#: ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36
+#: ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27
+#: ../www/manager/node/DNSView.js:28
 #: ../www/manager/openvz/CreateWizard.js:235
-#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:53
-#: ../www/manager/openvz/DNS.js:57 ../www/manager/openvz/DNS.js:61
+#: ../www/manager/openvz/CreateWizard.js:244
+#: ../www/manager/openvz/DNS.js:53
+#: ../www/manager/openvz/DNS.js:57
+#: ../www/manager/openvz/DNS.js:61
 msgid "DNS server"
-msgstr ""
+msgstr "DNS strežnik"
 
-#: ../www/manager/tree/ResourceTree.js:185 ../www/manager/dc/Config.js:9
+#: ../www/manager/tree/ResourceTree.js:185
+#: ../www/manager/dc/Config.js:9
 msgid "Datacenter"
-msgstr ""
+msgstr "Podatkovni center"
 
-#: ../www/manager/dc/Backup.js:139 ../www/manager/dc/Backup.js:402
+#: ../www/manager/dc/Backup.js:139
+#: ../www/manager/dc/Backup.js:402
 msgid "Day of week"
-msgstr ""
+msgstr "Dan v tednu"
 
-#: ../www/manager/form/Boolean.js:10 ../www/manager/dc/AuthEdit.js:79
-#: ../www/manager/dc/AuthEdit.js:102 ../www/manager/Utils.js:565
+#: ../www/manager/form/Boolean.js:10
+#: ../www/manager/dc/AuthEdit.js:79
+#: ../www/manager/dc/AuthEdit.js:102
+#: ../www/manager/Utils.js:565
 msgid "Default"
-msgstr ""
+msgstr "Privzeto"
 
-#: ../www/manager/data/ResourceStore.js:60 ../www/manager/node/Tasks.js:136
-#: ../www/manager/node/ServiceView.js:130 ../www/manager/dc/Tasks.js:91
+#: ../www/manager/data/ResourceStore.js:60
+#: ../www/manager/node/Tasks.js:136
+#: ../www/manager/node/ServiceView.js:130
+#: ../www/manager/dc/Tasks.js:91
 #: ../www/manager/storage/ContentView.js:60
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
-#: ../www/manager/Utils.js:393 ../www/manager/Utils.js:403
+#: ../www/manager/Utils.js:393
+#: ../www/manager/Utils.js:403
 msgid "Destroy"
-msgstr ""
+msgstr "Uniči"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
-msgstr ""
+msgstr "Mapa"
 
-#: ../www/manager/qemu/HDEdit.js:114 ../www/manager/qemu/HDEdit.js:135
+#: ../www/manager/qemu/HDEdit.js:114
+#: ../www/manager/qemu/HDEdit.js:135
 #: ../www/manager/qemu/HDEdit.js:193
 msgid "Disk image"
-msgstr ""
+msgstr "Disk"
 
-#: ../www/manager/data/ResourceStore.js:110 ../www/manager/qemu/HDEdit.js:146
+#: ../www/manager/data/ResourceStore.js:110
+#: ../www/manager/qemu/HDEdit.js:146
 #: ../www/manager/openvz/RessourceEdit.js:44
 #: ../www/manager/openvz/RessourceView.js:45
 msgid "Disk size"
-msgstr ""
+msgstr "Velikost diska"
 
 #: ../www/manager/data/ResourceStore.js:103
 msgid "Disk usage"
-msgstr ""
+msgstr "Poraba diska"
 
-#: ../www/manager/qemu/HardwareView.js:78 ../www/manager/qemu/DisplayEdit.js:8
+#: ../www/manager/qemu/HardwareView.js:78
+#: ../www/manager/qemu/DisplayEdit.js:8
 msgid "Display"
-msgstr ""
+msgstr "Zaslon"
 
-#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
+#: ../www/manager/dc/OptionView.js:13
+#: ../www/manager/dc/OptionView.js:52
 msgid "Do not use any proxy"
-msgstr ""
+msgstr "Ne uporabi proxy"
 
-#: ../www/manager/qemu/Config.js:64 ../www/manager/VNCConsole.js:268
+#: ../www/manager/qemu/Config.js:64
+#: ../www/manager/VNCConsole.js:268
 msgid "Do you really want to reset VM {0}?"
-msgstr ""
+msgstr "Resetiram VM {0}?"
 
 #: ../www/manager/node/Config.js:32
 msgid "Do you really want to restart node {0}?"
-msgstr ""
+msgstr "Izvedi ponovni zagon strežnika {0}?"
 
-#: ../www/manager/qemu/Config.js:72 ../www/manager/qemu/CmdMenu.js:56
-#: ../www/manager/VNCConsole.js:239 ../www/manager/VNCConsole.js:369
-#: ../www/manager/openvz/Config.js:61 ../www/manager/openvz/CmdMenu.js:56
+#: ../www/manager/qemu/Config.js:72
+#: ../www/manager/qemu/CmdMenu.js:56
+#: ../www/manager/VNCConsole.js:239
+#: ../www/manager/VNCConsole.js:369
+#: ../www/manager/openvz/Config.js:61
+#: ../www/manager/openvz/CmdMenu.js:56
 msgid "Do you really want to shutdown VM {0}?"
-msgstr ""
+msgstr "Zaustavi in izklopi VM {0}?"
 
 #: ../www/manager/node/Config.js:40
 msgid "Do you really want to shutdown node {0}?"
-msgstr ""
+msgstr "Zaustavi in izklopi strežnik {0}?"
 
-#: ../www/manager/qemu/Config.js:44 ../www/manager/qemu/CmdMenu.js:70
-#: ../www/manager/VNCConsole.js:251 ../www/manager/VNCConsole.js:381
-#: ../www/manager/openvz/Config.js:53 ../www/manager/openvz/CmdMenu.js:70
+#: ../www/manager/qemu/Config.js:44
+#: ../www/manager/qemu/CmdMenu.js:70
+#: ../www/manager/VNCConsole.js:251
+#: ../www/manager/VNCConsole.js:381
+#: ../www/manager/openvz/Config.js:53
+#: ../www/manager/openvz/CmdMenu.js:70
 msgid "Do you really want to stop VM {0}?"
-msgstr ""
+msgstr "Ustavi VM {0}? "
 
 #: ../www/manager/VNCConsole.js:280
 msgid "Do you really want to suspend VM {0}?"
-msgstr ""
+msgstr "Prekini VM {0}?"
 
-#: ../www/manager/Utils.js:419 ../www/manager/storage/ContentView.js:105
+#: ../www/manager/Utils.js:419
+#: ../www/manager/storage/ContentView.js:105
 msgid "Download"
-msgstr ""
+msgstr "Prenesi"
 
-#: ../www/manager/node/TimeView.js:43 ../www/manager/node/DNSView.js:32
-#: ../www/manager/node/NetworkView.js:66 ../www/manager/dc/StorageView.js:55
-#: ../www/manager/dc/UserView.js:119 ../www/manager/dc/PoolView.js:60
-#: ../www/manager/dc/Backup.js:341 ../www/manager/dc/AuthView.js:42
-#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/OptionView.js:103
-#: ../www/manager/dc/HAConfig.js:232 ../www/manager/Utils.js:755
-#: ../www/manager/qemu/Options.js:229 ../www/manager/qemu/HardwareView.js:188
-#: ../www/manager/openvz/Options.js:131 ../www/manager/openvz/DNS.js:100
+#: ../www/manager/node/TimeView.js:43
+#: ../www/manager/node/DNSView.js:32
+#: ../www/manager/node/NetworkView.js:66
+#: ../www/manager/dc/StorageView.js:55
+#: ../www/manager/dc/UserView.js:119
+#: ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/Backup.js:341
+#: ../www/manager/dc/AuthView.js:42
+#: ../www/manager/dc/GroupView.js:60
+#: ../www/manager/dc/OptionView.js:103
+#: ../www/manager/dc/HAConfig.js:232
+#: ../www/manager/Utils.js:755
+#: ../www/manager/qemu/Options.js:229
+#: ../www/manager/qemu/HardwareView.js:188
+#: ../www/manager/openvz/Options.js:131
+#: ../www/manager/openvz/DNS.js:100
 #: ../www/manager/openvz/Network.js:318
 #: ../www/manager/openvz/RessourceView.js:86
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: ../www/manager/dc/StorageView.js:179
 #: ../www/manager/storage/IScsiEdit.js:135
-#: ../www/manager/storage/LVMEdit.js:195 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/LVMEdit.js:195
+#: ../www/manager/storage/DirEdit.js:57
 #: ../www/manager/storage/NFSEdit.js:143
 msgid "Enable"
-msgstr ""
+msgstr "Omogoči"
 
-#: ../www/manager/dc/UserView.js:190 ../www/manager/dc/UserEdit.js:97
-#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:111
+#: ../www/manager/dc/UserView.js:190
+#: ../www/manager/dc/UserEdit.js:97
+#: ../www/manager/storage/StatusView.js:20
+#: ../www/manager/qemu/Options.js:111
 #: ../www/manager/qemu/Options.js:129
 msgid "Enabled"
-msgstr ""
+msgstr "Omogočeno"
 
-#: ../www/manager/node/Tasks.js:118 ../www/manager/dc/Tasks.js:69
+#: ../www/manager/node/Tasks.js:118
+#: ../www/manager/dc/Tasks.js:69
 msgid "End Time"
-msgstr ""
+msgstr "Konec ob"
 
 #: ../www/manager/window/LoginWindow.js:89
 msgid "Enter your password"
-msgstr ""
+msgstr "Vpiši geslo"
 
 #: ../www/manager/window/LoginWindow.js:66
 msgid "Enter your user name"
-msgstr ""
+msgstr "Vpiši uporabniško ime"
 
 #: ../www/manager/Utils.js:418
 msgid "Erase data"
-msgstr ""
+msgstr "Izbriši podatke"
 
 #: ../www/manager/node/NetworkView.js:175
 #: ../www/manager/node/NetworkEdit.js:146
-#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/dc/ACLView.js:176
-#: ../www/manager/dc/StorageView.js:78 ../www/manager/dc/UserView.js:99
-#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/Backup.js:361
-#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/GroupView.js:40
-#: ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159
-#: ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252
-#: ../www/manager/Utils.js:563 ../www/manager/storage/ContentView.js:217
+#: ../www/manager/grid/PoolMembers.js:133
+#: ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/StorageView.js:78
+#: ../www/manager/dc/UserView.js:99
+#: ../www/manager/dc/PoolView.js:40
+#: ../www/manager/dc/Backup.js:361
+#: ../www/manager/dc/AuthView.js:73
+#: ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/HAConfig.js:138
+#: ../www/manager/dc/HAConfig.js:159
+#: ../www/manager/dc/HAConfig.js:181
+#: ../www/manager/dc/HAConfig.js:252
+#: ../www/manager/Utils.js:563
+#: ../www/manager/storage/ContentView.js:217
 #: ../www/manager/storage/ContentView.js:272
 #: ../www/manager/storage/ContentView.js:281
 #: ../www/manager/storage/ContentView.js:421
-#: ../www/manager/qemu/CreateWizard.js:159 ../www/manager/VNCConsole.js:177
-#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:94
-#: ../www/manager/window/Edit.js:131 ../www/manager/openvz/CreateWizard.js:313
-#: ../www/manager/openvz/Network.js:194 ../www/manager/openvz/Network.js:295
+#: ../www/manager/qemu/CreateWizard.js:159
+#: ../www/manager/VNCConsole.js:177
+#: ../www/manager/window/LoginWindow.js:16
+#: ../www/manager/window/Edit.js:94
+#: ../www/manager/window/Edit.js:131
+#: ../www/manager/openvz/CreateWizard.js:313
+#: ../www/manager/openvz/Network.js:194
+#: ../www/manager/openvz/Network.js:295
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
 #: ../www/manager/dc/Summary.js:56
 msgid "Estranged"
 msgstr ""
 
-#: ../www/manager/Utils.js:33 ../www/manager/Utils.js:40
+#: ../www/manager/Utils.js:33
+#: ../www/manager/Utils.js:40
 #: ../www/manager/Utils.js:65
 msgid "Example"
-msgstr ""
+msgstr "Primer"
 
 #: ../www/manager/dc/Backup.js:31
 msgid "Exclude selected VMs"
-msgstr ""
+msgstr "Izloči označene VM"
 
 #: ../www/manager/storage/LVMEdit.js:40
 msgid "Existing volume groups"
-msgstr ""
+msgstr "Obstoječe VG skupine"
 
-#: ../www/manager/dc/UserView.js:197 ../www/manager/dc/UserEdit.js:93
+#: ../www/manager/dc/UserView.js:197
+#: ../www/manager/dc/UserEdit.js:93
 msgid "Expire"
-msgstr ""
+msgstr "Poteče"
 
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
-msgstr ""
+msgstr "Failover domena"
 
 #: ../www/manager/dc/AuthEdit.js:93
 msgid "Fallback Server"
@@ -412,95 +498,108 @@ msgstr ""
 
 #: ../www/manager/window/Wizard.js:114
 msgid "Finish"
-msgstr ""
+msgstr "Končaj"
 
 #: ../www/manager/dc/UserEdit.js:109
 msgid "First Name"
-msgstr ""
+msgstr "Ime"
 
 #: ../www/manager/form/ViewSelector.js:14
 msgid "Folder View"
-msgstr ""
+msgstr "Seznamski prikaz"
 
 #: ../www/manager/Utils.js:289
 msgid "Form fields may not be submitted with invalid values"
-msgstr ""
+msgstr "Vnosna polja morajo vsebovati pravilne vrednosti"
 
-#: ../www/manager/grid/BackupView.js:163 ../www/manager/Utils.js:45
-#: ../www/manager/Utils.js:50 ../www/manager/Utils.js:55
-#: ../www/manager/storage/ContentView.js:458 ../www/manager/qemu/HDEdit.js:126
+#: ../www/manager/grid/BackupView.js:163
+#: ../www/manager/Utils.js:45
+#: ../www/manager/Utils.js:50
+#: ../www/manager/Utils.js:55
+#: ../www/manager/storage/ContentView.js:458
+#: ../www/manager/qemu/HDEdit.js:126
 msgid "Format"
 msgstr ""
 
 #: ../www/manager/qemu/CreateWizard.js:43
 #: ../www/manager/openvz/CreateWizard.js:62
 msgid "General"
-msgstr ""
+msgstr "Splošno"
 
 #: ../www/manager/qemu/DisplayEdit.js:14
 msgid "Graphic card"
-msgstr ""
+msgstr "Grafična kartica"
 
-#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/ACLView.js:26
-#: ../www/manager/dc/GroupEdit.js:22 ../www/manager/dc/UserEdit.js:85
+#: ../www/manager/form/GroupSelector.js:22
+#: ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/GroupEdit.js:22
+#: ../www/manager/dc/UserEdit.js:85
 msgid "Group"
-msgstr ""
+msgstr "Skupina"
 
-#: ../www/manager/dc/ACLView.js:22 ../www/manager/dc/ACLView.js:194
+#: ../www/manager/dc/ACLView.js:22
+#: ../www/manager/dc/ACLView.js:194
 msgid "Group Permission"
-msgstr ""
+msgstr "Dovoljenja skupine"
 
 #: ../www/manager/dc/Config.js:39
 msgid "Groups"
-msgstr ""
+msgstr "Skupine"
 
 #: ../www/manager/dc/Summary.js:239
 msgid "HA Service Status"
-msgstr ""
+msgstr "Status HA servisa"
 
-#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
+#: ../www/manager/dc/HAConfig.js:21
+#: ../www/manager/dc/HAConfig.js:171
 msgid "HA managed VM/CT"
 msgstr ""
 
-#: ../www/manager/qemu/CreateWizard.js:28 ../www/manager/qemu/HDEdit.js:246
-#: ../www/manager/qemu/HDEdit.js:248 ../www/manager/qemu/HardwareView.js:99
+#: ../www/manager/qemu/CreateWizard.js:28
+#: ../www/manager/qemu/HDEdit.js:246
+#: ../www/manager/qemu/HDEdit.js:248
+#: ../www/manager/qemu/HardwareView.js:99
 #: ../www/manager/qemu/HardwareView.js:109
 #: ../www/manager/qemu/HardwareView.js:119
 #: ../www/manager/qemu/HardwareView.js:250
 msgid "Hard Disk"
-msgstr ""
+msgstr "Trdi disk"
 
 #: ../www/manager/qemu/Config.js:117
 msgid "Hardware"
-msgstr ""
+msgstr "Strojna oprema"
 
 #: ../www/manager/node/NetworkView.js:223
 #: ../www/manager/node/NetworkEdit.js:88
 #: ../www/manager/openvz/CreateWizard.js:176
-#: ../www/manager/openvz/Network.js:137 ../www/manager/openvz/Network.js:143
-#: ../www/manager/openvz/Network.js:160 ../www/manager/openvz/Network.js:338
+#: ../www/manager/openvz/Network.js:137
+#: ../www/manager/openvz/Network.js:143
+#: ../www/manager/openvz/Network.js:160
+#: ../www/manager/openvz/Network.js:338
 #: ../www/manager/openvz/Network.js:379
 msgid "IP address"
-msgstr ""
+msgstr "IP naslov"
 
 #: ../www/manager/dc/Backup.js:29
 msgid "Include selected VMs"
-msgstr ""
+msgstr "Vključi izbrane VM"
 
-#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
-#: ../www/manager/dc/OptionView.js:63 ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/dc/OptionView.js:33
+#: ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:63
+#: ../www/manager/qemu/KeyboardEdit.js:8
 #: ../www/manager/qemu/KeyboardEdit.js:13
 #: ../www/manager/qemu/HardwareView.js:70
 msgid "Keyboard Layout"
-msgstr ""
+msgstr "Razpored tipkovnice"
 
 #: ../www/manager/window/LoginWindow.js:104
 msgid "Language"
-msgstr ""
+msgstr "Jezik"
 
 #: ../www/manager/dc/UserEdit.js:114
 msgid "Last Name"
-msgstr ""
+msgstr "Priimek"
 
 #: ../www/manager/dc/Summary.js:178
 msgid "Last owner"
@@ -512,58 +611,64 @@ msgstr ""
 
 #: ../www/manager/Utils.js:782
 msgid "Loading..."
-msgstr ""
+msgstr "Nalagam..."
 
 #: ../www/manager/window/LoginWindow.js:120
 msgid "Login"
-msgstr ""
+msgstr "Prijava"
 
 #: ../www/manager/window/LoginWindow.js:17
 msgid "Login failed. Please try again"
-msgstr ""
+msgstr "Napaka pri prijavi! Poizkusi ponovno"
 
 #: ../www/manager/Workspace.js:316
 msgid "Logout"
-msgstr ""
+msgstr "Odjava"
 
-#: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:147
+#: ../www/manager/storage/DirEdit.js:67
+#: ../www/manager/storage/NFSEdit.js:147
 msgid "Max Backups"
-msgstr ""
+msgstr "Maks. št. var. kopij"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
-msgstr ""
+msgstr "Člani"
 
 #: ../www/manager/qemu/CreateWizard.js:105
-#: ../www/manager/qemu/MemoryEdit.js:19 ../www/manager/qemu/MemoryEdit.js:41
+#: ../www/manager/qemu/MemoryEdit.js:19
+#: ../www/manager/qemu/MemoryEdit.js:41
 #: ../www/manager/qemu/HardwareView.js:40
 #: ../www/manager/openvz/RessourceEdit.js:20
 #: ../www/manager/openvz/RessourceView.js:23
 msgid "Memory"
-msgstr ""
+msgstr "Pomnilnik"
 
 #: ../www/manager/data/ResourceStore.js:125
 msgid "Memory size"
-msgstr ""
+msgstr "Velikost pomnilnika"
 
 #: ../www/manager/data/ResourceStore.js:118
 msgid "Memory usage"
-msgstr ""
+msgstr "Poraba pomnilnika"
 
 #: ../www/manager/dc/Log.js:76
 msgid "Message"
-msgstr ""
+msgstr "Sporočilo"
 
-#: ../www/manager/Utils.js:394 ../www/manager/Utils.js:404
-#: ../www/manager/Utils.js:410 ../www/manager/qemu/Config.js:51
-#: ../www/manager/qemu/CmdMenu.js:41 ../www/manager/openvz/Config.js:68
+#: ../www/manager/Utils.js:394
+#: ../www/manager/Utils.js:404
+#: ../www/manager/Utils.js:410
+#: ../www/manager/qemu/Config.js:51
+#: ../www/manager/qemu/CmdMenu.js:41
+#: ../www/manager/openvz/Config.js:68
 #: ../www/manager/openvz/CmdMenu.js:41
 msgid "Migrate"
-msgstr ""
+msgstr "Prestavi"
 
-#: ../www/manager/dc/Backup.js:169 ../www/manager/window/Backup.js:41
+#: ../www/manager/dc/Backup.js:169
+#: ../www/manager/window/Backup.js:41
 msgid "Mode"
-msgstr ""
+msgstr "Način"
 
 #: ../www/manager/qemu/Config.js:127
 msgid "Monitor"
@@ -571,156 +676,190 @@ msgstr ""
 
 #: ../www/manager/Utils.js:407
 msgid "Mount"
-msgstr ""
+msgstr "Priklopi"
 
 #: ../www/manager/data/ResourceStore.js:97
 #: ../www/manager/node/ServiceView.js:118
 #: ../www/manager/node/NetworkView.js:192
-#: ../www/manager/node/NetworkEdit.js:78 ../www/manager/grid/BackupView.js:156
-#: ../www/manager/dc/UserView.js:204 ../www/manager/dc/PoolView.js:90
-#: ../www/manager/dc/Backup.js:100 ../www/manager/dc/RoleView.js:40
-#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/GroupView.js:90
-#: ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148
-#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/storage/ContentView.js:451
-#: ../www/manager/qemu/Options.js:24 ../www/manager/qemu/Options.js:27
-#: ../www/manager/qemu/Options.js:33 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/node/NetworkEdit.js:78
+#: ../www/manager/grid/BackupView.js:156
+#: ../www/manager/dc/UserView.js:204
+#: ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/Backup.js:100
+#: ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/GroupEdit.js:28
+#: ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/Summary.js:30
+#: ../www/manager/dc/Summary.js:148
+#: ../www/manager/dc/PoolEdit.js:28
+#: ../www/manager/storage/ContentView.js:451
+#: ../www/manager/qemu/Options.js:24
+#: ../www/manager/qemu/Options.js:27
+#: ../www/manager/qemu/Options.js:33
+#: ../www/manager/qemu/StatusView.js:43
 #: ../www/manager/qemu/CreateWizard.js:69
-#: ../www/manager/openvz/StatusView.js:58 ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/StatusView.js:58
+#: ../www/manager/openvz/Network.js:58
 msgid "Name"
-msgstr ""
+msgstr "Ime"
 
-#: ../www/manager/node/Config.js:76 ../www/manager/qemu/CreateWizard.js:34
+#: ../www/manager/node/Config.js:76
+#: ../www/manager/qemu/CreateWizard.js:34
 #: ../www/manager/qemu/BootOrderEdit.js:74
 #: ../www/manager/openvz/CreateWizard.js:153
-#: ../www/manager/openvz/Config.js:123 ../www/manager/openvz/Network.js:161
+#: ../www/manager/openvz/Config.js:123
+#: ../www/manager/openvz/Network.js:161
 msgid "Network"
-msgstr ""
+msgstr "Omrežje"
 
 #: ../www/manager/node/NetworkEdit.js:28
 #: ../www/manager/qemu/HardwareView.js:129
 #: ../www/manager/qemu/HardwareView.js:274
-#: ../www/manager/qemu/NetworkEdit.js:176 ../www/manager/openvz/Network.js:47
-#: ../www/manager/openvz/Network.js:162 ../www/manager/openvz/Network.js:351
+#: ../www/manager/qemu/NetworkEdit.js:176
+#: ../www/manager/openvz/Network.js:47
+#: ../www/manager/openvz/Network.js:162
+#: ../www/manager/openvz/Network.js:351
 msgid "Network Device"
-msgstr ""
+msgstr "Omrežna kartica"
 
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
-msgstr ""
+msgstr "Naprej"
 
-#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:562
+#: ../www/manager/form/Boolean.js:12
+#: ../www/manager/Utils.js:562
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: ../www/manager/qemu/HDEdit.js:209
 msgid "No backup"
-msgstr ""
+msgstr "Izklopi var. kopiranje"
 
 #: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
 msgid "No changes"
-msgstr ""
+msgstr "Ni sprememb"
 
 #: ../www/manager/storage/IScsiEdit.js:126
-#: ../www/manager/storage/LVMEdit.js:186 ../www/manager/storage/DirEdit.js:82
+#: ../www/manager/storage/LVMEdit.js:186
+#: ../www/manager/storage/DirEdit.js:82
 #: ../www/manager/storage/NFSEdit.js:134
 msgid "No restrictions"
-msgstr ""
+msgstr "Brez omejitev"
 
-#: ../www/manager/data/ResourceStore.js:154 ../www/manager/node/Config.js:60
-#: ../www/manager/node/Tasks.js:126 ../www/manager/dc/Backup.js:85
-#: ../www/manager/dc/Backup.js:113 ../www/manager/dc/Backup.js:390
-#: ../www/manager/dc/Tasks.js:81 ../www/manager/dc/Log.js:50
+#: ../www/manager/data/ResourceStore.js:154
+#: ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:126
+#: ../www/manager/dc/Backup.js:85
+#: ../www/manager/dc/Backup.js:113
+#: ../www/manager/dc/Backup.js:390
+#: ../www/manager/dc/Tasks.js:81
+#: ../www/manager/dc/Log.js:50
 #: ../www/manager/qemu/CreateWizard.js:48
 #: ../www/manager/window/TaskViewer.js:31
 #: ../www/manager/openvz/CreateWizard.js:67
 msgid "Node"
-msgstr ""
+msgstr "Strežnik"
 
 #: ../www/manager/tree/ResourceTree.js:9
 msgid "Node list"
-msgstr ""
+msgstr "Seznam strežnikov"
 
-#: ../www/manager/dc/Summary.js:247 ../www/manager/storage/IScsiEdit.js:124
-#: ../www/manager/storage/LVMEdit.js:184 ../www/manager/storage/DirEdit.js:80
+#: ../www/manager/dc/Summary.js:247
+#: ../www/manager/storage/IScsiEdit.js:124
+#: ../www/manager/storage/LVMEdit.js:184
+#: ../www/manager/storage/DirEdit.js:80
 #: ../www/manager/storage/NFSEdit.js:132
 msgid "Nodes"
-msgstr ""
+msgstr "Strežniki"
 
-#: ../www/manager/panel/NotesView.js:45 ../www/manager/window/NotesEdit.js:8
+#: ../www/manager/panel/NotesView.js:45
+#: ../www/manager/window/NotesEdit.js:8
 msgid "Notes"
-msgstr ""
+msgstr "Zapiski"
 
-#: ../www/manager/data/ResourceStore.js:47 ../www/manager/dc/Summary.js:42
+#: ../www/manager/data/ResourceStore.js:47
+#: ../www/manager/dc/Summary.js:42
 msgid "Online"
-msgstr ""
+msgstr "Dosegljiv"
 
 #: ../www/manager/node/Tasks.js:94
 msgid "Only Errors"
-msgstr ""
+msgstr "Samo napake"
 
 #: ../www/manager/tree/ResourceTree.js:25
 #: ../www/manager/openvz/CreateWizard.js:58
 msgid "OpenVZ Container"
 msgstr ""
 
-#: ../www/manager/dc/Config.js:19 ../www/manager/qemu/Config.js:122
+#: ../www/manager/dc/Config.js:19
+#: ../www/manager/qemu/Config.js:122
 #: ../www/manager/openvz/Config.js:133
 msgid "Options"
-msgstr ""
+msgstr "Možnosti"
 
-#: ../www/manager/Utils.js:111 ../www/manager/Utils.js:122
+#: ../www/manager/Utils.js:111
+#: ../www/manager/Utils.js:122
 msgid "Other OS types"
-msgstr ""
+msgstr "Ostali OS"
 
 #: ../www/manager/window/TaskViewer.js:89
 msgid "Output"
-msgstr ""
+msgstr "Rezultat"
 
 #: ../www/manager/dc/Summary.js:154
 msgid "Owner"
-msgstr ""
+msgstr "Lastnik"
 
 #: ../www/manager/storage/ContentView.js:50
 msgid "Package"
-msgstr ""
+msgstr "Paket"
 
-#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
-#: ../www/manager/dc/UserView.js:126 ../www/manager/dc/UserEdit.js:46
+#: ../www/manager/dc/UserView.js:31
+#: ../www/manager/dc/UserView.js:38
+#: ../www/manager/dc/UserView.js:126
+#: ../www/manager/dc/UserEdit.js:46
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/openvz/CreateWizard.js:108
 msgid "Password"
-msgstr ""
+msgstr "Geslo"
 
-#: ../www/manager/dc/UserView.js:16 ../www/manager/dc/UserEdit.js:29
+#: ../www/manager/dc/UserView.js:16
+#: ../www/manager/dc/UserEdit.js:29
 msgid "Passwords does not match"
-msgstr ""
+msgstr "Gesli se ne ujemata"
 
-#: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
+#: ../www/manager/dc/ACLView.js:17
+#: ../www/manager/dc/ACLView.js:129
 msgid "Path"
-msgstr ""
+msgstr "Pot"
 
-#: ../www/manager/node/NetworkView.js:249 ../www/manager/dc/HAConfig.js:266
+#: ../www/manager/node/NetworkView.js:249
+#: ../www/manager/dc/HAConfig.js:266
 msgid "Pending changes"
-msgstr ""
+msgstr "Čakam na uveljavitev sprememb"
 
-#: ../www/manager/pool/Config.js:30 ../www/manager/dc/Config.js:49
-#: ../www/manager/storage/Browser.js:35 ../www/manager/qemu/Config.js:138
+#: ../www/manager/pool/Config.js:30
+#: ../www/manager/dc/Config.js:49
+#: ../www/manager/storage/Browser.js:35
+#: ../www/manager/qemu/Config.js:138
 #: ../www/manager/openvz/Config.js:156
 msgid "Permissions"
-msgstr ""
+msgstr "Pravice"
 
 #: ../www/manager/node/NetworkView.js:250
 msgid "Please reboot to activate changes"
-msgstr ""
+msgstr "Ponovno zaženi za uveljavitev sprememb"
 
-#: ../www/manager/Utils.js:310 ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/Utils.js:310
+#: ../www/manager/window/LoginWindow.js:11
 #: ../www/manager/window/LoginWindow.js:112
 msgid "Please wait..."
-msgstr ""
+msgstr "Počakaj..."
 
 #: ../www/manager/form/PoolSelector.js:22
-#: ../www/manager/data/ResourceStore.js:168 ../www/manager/dc/PoolEdit.js:22
+#: ../www/manager/data/ResourceStore.js:168
+#: ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
 msgstr ""
 
@@ -730,7 +869,7 @@ msgstr ""
 
 #: ../www/manager/dc/AuthEdit.js:99
 msgid "Port"
-msgstr ""
+msgstr "Vrata"
 
 #: ../www/manager/Utils.js:107
 msgid "Premium"
@@ -738,54 +877,70 @@ msgstr ""
 
 #: ../www/manager/dc/RoleView.js:47
 msgid "Privileges"
-msgstr ""
+msgstr "Pravice"
 
 #: ../www/manager/qemu/ProcessorEdit.js:71
 #: ../www/manager/qemu/HardwareView.js:49
 #: ../www/manager/openvz/RessourceView.js:39
 msgid "Processors"
-msgstr ""
+msgstr "Procesorji"
 
-#: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
+#: ../www/manager/dc/ACLView.js:51
+#: ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
 msgstr ""
 
 #: ../www/manager/window/LoginWindow.js:45
 msgid "Proxmox VE Login"
-msgstr ""
+msgstr "Proxmox VE prijava"
 
-#: ../www/manager/dc/UserView.js:183 ../www/manager/dc/UserEdit.js:133
-#: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/AuthEdit.js:29
+#: ../www/manager/dc/UserView.js:183
+#: ../www/manager/dc/UserEdit.js:133
+#: ../www/manager/dc/AuthView.js:120
+#: ../www/manager/dc/AuthEdit.js:29
 msgid "Realm"
 msgstr ""
 
-#: ../www/manager/VNCConsole.js:304 ../www/manager/VNCConsole.js:400
+#: ../www/manager/VNCConsole.js:304
+#: ../www/manager/VNCConsole.js:400
 #: ../www/manager/VNCConsole.js:437
 msgid "Refresh"
-msgstr ""
+msgstr "Osveži"
 
-#: ../www/manager/Utils.js:416 ../www/manager/VNCConsole.js:311
-#: ../www/manager/VNCConsole.js:407 ../www/manager/VNCConsole.js:444
+#: ../www/manager/Utils.js:416
+#: ../www/manager/VNCConsole.js:311
+#: ../www/manager/VNCConsole.js:407
+#: ../www/manager/VNCConsole.js:444
 msgid "Reload"
-msgstr ""
+msgstr "Osveži"
 
-#: ../www/manager/node/NetworkView.js:72 ../www/manager/grid/BackupView.js:116
-#: ../www/manager/grid/PoolMembers.js:107 ../www/manager/dc/ACLView.js:149
-#: ../www/manager/dc/StorageView.js:62 ../www/manager/dc/UserView.js:78
-#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:348
-#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/GroupView.js:24
-#: ../www/manager/dc/HAConfig.js:238 ../www/manager/storage/ContentView.js:402
-#: ../www/manager/qemu/Config.js:79 ../www/manager/qemu/HardwareView.js:202
-#: ../www/manager/openvz/Config.js:80 ../www/manager/openvz/Network.js:254
+#: ../www/manager/node/NetworkView.js:72
+#: ../www/manager/grid/BackupView.js:116
+#: ../www/manager/grid/PoolMembers.js:107
+#: ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/StorageView.js:62
+#: ../www/manager/dc/UserView.js:78
+#: ../www/manager/dc/PoolView.js:24
+#: ../www/manager/dc/Backup.js:348
+#: ../www/manager/dc/AuthView.js:52
+#: ../www/manager/dc/GroupView.js:24
+#: ../www/manager/dc/HAConfig.js:238
+#: ../www/manager/storage/ContentView.js:402
+#: ../www/manager/qemu/Config.js:79
+#: ../www/manager/qemu/HardwareView.js:202
+#: ../www/manager/openvz/Config.js:80
+#: ../www/manager/openvz/Network.js:254
 msgid "Remove"
-msgstr ""
+msgstr "Odstrani"
 
-#: ../www/manager/Utils.js:397 ../www/manager/qemu/Config.js:63
+#: ../www/manager/Utils.js:397
+#: ../www/manager/qemu/Config.js:63
 #: ../www/manager/VNCConsole.js:266
 msgid "Reset"
 msgstr ""
 
-#: ../www/manager/pool/Config.js:14 ../www/manager/tree/ResourceTree.js:13
+#: ../www/manager/pool/Config.js:14
+#: ../www/manager/tree/ResourceTree.js:13
 #: ../www/manager/qemu/CreateWizard.js:76
 #: ../www/manager/openvz/CreateWizard.js:97
 msgid "Resource Pool"
@@ -795,48 +950,54 @@ msgstr ""
 #: ../www/manager/openvz/RessourceEdit.js:71
 #: ../www/manager/openvz/Config.js:118
 msgid "Resources"
-msgstr ""
+msgstr "Viri"
 
-#: ../www/manager/node/Config.js:31 ../www/manager/node/ServiceView.js:65
+#: ../www/manager/node/Config.js:31
+#: ../www/manager/node/ServiceView.js:65
 #: ../www/manager/Utils.js:415
 msgid "Restart"
-msgstr ""
+msgstr "Ponovno zaženi"
 
 #: ../www/manager/dc/Summary.js:166
 msgid "Restarts"
 msgstr ""
 
-#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:392
-#: ../www/manager/Utils.js:402 ../www/manager/storage/ContentView.js:374
+#: ../www/manager/grid/BackupView.js:94
+#: ../www/manager/Utils.js:392
+#: ../www/manager/Utils.js:402
+#: ../www/manager/storage/ContentView.js:374
 #: ../www/manager/window/Restore.js:78
 msgid "Restore"
-msgstr ""
+msgstr "Obnovi"
 
-#: ../www/manager/Utils.js:400 ../www/manager/VNCConsole.js:290
+#: ../www/manager/Utils.js:400
+#: ../www/manager/VNCConsole.js:290
 msgid "Resume"
-msgstr ""
+msgstr "Nadaljuj"
 
-#: ../www/manager/node/NetworkView.js:165 ../www/manager/dc/HAConfig.js:145
+#: ../www/manager/node/NetworkView.js:165
+#: ../www/manager/dc/HAConfig.js:145
 msgid "Revert changes"
-msgstr ""
+msgstr "Povrni spremembe"
 
-#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:43
+#: ../www/manager/form/RoleSelector.js:21
+#: ../www/manager/dc/ACLView.js:43
 #: ../www/manager/dc/ACLView.js:120
 msgid "Role"
-msgstr ""
+msgstr "Vloga"
 
 #: ../www/manager/dc/Config.js:54
 msgid "Roles"
-msgstr ""
+msgstr "Vloge"
 
 #: ../www/manager/grid/ResourceGrid.js:167
 #: ../www/manager/grid/ResourceGrid.js:174
 msgid "Search"
-msgstr ""
+msgstr "Iskanje"
 
 #: ../www/manager/storage/ContentView.js:199
 msgid "Select File..."
-msgstr ""
+msgstr "Izberi datoteko..."
 
 #: ../www/manager/dc/Backup.js:420
 msgid "Selection"
@@ -848,19 +1009,20 @@ msgstr ""
 
 #: ../www/manager/dc/Backup.js:158
 msgid "Send email to"
-msgstr ""
+msgstr "Pošlji e-pošto na"
 
-#: ../www/manager/dc/AuthEdit.js:87 ../www/manager/storage/NFSEdit.js:98
+#: ../www/manager/dc/AuthEdit.js:87
+#: ../www/manager/storage/NFSEdit.js:98
 msgid "Server"
-msgstr ""
+msgstr "Strežnik"
 
 #: ../www/manager/dc/Summary.js:63
 msgid "Server Address"
-msgstr ""
+msgstr "Naslov strežnika"
 
 #: ../www/manager/form/ViewSelector.js:10
 msgid "Server View"
-msgstr ""
+msgstr "Seznam strežnikov"
 
 #: ../www/manager/node/TimeView.js:36
 msgid "Server time"
@@ -868,16 +1030,17 @@ msgstr ""
 
 #: ../www/manager/dc/Log.js:55
 msgid "Service"
-msgstr ""
+msgstr "Servis"
 
-#: ../www/manager/node/Config.js:71 ../www/manager/dc/Summary.js:69
+#: ../www/manager/node/Config.js:71
+#: ../www/manager/dc/Summary.js:69
 msgid "Services"
-msgstr ""
+msgstr "Servisi"
 
 #: ../www/manager/qemu/CreateWizard.js:113
 #: ../www/manager/openvz/CreateWizard.js:258
 msgid "Settings"
-msgstr ""
+msgstr "Nastavitve"
 
 #: ../www/manager/dc/Log.js:70
 msgid "Severity"
@@ -885,133 +1048,170 @@ msgstr ""
 
 #: ../www/manager/dc/StorageView.js:172
 #: ../www/manager/storage/StatusView.js:40
-#: ../www/manager/storage/LVMEdit.js:201 ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/storage/LVMEdit.js:201
+#: ../www/manager/storage/DirEdit.js:63
 msgid "Shared"
-msgstr ""
+msgstr "Skupna raba"
 
-#: ../www/manager/node/Config.js:47 ../www/manager/Utils.js:390
+#: ../www/manager/node/Config.js:47
+#: ../www/manager/Utils.js:390
 #: ../www/manager/VNCConsole.js:448
 msgid "Shell"
 msgstr ""
 
-#: ../www/manager/node/Config.js:39 ../www/manager/Utils.js:398
-#: ../www/manager/Utils.js:409 ../www/manager/qemu/Config.js:71
-#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:237
-#: ../www/manager/VNCConsole.js:367 ../www/manager/openvz/Config.js:60
+#: ../www/manager/node/Config.js:39
+#: ../www/manager/Utils.js:398
+#: ../www/manager/Utils.js:409
+#: ../www/manager/qemu/Config.js:71
+#: ../www/manager/qemu/CmdMenu.js:53
+#: ../www/manager/VNCConsole.js:237
+#: ../www/manager/VNCConsole.js:367
+#: ../www/manager/openvz/Config.js:60
 #: ../www/manager/openvz/CmdMenu.js:53
 msgid "Shutdown"
-msgstr ""
+msgstr "Zaustavi"
 
 #: ../www/manager/grid/BackupView.js:168
 #: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/storage/ContentView.js:463
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: ../www/manager/window/Restore.js:41
 msgid "Source"
-msgstr ""
+msgstr "Izvor"
 
 #: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
-msgstr ""
+msgstr "Samostojen strežnik - brez gruče"
 
 #: ../www/manager/Utils.js:106
 msgid "Standard"
 msgstr ""
 
-#: ../www/manager/node/ServiceView.js:49 ../www/manager/Utils.js:395
-#: ../www/manager/Utils.js:405 ../www/manager/Utils.js:411
-#: ../www/manager/Utils.js:413 ../www/manager/qemu/Config.js:36
-#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:231
-#: ../www/manager/VNCConsole.js:361 ../www/manager/openvz/Config.js:36
+#: ../www/manager/node/ServiceView.js:49
+#: ../www/manager/Utils.js:395
+#: ../www/manager/Utils.js:405
+#: ../www/manager/Utils.js:411
+#: ../www/manager/Utils.js:413
+#: ../www/manager/qemu/Config.js:36
+#: ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/VNCConsole.js:231
+#: ../www/manager/VNCConsole.js:361
+#: ../www/manager/openvz/Config.js:36
 #: ../www/manager/openvz/CmdMenu.js:34
 msgid "Start"
-msgstr ""
+msgstr "Zaženi"
 
-#: ../www/manager/node/Tasks.js:110 ../www/manager/dc/Backup.js:146
-#: ../www/manager/dc/Backup.js:408 ../www/manager/dc/Tasks.js:61
+#: ../www/manager/node/Tasks.js:110
+#: ../www/manager/dc/Backup.js:146
+#: ../www/manager/dc/Backup.js:408
+#: ../www/manager/dc/Tasks.js:61
 #: ../www/manager/window/TaskViewer.js:39
 msgid "Start Time"
-msgstr ""
+msgstr "Čas zagona"
 
-#: ../www/manager/qemu/Options.js:39 ../www/manager/qemu/Options.js:44
-#: ../www/manager/qemu/Options.js:51 ../www/manager/openvz/Options.js:22
-#: ../www/manager/openvz/Options.js:27 ../www/manager/openvz/Options.js:33
+#: ../www/manager/qemu/Options.js:39
+#: ../www/manager/qemu/Options.js:44
+#: ../www/manager/qemu/Options.js:51
+#: ../www/manager/openvz/Options.js:22
+#: ../www/manager/openvz/Options.js:27
+#: ../www/manager/openvz/Options.js:33
 msgid "Start at boot"
-msgstr ""
+msgstr "Zaženi ob zagonu"
 
-#: ../www/manager/pool/StatusView.js:21 ../www/manager/node/Subscription.js:28
-#: ../www/manager/node/Tasks.js:142 ../www/manager/node/ServiceView.js:124
-#: ../www/manager/dc/Backup.js:89 ../www/manager/dc/Tasks.js:97
-#: ../www/manager/dc/Summary.js:160 ../www/manager/storage/StatusView.js:67
-#: ../www/manager/qemu/StatusView.js:44 ../www/manager/window/TaskViewer.js:19
+#: ../www/manager/pool/StatusView.js:21
+#: ../www/manager/node/Subscription.js:28
+#: ../www/manager/node/Tasks.js:142
+#: ../www/manager/node/ServiceView.js:124
+#: ../www/manager/dc/Backup.js:89
+#: ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Summary.js:160
+#: ../www/manager/storage/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/window/TaskViewer.js:19
 #: ../www/manager/window/TaskViewer.js:80
 #: ../www/manager/openvz/StatusView.js:59
 msgid "Status"
-msgstr ""
+msgstr "Stanje"
 
-#: ../www/manager/node/ServiceView.js:57 ../www/manager/Utils.js:396
-#: ../www/manager/Utils.js:406 ../www/manager/Utils.js:412
-#: ../www/manager/Utils.js:414 ../www/manager/qemu/Config.js:43
-#: ../www/manager/qemu/CmdMenu.js:67 ../www/manager/VNCConsole.js:249
-#: ../www/manager/VNCConsole.js:379 ../www/manager/window/TaskViewer.js:68
-#: ../www/manager/window/TaskViewer.js:74 ../www/manager/openvz/Config.js:52
+#: ../www/manager/node/ServiceView.js:57
+#: ../www/manager/Utils.js:396
+#: ../www/manager/Utils.js:406
+#: ../www/manager/Utils.js:412
+#: ../www/manager/Utils.js:414
+#: ../www/manager/qemu/Config.js:43
+#: ../www/manager/qemu/CmdMenu.js:67
+#: ../www/manager/VNCConsole.js:249
+#: ../www/manager/VNCConsole.js:379
+#: ../www/manager/window/TaskViewer.js:68
+#: ../www/manager/window/TaskViewer.js:74
+#: ../www/manager/openvz/Config.js:52
 #: ../www/manager/openvz/CmdMenu.js:67
 msgid "Stop"
-msgstr ""
+msgstr "Ustavi"
 
 #: ../www/manager/data/ResourceStore.js:161
-#: ../www/manager/grid/BackupView.js:67 ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/BackupView.js:67
+#: ../www/manager/grid/PoolMembers.js:52
 #: ../www/manager/grid/PoolMembers.js:61
-#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/dc/Backup.js:57
-#: ../www/manager/dc/Backup.js:414 ../www/manager/dc/Config.js:24
-#: ../www/manager/qemu/HDEdit.js:153 ../www/manager/qemu/CDEdit.js:111
-#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
+#: ../www/manager/grid/PoolMembers.js:157
+#: ../www/manager/dc/Backup.js:57
+#: ../www/manager/dc/Backup.js:414
+#: ../www/manager/dc/Config.js:24
+#: ../www/manager/qemu/HDEdit.js:153
+#: ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/window/Restore.js:25
+#: ../www/manager/window/Backup.js:25
 #: ../www/manager/openvz/Options.js:42
 #: ../www/manager/openvz/CreateWizard.js:22
 #: ../www/manager/openvz/CreateWizard.js:37
 msgid "Storage"
-msgstr ""
+msgstr "Shramba"
 
 #: ../www/manager/form/ViewSelector.js:18
 msgid "Storage View"
-msgstr ""
+msgstr "Seznam shramb"
 
 #: ../www/manager/tree/ResourceTree.js:17
 msgid "Storage list"
-msgstr ""
+msgstr "Seznam shramb"
 
 #: ../www/manager/storage/Browser.js:19
 msgid "Storage {0} on node {1}"
-msgstr ""
+msgstr "Shramba {0} na strežniku {1}"
 
 #: ../www/manager/node/NetworkView.js:228
 #: ../www/manager/node/NetworkEdit.js:95
 msgid "Subnet mask"
-msgstr ""
+msgstr "Omrežna maska"
 
 #: ../www/manager/node/Subscription.js:25
 msgid "Subscription Key"
-msgstr ""
+msgstr "Naročniški ključ"
 
 #: ../www/manager/Utils.js:263
 msgid "Successful"
-msgstr ""
+msgstr "Uspešno"
 
-#: ../www/manager/pool/Config.js:18 ../www/manager/node/Config.js:66
-#: ../www/manager/dc/Config.js:13 ../www/manager/storage/Browser.js:24
-#: ../www/manager/qemu/Config.js:112 ../www/manager/openvz/Config.js:113
+#: ../www/manager/pool/Config.js:18
+#: ../www/manager/node/Config.js:66
+#: ../www/manager/dc/Config.js:13
+#: ../www/manager/storage/Browser.js:24
+#: ../www/manager/qemu/Config.js:112
+#: ../www/manager/openvz/Config.js:113
 msgid "Summary"
-msgstr ""
+msgstr "Povzetek"
 
-#: ../www/manager/dc/Config.js:68 ../www/manager/dc/Summary.js:49
+#: ../www/manager/dc/Config.js:68
+#: ../www/manager/dc/Summary.js:49
 msgid "Support"
-msgstr ""
+msgstr "Podpora"
 
-#: ../www/manager/Utils.js:399 ../www/manager/VNCConsole.js:278
+#: ../www/manager/Utils.js:399
+#: ../www/manager/VNCConsole.js:278
 msgid "Suspend"
-msgstr ""
+msgstr "Prekini"
 
 #: ../www/manager/openvz/RessourceEdit.js:31
 #: ../www/manager/openvz/RessourceView.js:31
@@ -1020,173 +1220,190 @@ msgstr ""
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
-msgstr ""
+msgstr "Opravila"
 
 #: ../www/manager/openvz/Options.js:38
 #: ../www/manager/openvz/CreateWizard.js:31
 #: ../www/manager/openvz/CreateWizard.js:144
 msgid "Template"
-msgstr ""
+msgstr "Predloga"
 
 #: ../www/manager/storage/ContentView.js:133
 #: ../www/manager/storage/ContentView.js:427
 msgid "Templates"
-msgstr ""
+msgstr "Predloge"
 
 #: ../www/manager/Utils.js:70
 msgid "This is not a valid DNS name"
-msgstr ""
+msgstr "Vpiši pravilen DNS ime"
 
 #: ../www/manager/grid/BackupView.js:122
 #: ../www/manager/qemu/HardwareView.js:209
 msgid "This will permanently erase all image data."
-msgstr ""
+msgstr "Vsi podatki bodo izbrisani!"
 
 #: ../www/manager/window/Restore.js:103
 msgid "This will permanently erase current VM data."
-msgstr ""
+msgstr "Vsi podatki za trenutni VM bodo izbrisani!"
 
-#: ../www/manager/node/Config.js:86 ../www/manager/dc/Log.js:42
+#: ../www/manager/node/Config.js:86
+#: ../www/manager/dc/Log.js:42
 msgid "Time"
-msgstr ""
+msgstr "Čas"
 
-#: ../www/manager/node/TimeEdit.js:14 ../www/manager/node/TimeEdit.js:22
+#: ../www/manager/node/TimeEdit.js:14
+#: ../www/manager/node/TimeEdit.js:22
 #: ../www/manager/node/TimeView.js:32
 msgid "Time zone"
-msgstr ""
+msgstr "Pasovni čas"
 
 #: ../www/manager/data/ResourceStore.js:32
-#: ../www/manager/node/Subscription.js:22 ../www/manager/dc/StorageView.js:146
-#: ../www/manager/dc/Backup.js:105 ../www/manager/dc/AuthView.js:126
+#: ../www/manager/node/Subscription.js:22
+#: ../www/manager/dc/StorageView.js:146
+#: ../www/manager/dc/Backup.js:105
+#: ../www/manager/dc/AuthView.js:126
 #: ../www/manager/storage/StatusView.js:35
 #: ../www/manager/storage/ContentView.js:45
 #: ../www/manager/openvz/Network.js:373
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #: ../www/manager/Utils.js:564
 msgid "Unknown"
-msgstr ""
+msgstr "Neznano"
 
 #: ../www/manager/Utils.js:266
 msgid "Unknown error"
-msgstr ""
+msgstr "Neznana napaka"
 
-#: ../www/manager/Utils.js:408 ../www/manager/openvz/Config.js:43
+#: ../www/manager/Utils.js:408
+#: ../www/manager/openvz/Config.js:43
 msgid "Unmount"
-msgstr ""
+msgstr "Odklopi nosilec"
 
-#: ../www/manager/qemu/HDEdit.js:244 ../www/manager/qemu/HardwareView.js:137
+#: ../www/manager/qemu/HDEdit.js:244
+#: ../www/manager/qemu/HardwareView.js:137
 msgid "Unused Disk"
-msgstr ""
+msgstr "Neuporabljeni diski"
 
 #: ../www/manager/storage/ContentView.js:239
 #: ../www/manager/storage/ContentView.js:303
 #: ../www/manager/storage/ContentView.js:438
 msgid "Upload"
-msgstr ""
+msgstr "Naloži"
 
 #: ../www/manager/node/Subscription.js:41
 msgid "Upload Subscription Key"
-msgstr ""
+msgstr "Naloži naročniški ključ"
 
 #: ../www/manager/storage/ContentView.js:211
 msgid "Uploading file..."
-msgstr ""
+msgstr "Datoteka se nalaga..."
 
 #: ../www/manager/data/ResourceStore.js:147
-#: ../www/manager/qemu/StatusView.js:49 ../www/manager/openvz/StatusView.js:67
+#: ../www/manager/qemu/StatusView.js:49
+#: ../www/manager/openvz/StatusView.js:67
 msgid "Uptime"
-msgstr ""
+msgstr "Čas delovanja"
 
 #: ../www/manager/storage/IScsiEdit.js:141
 msgid "Use LUNs directly"
-msgstr ""
+msgstr "Uporabi LUN-e direktno"
 
 #: ../www/manager/storage/StatusView.js:50
 msgid "Used"
-msgstr ""
+msgstr "Uporabljeno"
 
-#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/ACLView.js:33
-#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/UserEdit.js:169
+#: ../www/manager/form/UserSelector.js:28
+#: ../www/manager/dc/ACLView.js:33
+#: ../www/manager/dc/ACLView.js:113
+#: ../www/manager/dc/UserEdit.js:169
 msgid "User"
-msgstr ""
+msgstr "Uporabnik"
 
-#: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
+#: ../www/manager/dc/ACLView.js:29
+#: ../www/manager/dc/ACLView.js:205
 msgid "User Permission"
-msgstr ""
+msgstr "Uporabniška dovoljenja"
 
-#: ../www/manager/node/Tasks.js:82 ../www/manager/node/Tasks.js:131
-#: ../www/manager/dc/UserView.js:176 ../www/manager/dc/UserEdit.js:74
-#: ../www/manager/dc/Tasks.js:86 ../www/manager/dc/Log.js:65
+#: ../www/manager/node/Tasks.js:82
+#: ../www/manager/node/Tasks.js:131
+#: ../www/manager/dc/UserView.js:176
+#: ../www/manager/dc/UserEdit.js:74
+#: ../www/manager/dc/Tasks.js:86
+#: ../www/manager/dc/Log.js:65
 #: ../www/manager/window/LoginWindow.js:64
 #: ../www/manager/window/TaskViewer.js:27
 msgid "User name"
-msgstr ""
+msgstr "Uporabniško ime"
 
 #: ../www/manager/dc/Config.js:34
 msgid "Users"
-msgstr ""
+msgstr "Uporabniki"
 
-#: ../www/manager/Workspace.js:303 ../www/manager/storage/ContentView.js:55
+#: ../www/manager/Workspace.js:303
+#: ../www/manager/storage/ContentView.js:55
 msgid "Version"
-msgstr ""
+msgstr "Različica"
 
 #: ../www/manager/node/Tasks.js:57
 msgid "View"
-msgstr ""
+msgstr "Pogled"
 
 #: ../www/manager/tree/ResourceTree.js:21
 #: ../www/manager/grid/PoolMembers.js:18
 #: ../www/manager/grid/PoolMembers.js:148
 #: ../www/manager/qemu/CreateWizard.js:39
 msgid "Virtual Machine"
-msgstr ""
+msgstr "Virtualni računalnik"
 
 #: ../www/manager/qemu/Config.js:105
 msgid "Virtual Machine {0} on node {1}"
-msgstr ""
+msgstr "Virtualna naprava {0} na strežniku {1}"
 
-#: ../www/manager/storage/LVMEdit.js:125 ../www/manager/storage/LVMEdit.js:132
+#: ../www/manager/storage/LVMEdit.js:125
+#: ../www/manager/storage/LVMEdit.js:132
 msgid "Volume group"
-msgstr ""
+msgstr "Ime VG skupine"
 
-#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:561
+#: ../www/manager/form/Boolean.js:11
+#: ../www/manager/Utils.js:561
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: ../www/manager/Workspace.js:218
 msgid "You are logged in as {0}"
-msgstr ""
+msgstr "Prijavljen kot {0}"
 
 #: ../www/manager/Utils.js:567
 msgid "day"
-msgstr ""
+msgstr "dan"
 
 #: ../www/manager/Utils.js:566
 msgid "days"
-msgstr ""
+msgstr "dni"
 
 #: ../www/manager/form/CompressionSelector.js:10
 msgid "fast"
-msgstr ""
+msgstr "hitro"
 
 #: ../www/manager/form/CompressionSelector.js:11
 msgid "good"
-msgstr ""
+msgstr "dobro"
 
 #: ../www/manager/Utils.js:570
 msgid "never"
-msgstr ""
+msgstr "nikoli"
 
 #: ../www/manager/form/CompressionSelector.js:9
 msgid "none"
-msgstr ""
+msgstr "brez"
 
 #: ../www/manager/Utils.js:568
 msgid "running"
-msgstr ""
+msgstr "se izvaja"
 
 #: ../www/manager/Utils.js:569
 msgid "stopped"
-msgstr ""
+msgstr "ustavljeno"
+
