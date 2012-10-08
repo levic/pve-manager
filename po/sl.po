@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Apr  3 12:01:07 2012\n"
-"PO-Revision-Date: 2012-08-28 16:16+0100\n"
+"PO-Revision-Date: 2012-10-07 11:35+0100\n"
 "Last-Translator: dejan <dean.borstnar@gmail.com>\n"
 "Language-Team: Slovenian\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgstr "Varnostna opravila"
 
 #: ../www/manager/grid/BackupView.js:81
 msgid "Backup now"
-msgstr "Izdelaj var. kopijo"
+msgstr "Izdelaj varnostno kopijo"
 
 #: ../www/manager/storage/LVMEdit.js:149
 msgid "Base storage"
@@ -421,7 +421,7 @@ msgstr "Omogočeno"
 #: ../www/manager/node/Tasks.js:118
 #: ../www/manager/dc/Tasks.js:69
 msgid "End Time"
-msgstr "Konec ob"
+msgstr "Končano ob"
 
 #: ../www/manager/window/LoginWindow.js:89
 msgid "Enter your password"
@@ -912,7 +912,7 @@ msgstr "Osveži"
 #: ../www/manager/VNCConsole.js:407
 #: ../www/manager/VNCConsole.js:444
 msgid "Reload"
-msgstr "Osveži"
+msgstr "Odpri ponovno"
 
 #: ../www/manager/node/NetworkView.js:72
 #: ../www/manager/grid/BackupView.js:116
@@ -937,7 +937,7 @@ msgstr "Odstrani"
 #: ../www/manager/qemu/Config.js:63
 #: ../www/manager/VNCConsole.js:266
 msgid "Reset"
-msgstr ""
+msgstr "Resetiraj"
 
 #: ../www/manager/pool/Config.js:14
 #: ../www/manager/tree/ResourceTree.js:13
@@ -1235,7 +1235,7 @@ msgstr "Predloge"
 
 #: ../www/manager/Utils.js:70
 msgid "This is not a valid DNS name"
-msgstr "Vpiši pravilen DNS ime"
+msgstr "Vpiši pravilno DNS ime"
 
 #: ../www/manager/grid/BackupView.js:122
 #: ../www/manager/qemu/HardwareView.js:209
@@ -1355,11 +1355,11 @@ msgstr "Pogled"
 #: ../www/manager/grid/PoolMembers.js:148
 #: ../www/manager/qemu/CreateWizard.js:39
 msgid "Virtual Machine"
-msgstr "Virtualni računalnik"
+msgstr "Virtualni računalniki"
 
 #: ../www/manager/qemu/Config.js:105
 msgid "Virtual Machine {0} on node {1}"
-msgstr "Virtualna naprava {0} na strežniku {1}"
+msgstr "Virtualni računalnik {0} na strežniku {1}"
 
 #: ../www/manager/storage/LVMEdit.js:125
 #: ../www/manager/storage/LVMEdit.js:132
