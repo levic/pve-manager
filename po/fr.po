@@ -328,9 +328,8 @@ msgid "Do not use any proxy"
 msgstr "Ne pas utiliser de proxy"
 
 #: ../www/manager/qemu/CmdMenu.js:95
-#, fuzzy
 msgid "Do you really want to convert VM {0} into a template?"
-msgstr "Voulez vous réellement réinitialiser la  VM{0}"
+msgstr "Voulez vous réellement convertir la VM{0} en template?"
 
 #: ../www/manager/qemu/Config.js:79 ../www/manager/VNCConsole.js:268
 msgid "Do you really want to reset VM {0}?"
@@ -1217,9 +1216,8 @@ msgid "Time zone"
 msgstr "Zone de temps"
 
 #: ../www/manager/qemu/Snapshot.js:83
-#, fuzzy
 msgid "Timestamp"
-msgstr "Temps"
+msgstr "Timestamp"
 
 #: ../www/manager/data/ResourceStore.js:21
 #: ../www/manager/storage/ContentView.js:45
