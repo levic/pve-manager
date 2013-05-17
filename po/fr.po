@@ -108,7 +108,7 @@ msgstr "Authentification"
 
 #: ../www/manager/qemu/MemoryEdit.js:72
 msgid "Automatically allocate memory within this range"
-msgstr "Allouer automatique la mémoire de cette plage"
+msgstr "Allouer automatiquement la mémoire dans cette plage"
 
 #: ../www/manager/storage/StatusView.js:60
 msgid "Avail"
@@ -177,7 +177,7 @@ msgstr "Vérifier"
 #: ../www/manager/Utils.js:442 ../www/manager/qemu/TemplateMenu.js:48
 #: ../www/manager/qemu/CmdMenu.js:81 ../www/manager/qemu/Clone.js:263
 msgid "Clone"
-msgstr ""
+msgstr "Cloner"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
@@ -242,7 +242,7 @@ msgstr "Contenu"
 
 #: ../www/manager/Utils.js:443 ../www/manager/qemu/CmdMenu.js:92
 msgid "Convert to template"
-msgstr ""
+msgstr "Convertir en template"
 
 #: ../www/manager/Utils.js:466
 msgid "Copy data"
@@ -541,7 +541,7 @@ msgstr "Adresse IP"
 
 #: ../www/manager/qemu/Snapshot.js:92
 msgid "Include RAM"
-msgstr ""
+msgstr "Inclure la RAM"
 
 #: ../www/manager/dc/Backup.js:29
 msgid "Include selected VMs"
@@ -1173,7 +1173,7 @@ msgstr "Swap"
 #: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
 #: ../www/manager/qemu/SnapshotTree.js:212
 msgid "Take Snapshot"
-msgstr "Créer une snapshot"
+msgstr "Créer un snapshot"
 
 #: ../www/manager/storage/NexentaEdit.js:51
 msgid "Target"
@@ -1276,7 +1276,7 @@ msgstr "Utiliser les LUNs en direct"
 
 #: ../www/manager/qemu/MemoryEdit.js:42
 msgid "Use fixed size memory"
-msgstr ""
+msgstr "Utiliser une taille de mémoire fixe"
 
 #: ../www/manager/storage/StatusView.js:50
 msgid "Used"
