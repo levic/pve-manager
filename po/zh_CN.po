@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Thu May 16 08:46:13 2013\n"
-"PO-Revision-Date: 2013-05-22 10:46+0800\n"
+"PO-Revision-Date: 2013-05-22 13:04+0800\n"
 "Last-Translator: 黄学武 <1833net@163.com>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -34,9 +34,8 @@ msgstr "运行中"
 #: ../www/manager/window/Edit.js:173 ../www/manager/grid/PoolMembers.js:144
 #: ../www/manager/Utils.js:809 ../www/manager/openvz/Network.js:346
 #: ../www/manager/qemu/HardwareView.js:311
-#: ../www/manager/dc/StorageView.js:99 ../www/manager/dc/AuthView.js:81
-#: ../www/manager/dc/UserView.js:148 ../www/manager/dc/ACLView.js:190
-#: ../www/manager/dc/Backup.js:379 ../www/manager/dc/HAConfig.js:166
+#: ../www/manager/dc/StorageView.js:99 ../www/manager/dc/UserView.js:148
+#: ../www/manager/dc/Backup.js:379
 msgid "Add"
 msgstr "添加"
 
@@ -52,11 +51,11 @@ msgstr "所有"
 
 #: ../www/manager/dc/Backup.js:309
 msgid "All except {0}"
-msgstr "｛0｝以外的所有"
+msgstr "{0}以外的所有"
 
 #: ../www/manager/Utils.js:60
 msgid "Allowed characters"
-msgstr "不允许使用的字符"
+msgstr "允许的字符"
 
 #: ../www/manager/dc/HAConfig.js:127
 msgid "Are you sure you want to activate your changes"
@@ -73,8 +72,7 @@ msgstr "你确定你要删除VM{0}？这将永久删除VM的所有数据。"
 #: ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:269
 #: ../www/manager/qemu/HardwareView.js:271
 #: ../www/manager/qemu/SnapshotTree.js:179
-#: ../www/manager/dc/StorageView.js:72 ../www/manager/dc/GroupView.js:28
-#: ../www/manager/dc/AuthView.js:56 ../www/manager/dc/UserView.js:90
+#: ../www/manager/dc/StorageView.js:72 ../www/manager/dc/AuthView.js:56
 #: ../www/manager/dc/PoolView.js:28
 msgid "Are you sure you want to remove entry {0}"
 msgstr "你确定你要删除该项{0}吗？"
@@ -135,11 +133,11 @@ msgstr "基本卷"
 
 #: ../www/manager/Utils.js:105
 msgid "Basic"
-msgstr "Basic"
+msgstr "基本"
 
 #: ../www/manager/storage/NexentaEdit.js:100
 msgid "Block Size"
-msgstr "Block Size"
+msgstr "块尺寸"
 
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
@@ -186,7 +184,7 @@ msgstr "备注"
 
 #: ../www/manager/Utils.js:104
 msgid "Community"
-msgstr "备注"
+msgstr "社区"
 
 #: ../www/manager/window/Backup.js:49 ../www/manager/dc/Backup.js:163
 msgid "Compression"
@@ -285,7 +283,7 @@ msgstr "删除快照"
 #: ../www/manager/storage/ContentView.js:60
 #: ../www/manager/node/ServiceView.js:130 ../www/manager/node/Tasks.js:147
 #: ../www/manager/qemu/Snapshot.js:100
-#: ../www/manager/qemu/SnapshotTree.js:275 ../www/manager/dc/Tasks.js:95
+#: ../www/manager/qemu/SnapshotTree.js:275
 msgid "Description"
 msgstr "说明"
 
@@ -363,7 +361,7 @@ msgstr "下载"
 #: ../www/manager/openvz/Options.js:133 ../www/manager/node/NetworkView.js:66
 #: ../www/manager/node/DNSView.js:32 ../www/manager/node/TimeView.js:43
 #: ../www/manager/qemu/HardwareView.js:238
-#: ../www/manager/qemu/Snapshot.js:131 ../www/manager/qemu/Options.js:278
+#: ../www/manager/qemu/Snapshot.js:131
 #: ../www/manager/qemu/SnapshotTree.js:131
 #: ../www/manager/dc/StorageView.js:61 ../www/manager/dc/GroupView.js:60
 #: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/OptionView.js:103
@@ -537,7 +535,7 @@ msgstr "IP地址"
 
 #: ../www/manager/qemu/Snapshot.js:92
 msgid "Include RAM"
-msgstr "Include RAM"
+msgstr "包括内存"
 
 #: ../www/manager/dc/Backup.js:29
 msgid "Include selected VMs"
@@ -863,10 +861,8 @@ msgstr "重载"
 #: ../www/manager/openvz/Config.js:86 ../www/manager/node/NetworkView.js:72
 #: ../www/manager/qemu/Config.js:95 ../www/manager/qemu/HardwareView.js:266
 #: ../www/manager/qemu/SnapshotTree.js:175
-#: ../www/manager/dc/StorageView.js:68 ../www/manager/dc/GroupView.js:24
-#: ../www/manager/dc/AuthView.js:52 ../www/manager/dc/UserView.js:80
-#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/ACLView.js:149
-#: ../www/manager/dc/Backup.js:349 ../www/manager/dc/HAConfig.js:238
+#: ../www/manager/dc/StorageView.js:68 ../www/manager/dc/AuthView.js:52
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/Backup.js:349
 msgid "Remove"
 msgstr "删除"
 
@@ -1028,7 +1024,7 @@ msgstr "大小"
 
 #: ../www/manager/qemu/HDResize.js:52
 msgid "Size Increment"
-msgstr "Size Increment"
+msgstr "增量大小"
 
 #: ../www/manager/Utils.js:435
 msgid "Snapshot"
@@ -1076,7 +1072,7 @@ msgid "Start at boot"
 msgstr "开机自启动"
 
 #: ../www/manager/qemu/StartupEdit.js:35
-#: ../www/manager/qemu/StartupEdit.js:68 ../www/manager/qemu/Options.js:58
+#: ../www/manager/qemu/StartupEdit.js:68
 msgid "Start/Shutdown order"
 msgstr "启动/关机顺序"
 
@@ -1384,7 +1380,7 @@ msgstr "停止中"
 #: ../www/manager/qemu/HDEdit.js:251 ../www/manager/qemu/HDEdit.js:261
 #: ../www/manager/qemu/HDEdit.js:271 ../www/manager/qemu/HDEdit.js:281
 msgid "unlimited"
-msgstr "无线"
+msgstr "无限"
 
 #~ msgid "Max files"
 #~ msgstr "文件数"
