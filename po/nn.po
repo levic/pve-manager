@@ -1,14 +1,14 @@
 # Norwegian Nynorsk translations for pve-manager package.
-# Copyright (C) 2012 Proxmox Server Solutions GmbH
+# Copyright (C) 2013 Proxmox Server Solutions GmbH
 # This file is distributed under the same license as the pve-manager package.
-# Proxmox Support Team <support@proxmox.com>, 2012.
+# Proxmox Support Team <support@proxmox.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Thu May 16 08:46:13 2013\n"
-"PO-Revision-Date: 2012-11-13 08:33+0100\n"
+"PO-Revision-Date: 2013-06-10 12:05+0100\n"
 "Last-Translator: Jostein Hove-Henriksen <jostein@hove-henriksen.no>\n"
 "Language-Team: Norwegian Nynorsk\n"
 "Language: nn_NO\n"
@@ -26,7 +26,7 @@ msgstr "Avbryt"
 
 #: ../www/manager/dc/HAConfig.js:124
 msgid "Activate"
-msgstr "Aktiver"
+msgstr "Aktiviser"
 
 #: ../www/manager/form/BridgeSelector.js:52
 #: ../www/manager/storage/StatusView.js:25
@@ -70,8 +70,8 @@ msgid ""
 "Are you sure you want to remove VM {0}? This will permanently erase all VM "
 "data."
 msgstr ""
-"Er du sikker på at du ynskjer å ta vekk VM {0}? Dette vil slette den "
-"virtuelle maskinen sine data for alltid."
+"Er du sikker på at du ynskjer å ta vekk VM {0}? Dette vil slette VMen sine "
+"data for alltid."
 
 #: ../www/manager/storage/ContentView.js:409
 #: ../www/manager/grid/PoolMembers.js:111
@@ -89,16 +89,15 @@ msgstr "Er du sikker på at du vil fjerne denne oppføringa"
 
 #: ../www/manager/window/Restore.js:103
 msgid "Are you sure you want to restore this VM?"
-msgstr "Er du sikker på at du vil atterskape denne VM?"
+msgstr "Er du sikker på at du vil attskape denne VM?"
 
 #: ../www/manager/dc/HAConfig.js:148
 msgid "Are you sure you want to revert your changes"
 msgstr "Er du sikker på at du vil attendeføre forandringane"
 
 #: ../www/manager/qemu/SnapshotTree.js:144
-#, fuzzy
 msgid "Are you sure you want to rollback to snapshot {0}"
-msgstr "Er du sikker på at du vil ta vekk oppføring {0}"
+msgstr "Er du sikker på at du vil rulle tilbake augeblinksbilde {0}"
 
 #: ../www/manager/dc/Config.js:78
 msgid "Authentication"
@@ -106,7 +105,7 @@ msgstr "Autentisering"
 
 #: ../www/manager/qemu/MemoryEdit.js:72
 msgid "Automatically allocate memory within this range"
-msgstr ""
+msgstr "Automatisk tildel minne innenfor dette intervallet"
 
 #: ../www/manager/storage/StatusView.js:60
 msgid "Avail"
@@ -144,7 +143,7 @@ msgstr "Grunnleggjande"
 
 #: ../www/manager/storage/NexentaEdit.js:100
 msgid "Block Size"
-msgstr ""
+msgstr "Blokkestorleik"
 
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
@@ -175,7 +174,7 @@ msgstr "Sjekk"
 #: ../www/manager/Utils.js:442 ../www/manager/qemu/TemplateMenu.js:48
 #: ../www/manager/qemu/CmdMenu.js:81 ../www/manager/qemu/Clone.js:263
 msgid "Clone"
-msgstr ""
+msgstr "Klone"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
@@ -211,7 +210,7 @@ msgstr "Stadfest"
 #: ../www/manager/openvz/CreateWizard.js:129 ../www/manager/dc/UserEdit.js:36
 #: ../www/manager/dc/UserView.js:23
 msgid "Confirm password"
-msgstr "Stadfest kjenneord"
+msgstr "Stadfest passord"
 
 #: ../www/manager/Utils.js:336 ../www/manager/Utils.js:387
 #: ../www/manager/Utils.js:389 ../www/manager/Utils.js:391
@@ -228,7 +227,7 @@ msgstr "Konsoll"
 
 #: ../www/manager/openvz/Config.js:115
 msgid "Container {0} on node {1}"
-msgstr "Container {0} på node {1}"
+msgstr "Konteinar {0} på node {1}"
 
 #: ../www/manager/storage/Browser.js:37
 #: ../www/manager/storage/ContentView.js:192
@@ -240,7 +239,7 @@ msgstr "Innhald"
 
 #: ../www/manager/Utils.js:443 ../www/manager/qemu/CmdMenu.js:92
 msgid "Convert to template"
-msgstr ""
+msgstr "Konverter til mal"
 
 #: ../www/manager/Utils.js:466
 msgid "Copy data"
@@ -284,7 +283,7 @@ msgstr "Standard"
 
 #: ../www/manager/Utils.js:437
 msgid "Delete Snapshot"
-msgstr ""
+msgstr "Slett augeblinksbilde"
 
 #: ../www/manager/data/ResourceStore.js:49
 #: ../www/manager/storage/ContentView.js:60
@@ -300,7 +299,7 @@ msgstr "Øydelegg"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
-msgstr "Katalog"
+msgstr "Mappe"
 
 #: ../www/manager/qemu/HDEdit.js:137 ../www/manager/qemu/HDEdit.js:158
 #: ../www/manager/qemu/HDEdit.js:223
@@ -323,12 +322,11 @@ msgstr "Skjerm"
 
 #: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:52
 msgid "Do not use any proxy"
-msgstr "Bruk ikkje noken mellomtenar"
+msgstr "Bruk ikkje nokon mellomtenar"
 
 #: ../www/manager/qemu/CmdMenu.js:95
-#, fuzzy
 msgid "Do you really want to convert VM {0} into a template?"
-msgstr "Vil du verkeleg resetje VM {0}?"
+msgstr "Ynskjer du verkeleg konvertere VM {0} til ein mal?"
 
 #: ../www/manager/qemu/Config.js:79 ../www/manager/VNCConsole.js:268
 msgid "Do you really want to reset VM {0}?"
@@ -360,7 +358,7 @@ msgstr "Vil du verkeleg sette VM {0} i kvilemodus?"
 
 #: ../www/manager/storage/ContentView.js:105 ../www/manager/Utils.js:468
 msgid "Download"
-msgstr "Hent"
+msgstr "Last ned"
 
 #: ../www/manager/Utils.js:814 ../www/manager/openvz/Network.js:327
 #: ../www/manager/openvz/RessourceView.js:92 ../www/manager/openvz/DNS.js:102
@@ -396,7 +394,7 @@ msgstr "Sluttid"
 
 #: ../www/manager/window/LoginWindow.js:89
 msgid "Enter your password"
-msgstr "Tast inn kjenneord"
+msgstr "Tast inn passord"
 
 #: ../www/manager/window/LoginWindow.js:66
 msgid "Enter your user name"
@@ -439,7 +437,7 @@ msgstr "Eksempel"
 
 #: ../www/manager/dc/Backup.js:31
 msgid "Exclude selected VMs"
-msgstr "Ekskluder valde virtuelle maskiner"
+msgstr "Ekskluder valde VMer"
 
 #: ../www/manager/storage/LVMEdit.js:48
 msgid "Existing volume groups"
@@ -447,7 +445,7 @@ msgstr "Eksisterande volumgrupper"
 
 #: ../www/manager/dc/UserEdit.js:93 ../www/manager/dc/UserView.js:206
 msgid "Expire"
-msgstr "Opphøre"
+msgstr "Utløper"
 
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
@@ -482,7 +480,7 @@ msgstr "Format"
 
 #: ../www/manager/storage/SheepdogEdit.js:40
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #: ../www/manager/openvz/CreateWizard.js:60
 #: ../www/manager/qemu/CreateWizard.js:44
@@ -539,11 +537,11 @@ msgstr "IP-adresse"
 
 #: ../www/manager/qemu/Snapshot.js:92
 msgid "Include RAM"
-msgstr ""
+msgstr "Inkluder minne"
 
 #: ../www/manager/dc/Backup.js:29
 msgid "Include selected VMs"
-msgstr "Inkluder valde virtuelle maskiner"
+msgstr "Inkluder valde VMer"
 
 #: ../www/manager/qemu/HardwareView.js:80
 #: ../www/manager/qemu/KeyboardEdit.js:8
@@ -590,9 +588,8 @@ msgid "Max Backups"
 msgstr "Maks sikringskopiar"
 
 #: ../www/manager/qemu/MemoryEdit.js:89
-#, fuzzy
 msgid "Maximum memory"
-msgstr "Minne"
+msgstr "Maksimum minne"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
@@ -626,9 +623,8 @@ msgid "Migrate"
 msgstr "Migrer"
 
 #: ../www/manager/qemu/MemoryEdit.js:112
-#, fuzzy
 msgid "Minimum memory"
-msgstr "Minne"
+msgstr "Minimum minne"
 
 #: ../www/manager/window/Backup.js:41 ../www/manager/dc/Backup.js:170
 msgid "Mode"
@@ -639,9 +635,8 @@ msgid "Monitor"
 msgstr "Skjerm"
 
 #: ../www/manager/storage/RBDEdit.js:48
-#, fuzzy
 msgid "Monitor Host"
-msgstr "Skjerm"
+msgstr "Overvåk vert"
 
 #: ../www/manager/Utils.js:456
 msgid "Mount"
@@ -744,7 +739,7 @@ msgstr "Berre feil"
 #: ../www/manager/tree/ResourceTree.js:25
 #: ../www/manager/openvz/CreateWizard.js:56
 msgid "OpenVZ Container"
-msgstr "OpenVZ-Container"
+msgstr "OpenVZ-Konteinar"
 
 #: ../www/manager/openvz/Config.js:142 ../www/manager/qemu/Config.js:141
 #: ../www/manager/dc/Config.js:26
@@ -773,11 +768,11 @@ msgstr "Pakke"
 #: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
 #: ../www/manager/dc/UserView.js:134
 msgid "Password"
-msgstr "Kjenneord"
+msgstr "Passord"
 
 #: ../www/manager/dc/UserEdit.js:29 ../www/manager/dc/UserView.js:16
 msgid "Passwords does not match"
-msgstr "Kjenneorda avvik frå einannan"
+msgstr "Passorda avvik frå einannan"
 
 #: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
 msgid "Path"
@@ -818,9 +813,8 @@ msgid "Port"
 msgstr "Port"
 
 #: ../www/manager/storage/NexentaEdit.js:43
-#, fuzzy
 msgid "Portal"
-msgstr "Port"
+msgstr "Portal"
 
 #: ../www/manager/Utils.js:107
 msgid "Premium"
@@ -846,7 +840,7 @@ msgstr "Proxmox VE Innlogging"
 
 #: ../www/manager/qemu/HDEdit.js:249 ../www/manager/qemu/HDEdit.js:269
 msgid "Read limit"
-msgstr ""
+msgstr "Leseavgrensing"
 
 #: ../www/manager/dc/AuthView.js:120 ../www/manager/dc/UserEdit.js:133
 #: ../www/manager/dc/UserView.js:192 ../www/manager/dc/AuthEdit.js:29
@@ -884,7 +878,7 @@ msgstr "Tilbakestill"
 #: ../www/manager/qemu/HDResize.js:72 ../www/manager/qemu/HDResize.js:74
 #: ../www/manager/qemu/HardwareView.js:252
 msgid "Resize disk"
-msgstr ""
+msgstr "Endre storleik på disk"
 
 #: ../www/manager/tree/ResourceTree.js:13 ../www/manager/pool/Config.js:14
 #: ../www/manager/openvz/CreateWizard.js:103
@@ -934,11 +928,11 @@ msgstr "Roller"
 
 #: ../www/manager/Utils.js:436 ../www/manager/qemu/SnapshotTree.js:139
 msgid "Rollback"
-msgstr ""
+msgstr "Rull tilbake"
 
 #: ../www/manager/qemu/ScsiHwEdit.js:8
 msgid "SCSI Controller Type"
-msgstr ""
+msgstr "Type SCSI-kontroller"
 
 #: ../www/manager/grid/ResourceGrid.js:167
 #: ../www/manager/grid/ResourceGrid.js:174
@@ -970,9 +964,8 @@ msgid "Server Address"
 msgstr "Tenaradresse"
 
 #: ../www/manager/node/Subscription.js:69
-#, fuzzy
 msgid "Server ID"
-msgstr "Tenar"
+msgstr "Tenar ID"
 
 #: ../www/manager/form/ViewSelector.js:10
 msgid "Server View"
@@ -1006,9 +999,8 @@ msgid "Shared"
 msgstr "Delt"
 
 #: ../www/manager/qemu/MemoryEdit.js:125
-#, fuzzy
 msgid "Shares"
-msgstr "Delt"
+msgstr "Delte ressursar"
 
 #: ../www/manager/Utils.js:434 ../www/manager/node/Config.js:51
 #: ../www/manager/VNCConsole.js:441
@@ -1021,12 +1013,11 @@ msgstr "Skal"
 #: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:237
 #: ../www/manager/VNCConsole.js:367
 msgid "Shutdown"
-msgstr "Steng av"
+msgstr "Steng ned"
 
 #: ../www/manager/qemu/StartupEdit.js:49
-#, fuzzy
 msgid "Shutdown timeout"
-msgstr "Steng av"
+msgstr "Tidsgrense for nedstenging"
 
 #: ../www/manager/storage/ContentView.js:466
 #: ../www/manager/storage/StatusView.js:45
@@ -1036,15 +1027,15 @@ msgstr "Storleik"
 
 #: ../www/manager/qemu/HDResize.js:52
 msgid "Size Increment"
-msgstr ""
+msgstr "Storleiksauke"
 
 #: ../www/manager/Utils.js:435
 msgid "Snapshot"
-msgstr ""
+msgstr "Augneblikksbilde"
 
 #: ../www/manager/qemu/Config.js:172
 msgid "Snapshots"
-msgstr ""
+msgstr "Augneblikksbilde"
 
 #: ../www/manager/window/Restore.js:41
 msgid "Source"
@@ -1052,7 +1043,7 @@ msgstr "Kjelde"
 
 #: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
-msgstr "Sjølvstendig node - i ikkje nokon klynge definert"
+msgstr "Sjølvstendig node - ingen klynge definert"
 
 #: ../www/manager/Utils.js:106
 msgid "Standard"
@@ -1075,7 +1066,7 @@ msgstr "Starttidspunkt"
 
 #: ../www/manager/Utils.js:470
 msgid "Start all VMs and Containers"
-msgstr ""
+msgstr "Start alle VMer og Konteinarar"
 
 #: ../www/manager/openvz/Options.js:24 ../www/manager/openvz/Options.js:29
 #: ../www/manager/openvz/Options.js:35 ../www/manager/qemu/Options.js:41
@@ -1086,12 +1077,11 @@ msgstr "Starte ved oppstart"
 #: ../www/manager/qemu/StartupEdit.js:35 ../www/manager/qemu/StartupEdit.js:68
 #: ../www/manager/qemu/Options.js:58
 msgid "Start/Shutdown order"
-msgstr ""
+msgstr "Start/Steng ned rekkefølge"
 
 #: ../www/manager/qemu/StartupEdit.js:42
-#, fuzzy
 msgid "Startup delay"
-msgstr "Starttidspunkt"
+msgstr "Oppstartsforsinking"
 
 #: ../www/manager/pool/StatusView.js:21 ../www/manager/window/TaskViewer.js:89
 #: ../www/manager/window/TaskViewer.js:162
@@ -1117,7 +1107,7 @@ msgstr "Stopp"
 
 #: ../www/manager/Utils.js:471
 msgid "Stop all VMs and Containers"
-msgstr ""
+msgstr "Stopp alle VMer og Konteinarar"
 
 #: ../www/manager/data/ResourceStore.js:189
 #: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
@@ -1151,7 +1141,7 @@ msgstr "Nettmaske"
 #: ../www/manager/node/Subscription.js:14
 #: ../www/manager/node/Subscription.js:59
 msgid "Subscription Key"
-msgstr "abonnementsnøkkel"
+msgstr "abonnementsnykkel"
 
 #: ../www/manager/Utils.js:307
 msgid "Successful"
@@ -1179,11 +1169,11 @@ msgstr "vekselminne"
 #: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
 #: ../www/manager/qemu/SnapshotTree.js:212
 msgid "Take Snapshot"
-msgstr ""
+msgstr "Ta augeblinksbilde"
 
 #: ../www/manager/storage/NexentaEdit.js:51
 msgid "Target"
-msgstr ""
+msgstr "Mål"
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
@@ -1223,9 +1213,8 @@ msgid "Time zone"
 msgstr "Tidssone"
 
 #: ../www/manager/qemu/Snapshot.js:83
-#, fuzzy
 msgid "Timestamp"
-msgstr "Tid"
+msgstr "Tidsstempel"
 
 #: ../www/manager/data/ResourceStore.js:21
 #: ../www/manager/storage/ContentView.js:45
@@ -1254,7 +1243,7 @@ msgstr "Ubrukt disk"
 
 #: ../www/manager/qemu/Snapshot.js:133
 msgid "Update"
-msgstr ""
+msgstr "Oppdater"
 
 #: ../www/manager/storage/ContentView.js:239
 #: ../www/manager/storage/ContentView.js:306
@@ -1282,7 +1271,7 @@ msgstr "Bruk LUNar direkte"
 
 #: ../www/manager/qemu/MemoryEdit.js:42
 msgid "Use fixed size memory"
-msgstr ""
+msgstr "Bruk fast minnestorleik"
 
 #: ../www/manager/storage/StatusView.js:50
 msgid "Used"
@@ -1304,7 +1293,7 @@ msgstr "Brukar rettar"
 #: ../www/manager/dc/Log.js:65 ../www/manager/dc/UserView.js:185
 #: ../www/manager/dc/Tasks.js:90
 msgid "User name"
-msgstr "Brukernamn"
+msgstr "Brukarnamn"
 
 #: ../www/manager/dc/Config.js:50
 msgid "Users"
@@ -1335,7 +1324,7 @@ msgstr "Volumgruppe"
 
 #: ../www/manager/qemu/HDEdit.js:259 ../www/manager/qemu/HDEdit.js:279
 msgid "Write limit"
-msgstr ""
+msgstr "Skriveavgrensing"
 
 #: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:612
 msgid "Yes"
@@ -1343,7 +1332,7 @@ msgstr "Ja"
 
 #: ../www/manager/qemu/SnapshotTree.js:280
 msgid "You are here!"
-msgstr ""
+msgstr "Du er her!"
 
 #: ../www/manager/Workspace.js:232
 msgid "You are logged in as {0}"
@@ -1351,11 +1340,11 @@ msgstr "Du er logga på som {0}"
 
 #: ../www/manager/Utils.js:618
 msgid "day"
-msgstr "Dag"
+msgstr "dag"
 
 #: ../www/manager/Utils.js:617
 msgid "days"
-msgstr "Dagar"
+msgstr "dagar"
 
 #: ../www/manager/form/CompressionSelector.js:10
 msgid "fast"
@@ -1379,7 +1368,7 @@ msgstr "kjørande"
 
 #: ../www/manager/storage/NexentaEdit.js:93
 msgid "ssl"
-msgstr ""
+msgstr "ssl"
 
 #: ../www/manager/Utils.js:620
 msgid "stopped"
@@ -1388,4 +1377,4 @@ msgstr "stoppa"
 #: ../www/manager/qemu/HDEdit.js:251 ../www/manager/qemu/HDEdit.js:261
 #: ../www/manager/qemu/HDEdit.js:271 ../www/manager/qemu/HDEdit.js:281
 msgid "unlimited"
-msgstr ""
+msgstr "ubegrensa"
