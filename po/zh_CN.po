@@ -1,26 +1,25 @@
 # Chinese translations for pve-manager package.
-# Copyright (C) 20011 Proxmox Server Solutions GmbH
+# Copyright (C) 2013 Proxmox Server Solutions GmbH
 # This file is distributed under the same license as the pve-manager package.
-# Proxmox Support Team <support@proxmox.com>, 2011.
-#
+# Proxmox Support Team <support@proxmox.com>, 2013.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Thu Aug 29 12:03:49 2013\n"
-"PO-Revision-Date: 2013-05-22 13:04+0800\n"
+"PO-Revision-Date: 2013-09-03 11:34+0800\n"
 "Last-Translator: 黄学武 <1833net@163.com>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
-#, fuzzy
 msgid "ACPI support"
-msgstr "支持"
+msgstr "ACPI 支持"
 
 #: ../www/manager/storage/ContentView.js:231
 msgid "Abort"
@@ -38,7 +37,7 @@ msgstr "运行中"
 
 #: ../www/manager/dc/AuthView.js:85 ../www/manager/dc/AuthEdit.js:37
 msgid "Active Directory Server"
-msgstr ""
+msgstr "服务器活动目录"
 
 #: ../www/manager/window/Edit.js:186 ../www/manager/grid/PoolMembers.js:144
 #: ../www/manager/Utils.js:857 ../www/manager/openvz/Network.js:345
@@ -73,9 +72,8 @@ msgid "Are you sure you want to activate your changes"
 msgstr "你确定要激活您所做的更改吗？"
 
 #: ../www/manager/StateProvider.js:161
-#, fuzzy
 msgid "Are you sure you want to navigate away from this page?"
-msgstr "你确定要激活您所做的更改吗？"
+msgstr "你确定要离开该导航页？"
 
 #: ../www/manager/openvz/Config.js:89 ../www/manager/qemu/Config.js:98
 msgid ""
@@ -119,9 +117,8 @@ msgstr "在此范围内自动分配内存"
 
 #: ../www/manager/node/NetworkView.js:209
 #: ../www/manager/node/NetworkEdit.js:36 ../www/manager/dc/HAConfig.js:35
-#, fuzzy
 msgid "Autostart"
-msgstr "重启"
+msgstr "自动启动"
 
 #: ../www/manager/form/StorageSelector.js:87
 #: ../www/manager/storage/StatusView.js:60
@@ -148,11 +145,11 @@ msgstr "立即备份"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:69
 msgid "Barrier"
-msgstr ""
+msgstr "Barrier"
 
 #: ../www/manager/dc/AuthEdit.js:54
 msgid "Base Domain Name"
-msgstr ""
+msgstr "基本域名"
 
 #: ../www/manager/storage/LVMEdit.js:157
 msgid "Base storage"
@@ -185,25 +182,24 @@ msgstr "引导顺序"
 #: ../www/manager/openvz/CreateWizard.js:48
 #: ../www/manager/qemu/NetworkEdit.js:64
 msgid "Bridge"
-msgstr ""
+msgstr "桥接"
 
 #: ../www/manager/node/NetworkEdit.js:46
 msgid "Bridge ports"
-msgstr ""
+msgstr "桥接端口"
 
 #: ../www/manager/openvz/CreateWizard.js:186
 #: ../www/manager/qemu/NetworkEdit.js:77
 msgid "Bridged mode"
-msgstr ""
+msgstr "桥接模式"
 
 #: ../www/manager/form/ControllerSelector.js:60
 msgid "Bus/Device"
-msgstr ""
+msgstr "总线/设备"
 
 #: ../www/manager/qemu/CreateWizard.js:20
-#, fuzzy
 msgid "CD/DVD"
-msgstr "CD/DVD 驱动器"
+msgstr "CD/DVD"
 
 #: ../www/manager/qemu/HardwareView.js:114
 #: ../www/manager/qemu/HardwareView.js:125
@@ -215,14 +211,13 @@ msgstr "CD/DVD 驱动器"
 
 #: ../www/manager/qemu/CreateWizard.js:104
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../www/manager/openvz/Options.js:50 ../www/manager/openvz/Options.js:54
 #: ../www/manager/openvz/Options.js:58 ../www/manager/qemu/Options.js:167
 #: ../www/manager/qemu/Options.js:171 ../www/manager/qemu/Options.js:175
-#, fuzzy
 msgid "CPU units"
-msgstr "CPU使用率"
+msgstr "CPU 单位"
 
 #: ../www/manager/data/ResourceStore.js:122
 #: ../www/manager/form/NodeSelector.js:57 ../www/manager/openvz/Summary.js:67
@@ -235,19 +230,19 @@ msgstr "CPU使用率"
 #: ../www/manager/openvz/RessourceEdit.js:56
 #: ../www/manager/node/StatusView.js:45
 msgid "CPUs"
-msgstr ""
+msgstr "CPUs"
 
 #: ../www/manager/qemu/HDEdit.js:232
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: ../www/manager/form/StorageSelector.js:93
 msgid "Capacity"
-msgstr ""
+msgstr "Capacity"
 
 #: ../www/manager/node/APT.js:114 ../www/manager/node/APT.js:143
 msgid "Changelog"
-msgstr ""
+msgstr "变更日志"
 
 #: ../www/manager/node/Subscription.js:95
 msgid "Check"
@@ -281,9 +276,8 @@ msgid "Compression"
 msgstr "压缩"
 
 #: ../www/manager/Utils.js:490
-#, fuzzy
 msgid "Configure"
-msgstr "确认"
+msgstr "配置"
 
 #: ../www/manager/window/Restore.js:105 ../www/manager/button/Button.js:45
 #: ../www/manager/openvz/CreateWizard.js:254
@@ -337,7 +331,7 @@ msgstr "拷贝数据"
 
 #: ../www/manager/qemu/ProcessorEdit.js:31
 msgid "Cores"
-msgstr ""
+msgstr "核心"
 
 #: ../www/manager/Utils.js:477 ../www/manager/Utils.js:491
 #: ../www/manager/Utils.js:859 ../www/manager/node/NetworkView.js:121
@@ -356,12 +350,12 @@ msgstr "创建VM"
 #: ../www/manager/openvz/Config.js:137 ../www/manager/node/Config.js:91
 #: ../www/manager/node/DNSEdit.js:44
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: ../www/manager/openvz/CreateWizard.js:216 ../www/manager/openvz/DNS.js:42
 #: ../www/manager/openvz/DNS.js:46 ../www/manager/openvz/DNS.js:50
 msgid "DNS domain"
-msgstr ""
+msgstr "DNS 域名"
 
 #: ../www/manager/openvz/CreateWizard.js:235
 #: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:56
@@ -390,9 +384,8 @@ msgid "Delete Snapshot"
 msgstr "删除快照"
 
 #: ../www/manager/qemu/HDMove.js:109
-#, fuzzy
 msgid "Delete source"
-msgstr "删除快照"
+msgstr "删除源"
 
 #: ../www/manager/data/ResourceStore.js:49
 #: ../www/manager/storage/ContentView.js:60 ../www/manager/node/APT.js:192
@@ -408,21 +401,19 @@ msgstr "销毁"
 
 #: ../www/manager/window/TaskViewer.js:61
 msgid "Details"
-msgstr ""
+msgstr "详情"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
 msgstr "目录"
 
 #: ../www/manager/qemu/HDMove.js:56 ../www/manager/qemu/HDResize.js:40
-#, fuzzy
 msgid "Disk"
-msgstr "磁盘大小"
+msgstr "磁盘"
 
 #: ../www/manager/openvz/Summary.js:88 ../www/manager/qemu/Summary.js:83
-#, fuzzy
 msgid "Disk IO"
-msgstr "磁盘大小"
+msgstr "磁盘 IO"
 
 #: ../www/manager/qemu/HDEdit.js:137 ../www/manager/qemu/HDEdit.js:158
 #: ../www/manager/qemu/HDEdit.js:223
@@ -482,7 +473,7 @@ msgstr "你真的要挂起 VM {0}?"
 
 #: ../www/manager/dc/AuthEdit.js:42
 msgid "Domain"
-msgstr ""
+msgstr "域名"
 
 #: ../www/manager/storage/ContentView.js:105 ../www/manager/Utils.js:509
 msgid "Download"
@@ -490,7 +481,7 @@ msgstr "下载"
 
 #: ../www/manager/dc/UserEdit.js:119
 msgid "E-Mail"
-msgstr ""
+msgstr "E-Mail"
 
 #: ../www/manager/Utils.js:862 ../www/manager/openvz/Network.js:326
 #: ../www/manager/openvz/RessourceView.js:92 ../www/manager/openvz/DNS.js:103
@@ -596,7 +587,7 @@ msgstr "有效期"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:81
 msgid "Failcnt"
-msgstr ""
+msgstr "失败计数"
 
 #: ../www/manager/dc/HAConfig.js:179
 msgid "Failover Domain"
@@ -634,12 +625,11 @@ msgstr "格式"
 #: ../www/manager/qemu/Options.js:184 ../www/manager/qemu/Options.js:189
 #: ../www/manager/qemu/Options.js:197
 msgid "Freeze CPU at startup"
-msgstr ""
+msgstr "启动时冻结CPU"
 
 #: ../www/manager/qemu/Clone.js:140
-#, fuzzy
 msgid "Full Clone"
-msgstr "克隆"
+msgstr "完整克隆"
 
 #: ../www/manager/storage/SheepdogEdit.js:40
 #: ../www/manager/node/NetworkView.js:233
@@ -679,12 +669,12 @@ msgstr "HA 托管 VM/CT"
 
 #: ../www/manager/node/StatusView.js:51
 msgid "HD space"
-msgstr ""
+msgstr "硬盘空间"
 
 #: ../www/manager/dc/OptionView.js:8 ../www/manager/dc/OptionView.js:16
 #: ../www/manager/dc/OptionView.js:69
 msgid "HTTP proxy"
-msgstr ""
+msgstr "HTTP 代理"
 
 #: ../www/manager/qemu/HDEdit.js:317 ../www/manager/qemu/HDEdit.js:319
 #: ../www/manager/qemu/CreateWizard.js:29
@@ -702,31 +692,28 @@ msgstr "硬件"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:57
 msgid "Held"
-msgstr ""
+msgstr "保持"
 
 #: ../www/manager/openvz/Network.js:96 ../www/manager/openvz/Network.js:413
-#, fuzzy
 msgid "Host MAC address"
-msgstr "IP地址"
+msgstr "主机 MAC 地址"
 
 #: ../www/manager/openvz/Network.js:88
-#, fuzzy
 msgid "Host device name"
-msgstr "引导设备"
+msgstr "主机设备名称"
 
 #: ../www/manager/openvz/Network.js:408
-#, fuzzy
 msgid "Host ifname"
-msgstr "用户名"
+msgstr "主机 ifname"
 
 #: ../www/manager/openvz/CreateWizard.js:89 ../www/manager/openvz/DNS.js:26
 #: ../www/manager/openvz/DNS.js:29 ../www/manager/openvz/DNS.js:35
 msgid "Hostname"
-msgstr ""
+msgstr "主机名"
 
 #: ../www/manager/node/StatusView.js:47
 msgid "IO delay"
-msgstr ""
+msgstr "IO延迟"
 
 #: ../www/manager/openvz/Network.js:136 ../www/manager/openvz/Network.js:142
 #: ../www/manager/openvz/Network.js:159 ../www/manager/openvz/Network.js:349
@@ -739,12 +726,11 @@ msgstr "IP地址"
 
 #: ../www/manager/qemu/CDEdit.js:103
 msgid "ISO Image"
-msgstr ""
+msgstr "ISO 镜像"
 
 #: ../www/manager/storage/ContentView.js:188
-#, fuzzy
 msgid "ISO image"
-msgstr "磁盘映像"
+msgstr "ISO 映像"
 
 #: ../www/manager/qemu/Snapshot.js:92
 msgid "Include RAM"
@@ -756,16 +742,15 @@ msgstr "包括选取的VMs"
 
 #: ../www/manager/node/StatusView.js:50
 msgid "KSM sharing"
-msgstr ""
+msgstr "KSM共享"
 
 #: ../www/manager/qemu/Options.js:149 ../www/manager/qemu/Options.js:154
 msgid "KVM hardware virtualization"
-msgstr ""
+msgstr "KVM硬件虚拟化"
 
 #: ../www/manager/node/StatusView.js:53
-#, fuzzy
 msgid "Kernel version"
-msgstr "用户权限"
+msgstr "内核版本"
 
 #: ../www/manager/qemu/HardwareView.js:80
 #: ../www/manager/qemu/KeyboardEdit.js:8
@@ -775,9 +760,8 @@ msgid "Keyboard Layout"
 msgstr "键盘布局"
 
 #: ../www/manager/dc/AuthView.js:95 ../www/manager/dc/AuthEdit.js:49
-#, fuzzy
 msgid "LDAP Server"
-msgstr "服务器"
+msgstr "LDAP 服务器"
 
 #: ../www/manager/window/LoginWindow.js:104
 msgid "Language"
@@ -789,7 +773,7 @@ msgstr "姓"
 
 #: ../www/manager/node/Subscription.js:75
 msgid "Last checked"
-msgstr ""
+msgstr "上次校验时间"
 
 #: ../www/manager/dc/Summary.js:178
 msgid "Last owner"
@@ -801,15 +785,15 @@ msgstr "最近转变"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:75
 msgid "Limit"
-msgstr ""
+msgstr "限制"
 
 #: ../www/manager/qemu/Clone.js:142
 msgid "Linked Clone"
-msgstr ""
+msgstr "链接克隆"
 
 #: ../www/manager/node/StatusView.js:44
 msgid "Load average"
-msgstr ""
+msgstr "平均负荷"
 
 #: ../www/manager/Utils.js:889
 msgid "Loading..."
@@ -830,13 +814,12 @@ msgstr "注销"
 
 #: ../www/manager/openvz/Network.js:71 ../www/manager/openvz/Network.js:403
 #: ../www/manager/qemu/NetworkEdit.js:132
-#, fuzzy
 msgid "MAC address"
-msgstr "IP地址"
+msgstr "MAC 地址"
 
 #: ../www/manager/openvz/StatusView.js:68 ../www/manager/qemu/StatusView.js:50
 msgid "Managed by HA"
-msgstr ""
+msgstr "托管于HA"
 
 #: ../www/manager/storage/GlusterFsEdit.js:152
 #: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
@@ -896,9 +879,8 @@ msgid "Mode"
 msgstr "模式"
 
 #: ../www/manager/qemu/NetworkEdit.js:125
-#, fuzzy
 msgid "Model"
-msgstr "模式"
+msgstr "模型"
 
 #: ../www/manager/qemu/Config.js:173
 msgid "Monitor"
@@ -914,13 +896,12 @@ msgstr "载入"
 
 #: ../www/manager/Utils.js:482 ../www/manager/qemu/HDMove.js:129
 #: ../www/manager/qemu/HDMove.js:131 ../www/manager/qemu/HardwareView.js:289
-#, fuzzy
 msgid "Move disk"
-msgstr "调整磁盘大小"
+msgstr "移动磁盘"
 
 #: ../www/manager/qemu/NetworkEdit.js:107
 msgid "NAT mode"
-msgstr ""
+msgstr "NAT模式"
 
 #: ../www/manager/data/ResourceStore.js:86
 #: ../www/manager/form/StorageSelector.js:76
@@ -960,9 +941,8 @@ msgstr "网卡"
 
 #: ../www/manager/openvz/Summary.js:81 ../www/manager/node/Summary.js:126
 #: ../www/manager/qemu/Summary.js:76
-#, fuzzy
 msgid "Network traffic"
-msgstr "网卡"
+msgstr "网络流量"
 
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
@@ -978,9 +958,8 @@ msgstr "不备份"
 
 #: ../www/manager/form/CacheTypeSelector.js:9
 #: ../www/manager/form/CacheTypeSelector.js:14
-#, fuzzy
 msgid "No cache"
-msgstr "无更改"
+msgstr "无缓存"
 
 #: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
@@ -988,9 +967,8 @@ msgid "No changes"
 msgstr "无更改"
 
 #: ../www/manager/qemu/NetworkEdit.js:117
-#, fuzzy
 msgid "No network device"
-msgstr "网卡"
+msgstr "无网络驱动器"
 
 #: ../www/manager/storage/NexentaEdit.js:111
 #: ../www/manager/storage/GlusterFsEdit.js:139
@@ -1004,12 +982,11 @@ msgstr "无限制"
 
 #: ../www/manager/node/APT.js:163
 msgid "No updates available."
-msgstr ""
+msgstr "没有可用的更新。"
 
 #: ../www/manager/Utils.js:452
-#, fuzzy
 msgid "No valid subscription"
-msgstr "上传您的密钥"
+msgstr "没有有效认购"
 
 #: ../www/manager/data/ResourceStore.js:182
 #: ../www/manager/window/TaskViewer.js:125
@@ -1042,12 +1019,11 @@ msgstr "备注"
 
 #: ../www/manager/qemu/CreateWizard.js:97
 msgid "OS"
-msgstr ""
+msgstr "操作系统"
 
 #: ../www/manager/qemu/Options.js:65
-#, fuzzy
 msgid "OS Type"
-msgstr "类别"
+msgstr "OS 类型"
 
 #: ../www/manager/data/ResourceStore.js:36 ../www/manager/window/Migrate.js:71
 #: ../www/manager/dc/Summary.js:42
@@ -1064,9 +1040,8 @@ msgid "OpenVZ Container"
 msgstr "OpenVZ 的容器"
 
 #: ../www/manager/storage/ContentView.js:190
-#, fuzzy
 msgid "OpenVZ template"
-msgstr "OpenVZ 的容器"
+msgstr "OpenVZ 模板"
 
 #: ../www/manager/openvz/Config.js:142 ../www/manager/qemu/Config.js:158
 #: ../www/manager/dc/Config.js:26
@@ -1088,16 +1063,15 @@ msgstr "所有者"
 
 #: ../www/manager/node/StatusView.js:52
 msgid "PVE Manager version"
-msgstr ""
+msgstr "PVE 管理器版本"
 
 #: ../www/manager/storage/ContentView.js:50 ../www/manager/node/APT.js:169
 msgid "Package"
 msgstr "软件包"
 
 #: ../www/manager/node/Summary.js:24 ../www/manager/node/Summary.js:90
-#, fuzzy
 msgid "Package versions"
-msgstr "软件包"
+msgstr "软件包版本"
 
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/storage/NexentaEdit.js:75
@@ -1166,9 +1140,8 @@ msgid "Privileges"
 msgstr "特权"
 
 #: ../www/manager/window/TaskViewer.js:129
-#, fuzzy
 msgid "Process ID"
-msgstr "处理器"
+msgstr "进程ID"
 
 #: ../www/manager/openvz/RessourceView.js:45
 #: ../www/manager/qemu/HardwareView.js:58
@@ -1186,41 +1159,38 @@ msgstr "Proxmox VE  登陆"
 
 #: ../www/manager/form/DiskFormatSelector.js:10
 msgid "QEMU image format"
-msgstr ""
+msgstr "QEMU 映像格式"
 
 #: ../www/manager/openvz/Options.js:89 ../www/manager/openvz/Options.js:93
 #: ../www/manager/openvz/Options.js:101
 msgid "Quota Grace period"
-msgstr ""
+msgstr "配额宽限期"
 
 #: ../www/manager/openvz/Options.js:66 ../www/manager/openvz/Options.js:76
 #: ../www/manager/openvz/Options.js:82
 msgid "Quota UGID limit"
-msgstr ""
+msgstr "UGID配额限制"
 
 #: ../www/manager/qemu/SnapshotTree.js:249
 msgid "RAM"
-msgstr ""
+msgstr "内存"
 
 #: ../www/manager/node/StatusView.js:48
-#, fuzzy
 msgid "RAM usage"
-msgstr "CPU使用率"
+msgstr "内存使用率"
 
 #: ../www/manager/qemu/Options.js:220 ../www/manager/qemu/Options.js:224
 #: ../www/manager/qemu/Options.js:230
 msgid "RTC start date"
-msgstr ""
+msgstr "RTC开始日期"
 
 #: ../www/manager/qemu/NetworkEdit.js:140
-#, fuzzy
 msgid "Rate limit"
-msgstr "读取限制"
+msgstr "速率限制"
 
 #: ../www/manager/form/DiskFormatSelector.js:9
-#, fuzzy
 msgid "Raw disk image"
-msgstr "磁盘映像"
+msgstr "Raw 磁盘映像"
 
 #: ../www/manager/qemu/HDEdit.js:249 ../www/manager/qemu/HDEdit.js:269
 msgid "Read limit"
@@ -1266,7 +1236,6 @@ msgid "Resize disk"
 msgstr "调整磁盘大小"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:52
-#, fuzzy
 msgid "Resource"
 msgstr "资源"
 
@@ -1299,14 +1268,12 @@ msgid "Restore"
 msgstr "恢复"
 
 #: ../www/manager/window/Restore.js:121
-#, fuzzy
 msgid "Restore CT"
-msgstr "恢复"
+msgstr "恢复 CT"
 
 #: ../www/manager/window/Restore.js:122
-#, fuzzy
 msgid "Restore VM"
-msgstr "恢复"
+msgstr "恢复 VM"
 
 #: ../www/manager/Utils.js:489 ../www/manager/qemu/Config.js:38
 #: ../www/manager/VNCConsole.js:290
@@ -1335,15 +1302,13 @@ msgid "SCSI Controller Type"
 msgstr "SCSI控制器类型"
 
 #: ../www/manager/node/StatusView.js:49
-#, fuzzy
 msgid "SWAP usage"
-msgstr "CPU使用率"
+msgstr "SWAP 使用率"
 
 #: ../www/manager/storage/LVMEdit.js:28 ../www/manager/storage/IScsiEdit.js:49
 #: ../www/manager/storage/NFSEdit.js:49
-#, fuzzy
 msgid "Scanning..."
-msgstr "载入中..."
+msgstr "扫描中…"
 
 #: ../www/manager/grid/ResourceGrid.js:167
 #: ../www/manager/grid/ResourceGrid.js:174
@@ -1351,9 +1316,8 @@ msgid "Search"
 msgstr "搜索"
 
 #: ../www/manager/node/DNSEdit.js:16
-#, fuzzy
 msgid "Search domain"
-msgstr "搜索"
+msgstr "搜索域名"
 
 #: ../www/manager/storage/ContentView.js:199
 msgid "Select File..."
@@ -1374,7 +1338,7 @@ msgstr "发送邮件至"
 #: ../www/manager/Utils.js:191 ../www/manager/Utils.js:192
 #: ../www/manager/Utils.js:193 ../www/manager/Utils.js:194
 msgid "Serial terminal"
-msgstr ""
+msgstr "串行终端"
 
 #: ../www/manager/storage/GlusterFsEdit.js:103
 #: ../www/manager/storage/NFSEdit.js:106 ../www/manager/dc/AuthEdit.js:87
@@ -1394,9 +1358,8 @@ msgid "Server View"
 msgstr "服务器视图"
 
 #: ../www/manager/node/Summary.js:114
-#, fuzzy
 msgid "Server load"
-msgstr "服务器"
+msgstr "服务器负载"
 
 #: ../www/manager/node/TimeView.js:36
 msgid "Server time"
@@ -1473,12 +1436,12 @@ msgstr "快照"
 
 #: ../www/manager/node/StatusView.js:13
 msgid "Socket"
-msgstr ""
+msgstr "插座"
 
 #: ../www/manager/node/Subscription.js:72 ../www/manager/node/StatusView.js:14
 #: ../www/manager/qemu/ProcessorEdit.js:15
 msgid "Sockets"
-msgstr ""
+msgstr "插座"
 
 #: ../www/manager/window/Restore.js:41
 msgid "Source"
@@ -1493,9 +1456,8 @@ msgid "Standard"
 msgstr "标准"
 
 #: ../www/manager/Utils.js:187
-#, fuzzy
 msgid "Standard VGA"
-msgstr "标准"
+msgstr "标准 VGA"
 
 #: ../www/manager/Utils.js:484 ../www/manager/Utils.js:495
 #: ../www/manager/Utils.js:501 ../www/manager/Utils.js:503
@@ -1590,9 +1552,8 @@ msgid "Subnet mask"
 msgstr "子网掩码"
 
 #: ../www/manager/node/Config.js:143
-#, fuzzy
 msgid "Subscription"
-msgstr "订阅密钥"
+msgstr "认购密钥"
 
 #: ../www/manager/node/Subscription.js:14
 #: ../www/manager/node/Subscription.js:59
@@ -1624,9 +1585,8 @@ msgid "Swap"
 msgstr "交换分区"
 
 #: ../www/manager/Workspace.js:152
-#, fuzzy
 msgid "System upgrade on node {0}"
-msgstr "存储 {0} 在节点 {1} 上"
+msgstr "在节点 {0} 上系统升级"
 
 #: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
 #: ../www/manager/qemu/SnapshotTree.js:212
@@ -1638,23 +1598,21 @@ msgid "Target"
 msgstr "目标"
 
 #: ../www/manager/qemu/HDMove.js:65 ../www/manager/qemu/Clone.js:197
-#, fuzzy
 msgid "Target Storage"
-msgstr "基本存储"
+msgstr "目标存储"
 
 #: ../www/manager/window/Migrate.js:61 ../www/manager/qemu/Clone.js:132
-#, fuzzy
 msgid "Target node"
-msgstr "目标"
+msgstr "目标节点"
 
 #: ../www/manager/openvz/Config.js:147 ../www/manager/node/Config.js:124
 #: ../www/manager/qemu/Config.js:163
 msgid "Task History"
-msgstr ""
+msgstr "任务记录"
 
 #: ../www/manager/window/TaskViewer.js:117
 msgid "Task type"
-msgstr ""
+msgstr "任务类型"
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
@@ -1674,11 +1632,11 @@ msgstr "模板"
 
 #: ../www/manager/form/VMIDSelector.js:31
 msgid "This VM ID does not exists"
-msgstr ""
+msgstr "该虚拟机 ID 不存在"
 
 #: ../www/manager/form/VMIDSelector.js:36
 msgid "This VM ID is already in use"
-msgstr ""
+msgstr "该虚拟机 ID 已被使用"
 
 #: ../www/manager/Utils.js:70
 msgid "This is not a valid DNS name"
@@ -1708,27 +1666,27 @@ msgstr "时间戳"
 
 #: ../www/manager/Utils.js:664
 msgid "Total"
-msgstr ""
+msgstr "总额"
 
 #: ../www/manager/data/ResourceStore.js:136
 msgid "Total Disk Read"
-msgstr ""
+msgstr "磁盘读取总额"
 
 #: ../www/manager/data/ResourceStore.js:144
 msgid "Total Disk Write"
-msgstr ""
+msgstr "磁盘写入总额"
 
 #: ../www/manager/data/ResourceStore.js:152
 msgid "Total NetIn"
-msgstr ""
+msgstr "流入总额"
 
 #: ../www/manager/data/ResourceStore.js:160
 msgid "Total NetOut"
-msgstr ""
+msgstr "流出总额"
 
 #: ../www/manager/qemu/ProcessorEdit.js:53
 msgid "Total cores"
-msgstr ""
+msgstr "核心总数"
 
 #: ../www/manager/data/ResourceStore.js:21
 #: ../www/manager/form/StorageSelector.js:82
@@ -1743,13 +1701,12 @@ msgid "Type"
 msgstr "类别"
 
 #: ../www/manager/dc/Support.js:50
-#, fuzzy
 msgid "Unable to load subscription status"
-msgstr "上传您的密钥"
+msgstr "无法加载认购状态"
 
 #: ../www/manager/window/TaskViewer.js:138
 msgid "Unique task ID"
-msgstr ""
+msgstr "独有任务 ID"
 
 #: ../www/manager/Utils.js:657
 msgid "Unknown"
@@ -1773,16 +1730,15 @@ msgstr "更新"
 
 #: ../www/manager/Utils.js:511
 msgid "Update package database"
-msgstr ""
+msgstr "更新软件包数据库"
 
 #: ../www/manager/node/Config.js:152
-#, fuzzy
 msgid "Updates"
 msgstr "更新"
 
 #: ../www/manager/node/APT.js:82
 msgid "Upgrade"
-msgstr ""
+msgstr "升级"
 
 #: ../www/manager/storage/ContentView.js:239
 #: ../www/manager/storage/ContentView.js:306
@@ -1806,13 +1762,12 @@ msgid "Uptime"
 msgstr "运行时间"
 
 #: ../www/manager/storage/Summary.js:44
-#, fuzzy
 msgid "Usage"
-msgstr "CPU使用率"
+msgstr "使用率"
 
 #: ../www/manager/qemu/CDEdit.js:85
 msgid "Use CD/DVD disc image file (iso)"
-msgstr ""
+msgstr "使用CD/ DVD光盘镜像文件（ISO）"
 
 #: ../www/manager/storage/IScsiEdit.js:149
 msgid "Use LUNs directly"
@@ -1825,16 +1780,15 @@ msgstr "使用固定大小的内存"
 #: ../www/manager/qemu/Options.js:202 ../www/manager/qemu/Options.js:207
 #: ../www/manager/qemu/Options.js:215
 msgid "Use local time for RTC"
-msgstr ""
+msgstr "使用本地时间为RTC"
 
 #: ../www/manager/qemu/CDEdit.js:130
-#, fuzzy
 msgid "Use physical CD/DVD Drive"
-msgstr "CD/DVD 驱动器"
+msgstr "使用物理 CD/DVD 驱动器"
 
 #: ../www/manager/qemu/Options.js:107 ../www/manager/qemu/Options.js:112
 msgid "Use tablet for pointer"
-msgstr ""
+msgstr "使用平板指针"
 
 #: ../www/manager/storage/StatusView.js:50 ../www/manager/Utils.js:665
 msgid "Used"
@@ -1847,7 +1801,7 @@ msgstr "用户"
 
 #: ../www/manager/dc/AuthEdit.js:63
 msgid "User Attribute Name"
-msgstr ""
+msgstr "User Attribute Name"
 
 #: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
 msgid "User Permission"
@@ -1864,7 +1818,7 @@ msgstr "用户名"
 
 #: ../www/manager/openvz/Options.js:22
 msgid "User quotas disabled."
-msgstr ""
+msgstr "禁用用户配额。"
 
 #: ../www/manager/dc/Config.js:50
 msgid "Users"
@@ -1872,28 +1826,27 @@ msgstr "用户"
 
 #: ../www/manager/qemu/NetworkEdit.js:98
 msgid "VLAN Tag"
-msgstr ""
+msgstr "VLAN 标签"
 
 #: ../www/manager/Utils.js:188
 msgid "VMWare compatible"
-msgstr ""
+msgstr "兼容 VMWare"
 
 #: ../www/manager/form/DiskFormatSelector.js:11
 msgid "VMware image format"
-msgstr ""
+msgstr "VMware 映像格式"
 
 #: ../www/manager/openvz/StatusView.js:65
-#, fuzzy
 msgid "VSwap usage"
-msgstr "CPU使用率"
+msgstr "VSwap 使用率"
 
 #: ../www/manager/storage/ContentView.js:189
 msgid "VZDump backup file"
-msgstr ""
+msgstr "VZDump 备份文件"
 
 #: ../www/manager/grid/ObjectGrid.js:100
 msgid "Value"
-msgstr ""
+msgstr "值"
 
 #: ../www/manager/storage/ContentView.js:55 ../www/manager/Workspace.js:257
 #: ../www/manager/node/APT.js:175
@@ -1937,7 +1890,7 @@ msgstr "您的登录名是{0} "
 
 #: ../www/manager/node/APT.js:178
 msgid "current"
-msgstr ""
+msgstr "当前"
 
 #: ../www/manager/Utils.js:660
 msgid "day"
@@ -1957,7 +1910,7 @@ msgstr "很好"
 
 #: ../www/manager/data/ResourceStore.js:129
 msgid "maxcpu"
-msgstr ""
+msgstr "最大CPU"
 
 #: ../www/manager/Utils.js:663
 msgid "never"
@@ -1965,7 +1918,7 @@ msgstr "永远"
 
 #: ../www/manager/node/APT.js:184
 msgid "new"
-msgstr ""
+msgstr "新"
 
 #: ../www/manager/form/CompressionSelector.js:9
 msgid "none"
@@ -1973,7 +1926,7 @@ msgstr "无"
 
 #: ../www/manager/form/NetworkCardSelector.js:10
 msgid "paravirtualized"
-msgstr ""
+msgstr "半虚拟化"
 
 #: ../www/manager/Utils.js:661
 msgid "running"
@@ -1981,7 +1934,7 @@ msgstr "运行中"
 
 #: ../www/manager/openvz/Options.js:94
 msgid "seconds"
-msgstr ""
+msgstr "秒"
 
 #: ../www/manager/storage/NexentaEdit.js:93
 msgid "ssl"
@@ -1998,7 +1951,7 @@ msgstr "无限"
 
 #: ../www/manager/form/CacheTypeSelector.js:13
 msgid "unsafe"
-msgstr ""
+msgstr "不安全"
 
 #, fuzzy
 #~ msgid "CPU usage %"
