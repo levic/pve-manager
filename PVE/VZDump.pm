@@ -668,6 +668,8 @@ sub compressor_info {
 	return ('lzop', 'lzo');
     } elsif ($opt_compress eq 'gzip') {
 	return ('gzip', 'gz');
+    } elsif ($opt_compress eq 'pigz') {
+	return ('pigz', 'gz');
     } else {
 	die "internal error - unknown compression option '$opt_compress'";
     }
@@ -1100,7 +1102,7 @@ my $confdesc = {
 	type => 'string',
 	description => "Compress dump file.",
 	optional => 1,
-	enum => ['0', '1', 'gzip', 'lzo'],
+	enum => ['0', '1', 'gzip', 'lzo', 'pigz'],
 	default => 'lzo',
     },
     quiet => {
